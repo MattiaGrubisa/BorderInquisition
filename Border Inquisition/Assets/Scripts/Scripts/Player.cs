@@ -7,7 +7,7 @@ namespace Scripts
     {
         private List<Nation> _owns;
         private GameResources _resources;
-        private Diplomacy _diplomacy;
+        //private Diplomacy _diplomacy;
         private FogOfWar _fogOfWar;
     }
     
