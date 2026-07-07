@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Scripts
+namespace Gameplay
 {
     public class Town : MonoBehaviour
     {

@@ -1,10 +1,9 @@
-﻿using UnityEngine;
+﻿using Gameplay.Helpers;
+using UnityEngine;
 
-namespace Scripts
+namespace Diplomacy
 {
-    public class DiplomacySystem : MonoBehaviour
+    public class DiplomacySystem : Singleton<DiplomacySystem>
     {
-        private static DiplomacySystem _instance;
-        
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace StateMachine
+﻿namespace Gameplay.Helpers
 {
     public interface IState
     {

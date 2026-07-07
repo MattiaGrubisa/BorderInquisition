@@ -2,7 +2,7 @@
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Scripts
+namespace Gameplay
 {
     public class Dice : MonoBehaviour
     {

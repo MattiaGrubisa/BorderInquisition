@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Scripts.Helpers
+namespace Gameplay.Helpers
 {
     public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     {

@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 
-namespace StateMachine
+namespace Gameplay.Helpers
 {
     public class StateMachine
     {
         private IState _currentState;
-        private List<IState> _states;
 
         public void Update()
         {

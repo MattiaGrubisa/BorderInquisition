@@ -1,4 +1,4 @@
-namespace Scripts
+namespace Gameplay
 {
     public struct GameResources
     {

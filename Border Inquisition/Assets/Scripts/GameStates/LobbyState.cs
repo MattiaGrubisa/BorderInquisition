@@ -1,4 +1,6 @@
-﻿namespace StateMachine
+﻿using Gameplay.Helpers;
+
+namespace GameStates
 {
     public class LobbyState : IState
     {

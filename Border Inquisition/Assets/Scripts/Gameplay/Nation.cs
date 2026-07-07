@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Scripts
+namespace Gameplay
 {
     public class Nation : ScriptableObject
     {
