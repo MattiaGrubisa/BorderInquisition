@@ -9,23 +9,25 @@ namespace Gameplay
         [SerializeField] private int _nationDiceNumber;
         [SerializeField] private GameResources _baseResources;
         [SerializeField] private Army _army;
-        private Queue<SoldierType> _soldiers;
-        
+        [SerializeField] private List<SoldierType> _trainingQueue;
+
         //Army cost per nation (Nation environment conditions...)
         [SerializeField] private GameResources _knightCost;
         [SerializeField] private GameResources _horsemanCost;
         [SerializeField] private GameResources _archerCost;
-        
+
         //For saving later
         [SerializeField] private bool _isDiceNumberSet;
-        
+
         private HashSet<Building> _buildings;
-        
+
         private void Awake()
         {
-            if(!_isDiceNumberSet)
+            if (!_isDiceNumberSet)
                 _nationDiceNumber = Random.Range(1, 9);
+
             _buildings = new HashSet<Building>();
+            _trainingQueue = new List<SoldierType>();
         }
 
         public bool TryCreateBuilding(Building building, GameResources resources)
@@ -44,39 +46,76 @@ namespace Gameplay
 
         private void DestroyBuildings(Building building) => _buildings.Remove(building);
 
-        public GameResources GetPhaseOneResources()
+        public GameResources StartPhaseOne(GameResources currentResources)
         {
             var resourceGained = _baseResources;
-            foreach (var building in _buildings) 
+            foreach (var building in _buildings)
                 resourceGained += building.ProductionBoost;
-            
-            return resourceGained;
+            currentResources += resourceGained;
+            StartTraining(currentResources);
+            return currentResources;
         }
-        
-        public (bool, GameResources) AddSoldiers(SoldierType soldierType,GameResources resources)
+
+        private bool CanAffordTraining(SoldierType soldierType, GameResources resources)
         {
             switch (soldierType)
             {
                 case SoldierType.Knight:
-                    if(resources <= _knightCost) return  (false, _knightCost);
-                        _army.AddSoldier(1,0,0);
-                        return (true, _knightCost);
+                    return resources >= _knightCost;
                 case SoldierType.Archer:
-                    if(resources <= _archerCost) return(false, _archerCost);
-                        _army.AddSoldier(0,0,1);
-                        return (true, _archerCost);
+                    return resources >= _archerCost;
                 case SoldierType.Horseman:
-                    if(resources <= _horsemanCost) return  (false, _horsemanCost);
-                        _army.AddSoldier(0,1,0);
-                        return (true, _horsemanCost);
+                    return resources >= _horsemanCost;
             }
-
-            return (false, default);
+            return false;
         }
 
-        public void CreationQueue()
+        private void CreateSoldier(SoldierType soldierType)
         {
-            
+            switch (soldierType)
+            {
+                case SoldierType.Knight:
+                    _army.AddSoldier(1, 0, 0);
+                    break;
+                case SoldierType.Horseman:
+                    _army.AddSoldier(0, 1, 0);
+                    break;
+                case SoldierType.Archer:
+                    _army.AddSoldier(0, 0, 1);
+                    break;
+            }
         }
+
+        private GameResources StartTraining(GameResources resources)
+        {
+            for (int i = _trainingQueue.Count - 1; i >= 0; i--)
+            {
+                var soldier = _trainingQueue[i];
+                if (CanAffordTraining(soldier, resources))
+                {
+                    CreateSoldier(soldier);
+                    resources -= GetSoldierCost(soldier, resources);
+                    _trainingQueue.RemoveAt(i);
+                }
+            }
+            return resources;
+        }
+
+        private GameResources GetSoldierCost(SoldierType soldier, GameResources resources)
+        {
+            switch (soldier)
+            {
+                case SoldierType.Knight:
+                    return _knightCost;
+                case SoldierType.Archer:
+                    return _archerCost;
+                case SoldierType.Horseman:
+                    return _horsemanCost;
+            }
+            return default;
+        }
+
+        public void AddSoldierToQueue(SoldierType soldier) => _trainingQueue.Add(soldier);
+        public void RemoveSoldierFromQueue(SoldierType soldier) => _trainingQueue.Remove(soldier);
     }
 }
