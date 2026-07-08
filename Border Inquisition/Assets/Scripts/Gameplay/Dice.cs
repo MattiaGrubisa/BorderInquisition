@@ -1,29 +1,20 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using Random = UnityEngine.Random;
 
 namespace Gameplay
 {
     public class Dice : MonoBehaviour
     {
-        private int _rolledDice;
+        public int RolledDice { get; set; }
 
-        public int RolledDice
+        public int RollDice(int minNumber)
         {
-            get { return _rolledDice; }
-            set
-            {
-                if (value is < 1 or > 6)
-                {
-                    _rolledDice = value;
-                   //call anime or smth 
-                } 
-                else
-                    Debug.Log("Dice value out of range: " +  value);
-            }
+            RolledDice = Random.Range(1 + Mathf.Clamp(minNumber,0, 8), 10);
+            DiceRollAnimation(RolledDice);
+            return RolledDice;
         }
-        
-        private int randomNumber => Random.Range(1, 6);
-        public void SetDice() => RolledDice = randomNumber;
+
+        // TODO
+        private void DiceRollAnimation(int diceNumber) {}
     }
 }

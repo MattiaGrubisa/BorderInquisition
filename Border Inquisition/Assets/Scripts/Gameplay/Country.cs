@@ -4,14 +4,14 @@ using Random = UnityEngine.Random;
 
 namespace Gameplay
 {
-    public class Nation : MonoBehaviour
+    public class Country : MonoBehaviour
     {
         [SerializeField] private int _nationDiceNumber;
         [SerializeField] private GameResources _baseResources;
         [SerializeField] private Army _army;
         [SerializeField] private List<SoldierType> _trainingQueue;
 
-        //Army cost per nation (Nation environment conditions...)
+        //Army cost per nation (Country environment conditions...)
         [SerializeField] private GameResources _knightCost;
         [SerializeField] private GameResources _horsemanCost;
         [SerializeField] private GameResources _archerCost;
@@ -20,6 +20,7 @@ namespace Gameplay
         [SerializeField] private bool _isDiceNumberSet;
 
         private HashSet<Building> _buildings;
+        public Army Army => _army;
 
         private void Awake()
         {
@@ -88,7 +89,7 @@ namespace Gameplay
 
         private GameResources StartTraining(GameResources resources)
         {
-            for (int i = _trainingQueue.Count - 1; i >= 0; i--)
+            for (int i = 0; i < _trainingQueue.Count; i++)
             {
                 var soldier = _trainingQueue[i];
                 if (CanAffordTraining(soldier, resources))
