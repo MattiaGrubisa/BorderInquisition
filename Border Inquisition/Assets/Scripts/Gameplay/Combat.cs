@@ -15,13 +15,30 @@ namespace Gameplay
             var attackerArmyPower = CalculateBonusArmyPower(attacker.Army);
             var defenderArmyPower = CalculateBonusArmyPower(defender.Army);
             
-            var attackerUniqueUnits = attacker.Army.UniqueUnits();
-            var defenderUniqueUnits = defender.Army.UniqueUnits();
+            var attackerDiceThrows = attacker.Army.UniqueUnits();
+            var defenderDiceThrows = defender.Army.UniqueUnits();
+
+            int[] attackerDice = new int[attackerDiceThrows];
+            int[] defenderDice = new int[defenderDiceThrows];
             
-            var attackerDice= _dice.RollDice(attackerArmyPower);
-            var defendersDice = _dice.RollDice(defenderArmyPower);
+            for(int i = 0; i < attackerDiceThrows; i++)
+                attackerDice[i] = _dice.RollDice(attackerArmyPower);
+            for(int i = 0; i < defenderDiceThrows; i++)
+                defenderDice[i] = _dice.RollDice(defenderArmyPower);
+
+            Array.Sort(attackerDice);
+            Array.Sort(defenderDice);
+
+            var diceComparison = Math.Min(attackerDice.Length, defenderDice.Length);
             
-            
+            // Return dice numbers and calculated losses
+            for (int i = 0; i < diceComparison; i++)
+            {
+                if (attackerDice[i] > defenderDice[i])
+                {
+                    
+                }
+            }
         }
 
         private int CalculateBonusArmyPower(Army army)
