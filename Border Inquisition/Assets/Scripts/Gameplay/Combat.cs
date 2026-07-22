@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -9,36 +10,43 @@ namespace Gameplay
         [SerializeField] private float _armyFactor;
         [SerializeField] private Dice _dice;
 
-        // TODO: Separate function for caluclating difference in dice roll for losses per dice
-        public void AttemptAttack(Player player, Country attacker, Country defender)
+        public struct CombatResult
+        {
+            private int[] _attackerDice;
+            private int[] _defenderDice;
+            private bool[] _attackerWins;
+
+            public CombatResult(int[] attackerDice, int[] defenderDice, bool[] attackerWins)
+            {
+                _attackerDice = attackerDice;
+                _defenderDice = defenderDice;
+                _attackerWins = attackerWins;
+            }
+        }
+        
+        public CombatResult AttemptAttack(Player player, Country attacker, Country defender)
         {
             var attackerArmyPower = CalculateBonusArmyPower(attacker.Army);
             var defenderArmyPower = CalculateBonusArmyPower(defender.Army);
             
-            var attackerDiceThrows = attacker.Army.UniqueUnits();
-            var defenderDiceThrows = defender.Army.UniqueUnits();
-
-            int[] attackerDice = new int[attackerDiceThrows];
-            int[] defenderDice = new int[defenderDiceThrows];
+            int[] attackerDice = new int[attacker.Army.UniqueUnits()];
+            int[] defenderDice = new int[defender.Army.UniqueUnits()];
             
-            for(int i = 0; i < attackerDiceThrows; i++)
+            for(int i = 0; i < attackerDice.Length; i++)
                 attackerDice[i] = _dice.RollDice(attackerArmyPower);
-            for(int i = 0; i < defenderDiceThrows; i++)
+            for(int i = 0; i < defenderDice.Length; i++)
                 defenderDice[i] = _dice.RollDice(defenderArmyPower);
 
-            Array.Sort(attackerDice);
-            Array.Sort(defenderDice);
+            int[] sortedAttackerDice = attackerDice.OrderByDescending(a => a).ToArray();
+            int[] sortedDefenderDice = defenderDice.OrderByDescending(a => a).ToArray();
 
-            var diceComparison = Math.Min(attackerDice.Length, defenderDice.Length);
+            var pairs = Math.Min(attackerDice.Length, defenderDice.Length);
+            bool[] attackerWins = new bool[pairs];
             
-            // Return dice numbers and calculated losses
-            for (int i = 0; i < diceComparison; i++)
-            {
-                if (attackerDice[i] > defenderDice[i])
-                {
-                    
-                }
-            }
+            for (int i = 0; i < pairs; i++) 
+                attackerWins[i] = sortedAttackerDice[i] > sortedDefenderDice[i];
+
+            return new CombatResult(attackerDice, defenderDice, attackerWins);
         }
 
         private int CalculateBonusArmyPower(Army army)
