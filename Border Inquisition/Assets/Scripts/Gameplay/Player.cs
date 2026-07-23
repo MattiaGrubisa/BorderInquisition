@@ -6,7 +6,7 @@ namespace Gameplay
     public class Player : MonoBehaviour
     {
         [SerializeField] private GameResources _playerResources;
-        [SerializeField] private List<Country> _ownedNations;
+        [SerializeField] private List<Country> _ownedCountries;
 
         public GameResources PlayerResources
         {
@@ -14,17 +14,17 @@ namespace Gameplay
             set => _playerResources += value;
         }
 
-        public List<Country> OwnedNations => _ownedNations;
+        public List<Country> OwnedCountries => _ownedCountries;
 
         private void AddResources(GameResources resources) => _playerResources += resources;
         private void SubtractResources(GameResources resources) => _playerResources -= resources;
         
-        private void AddCountry(Country country) => _ownedNations.Add(country);
-        private void RemoveCountry(Country country) => _ownedNations.Remove(country);
+        private void AddCountry(Country country) => _ownedCountries.Add(country);
+        private void RemoveCountry(Country country) => _ownedCountries.Remove(country);
         
         private void Awake()
         {
-            _ownedNations = new List<Country>();
+            _ownedCountries = new List<Country>();
         }
     }
 }

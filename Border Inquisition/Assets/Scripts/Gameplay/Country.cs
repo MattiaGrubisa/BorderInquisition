@@ -76,13 +76,13 @@ namespace Gameplay
             switch (soldierType)
             {
                 case SoldierType.Knight:
-                    _army.AddSoldier(1, 0, 0);
+                    _army.AddUnit(1, 0, 0);
                     break;
                 case SoldierType.Horseman:
-                    _army.AddSoldier(0, 1, 0);
+                    _army.AddUnit(0, 1, 0);
                     break;
                 case SoldierType.Archer:
-                    _army.AddSoldier(0, 0, 1);
+                    _army.AddUnit(0, 0, 1);
                     break;
             }
         }

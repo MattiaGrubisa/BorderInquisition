@@ -20,13 +20,27 @@ namespace Gameplay
             _archer = archer;
         }
 
-        public void AddSoldier(int knight, int horseman, int archer)
+        public void AddUnit(int knight, int horseman, int archer)
         {
             _knight += knight;
             _horseman += horseman;
             _archer += archer;
         }
 
+        public void RemoveRandomUnit()
+        {
+            int total = _knight + _horseman + _archer;
+            if (total <= 0) return;
+
+            int roll = UnityEngine.Random.Range(0, total);
+
+            if (roll < _knight)
+                _knight--;
+            else if (roll < _knight + _horseman)
+                _horseman--;
+            else
+                _archer--;
+        }
         public int UniqueUnits()
         {
             int unique = 0;
