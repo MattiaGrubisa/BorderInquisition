@@ -7,24 +7,27 @@ namespace Gameplay
     {
         [SerializeField] private GameResources _playerResources;
         [SerializeField] private List<Country> _ownedCountries;
-
-        public GameResources PlayerResources
-        {
-            get => _playerResources;
-            set => _playerResources += value;
-        }
         
         public List<Country> OwnedCountries => _ownedCountries;
-
-        private void AddResources(GameResources resources) => _playerResources += resources;
-        private void SubtractResources(GameResources resources) => _playerResources -= resources;
         
         public void AddCountry(Country country) => _ownedCountries.Add(country);
         public void RemoveCountry(Country country) => _ownedCountries.Remove(country);
         
         private void Awake()
         {
-            _ownedCountries = new List<Country>();
+            _ownedCountries ??= new List<Country>();
+        }
+
+        public void GainResources(int dice)
+        {
+            foreach (var country in _ownedCountries)
+                country.GainResources(ref _playerResources, dice);
+        }
+
+        public void PhaseOne()
+        {
+            foreach (var country in _ownedCountries)
+                country.StartPhaseOne(ref _playerResources);
         }
     }
 }

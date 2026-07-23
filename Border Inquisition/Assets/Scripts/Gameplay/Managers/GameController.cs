@@ -77,5 +77,17 @@ namespace Gameplay.Managers
 
             return candidates[0];
         }
+
+        private void PhaseOne()
+        {
+            _players[_currentPlayerIndex].PhaseOne();
+            var dice = _dice.RollDice(0);
+            foreach (var p in _players)
+            {
+                p.GainResources(dice);
+            }
+        }
+        
+        public void NextPlayer() => _currentPlayerIndex = (_currentPlayerIndex + 1) % _players.Count;
     }
 }

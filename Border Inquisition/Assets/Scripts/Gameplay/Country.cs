@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -8,7 +9,7 @@ namespace Gameplay
     public class Country : MonoBehaviour
     {
         [SerializeField] private int _nationDiceNumber;
-        [SerializeField] private GameResources _baseResources;
+        [SerializeField] private GameResources _baseResourceGain;
         [SerializeField] private Army _army;
         [SerializeField] private List<SoldierType> _trainingQueue;
 
@@ -139,16 +140,22 @@ namespace Gameplay
         
         #endregion
         
-        public GameResources StartPhaseOne(GameResources currentResources)
+        public GameResources StartPhaseOne(ref GameResources currentResources)
         {
-            var resourceGained = _baseResources;
             currentResources = ProcessBuildingQueue(currentResources);
-            foreach (var building in _builtBuildings)
-                resourceGained += building.ProductionBoost;
-            currentResources += resourceGained;
             currentResources = StartTraining(currentResources);
             return currentResources;
         }
-        
+
+        public void GainResources(ref GameResources playerResources, int dice)
+        {
+            if (_nationDiceNumber != dice) 
+                return;
+            
+            var resourceGained = _baseResourceGain;
+            foreach (var building in _builtBuildings)
+                resourceGained += building.ProductionBoost;
+            playerResources += resourceGained;
+        }
     }
 }
