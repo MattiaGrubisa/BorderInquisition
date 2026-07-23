@@ -5,13 +5,11 @@ namespace Gameplay
 {
     public class Dice : MonoBehaviour
     {
-        public int RolledDice { get; set; }
-
         public int RollDice(int minNumber)
         {
-            RolledDice = Random.Range(1 + Mathf.Clamp(minNumber,0, 8), 10);
-            DiceRollAnimation(RolledDice);
-            return RolledDice;
+            var diceRoll = Random.Range(1 + Mathf.Clamp(minNumber,0, 8), 10);
+            DiceRollAnimation(diceRoll);
+            return diceRoll;
         }
 
         // TODO

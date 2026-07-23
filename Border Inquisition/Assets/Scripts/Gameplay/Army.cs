@@ -10,16 +10,16 @@ namespace Gameplay
         [SerializeField] private int _horseman;
         [SerializeField] private int _archer;
         
-        public int Knight => _knight;
-        public int Horseman => _horseman;
-        public int Archer => _archer;
         public Army(int knight, int horseman, int archer)
         {
             _knight = knight;
             _horseman = horseman;
             _archer = archer;
         }
-
+                
+        public bool AnyArmy() => (_knight == 0 && _horseman == 0 && _archer == 0);
+        public double ArmyPower => _knight + _horseman * 1.3 + _archer * 1.2;
+        
         public void AddUnit(int knight, int horseman, int archer)
         {
             _knight += knight;
@@ -41,6 +41,7 @@ namespace Gameplay
             else
                 _archer--;
         }
+        
         public int UniqueUnits()
         {
             int unique = 0;

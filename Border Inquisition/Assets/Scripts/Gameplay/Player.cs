@@ -13,14 +13,14 @@ namespace Gameplay
             get => _playerResources;
             set => _playerResources += value;
         }
-
+        
         public List<Country> OwnedCountries => _ownedCountries;
 
         private void AddResources(GameResources resources) => _playerResources += resources;
         private void SubtractResources(GameResources resources) => _playerResources -= resources;
         
-        private void AddCountry(Country country) => _ownedCountries.Add(country);
-        private void RemoveCountry(Country country) => _ownedCountries.Remove(country);
+        public void AddCountry(Country country) => _ownedCountries.Add(country);
+        public void RemoveCountry(Country country) => _ownedCountries.Remove(country);
         
         private void Awake()
         {

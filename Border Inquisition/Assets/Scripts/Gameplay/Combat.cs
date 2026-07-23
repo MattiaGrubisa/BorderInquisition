@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Gameplay
@@ -30,11 +29,11 @@ namespace Gameplay
         
         public CombatResult AttemptAttack(Player player, Country attacker, Country defender)
         {
-            var attackerArmyPower = CalculateBonusArmyPower(attacker.Army);
-            var defenderArmyPower = CalculateBonusArmyPower(defender.Army);
+            var attackerArmyPower = CalculateBonusArmyPower(attacker);
+            var defenderArmyPower = CalculateBonusArmyPower(defender);
             
-            int[] attackerDice = new int[attacker.Army.UniqueUnits()];
-            int[] defenderDice = new int[defender.Army.UniqueUnits()];
+            int[] attackerDice = new int[attacker.UniqueUnits()];
+            int[] defenderDice = new int[defender.UniqueUnits()];
             
             for(int i = 0; i < attackerDice.Length; i++)
                 attackerDice[i] = _dice.RollDice(attackerArmyPower);
@@ -60,9 +59,9 @@ namespace Gameplay
             return new CombatResult(attackerDice, defenderDice, attackerWins);
         }
 
-        private int CalculateBonusArmyPower(Army army)
+        private int CalculateBonusArmyPower(Country country)
         {
-            int snaga = army.Knight + (army.Archer * 2) + (army.Horseman * 3);
+            double snaga = country.GetArmyPower;
             float logSnaga = snaga <= 0 ? 0 : (float)Math.Log(snaga);
             return Mathf.FloorToInt(logSnaga * _armyFactor);
         }

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -19,44 +20,56 @@ namespace Gameplay
         //For saving later
         [SerializeField] private bool _isDiceNumberSet;
 
-        private HashSet<Building> _buildings;
-        public Army Army => _army;
+        private HashSet<Building> _builtBuildings;
+        private List<Building> _buildingQueue;
 
         private void Awake()
         {
             if (!_isDiceNumberSet)
                 _nationDiceNumber = Random.Range(1, 9);
 
-            _buildings = new HashSet<Building>();
+            _builtBuildings = new HashSet<Building>();
+            _buildingQueue = new List<Building>();
             _trainingQueue = new List<SoldierType>();
         }
 
-        public bool TryCreateBuilding(Building building, GameResources resources)
+        #region Buildings
+        
+        private GameResources ProcessBuildingQueue(GameResources resources)
         {
-            if (resources >= building.BuildingCost)
+            if (!_buildingQueue.Any())
+                return resources;
+            
+            if (resources >= _buildingQueue[0].BuildingCost)
             {
-                _buildings.Add(building);
-                return true;
+                _builtBuildings.Add(_buildingQueue[0]);
+                resources-= _buildingQueue[0].BuildingCost;
+                _buildingQueue.RemoveAt(0);
             }
             else
-            {
-                Debug.LogWarning($"Can't create building {building.name}");
-                return false;
-            }
+                Debug.LogWarning($"Can't create building {_buildingQueue[0].name}");
+
+            return resources;
         }
 
-        private void DestroyBuildings(Building building) => _buildings.Remove(building);
 
-        public GameResources StartPhaseOne(GameResources currentResources)
+        public bool AddBuildingToQueue(Building building)
         {
-            var resourceGained = _baseResources;
-            foreach (var building in _buildings)
-                resourceGained += building.ProductionBoost;
-            currentResources += resourceGained;
-            StartTraining(currentResources);
-            return currentResources;
+            if (_buildingQueue.Contains(building) || _builtBuildings.Contains(building))
+                return false;
+            _buildingQueue.Add(building);
+            return true;
         }
 
+        // Mabye change to razing building so when country conquered, give some % of razed buildings as win?
+        // Raze all or one?
+        public void DestroyBuildings(Building building) => _builtBuildings.Remove(building);
+        public bool RemoveBuildingFromQueue(Building building) => _buildingQueue.Remove(building);
+
+        #endregion
+
+        #region Units
+        
         private bool CanAffordTraining(SoldierType soldierType, GameResources resources)
         {
             switch (soldierType)
@@ -89,20 +102,20 @@ namespace Gameplay
 
         private GameResources StartTraining(GameResources resources)
         {
-            for (int i = 0; i < _trainingQueue.Count; i++)
+            for (int i = _trainingQueue.Count - 1; i >= 0; i--)
             {
                 var soldier = _trainingQueue[i];
                 if (CanAffordTraining(soldier, resources))
                 {
                     CreateSoldier(soldier);
-                    resources -= GetSoldierCost(soldier, resources);
+                    resources -= GetSoldierCost(soldier);
                     _trainingQueue.RemoveAt(i);
                 }
             }
             return resources;
         }
 
-        private GameResources GetSoldierCost(SoldierType soldier, GameResources resources)
+        private GameResources GetSoldierCost(SoldierType soldier)
         {
             switch (soldier)
             {
@@ -115,8 +128,27 @@ namespace Gameplay
             }
             return default;
         }
-
+        
         public void AddSoldierToQueue(SoldierType soldier) => _trainingQueue.Add(soldier);
         public void RemoveSoldierFromQueue(SoldierType soldier) => _trainingQueue.Remove(soldier);
+        
+        public void RemoveRandomUnit() => _army.RemoveRandomUnit();
+        public int UniqueUnits() =>  _army.UniqueUnits();
+        public double GetArmyPower => _army.ArmyPower;
+        public bool AnyArmy() => _army.AnyArmy();
+        
+        #endregion
+        
+        public GameResources StartPhaseOne(GameResources currentResources)
+        {
+            var resourceGained = _baseResources;
+            currentResources = ProcessBuildingQueue(currentResources);
+            foreach (var building in _builtBuildings)
+                resourceGained += building.ProductionBoost;
+            currentResources += resourceGained;
+            currentResources = StartTraining(currentResources);
+            return currentResources;
+        }
+        
     }
 }
