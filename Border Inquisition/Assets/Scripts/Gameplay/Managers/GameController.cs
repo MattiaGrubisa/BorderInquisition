@@ -45,7 +45,7 @@ namespace Gameplay.Managers
                 _currentPlayerIndex = DetermineStartingPlayer();
         }
         
-        private int DetermineStartingPlayer()
+        public int DetermineStartingPlayer()
         {
             var candidates = new List<int>();
             for (int i = 0; i < _players.Count; i++)
@@ -78,7 +78,7 @@ namespace Gameplay.Managers
             return candidates[0];
         }
 
-        private void PhaseOne()
+        public void PhaseOne()
         {
             _players[_currentPlayerIndex].PhaseOne();
             var dice = _dice.RollDice(0);

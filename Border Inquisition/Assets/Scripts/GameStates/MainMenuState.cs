@@ -7,7 +7,9 @@ namespace GameStates
         private StateMachine _mainMenuStateMachine;
         private MenuState _menuState;
         private OptionsState _optionsState;
-        
+
+        public StateMachine StateMachine { get; set; }
+
         public void OnEnter()
         {
             _mainMenuStateMachine = new StateMachine();
@@ -27,6 +29,8 @@ namespace GameStates
 
         private class MenuState : IState
         {
+            public StateMachine StateMachine { get; set; }
+
             public void OnEnter()
             {
                 throw new System.NotImplementedException();
@@ -45,6 +49,8 @@ namespace GameStates
 
         private class OptionsState : IState
         {
+            public StateMachine StateMachine { get; set; }
+
             public void OnEnter()
             {
                 throw new System.NotImplementedException();

@@ -4,6 +4,8 @@ namespace GameStates
 {
     public class LobbyState : IState
     {
+        public StateMachine StateMachine { get; set; }
+
         public void OnEnter()
         {
             throw new System.NotImplementedException();

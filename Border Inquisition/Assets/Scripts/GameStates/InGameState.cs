@@ -1,4 +1,8 @@
-﻿using Gameplay.Helpers;
+﻿using System;
+using System.Collections.Generic;
+using Gameplay.Managers;
+using IState = Gameplay.Helpers.IState;
+using StateMachine = Gameplay.Helpers.StateMachine;
 
 namespace GameStates
 {
@@ -8,7 +12,9 @@ namespace GameStates
         private FirstPhase _firstPhase;
         private SecondPhase _secondPhase;
         private ThirdPhase _thirdPhase;
-        
+
+        public StateMachine StateMachine { get; set; }
+
         public void OnEnter()
         {
             _inGameStateMachine = new StateMachine();
@@ -17,69 +23,84 @@ namespace GameStates
             _thirdPhase = new ThirdPhase();
             
             _inGameStateMachine.ChangeState(_firstPhase);
+            _inGameStateMachine.Completed += NextPhase;
         }
 
+        private void NextPhase(IState obj)
+        {
+            switch (obj)
+            {
+                case  FirstPhase:
+                    _inGameStateMachine.ChangeState(_secondPhase);
+                    break;
+                case  SecondPhase:
+                    _inGameStateMachine.ChangeState(_thirdPhase);
+                    break;
+                case  ThirdPhase:
+                    _inGameStateMachine.ChangeState(_firstPhase);
+                    break;
+            }
+        }
+        
         public void OnExit()
         {
-            throw new System.NotImplementedException();
         }
 
         public void OnUpdate()
         {
-            throw new System.NotImplementedException();
+            _inGameStateMachine.Update();
         }
 
         private class FirstPhase : IState
         {
+            public StateMachine StateMachine { get; set; }
+
             public void OnEnter()
             {
-                throw new System.NotImplementedException();
+                GameController.Instance.PhaseOne();
+                // StateMachine.OnCompleted(this);
             }
 
             public void OnExit()
             {
-                throw new System.NotImplementedException();
             }
 
             public void OnUpdate()
             {
-                throw new System.NotImplementedException();
             }
         }
 
         private class SecondPhase : IState
         {
+            public StateMachine StateMachine { get; set; }
+
             public void OnEnter()
             {
-                throw new System.NotImplementedException();
             }
 
             public void OnExit()
             {
-                throw new System.NotImplementedException();
             }
 
             public void OnUpdate()
             {
-                throw new System.NotImplementedException();
             }
         }
 
         private class ThirdPhase : IState
         {
+            public StateMachine StateMachine { get; set; }
+
             public void OnEnter()
             {
-                throw new System.NotImplementedException();
             }
 
             public void OnExit()
             {
-                throw new System.NotImplementedException();
             }
 
             public void OnUpdate()
             {
-                throw new System.NotImplementedException();
             }
         }
     }
