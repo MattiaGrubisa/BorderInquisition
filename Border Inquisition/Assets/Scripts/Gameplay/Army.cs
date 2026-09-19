@@ -17,7 +17,7 @@ namespace Gameplay
             _archer = archer;
         }
                 
-        public bool AnyArmy() => (_knight == 0 && _horseman == 0 && _archer == 0);
+        public bool IsArmyEmpty() => (_knight == 0 && _horseman == 0 && _archer == 0);
         public double ArmyPower => _knight + _horseman * 1.3 + _archer * 1.2;
         
         public void AddUnit(int knight, int horseman, int archer)

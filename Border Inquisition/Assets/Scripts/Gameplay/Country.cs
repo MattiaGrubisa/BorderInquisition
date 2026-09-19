@@ -27,7 +27,7 @@ namespace Gameplay
         private void Awake()
         {
             if (!_isDiceNumberSet)
-                _nationDiceNumber = Random.Range(1, 9);
+                _nationDiceNumber = Random.Range(1, 10);
 
             _builtBuildings = new HashSet<Building>();
             _buildingQueue = new List<Building>();
@@ -136,7 +136,7 @@ namespace Gameplay
         public void RemoveRandomUnit() => _army.RemoveRandomUnit();
         public int UniqueUnits() =>  _army.UniqueUnits();
         public double GetArmyPower => _army.ArmyPower;
-        public bool AnyArmy() => _army.AnyArmy();
+        public bool IsArmyEmpty => _army.IsArmyEmpty();
         
         #endregion
         

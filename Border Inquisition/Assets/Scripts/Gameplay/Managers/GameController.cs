@@ -37,7 +37,7 @@ namespace Gameplay.Managers
             }
         }
 
-        private bool IsConquered(Country country) => !country.AnyArmy();
+        private bool IsConquered(Country country) => country.IsArmyEmpty;
 
         private void Start()
         {
