@@ -105,7 +105,3 @@ InitTestScene*.unity*
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
 Border Inquisition/CLAUDE.md
-
-# Claude Code
-CLAUDE.md
-.claude/
