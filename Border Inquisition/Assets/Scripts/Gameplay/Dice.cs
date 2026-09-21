@@ -6,8 +6,8 @@ namespace Gameplay
     public class Dice : MonoBehaviour
     {
         public int RollDice(int minNumber)
-        {
-            var diceRoll = Random.Range(1 + Mathf.Clamp(minNumber,0, 9), 10);
+        { 
+            var diceRoll = Random.Range(1 + Mathf.Clamp(minNumber,0, 8), 10);
             DiceRollAnimation(diceRoll);
             return diceRoll;
         }

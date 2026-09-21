@@ -12,7 +12,8 @@ namespace Gameplay
         [SerializeField] private GameResources _baseResourceGain;
         [SerializeField] private Army _army;
         [SerializeField] private List<SoldierType> _trainingQueue;
-
+        [SerializeField] private Player _owner;
+        
         //Army cost per nation (Country environment conditions...)
         [SerializeField] private GameResources _knightCost;
         [SerializeField] private GameResources _horsemanCost;
@@ -24,14 +25,20 @@ namespace Gameplay
         private HashSet<Building> _builtBuildings;
         private List<Building> _buildingQueue;
 
+        public Player Owner => _owner;
+        public void SetOwner(Player player) => _owner = player;
+        
         private void Awake()
         {
             if (!_isDiceNumberSet)
+            {
                 _nationDiceNumber = Random.Range(1, 10);
+                _isDiceNumberSet = true;
+            }
 
-            _builtBuildings = new HashSet<Building>();
-            _buildingQueue = new List<Building>();
-            _trainingQueue = new List<SoldierType>();
+            _builtBuildings ??= new HashSet<Building>();
+            _buildingQueue ??= new List<Building>();
+            _trainingQueue ??= new List<SoldierType>();
         }
 
         #region Buildings
@@ -103,7 +110,7 @@ namespace Gameplay
 
         private GameResources StartTraining(GameResources resources)
         {
-            for (int i = _trainingQueue.Count - 1; i >= 0; i--)
+            for (int i = 0; i < _trainingQueue.Count; )
             {
                 var soldier = _trainingQueue[i];
                 if (CanAffordTraining(soldier, resources))
@@ -111,6 +118,10 @@ namespace Gameplay
                     CreateSoldier(soldier);
                     resources -= GetSoldierCost(soldier);
                     _trainingQueue.RemoveAt(i);
+                }
+                else
+                {
+                    i++;
                 }
             }
             return resources;
@@ -140,11 +151,10 @@ namespace Gameplay
         
         #endregion
         
-        public GameResources StartPhaseOne(ref GameResources currentResources)
+        public void StartPhaseOne(ref GameResources currentResources)
         {
             currentResources = ProcessBuildingQueue(currentResources);
             currentResources = StartTraining(currentResources);
-            return currentResources;
         }
 
         public void GainResources(ref GameResources playerResources, int dice)

@@ -27,7 +27,7 @@ namespace Gameplay
             }
         }
         
-        public CombatResult AttemptAttack(Player player, Country attacker, Country defender)
+        public CombatResult AttemptAttack(Country attacker, Country defender)
         {
             var attackerArmyPower = CalculateBonusArmyPower(attacker);
             var defenderArmyPower = CalculateBonusArmyPower(defender);

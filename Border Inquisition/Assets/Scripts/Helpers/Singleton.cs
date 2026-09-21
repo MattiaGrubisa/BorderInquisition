@@ -15,5 +15,11 @@ namespace Gameplay.Helpers
             else
                 _instance = this as T;
         }
+
+        protected virtual void OnDestroy()
+        {
+            if (_instance == this)
+                _instance = null;
+        }
     }
 }

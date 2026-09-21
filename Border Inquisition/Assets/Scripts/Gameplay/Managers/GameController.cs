@@ -10,34 +10,27 @@ namespace Gameplay.Managers
         [SerializeField] private List<Player> _players;
         [SerializeField] private Combat _combat;
         [SerializeField] private Dice _dice;
+        [SerializeField] private List<Country> _countries;
         
         private int _currentPlayerIndex;
         private bool _newGame = true;
         
-        protected override void Awake()
+        public IReadOnlyList<Country> Countries => _countries;
+ 
+        private void HandleAttack(Player playerAttacker, Player playerDefender, Country from, Country to)
         {
-            base.Awake();
-        }
-        
-        private void HandleAttack(Player playerAttacker, Player playerDefender, Country from,  Country to)
-        {
-            var result = _combat.AttemptAttack(playerAttacker, from, to);
+            var result = _combat.AttemptAttack(from, to);
             foreach (var attackerWin in result.AttackerWins)
             {
-                if(attackerWin)
+                if (attackerWin)
                     to.RemoveRandomUnit();
                 else
                     from.RemoveRandomUnit();
             }
 
-            if (IsConquered(to))
-            {
-                playerAttacker.AddCountry(to);
-                playerDefender.RemoveCountry(to);
-            }
+            if (to.IsArmyEmpty)
+                to.SetOwner(playerAttacker);
         }
-
-        private bool IsConquered(Country country) => country.IsArmyEmpty;
 
         private void Start()
         {
