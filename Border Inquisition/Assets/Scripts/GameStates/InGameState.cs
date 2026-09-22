@@ -1,107 +1,118 @@
-﻿using System;
-using System.Collections.Generic;
+using System;
+using Gameplay;
 using Gameplay.Managers;
 using IState = Gameplay.Helpers.IState;
 using StateMachine = Gameplay.Helpers.StateMachine;
 
 namespace GameStates
 {
-    public class InGameState : IState
+    public enum TurnPhase
     {
-        private StateMachine _inGameStateMachine;
-        private FirstPhase _firstPhase;
-        private SecondPhase _secondPhase;
-        private ThirdPhase _thirdPhase;
+        Income,
+        Attack,
+        Build
+    }
 
-        public StateMachine StateMachine { get; set; }
+    public class InGameState : SceneState
+    {
+        private readonly FirstPhase _firstPhase = new FirstPhase();
+        private readonly SecondPhase _secondPhase = new SecondPhase();
+        private readonly ThirdPhase _thirdPhase = new ThirdPhase();
+        private StateMachine _phaseMachine;
 
-        public void OnEnter()
+        public event Action<TurnPhase> PhaseChanged;
+
+        public MatchSettings Settings { get; set; }
+        public Player Winner { get; private set; }
+        public TurnPhase CurrentPhase { get; private set; }
+
+        protected override string SceneName => "WorldMap";
+
+        protected override void OnSceneLoaded()
         {
-            _inGameStateMachine = new StateMachine();
-            _firstPhase = new FirstPhase();
-            _secondPhase = new SecondPhase();
-            _thirdPhase = new ThirdPhase();
-            
-            _inGameStateMachine.ChangeState(_firstPhase);
-            _inGameStateMachine.Completed += NextPhase;
+            Winner = null;
+            GameController.Instance.MatchWon += OnMatchWon;
+            GameController.Instance.StartNewMatch(Settings);
+
+            _phaseMachine = new StateMachine();
+            _phaseMachine.Completed += NextPhase;
+            _phaseMachine.StateChanged += OnPhaseChanged;
+            _phaseMachine.ChangeState(_firstPhase);
         }
 
-        private void NextPhase(IState obj)
+        protected override void OnSceneUpdate() => _phaseMachine.Update();
+
+        protected override void OnSceneExit()
         {
-            switch (obj)
+            _phaseMachine.Stop();
+            _phaseMachine.Completed -= NextPhase;
+            _phaseMachine.StateChanged -= OnPhaseChanged;
+            GameController.Instance.MatchWon -= OnMatchWon;
+        }
+
+        public void EndPhase()
+        {
+            if (IsSceneLoaded)
+                (_phaseMachine.CurrentState as Phase)?.End();
+        }
+
+        private void NextPhase(IState phase)
+        {
+            switch (phase)
             {
-                case  FirstPhase:
-                    _inGameStateMachine.ChangeState(_secondPhase);
+                case FirstPhase:
+                    _phaseMachine.ChangeState(_secondPhase);
                     break;
-                case  SecondPhase:
-                    _inGameStateMachine.ChangeState(_thirdPhase);
+                case SecondPhase:
+                    _phaseMachine.ChangeState(_thirdPhase);
                     break;
-                case  ThirdPhase:
-                    _inGameStateMachine.ChangeState(_firstPhase);
+                case ThirdPhase:
+                    GameController.Instance.NextPlayer();
+                    _phaseMachine.ChangeState(_firstPhase);
                     break;
             }
         }
-        
-        public void OnExit()
+
+        private void OnPhaseChanged(IState phase)
         {
+            CurrentPhase = ((Phase)phase).Kind;
+            PhaseChanged?.Invoke(CurrentPhase);
         }
 
-        public void OnUpdate()
+        private void OnMatchWon(Player winner)
         {
-            _inGameStateMachine.Update();
+            Winner = winner;
+            StateMachine.OnCompleted(this);
         }
 
-        private class FirstPhase : IState
+        // Every phase waits for End Phase; the phase itself only runs its own logic.
+        private abstract class Phase : IState
         {
             public StateMachine StateMachine { get; set; }
+            public abstract TurnPhase Kind { get; }
 
-            public void OnEnter()
-            {
-                GameController.Instance.PhaseOne();
-                // StateMachine.OnCompleted(this);
-            }
+            public virtual void OnEnter() { }
+            public virtual void OnExit() { }
+            public virtual void OnUpdate() { }
 
-            public void OnExit()
-            {
-            }
-
-            public void OnUpdate()
-            {
-            }
+            public void End() => StateMachine.OnCompleted(this);
         }
 
-        private class SecondPhase : IState
+        private class FirstPhase : Phase
         {
-            public StateMachine StateMachine { get; set; }
+            public override TurnPhase Kind => TurnPhase.Income;
 
-            public void OnEnter()
-            {
-            }
-
-            public void OnExit()
-            {
-            }
-
-            public void OnUpdate()
-            {
-            }
+            public override void OnEnter() => GameController.Instance.PhaseOne();
         }
 
-        private class ThirdPhase : IState
+        private class SecondPhase : Phase
         {
-            public StateMachine StateMachine { get; set; }
+            public override TurnPhase Kind => TurnPhase.Attack;
+        }
 
-            public void OnEnter()
-            {
-            }
-
-            public void OnExit()
-            {
-            }
-
-            public void OnUpdate()
-            {
-            }
+        private class ThirdPhase : Phase
+        {
+            public override TurnPhase Kind => TurnPhase.Build;
         }
     }
 }

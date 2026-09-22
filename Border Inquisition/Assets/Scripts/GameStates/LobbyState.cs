@@ -1,24 +1,35 @@
-﻿using Gameplay.Helpers;
+using Gameplay;
 
 namespace GameStates
 {
-    public class LobbyState : IState
+    public enum LobbyResult
     {
-        public StateMachine StateMachine { get; set; }
+        StartMatch,
+        Back
+    }
 
-        public void OnEnter()
+    public class LobbyState : SceneState
+    {
+        protected override string SceneName => "Lobby";
+
+        public LobbyResult Result { get; private set; }
+        public MatchSettings Settings { get; private set; }
+
+        public void StartMatch(MatchSettings settings)
         {
-            throw new System.NotImplementedException();
+            if (!IsSceneLoaded) return;
+
+            Settings = settings;
+            Result = LobbyResult.StartMatch;
+            StateMachine.OnCompleted(this);
         }
 
-        public void OnExit()
+        public void Back()
         {
-            throw new System.NotImplementedException();
-        }
+            if (!IsSceneLoaded) return;
 
-        public void OnUpdate()
-        {
-            throw new System.NotImplementedException();
+            Result = LobbyResult.Back;
+            StateMachine.OnCompleted(this);
         }
     }
 }

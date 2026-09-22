@@ -1,70 +1,23 @@
-﻿using Gameplay.Helpers;
-
 namespace GameStates
 {
-    public class MainMenuState : IState
+    public enum MainMenuResult
     {
-        private StateMachine _mainMenuStateMachine;
-        private MenuState _menuState;
-        private OptionsState _optionsState;
+        Play,
+        Quit
+    }
 
-        public StateMachine StateMachine { get; set; }
+    public class MainMenuState : SceneState
+    {
+        protected override string SceneName => "MainMenu";
 
-        public void OnEnter()
+        public MainMenuResult Result { get; private set; }
+
+        public void Finish(MainMenuResult result)
         {
-            _mainMenuStateMachine = new StateMachine();
-            _menuState = new MenuState();
-            _optionsState = new OptionsState();
-        }
+            if (!IsSceneLoaded) return;
 
-        public void OnExit()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void OnUpdate()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        private class MenuState : IState
-        {
-            public StateMachine StateMachine { get; set; }
-
-            public void OnEnter()
-            {
-                throw new System.NotImplementedException();
-            }
-
-            public void OnExit()
-            {
-                throw new System.NotImplementedException();
-            }
-
-            public void OnUpdate()
-            {
-                throw new System.NotImplementedException();
-            }
-        }
-
-        private class OptionsState : IState
-        {
-            public StateMachine StateMachine { get; set; }
-
-            public void OnEnter()
-            {
-                throw new System.NotImplementedException();
-            }
-
-            public void OnExit()
-            {
-                throw new System.NotImplementedException();
-            }
-
-            public void OnUpdate()
-            {
-                throw new System.NotImplementedException();
-            }
+            Result = result;
+            StateMachine.OnCompleted(this);
         }
     }
 }

@@ -1,14 +1,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using Gameplay.Managers;
-using UnityEngine;
 
 namespace Gameplay
 {
-    public class Player : MonoBehaviour
+    // Plain C# object created per match from the lobby settings; presentation (colour, banner)
+    // is looked up by the view layer, not stored here.
+    public class Player
     {
-        [SerializeField] private GameResources _playerResources;
+        private GameResources _playerResources;
 
+        public Player(string name) => Name = name;
+
+        public string Name { get; }
+        public GameResources Resources => _playerResources;
         public IEnumerable<Country> OwnedCountries => GameController.Instance.Countries.Where(c => c.Owner == this);
 
         public void GainResources(int dice)

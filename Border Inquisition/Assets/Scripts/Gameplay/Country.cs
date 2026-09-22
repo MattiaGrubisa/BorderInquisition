@@ -12,8 +12,7 @@ namespace Gameplay
         [SerializeField] private GameResources _baseResourceGain;
         [SerializeField] private Army _army;
         [SerializeField] private List<SoldierType> _trainingQueue;
-        [SerializeField] private Player _owner;
-        
+
         //Army cost per nation (Country environment conditions...)
         [SerializeField] private GameResources _knightCost;
         [SerializeField] private GameResources _horsemanCost;
@@ -22,6 +21,7 @@ namespace Gameplay
         //For saving later
         [SerializeField] private bool _isDiceNumberSet;
 
+        private Player _owner;
         private HashSet<Building> _builtBuildings;
         private List<Building> _buildingQueue;
 

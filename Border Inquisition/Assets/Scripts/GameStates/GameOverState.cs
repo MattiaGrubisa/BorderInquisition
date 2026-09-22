@@ -1,24 +1,26 @@
-﻿using Gameplay.Helpers;
+using Gameplay;
 
 namespace GameStates
 {
-    public class GameOverState : IState
+    public enum GameOverResult
     {
-        public StateMachine StateMachine { get; set; }
+        MainMenu,
+        Rematch
+    }
 
-        public void OnEnter()
-        {
-            throw new System.NotImplementedException();
-        }
+    public class GameOverState : SceneState
+    {
+        protected override string SceneName => "GameOver";
 
-        public void OnExit()
-        {
-            throw new System.NotImplementedException();
-        }
+        public Player Winner { get; set; }
+        public GameOverResult Result { get; private set; }
 
-        public void OnUpdate()
+        public void Finish(GameOverResult result)
         {
-            throw new System.NotImplementedException();
+            if (!IsSceneLoaded) return;
+
+            Result = result;
+            StateMachine.OnCompleted(this);
         }
     }
 }
