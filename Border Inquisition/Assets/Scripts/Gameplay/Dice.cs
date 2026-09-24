@@ -7,7 +7,7 @@ namespace Gameplay
     {
         public int RollDice(int minNumber)
         { 
-            var diceRoll = Random.Range(1 + Mathf.Clamp(minNumber,0, 8), 10);
+            var diceRoll = Random.Range(Mathf.Clamp(minNumber,1, 8) , 10);
             DiceRollAnimation(diceRoll);
             return diceRoll;
         }

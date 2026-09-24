@@ -13,6 +13,15 @@ namespace Gameplay.Managers
         [SerializeField] private Dice _dice;
         [SerializeField] private List<Country> _countries;
 
+        // Temporary match setup: every country starts with a random army and a random income, both inclusive ranges.
+        [SerializeField] private Vector2Int _randomUnitsPerType = new Vector2Int(0, 4);
+        [SerializeField] private Vector2Int _randomResourceGain = new Vector2Int(0, 3);
+
+        // Every face of the income die pays out on at least min and at most max countries.
+        [SerializeField] private int _minCountriesPerDiceNumber = 2;
+        [SerializeField] private int _maxCountriesPerDiceNumber = 5;
+        private const int DiceFaces = 9;
+
         private readonly List<Player> _players = new List<Player>();
         private readonly MapGraph _map = new MapGraph();
         private int _currentPlayerIndex;
@@ -22,6 +31,7 @@ namespace Gameplay.Managers
         public IReadOnlyList<Country> Countries => _countries;
         public IReadOnlyList<Player> Players => _players;
         public Player CurrentPlayer => _players[_currentPlayerIndex];
+        public Player Winner { get; private set; }
         public MapGraph Map => _map;
 
         protected override void Awake()
@@ -77,7 +87,10 @@ namespace Gameplay.Managers
             from.SendWholeArmy(to);
 
             if (_countries.All(c => c.Owner == attacker))
+            {
+                Winner = attacker;
                 MatchWon?.Invoke(attacker);
+            }
             return true;
         }
 
@@ -87,12 +100,70 @@ namespace Gameplay.Managers
         public void StartNewMatch(MatchSettings settings)
         {
             _players.Clear();
+            Winner = null;
             foreach (var playerName in settings.PlayerNames)
                 _players.Add(new Player(playerName));
 
             DistributeCountries();
+            RandomizeCountries();
+            AssignDiceNumbers();
             _currentPlayerIndex = DetermineStartingPlayer();
         }
+
+        // Each number 1-9 is put in the pool _minCountriesPerDiceNumber times, the rest of the pool is
+        // drawn at random from the numbers still under _maxCountriesPerDiceNumber, and the pool is
+        // shuffled over the countries.
+        private void AssignDiceNumbers()
+        {
+            if (_countries.Count < DiceFaces * _minCountriesPerDiceNumber
+                || _countries.Count > DiceFaces * _maxCountriesPerDiceNumber)
+            {
+                Debug.LogWarning($"{_countries.Count} countries cannot carry every dice number between " +
+                                 $"{_minCountriesPerDiceNumber} and {_maxCountriesPerDiceNumber} times.", this);
+            }
+
+            var numbers = new List<int>();
+            var counts = new int[DiceFaces + 1];
+            for (var copy = 0; copy < _minCountriesPerDiceNumber; copy++)
+            {
+                for (var number = 1; number <= DiceFaces; number++)
+                {
+                    numbers.Add(number);
+                    counts[number]++;
+                }
+            }
+
+            while (numbers.Count < _countries.Count)
+            {
+                var open = Enumerable.Range(1, DiceFaces).Where(n => counts[n] < _maxCountriesPerDiceNumber).ToList();
+                var number = open.Count > 0 ? open[Random.Range(0, open.Count)] : Random.Range(1, DiceFaces + 1);
+                numbers.Add(number);
+                counts[number]++;
+            }
+
+            var shuffled = numbers.OrderBy(_ => Random.value).ToList();
+            for (var i = 0; i < _countries.Count; i++)
+                _countries[i].SetDiceNumber(shuffled[i]);
+        }
+
+        // Stand-in until starting armies and incomes are designed; an empty army is topped up with a
+        // knight so no country starts out defenceless.
+        private void RandomizeCountries()
+        {
+            foreach (var country in _countries)
+            {
+                var army = new Army(RandomUnits(), RandomUnits(), RandomUnits());
+                if (army.IsArmyEmpty())
+                    army.AddUnit(1, 0, 0);
+
+                country.SetArmy(army);
+                country.SetBaseResourceGain(new GameResources(
+                    RandomGain(), RandomGain(), RandomGain(), RandomGain()));
+            }
+        }
+
+        private int RandomUnits() => Random.Range(_randomUnitsPerType.x, _randomUnitsPerType.y + 1);
+        private int RandomGain() => Random.Range(_randomResourceGain.x, _randomResourceGain.y + 1);
 
         // Shuffled and dealt round-robin, so every player starts with an equal share (±1).
         private void DistributeCountries()
@@ -159,6 +230,104 @@ namespace Gameplay.Managers
         // An empty test map eliminates nobody, so turns still rotate while the map is being built.
         private bool IsEliminated(Player player) => _countries.Count > 0 && !player.OwnedCountries.Any();
 
+        #region Simulation
+
+        // Plays the match out without input: each turn the current player attacks until no legal attack
+        // is left, then idle armies march one step towards the nearest enemy. Ends on a winner, or with
+        // a warning when every army is gone or the turn limit runs out.
+        public void PlayOutMatch(int maxTurns = 1000)
+        {
+            if (_players.Count == 0)
+            {
+                Debug.LogWarning("No match is running.", this);
+                return;
+            }
+
+            var turns = 0;
+            var attacks = 0;
+            while (Winner == null && turns < maxTurns && _countries.Any(c => !c.IsArmyEmpty))
+            {
+                attacks += PlayOutTurn();
+                turns++;
+                if (Winner == null)
+                    NextPlayer();
+            }
+
+            if (Winner != null)
+                Debug.Log($"{Winner.Name} wins after {turns} turns and {attacks} attacks.", this);
+            else
+                Debug.LogWarning($"No winner after {turns} turns and {attacks} attacks - the match is stuck.", this);
+        }
+
+        private int PlayOutTurn()
+        {
+            const int maxAttacks = 10000;
+
+            var attacks = 0;
+            while (Winner == null && attacks < maxAttacks && TryBestAttack())
+                attacks++;
+
+            if (Winner == null)
+                AdvanceIdleArmies();
+            return attacks;
+        }
+
+        // Picks the legal attack with the biggest power advantage.
+        private bool TryBestAttack()
+        {
+            var best = CurrentPlayer.OwnedCountries
+                .SelectMany(from => AttackTargets(from).Select(to => (from, to)))
+                .OrderByDescending(pair => pair.from.GetArmyPower - pair.to.GetArmyPower)
+                .FirstOrDefault();
+
+            return best.from != null && TryAttack(best.from, best.to, out _);
+        }
+
+        private void AdvanceIdleArmies()
+        {
+            var idle = CurrentPlayer.OwnedCountries
+                .Where(c => !c.IsArmyEmpty && !AttackTargets(c).Any())
+                .ToList();
+
+            foreach (var from in idle)
+            {
+                var step = NextStepTowardsEnemy(from);
+                if (step != null)
+                    TryMoveArmy(from, step, from.Army.Knights, from.Army.Horsemen, from.Army.Archers);
+            }
+        }
+
+        // Breadth-first search through the owner's own countries; returns the first step of the shortest
+        // path to a country someone else holds, or null when there is none.
+        private Country NextStepTowardsEnemy(Country from)
+        {
+            var firstStep = new Dictionary<int, Country>();
+            var visited = new HashSet<int> { from.Id };
+            var pending = new Queue<Country>();
+            pending.Enqueue(from);
+
+            while (pending.Count > 0)
+            {
+                var current = pending.Dequeue();
+                foreach (var neighbour in _map.Neighbours(current))
+                {
+                    if (!visited.Add(neighbour.Id))
+                        continue;
+
+                    var step = current == from ? neighbour : firstStep[current.Id];
+                    if (neighbour.Owner != from.Owner)
+                        return step;
+
+                    firstStep[neighbour.Id] = step;
+                    pending.Enqueue(neighbour);
+                }
+            }
+
+            return null;
+        }
+
+        #endregion
+
 #if UNITY_EDITOR
 
         #region Map authoring
@@ -190,30 +359,35 @@ namespace Gameplay.Managers
             Debug.Log($"Assigned {assigned} new country id(s); {_countries.Count} countries on the map.");
         }
 
-        // Stands in for the map input that does not exist yet, so the attack path and the win
-        // condition can be exercised from the inspector during Play.
-        [ContextMenu("Debug: Attack A Random Target")]
-        private void DebugAttack()
+        // Every country's parent object is its continent: it gets a Region, and the country points at it.
+        [ContextMenu("Assign Regions")]
+        private void AssignRegions()
         {
-            if (!Application.isPlaying)
+            var assigned = 0;
+            foreach (var country in _countries)
             {
-                Debug.LogWarning("Enter Play mode first - there is no match outside it.");
-                return;
-            }
-
-            foreach (var from in CurrentPlayer.OwnedCountries.ToList())
-            {
-                var target = AttackTargets(from).FirstOrDefault();
-                if (target == null || !TryAttack(from, target, out var result))
+                if (country == null)
                     continue;
 
-                Debug.Log($"{from.name} attacks {target.name}: " +
-                          $"[{string.Join(" ", result.AttackerDice)}] vs [{string.Join(" ", result.DefenderDice)}] - " +
-                          $"{target.name} is held by {target.Owner?.Name ?? "nobody"}.");
-                return;
+                var parent = country.transform.parent;
+                if (parent == null)
+                {
+                    Debug.LogWarning($"{country.name} has no continent parent.", country);
+                    continue;
+                }
+
+                var region = parent.GetComponent<Region>();
+                if (region == null)
+                    region = UnityEditor.Undo.AddComponent<Region>(parent.gameObject);
+
+                UnityEditor.Undo.RecordObject(country, "Assign Region");
+                country.SetRegion(region);
+                UnityEditor.EditorUtility.SetDirty(country);
+                assigned++;
             }
 
-            Debug.Log($"{CurrentPlayer.Name} has no legal attack.");
+            UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(gameObject.scene);
+            Debug.Log($"Assigned a region to {assigned} countries.", this);
         }
 
         // Bakes the graph and reports what would break a match: unreachable groups, stray borders.

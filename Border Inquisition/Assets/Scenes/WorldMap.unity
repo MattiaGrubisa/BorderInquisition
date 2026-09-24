@@ -167,6 +167,7 @@ MonoBehaviour:
   _borders:
   - {fileID: 1213562971}
   - {fileID: 2019535271}
+  _region: {fileID: 1655735577}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -178,22 +179,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &75372149
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,9 +226,9 @@ MonoBehaviour:
   _id: 11
   _borders:
   - {fileID: 1542909628}
-  - {fileID: 75372151}
   - {fileID: 296007080}
   - {fileID: 352846756}
+  _region: {fileID: 977343566}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -255,22 +240,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &105403588
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,6 +288,7 @@ MonoBehaviour:
   _borders:
   - {fileID: 106155042}
   - {fileID: 1905972410}
+  _region: {fileID: 1348779901}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -330,22 +300,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &106155040
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,6 +351,7 @@ MonoBehaviour:
   - {fileID: 558919587}
   - {fileID: 105403590}
   - {fileID: 1931649726}
+  _region: {fileID: 1348779901}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -408,22 +363,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &160077878
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,6 +550,7 @@ MonoBehaviour:
   - {fileID: 1149394242}
   - {fileID: 1420074827}
   - {fileID: 1420969152}
+  _region: {fileID: 461465317}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -622,22 +562,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &222843222
 GameObject:
   m_ObjectHideFlags: 0
@@ -804,6 +728,7 @@ MonoBehaviour:
   _borders:
   - {fileID: 75372151}
   - {fileID: 603268834}
+  _region: {fileID: 977343566}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -815,22 +740,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &352846754
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,6 +789,7 @@ MonoBehaviour:
   - {fileID: 1542909628}
   - {fileID: 75372151}
   - {fileID: 603268834}
+  _region: {fileID: 977343566}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -891,22 +801,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &361455001
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,6 +1133,7 @@ MonoBehaviour:
   _borders:
   - {fileID: 980381866}
   - {fileID: 1542909628}
+  _region: {fileID: 1371410509}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1250,22 +1145,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &461465315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1275,6 +1154,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 461465316}
+  - component: {fileID: 461465317}
   m_Layer: 0
   m_Name: Aureliana
   m_TagString: Untagged
@@ -1302,6 +1182,33 @@ Transform:
   - {fileID: 1420969151}
   m_Father: {fileID: 1117821160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &461465317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461465315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3260a1ea021809c45b12c306c8a88748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Region
+  _knightCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _horsemanCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _archerCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
 --- !u!1 &505480068
 GameObject:
   m_ObjectHideFlags: 0
@@ -1352,6 +1259,7 @@ MonoBehaviour:
   - {fileID: 1769466541}
   - {fileID: 2019535271}
   - {fileID: 685518111}
+  _region: {fileID: 1655735577}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1363,22 +1271,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &558919585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,6 +1318,7 @@ MonoBehaviour:
   _id: 24
   _borders:
   - {fileID: 106155042}
+  _region: {fileID: 1348779901}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1437,22 +1330,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &574267539
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,6 +1378,7 @@ MonoBehaviour:
   _borders:
   - {fileID: 1498778174}
   - {fileID: 1156359779}
+  _region: {fileID: 2105281950}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1512,22 +1390,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &603268832
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,6 +1439,7 @@ MonoBehaviour:
   - {fileID: 296007080}
   - {fileID: 352846756}
   - {fileID: 1828664859}
+  _region: {fileID: 977343566}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1588,22 +1451,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &685518109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1653,6 +1500,7 @@ MonoBehaviour:
   - {fileID: 1769466541}
   - {fileID: 505480070}
   - {fileID: 2019535271}
+  _region: {fileID: 1655735577}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1664,22 +1512,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &972719463
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,6 +1562,7 @@ MonoBehaviour:
   - {fileID: 1420074827}
   - {fileID: 1605105576}
   - {fileID: 106155042}
+  _region: {fileID: 1348779901}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1741,22 +1574,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &977343564
 GameObject:
   m_ObjectHideFlags: 0
@@ -1766,6 +1583,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 977343565}
+  - component: {fileID: 977343566}
   m_Layer: 0
   m_Name: Higanshu
   m_TagString: Untagged
@@ -1793,6 +1611,33 @@ Transform:
   - {fileID: 1828664858}
   m_Father: {fileID: 1117821160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &977343566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977343564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3260a1ea021809c45b12c306c8a88748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Region
+  _knightCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _horsemanCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _archerCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
 --- !u!1 &980381864
 GameObject:
   m_ObjectHideFlags: 0
@@ -1843,6 +1688,7 @@ MonoBehaviour:
   - {fileID: 460457927}
   - {fileID: 1867213289}
   - {fileID: 1542909628}
+  _region: {fileID: 1371410509}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1854,22 +1700,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1011220005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1919,6 +1749,7 @@ MonoBehaviour:
   - {fileID: 1464585853}
   - {fileID: 1254500948}
   - {fileID: 1460025043}
+  _region: {fileID: 2105281950}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1930,22 +1761,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1117821159
 GameObject:
   m_ObjectHideFlags: 0
@@ -2033,6 +1848,7 @@ MonoBehaviour:
   - {fileID: 1248822433}
   - {fileID: 205432340}
   - {fileID: 1420969152}
+  _region: {fileID: 461465317}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2044,22 +1860,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1156359777
 GameObject:
   m_ObjectHideFlags: 0
@@ -2108,6 +1908,7 @@ MonoBehaviour:
   _borders:
   - {fileID: 574267541}
   - {fileID: 1460025043}
+  _region: {fileID: 2105281950}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2119,22 +1920,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1174911664
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,7 +1975,6 @@ MonoBehaviour:
   - {fileID: 1149394242}
   - {fileID: 1420074827}
   - {fileID: 1420969152}
-  - {fileID: 0}
   - {fileID: 1605105576}
   - {fileID: 972719465}
   - {fileID: 558919587}
@@ -2205,6 +1989,9 @@ MonoBehaviour:
   - {fileID: 1254500948}
   - {fileID: 1460025043}
   - {fileID: 1011220007}
+  _randomUnitsPerType: {x: 1, y: 2}
+  _randomResourceGain: {x: 1, y: 2}
+  _minCountriesPerDiceNumber: 2
 --- !u!114 &1174911666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2295,6 +2082,7 @@ MonoBehaviour:
   - {fileID: 27846797}
   - {fileID: 505480070}
   - {fileID: 1442892387}
+  _region: {fileID: 1655735577}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2306,22 +2094,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1248822431
 GameObject:
   m_ObjectHideFlags: 0
@@ -2372,6 +2144,7 @@ MonoBehaviour:
   - {fileID: 1149394242}
   - {fileID: 1420074827}
   - {fileID: 1442892387}
+  _region: {fileID: 461465317}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2383,22 +2156,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1254500946
 GameObject:
   m_ObjectHideFlags: 0
@@ -2445,6 +2202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 33
   _borders: []
+  _region: {fileID: 2105281950}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2456,22 +2214,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1348779899
 GameObject:
   m_ObjectHideFlags: 0
@@ -2481,6 +2223,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1348779900}
+  - component: {fileID: 1348779901}
   m_Layer: 0
   m_Name: Kanembara
   m_TagString: Untagged
@@ -2510,6 +2253,33 @@ Transform:
   - {fileID: 1905972409}
   m_Father: {fileID: 1117821160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1348779901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348779899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3260a1ea021809c45b12c306c8a88748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Region
+  _knightCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _horsemanCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _archerCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
 --- !u!1 &1371410507
 GameObject:
   m_ObjectHideFlags: 0
@@ -2519,6 +2289,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1371410508}
+  - component: {fileID: 1371410509}
   m_Layer: 0
   m_Name: Zlatokraj
   m_TagString: Untagged
@@ -2546,6 +2317,33 @@ Transform:
   - {fileID: 1542909627}
   m_Father: {fileID: 1117821160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1371410509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371410507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3260a1ea021809c45b12c306c8a88748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Region
+  _knightCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _horsemanCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _archerCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
 --- !u!1 &1420074825
 GameObject:
   m_ObjectHideFlags: 0
@@ -2595,6 +2393,7 @@ MonoBehaviour:
   - {fileID: 1248822433}
   - {fileID: 205432340}
   - {fileID: 1420969152}
+  _region: {fileID: 461465317}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2606,22 +2405,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1420969150
 GameObject:
   m_ObjectHideFlags: 0
@@ -2671,6 +2454,7 @@ MonoBehaviour:
   - {fileID: 205432340}
   - {fileID: 1149394242}
   - {fileID: 1420074827}
+  _region: {fileID: 461465317}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2682,22 +2466,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1442892385
 GameObject:
   m_ObjectHideFlags: 0
@@ -2748,6 +2516,7 @@ MonoBehaviour:
   - {fileID: 980381866}
   - {fileID: 1867213289}
   - {fileID: 1248822433}
+  _region: {fileID: 1371410509}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2759,22 +2528,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1460025041
 GameObject:
   m_ObjectHideFlags: 0
@@ -2825,6 +2578,7 @@ MonoBehaviour:
   - {fileID: 1254500948}
   - {fileID: 1011220007}
   - {fileID: 1828664859}
+  _region: {fileID: 2105281950}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2836,22 +2590,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1464585851
 GameObject:
   m_ObjectHideFlags: 0
@@ -2900,6 +2638,7 @@ MonoBehaviour:
   _borders:
   - {fileID: 1498778174}
   - {fileID: 1011220007}
+  _region: {fileID: 2105281950}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2911,22 +2650,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1498778172
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,6 +2699,7 @@ MonoBehaviour:
   - {fileID: 1420969152}
   - {fileID: 574267541}
   - {fileID: 1464585853}
+  _region: {fileID: 2105281950}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2987,22 +2711,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1503904599
 GameObject:
   m_ObjectHideFlags: 0
@@ -3162,6 +2870,7 @@ MonoBehaviour:
   - {fileID: 1867213289}
   - {fileID: 75372151}
   - {fileID: 352846756}
+  _region: {fileID: 1371410509}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3173,22 +2882,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1605105574
 GameObject:
   m_ObjectHideFlags: 0
@@ -3237,6 +2930,7 @@ MonoBehaviour:
   _borders:
   - {fileID: 972719465}
   - {fileID: 106155042}
+  _region: {fileID: 1348779901}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3248,22 +2942,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1639934912
 GameObject:
   m_ObjectHideFlags: 0
@@ -3410,6 +3088,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1655735576}
+  - component: {fileID: 1655735577}
   m_Layer: 0
   m_Name: Vargmark
   m_TagString: Untagged
@@ -3438,6 +3117,33 @@ Transform:
   - {fileID: 1769466540}
   m_Father: {fileID: 1117821160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1655735577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655735575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3260a1ea021809c45b12c306c8a88748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Region
+  _knightCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _horsemanCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _archerCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
 --- !u!1 &1769466539
 GameObject:
   m_ObjectHideFlags: 0
@@ -3488,6 +3194,7 @@ MonoBehaviour:
   - {fileID: 972719465}
   - {fileID: 505480070}
   - {fileID: 685518111}
+  _region: {fileID: 1655735577}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3499,22 +3206,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1828664857
 GameObject:
   m_ObjectHideFlags: 0
@@ -3563,6 +3254,7 @@ MonoBehaviour:
   _borders:
   - {fileID: 603268834}
   - {fileID: 1460025043}
+  _region: {fileID: 977343566}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3574,22 +3266,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1867213287
 GameObject:
   m_ObjectHideFlags: 0
@@ -3639,6 +3315,7 @@ MonoBehaviour:
   - {fileID: 980381866}
   - {fileID: 460457927}
   - {fileID: 1542909628}
+  _region: {fileID: 1371410509}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3650,22 +3327,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1905972408
 GameObject:
   m_ObjectHideFlags: 0
@@ -3714,6 +3375,7 @@ MonoBehaviour:
   _borders:
   - {fileID: 105403590}
   - {fileID: 1931649726}
+  _region: {fileID: 1348779901}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3725,22 +3387,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &1931649724
 GameObject:
   m_ObjectHideFlags: 0
@@ -3789,6 +3435,7 @@ MonoBehaviour:
   _borders:
   - {fileID: 106155042}
   - {fileID: 1905972410}
+  _region: {fileID: 1348779901}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3800,22 +3447,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &2019535269
 GameObject:
   m_ObjectHideFlags: 0
@@ -3865,6 +3496,7 @@ MonoBehaviour:
   - {fileID: 27846797}
   - {fileID: 505480070}
   - {fileID: 685518111}
+  _region: {fileID: 1655735577}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3876,22 +3508,6 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
 --- !u!1 &2105281948
 GameObject:
   m_ObjectHideFlags: 0
@@ -3901,6 +3517,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2105281949}
+  - component: {fileID: 2105281950}
   m_Layer: 0
   m_Name: Ashqaran
   m_TagString: Untagged
@@ -3930,6 +3547,33 @@ Transform:
   - {fileID: 1011220006}
   m_Father: {fileID: 1117821160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2105281950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105281948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3260a1ea021809c45b12c306c8a88748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Region
+  _knightCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _horsemanCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _archerCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

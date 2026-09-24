@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -14,18 +13,13 @@ namespace Gameplay
         // Author a border on one side only; MapGraph mirrors it.
         [SerializeField] private List<Country> _borders = new List<Country>();
 
+        // Soldier prices are set per region, not per country.
+        [SerializeField] private Region _region;
+
         [SerializeField] private int _nationDiceNumber;
         [SerializeField] private GameResources _baseResourceGain;
         [SerializeField] private Army _army;
         [SerializeField] private List<SoldierType> _trainingQueue;
-
-        //Army cost per nation (Country environment conditions...)
-        [SerializeField] private GameResources _knightCost;
-        [SerializeField] private GameResources _horsemanCost;
-        [SerializeField] private GameResources _archerCost;
-
-        //For saving later
-        [SerializeField] private bool _isDiceNumberSet;
 
         private Player _owner;
         private HashSet<Building> _builtBuildings;
@@ -36,9 +30,17 @@ namespace Gameplay
 
         public int Id => _id;
         public IReadOnlyList<Country> Borders => _borders;
+        public Region Region => _region;
+
+        public int DiceNumber => _nationDiceNumber;
+        public void SetDiceNumber(int number) => _nationDiceNumber = number;
+
+        public void SetArmy(Army army) => _army = army;
+        public void SetBaseResourceGain(GameResources gain) => _baseResourceGain = gain;
 
 #if UNITY_EDITOR
         public void SetId(int id) => _id = id;
+        public void SetRegion(Region region) => _region = region;
 
         // Refuses a duplicate in either direction, so an edge is only ever authored once.
         public bool AddBorder(Country other)
@@ -63,15 +65,12 @@ namespace Gameplay
 
         private void Awake()
         {
-            if (!_isDiceNumberSet)
-            {
-                _nationDiceNumber = Random.Range(1, 10);
-                _isDiceNumberSet = true;
-            }
-
             _builtBuildings ??= new HashSet<Building>();
             _buildingQueue ??= new List<Building>();
             _trainingQueue ??= new List<SoldierType>();
+
+            if (_region == null)
+                Debug.LogWarning($"{name} has no region - run Assign Regions on the GameController.", this);
         }
 
         #region Buildings
@@ -111,19 +110,8 @@ namespace Gameplay
 
         #region Units
         
-        private bool CanAffordTraining(SoldierType soldierType, GameResources resources)
-        {
-            switch (soldierType)
-            {
-                case SoldierType.Knight:
-                    return resources >= _knightCost;
-                case SoldierType.Archer:
-                    return resources >= _archerCost;
-                case SoldierType.Horseman:
-                    return resources >= _horsemanCost;
-            }
-            return false;
-        }
+        private bool CanAffordTraining(SoldierType soldierType, GameResources resources) =>
+            _region != null && resources >= GetSoldierCost(soldierType);
 
         private void CreateSoldier(SoldierType soldierType)
         {
@@ -160,19 +148,8 @@ namespace Gameplay
             return resources;
         }
 
-        private GameResources GetSoldierCost(SoldierType soldier)
-        {
-            switch (soldier)
-            {
-                case SoldierType.Knight:
-                    return _knightCost;
-                case SoldierType.Archer:
-                    return _archerCost;
-                case SoldierType.Horseman:
-                    return _horsemanCost;
-            }
-            return default;
-        }
+        private GameResources GetSoldierCost(SoldierType soldier) =>
+            _region != null ? _region.SoldierCost(soldier) : default;
         
         public void AddSoldierToQueue(SoldierType soldier) => _trainingQueue.Add(soldier);
         public void RemoveSoldierFromQueue(SoldierType soldier) => _trainingQueue.Remove(soldier);
