@@ -10,7 +10,8 @@ namespace GameStates
     {
         Income,
         Attack,
-        Build
+        Build,
+        Move
     }
 
     public class InGameState : SceneState
@@ -18,6 +19,7 @@ namespace GameStates
         private readonly FirstPhase _firstPhase = new FirstPhase();
         private readonly SecondPhase _secondPhase = new SecondPhase();
         private readonly ThirdPhase _thirdPhase = new ThirdPhase();
+        private readonly FourthPhase _fourthPhase = new FourthPhase();
         private StateMachine _phaseMachine;
 
         public event Action<TurnPhase> PhaseChanged;
@@ -67,6 +69,9 @@ namespace GameStates
                     _phaseMachine.ChangeState(_thirdPhase);
                     break;
                 case ThirdPhase:
+                    _phaseMachine.ChangeState(_fourthPhase);
+                    break;
+                case FourthPhase:
                     GameController.Instance.NextPlayer();
                     _phaseMachine.ChangeState(_firstPhase);
                     break;
@@ -85,7 +90,7 @@ namespace GameStates
             StateMachine.OnCompleted(this);
         }
 
-        // Every phase waits for End Phase; the phase itself only runs its own logic.
+        // A phase waits for End Phase unless it ends itself; the phase only runs its own logic.
         private abstract class Phase : IState
         {
             public StateMachine StateMachine { get; set; }
@@ -98,11 +103,17 @@ namespace GameStates
             public void End() => StateMachine.OnCompleted(this);
         }
 
+        // Income is not a phase the player waits in: the queues are processed, the die is rolled and
+        // paid out, and the turn moves straight on to the attack. The HUD shows the roll.
         private class FirstPhase : Phase
         {
             public override TurnPhase Kind => TurnPhase.Income;
 
-            public override void OnEnter() => GameController.Instance.PhaseOne();
+            public override void OnEnter()
+            {
+                GameController.Instance.PhaseOne();
+                End();
+            }
         }
 
         private class SecondPhase : Phase
@@ -113,6 +124,11 @@ namespace GameStates
         private class ThirdPhase : Phase
         {
             public override TurnPhase Kind => TurnPhase.Build;
+        }
+
+        private class FourthPhase : Phase
+        {
+            public override TurnPhase Kind => TurnPhase.Move;
         }
     }
 }

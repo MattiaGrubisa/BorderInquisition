@@ -106,6 +106,11 @@ namespace Gameplay
         public void DestroyBuildings(Building building) => _builtBuildings.Remove(building);
         public bool RemoveBuildingFromQueue(Building building) => _buildingQueue.Remove(building);
 
+        public IReadOnlyCollection<Building> BuiltBuildings => _builtBuildings;
+        public IReadOnlyList<Building> BuildingQueue => _buildingQueue;
+        public bool IsBuilt(Building building) => _builtBuildings.Contains(building);
+        public bool IsQueued(Building building) => _buildingQueue.Contains(building);
+
         #endregion
 
         #region Units
@@ -148,11 +153,12 @@ namespace Gameplay
             return resources;
         }
 
-        private GameResources GetSoldierCost(SoldierType soldier) =>
+        public GameResources GetSoldierCost(SoldierType soldier) =>
             _region != null ? _region.SoldierCost(soldier) : default;
         
         public void AddSoldierToQueue(SoldierType soldier) => _trainingQueue.Add(soldier);
         public void RemoveSoldierFromQueue(SoldierType soldier) => _trainingQueue.Remove(soldier);
+        public int QueuedSoldiers(SoldierType soldier) => _trainingQueue.Count(queued => queued == soldier);
         
         public void RemoveRandomUnit() => _army.RemoveRandomUnit();
         public int UniqueUnits() =>  _army.UniqueUnits();

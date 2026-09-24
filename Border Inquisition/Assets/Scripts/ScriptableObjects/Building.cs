@@ -9,6 +9,7 @@ namespace Gameplay
         [SerializeField] private GameResources _buildingCost;
         [SerializeField] private GameResources _productionBoost;
         
+        public string DisplayName => string.IsNullOrEmpty(_name) ? name : _name;
         public  GameResources BuildingCost => _buildingCost;
         public  GameResources ProductionBoost => _productionBoost;
     }

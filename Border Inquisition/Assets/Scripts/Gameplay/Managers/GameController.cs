@@ -13,6 +13,9 @@ namespace Gameplay.Managers
         [SerializeField] private Dice _dice;
         [SerializeField] private List<Country> _countries;
 
+        // Every building a country can put in its build queue.
+        [SerializeField] private List<Building> _buildings = new List<Building>();
+
         // Temporary match setup: every country starts with a random army and a random income, both inclusive ranges.
         [SerializeField] private Vector2Int _randomUnitsPerType = new Vector2Int(0, 4);
         [SerializeField] private Vector2Int _randomResourceGain = new Vector2Int(0, 3);
@@ -29,9 +32,11 @@ namespace Gameplay.Managers
         public event Action<Player> MatchWon;
 
         public IReadOnlyList<Country> Countries => _countries;
+        public IReadOnlyList<Building> Buildings => _buildings;
         public IReadOnlyList<Player> Players => _players;
         public Player CurrentPlayer => _players[_currentPlayerIndex];
         public Player Winner { get; private set; }
+        public int LastIncomeRoll { get; private set; }
         public MapGraph Map => _map;
 
         protected override void Awake()
@@ -101,6 +106,7 @@ namespace Gameplay.Managers
         {
             _players.Clear();
             Winner = null;
+            LastIncomeRoll = 0;
             foreach (var playerName in settings.PlayerNames)
                 _players.Add(new Player(playerName));
 
@@ -209,10 +215,10 @@ namespace Gameplay.Managers
         public void PhaseOne()
         {
             CurrentPlayer.PhaseOne();
-            var dice = _dice.RollDice(0);
+            LastIncomeRoll = _dice.RollDice(0);
             foreach (var p in _players)
             {
-                p.GainResources(dice);
+                p.GainResources(LastIncomeRoll);
             }
         }
 

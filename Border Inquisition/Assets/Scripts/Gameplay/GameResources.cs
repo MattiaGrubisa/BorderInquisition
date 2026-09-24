@@ -18,6 +18,13 @@ namespace Gameplay
             _gold = gold;
         }
 
+        public int Food => _food;
+        public int Wood => _wood;
+        public int Gold => _gold;
+        public int Stone => _stone;
+
+        public override string ToString() => $"F{_food} W{_wood} G{_gold} S{_stone}";
+
         public static bool operator >=(GameResources r1, GameResources r2) =>
             r1._food >= r2._food 
             && r1._gold >= r2._gold 

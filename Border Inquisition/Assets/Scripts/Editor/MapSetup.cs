@@ -81,6 +81,42 @@ namespace Editor
                       "Place them over the map, then author each country's Borders and run Validate Map.");
         }
 
+        // Adds what the map needs to be seen and clicked: a MapView on the map sprite, and a
+        // PolygonCollider2D on every country that has none yet. The collider starts as Unity's default
+        // shape and is traced over the region art by hand; existing colliders are never touched.
+        [MenuItem("Border Inquisition/Set Up Map View")]
+        public static void SetUpMapView()
+        {
+            var countries = Object.FindObjectsByType<Country>(FindObjectsSortMode.None);
+            if (countries.Length == 0)
+            {
+                Debug.LogError("No countries in the open scene - open WorldMap first.");
+                return;
+            }
+
+            var colliders = 0;
+            foreach (var country in countries)
+            {
+                if (country.GetComponent<Collider2D>() != null)
+                    continue;
+
+                Undo.AddComponent<CircleCollider2D>(country.gameObject);
+                colliders++;
+            }
+
+            var addedView = false;
+            if (Object.FindFirstObjectByType<View.MapView>() == null)
+            {
+                var map = Object.FindFirstObjectByType<View.MapCamera>();
+                var host = map != null ? map.gameObject : ObjectFactory.CreateGameObject("MapView");
+                Undo.AddComponent<View.MapView>(host);
+                addedView = true;
+            }
+
+            EditorSceneManager.MarkSceneDirty(countries[0].gameObject.scene);
+            Debug.Log($"Added {colliders} country collider(s)" + (addedView ? " and the MapView." : "; MapView already there."));
+        }
+
         private static IEnumerable<Country> CreateContinent(Continent continent, int firstId)
         {
             var parent = ObjectFactory.CreateGameObject(continent.Name).transform;
