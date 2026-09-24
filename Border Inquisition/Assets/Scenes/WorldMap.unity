@@ -145,7 +145,7 @@ Transform:
   m_GameObject: {fileID: 27846795}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.604, y: 0.78, z: 0}
+  m_LocalPosition: {x: 2.286, y: 0.939, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -220,7 +220,7 @@ Transform:
   m_GameObject: {fileID: 75372149}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.998, y: 0.787, z: 0}
+  m_LocalPosition: {x: -2.301, y: 0.677, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -239,7 +239,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 11
-  _borders: []
+  _borders:
+  - {fileID: 1542909628}
+  - {fileID: 75372151}
+  - {fileID: 296007080}
+  - {fileID: 352846756}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -293,7 +297,7 @@ Transform:
   m_GameObject: {fileID: 105403588}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.55, y: 0.66, z: 0}
+  m_LocalPosition: {x: 0.606, y: 0.619, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -312,7 +316,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 25
-  _borders: []
+  _borders:
+  - {fileID: 106155042}
+  - {fileID: 1905972410}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -366,7 +372,7 @@ Transform:
   m_GameObject: {fileID: 106155040}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.95, y: 0.97, z: 0}
+  m_LocalPosition: {x: 2.118, y: 1.026, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -385,7 +391,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 27
-  _borders: []
+  _borders:
+  - {fileID: 1605105576}
+  - {fileID: 972719465}
+  - {fileID: 558919587}
+  - {fileID: 105403590}
+  - {fileID: 1931649726}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -576,7 +587,7 @@ Transform:
   m_GameObject: {fileID: 205432338}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.4, y: 0.18, z: 0}
+  m_LocalPosition: {x: 0.439, y: 0.118, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -595,7 +606,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 17
-  _borders: []
+  _borders:
+  - {fileID: 1248822433}
+  - {fileID: 1149394242}
+  - {fileID: 1420074827}
+  - {fileID: 1420969152}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -767,7 +782,7 @@ Transform:
   m_GameObject: {fileID: 296007078}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.638, y: 0.273, z: 0}
+  m_LocalPosition: {x: -1.386, y: 0.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -786,7 +801,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 12
-  _borders: []
+  _borders:
+  - {fileID: 75372151}
+  - {fileID: 603268834}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -840,7 +857,7 @@ Transform:
   m_GameObject: {fileID: 352846754}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.96, y: -0.27, z: 0}
+  m_LocalPosition: {x: -2.985, y: -0.303, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -859,7 +876,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 14
-  _borders: []
+  _borders:
+  - {fileID: 1542909628}
+  - {fileID: 75372151}
+  - {fileID: 603268834}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1197,7 +1217,7 @@ Transform:
   m_GameObject: {fileID: 460457925}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.581, y: -0.493, z: 0}
+  m_LocalPosition: {x: 1.892, y: -0.806, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1216,7 +1236,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 8
-  _borders: []
+  _borders:
+  - {fileID: 980381866}
+  - {fileID: 1542909628}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1268,7 +1290,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461465315}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.4, y: 0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1278,8 +1300,7 @@ Transform:
   - {fileID: 1149394241}
   - {fileID: 1420074826}
   - {fileID: 1420969151}
-  - {fileID: 965623638}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1117821160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &505480068
 GameObject:
@@ -1307,7 +1328,7 @@ Transform:
   m_GameObject: {fileID: 505480068}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.782, y: -0.199, z: 0}
+  m_LocalPosition: {x: 3.258, y: -0.295, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1384,7 +1405,7 @@ Transform:
   m_GameObject: {fileID: 558919585}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.94, y: 1.49, z: 0}
+  m_LocalPosition: {x: 3.011, y: 1.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1403,7 +1424,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 24
-  _borders: []
+  _borders:
+  - {fileID: 106155042}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1457,7 +1479,7 @@ Transform:
   m_GameObject: {fileID: 574267539}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.55, y: 1.62, z: 0}
+  m_LocalPosition: {x: -0.71, y: 1.679, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1476,7 +1498,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 30
-  _borders: []
+  _borders:
+  - {fileID: 1498778174}
+  - {fileID: 1156359779}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1530,7 +1554,7 @@ Transform:
   m_GameObject: {fileID: 603268832}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.53, y: -0.64, z: 0}
+  m_LocalPosition: {x: -1.746, y: -0.739, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1549,7 +1573,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 13
-  _borders: []
+  _borders:
+  - {fileID: 296007080}
+  - {fileID: 352846756}
+  - {fileID: 1828664859}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1603,7 +1630,7 @@ Transform:
   m_GameObject: {fileID: 685518109}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.423, y: -1.054, z: 0}
+  m_LocalPosition: {x: 1.906, y: -0.958, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1626,79 +1653,6 @@ MonoBehaviour:
   - {fileID: 1769466541}
   - {fileID: 505480070}
   - {fileID: 2019535271}
-  _nationDiceNumber: 0
-  _baseResourceGain:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _army:
-    _knight: 0
-    _horseman: 0
-    _archer: 0
-  _trainingQueue: 
-  _knightCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _horsemanCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _archerCost:
-    _food: 0
-    _wood: 0
-    _gold: 0
-    _stone: 0
-  _isDiceNumberSet: 0
---- !u!1 &965623637
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 965623638}
-  - component: {fileID: 965623639}
-  m_Layer: 0
-  m_Name: Lucanor
-  m_TagString: Untagged
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &965623638
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965623637}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.09, y: 1.64, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 461465316}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &965623639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 965623637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
-  _id: 21
-  _borders: []
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1771,7 +1725,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 23
-  _borders: []
+  _borders:
+  - {fileID: 1769466541}
+  - {fileID: 1420074827}
+  - {fileID: 1605105576}
+  - {fileID: 106155042}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1823,7 +1781,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977343564}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6.6, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1833,7 +1791,7 @@ Transform:
   - {fileID: 603268833}
   - {fileID: 352846755}
   - {fileID: 1828664858}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1117821160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &980381864
 GameObject:
@@ -1861,7 +1819,7 @@ Transform:
   m_GameObject: {fileID: 980381864}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.024, y: -0.463, z: 0}
+  m_LocalPosition: {x: -0.06, y: -0.601, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1880,7 +1838,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 7
-  _borders: []
+  _borders:
+  - {fileID: 1442892387}
+  - {fileID: 460457927}
+  - {fileID: 1867213289}
+  - {fileID: 1542909628}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1934,7 +1896,7 @@ Transform:
   m_GameObject: {fileID: 1011220005}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.354, y: -0.122, z: 0}
+  m_LocalPosition: {x: 0.162, y: -0.017, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1953,7 +1915,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 35
-  _borders: []
+  _borders:
+  - {fileID: 1464585853}
+  - {fileID: 1254500948}
+  - {fileID: 1460025043}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1981,6 +1946,44 @@ MonoBehaviour:
     _gold: 0
     _stone: 0
   _isDiceNumberSet: 0
+--- !u!1 &1117821159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1117821160}
+  m_Layer: 0
+  m_Name: WorldMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1117821160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117821159}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1655735576}
+  - {fileID: 1371410508}
+  - {fileID: 977343565}
+  - {fileID: 461465316}
+  - {fileID: 1348779900}
+  - {fileID: 2105281949}
+  - {fileID: 1503904601}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1149394240
 GameObject:
   m_ObjectHideFlags: 0
@@ -2026,7 +2029,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 18
-  _borders: []
+  _borders:
+  - {fileID: 1248822433}
+  - {fileID: 205432340}
+  - {fileID: 1420969152}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2080,7 +2086,7 @@ Transform:
   m_GameObject: {fileID: 1156359777}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.55, y: 1.33, z: 0}
+  m_LocalPosition: {x: 0.263, y: 1.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2099,7 +2105,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 31
-  _borders: []
+  _borders:
+  - {fileID: 574267541}
+  - {fileID: 1460025043}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2182,7 +2190,7 @@ MonoBehaviour:
   - {fileID: 1149394242}
   - {fileID: 1420074827}
   - {fileID: 1420969152}
-  - {fileID: 965623639}
+  - {fileID: 0}
   - {fileID: 1605105576}
   - {fileID: 972719465}
   - {fileID: 558919587}
@@ -2264,7 +2272,7 @@ Transform:
   m_GameObject: {fileID: 1213562969}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.893, y: 0.529, z: 0}
+  m_LocalPosition: {x: 2.543, y: 0.444, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2340,7 +2348,7 @@ Transform:
   m_GameObject: {fileID: 1248822431}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.14, y: 0.792, z: 0}
+  m_LocalPosition: {x: -0.01, y: 0.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2359,7 +2367,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 16
-  _borders: []
+  _borders:
+  - {fileID: 205432340}
+  - {fileID: 1149394242}
+  - {fileID: 1420074827}
+  - {fileID: 1442892387}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2413,7 +2425,7 @@ Transform:
   m_GameObject: {fileID: 1254500946}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.581, y: 0.559, z: 0}
+  m_LocalPosition: {x: -0.702, y: 0.755, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2484,7 +2496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1348779899}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.6, y: -2.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2496,7 +2508,7 @@ Transform:
   - {fileID: 1931649725}
   - {fileID: 106155041}
   - {fileID: 1905972409}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1117821160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1371410507
 GameObject:
@@ -2522,7 +2534,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371410507}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.4, y: 3.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2532,7 +2544,7 @@ Transform:
   - {fileID: 460457926}
   - {fileID: 1867213288}
   - {fileID: 1542909627}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1117821160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1420074825
 GameObject:
@@ -2579,7 +2591,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 19
-  _borders: []
+  _borders:
+  - {fileID: 1248822433}
+  - {fileID: 205432340}
+  - {fileID: 1420969152}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2633,7 +2648,7 @@ Transform:
   m_GameObject: {fileID: 1420969150}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.68, y: -0.69, z: 0}
+  m_LocalPosition: {x: 0.706, y: -0.723, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2652,7 +2667,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 20
-  _borders: []
+  _borders:
+  - {fileID: 205432340}
+  - {fileID: 1149394242}
+  - {fileID: 1420074827}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2706,7 +2724,7 @@ Transform:
   m_GameObject: {fileID: 1442892385}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.839, y: -0.703, z: 0}
+  m_LocalPosition: {x: -1.737, y: -0.904, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2725,7 +2743,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 6
-  _borders: []
+  _borders:
+  - {fileID: 1213562971}
+  - {fileID: 980381866}
+  - {fileID: 1867213289}
+  - {fileID: 1248822433}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2779,7 +2801,7 @@ Transform:
   m_GameObject: {fileID: 1460025041}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.101, y: 0.888, z: 0}
+  m_LocalPosition: {x: 0.969, y: 0.984, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2798,7 +2820,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 34
-  _borders: []
+  _borders:
+  - {fileID: 1156359779}
+  - {fileID: 1254500948}
+  - {fileID: 1011220007}
+  - {fileID: 1828664859}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2852,7 +2878,7 @@ Transform:
   m_GameObject: {fileID: 1464585851}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.535, y: 0.157, z: 0}
+  m_LocalPosition: {x: -1.758, y: 0.293, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2871,7 +2897,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 32
-  _borders: []
+  _borders:
+  - {fileID: 1498778174}
+  - {fileID: 1011220007}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2925,7 +2953,7 @@ Transform:
   m_GameObject: {fileID: 1498778172}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.63, y: 1.15, z: 0}
+  m_LocalPosition: {x: -1.638, y: 1.166, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2944,7 +2972,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 29
-  _borders: []
+  _borders:
+  - {fileID: 1420969152}
+  - {fileID: 574267541}
+  - {fileID: 1464585853}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2984,7 +3015,7 @@ GameObject:
   - component: {fileID: 1503904600}
   - component: {fileID: 1503904602}
   m_Layer: 0
-  m_Name: WorldMap_0
+  m_Name: WorldMapSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3057,12 +3088,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503904599}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1117821160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1503904602
 MonoBehaviour:
@@ -3106,7 +3137,7 @@ Transform:
   m_GameObject: {fileID: 1542909626}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.272, y: -1.1, z: 0}
+  m_LocalPosition: {x: 0.919, y: -1.551, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3125,7 +3156,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 10
-  _borders: []
+  _borders:
+  - {fileID: 980381866}
+  - {fileID: 460457927}
+  - {fileID: 1867213289}
+  - {fileID: 75372151}
+  - {fileID: 352846756}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3179,7 +3215,7 @@ Transform:
   m_GameObject: {fileID: 1605105574}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.18, y: 1.37, z: 0}
+  m_LocalPosition: {x: 0.216, y: 1.436, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3198,7 +3234,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 22
-  _borders: []
+  _borders:
+  - {fileID: 972719465}
+  - {fileID: 106155042}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3387,7 +3425,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655735575}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6, y: 2.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3398,7 +3436,7 @@ Transform:
   - {fileID: 2019535270}
   - {fileID: 685518110}
   - {fileID: 1769466540}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1117821160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1769466539
 GameObject:
@@ -3426,7 +3464,7 @@ Transform:
   m_GameObject: {fileID: 1769466539}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.714, y: -1.287, z: 0}
+  m_LocalPosition: {x: 2.873, y: -1.269, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3503,7 +3541,7 @@ Transform:
   m_GameObject: {fileID: 1828664857}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.87, y: -1.33, z: 0}
+  m_LocalPosition: {x: -1.203, y: -1.417, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3522,7 +3560,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 15
-  _borders: []
+  _borders:
+  - {fileID: 603268834}
+  - {fileID: 1460025043}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3576,7 +3616,7 @@ Transform:
   m_GameObject: {fileID: 1867213287}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.71, y: -1.287, z: 0}
+  m_LocalPosition: {x: -0.755, y: -1.372, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3595,7 +3635,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 9
-  _borders: []
+  _borders:
+  - {fileID: 980381866}
+  - {fileID: 460457927}
+  - {fileID: 1542909628}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3649,7 +3692,7 @@ Transform:
   m_GameObject: {fileID: 1905972408}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.01, y: -0.31, z: 0}
+  m_LocalPosition: {x: 1.173, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3668,7 +3711,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 28
-  _borders: []
+  _borders:
+  - {fileID: 105403590}
+  - {fileID: 1931649726}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3722,7 +3767,7 @@ Transform:
   m_GameObject: {fileID: 1931649724}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.01, y: 0.1, z: 0}
+  m_LocalPosition: {x: 2.224, y: 0.258, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3741,7 +3786,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 26
-  _borders: []
+  _borders:
+  - {fileID: 106155042}
+  - {fileID: 1905972410}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3795,7 +3842,7 @@ Transform:
   m_GameObject: {fileID: 2019535269}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.177, y: -0.149, z: 0}
+  m_LocalPosition: {x: 1.092, y: -0.293, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3869,7 +3916,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2105281948}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.8, y: -2.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3881,7 +3928,7 @@ Transform:
   - {fileID: 1254500947}
   - {fileID: 1460025042}
   - {fileID: 1011220006}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1117821160}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -3891,10 +3938,4 @@ SceneRoots:
   - {fileID: 1174911668}
   - {fileID: 222843227}
   - {fileID: 435254440}
-  - {fileID: 1655735576}
-  - {fileID: 1371410508}
-  - {fileID: 977343565}
-  - {fileID: 461465316}
-  - {fileID: 1348779900}
-  - {fileID: 2105281949}
-  - {fileID: 1503904601}
+  - {fileID: 1117821160}
