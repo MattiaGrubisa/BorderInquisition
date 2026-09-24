@@ -39,6 +39,25 @@ namespace Gameplay
 
 #if UNITY_EDITOR
         public void SetId(int id) => _id = id;
+
+        // Refuses a duplicate in either direction, so an edge is only ever authored once.
+        public bool AddBorder(Country other)
+        {
+            if (other == null || other == this || _borders.Contains(other) || other._borders.Contains(this))
+                return false;
+
+            _borders.Add(other);
+            return true;
+        }
+
+        public bool RemoveBorder(Country other)
+        {
+            if (other == null)
+                return false;
+
+            var removed = _borders.Remove(other);
+            return other._borders.Remove(this) || removed;
+        }
 #endif
 
 
@@ -162,7 +181,23 @@ namespace Gameplay
         public int UniqueUnits() =>  _army.UniqueUnits();
         public double GetArmyPower => _army.ArmyPower;
         public bool IsArmyEmpty => _army.IsArmyEmpty();
-        
+        public Army Army => _army;
+
+        // Whether the move is legal at all is the GameController's call, not the country's.
+        public bool SendUnits(Country target, int knights, int horsemen, int archers)
+        {
+            if (!_army.Contains(knights, horsemen, archers))
+                return false;
+
+            _army.RemoveUnit(knights, horsemen, archers);
+            target._army.AddUnit(knights, horsemen, archers);
+            return true;
+        }
+
+        // The force that won a country occupies it; nothing is left behind.
+        public void SendWholeArmy(Country target) =>
+            SendUnits(target, _army.Knights, _army.Horsemen, _army.Archers);
+
         #endregion
         
         public void StartPhaseOne(ref GameResources currentResources)
