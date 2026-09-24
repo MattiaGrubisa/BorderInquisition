@@ -14,6 +14,7 @@ namespace Gameplay.Managers
         [SerializeField] private List<Country> _countries;
 
         private readonly List<Player> _players = new List<Player>();
+        private readonly MapGraph _map = new MapGraph();
         private int _currentPlayerIndex;
 
         public event Action<Player> MatchWon;
@@ -21,6 +22,29 @@ namespace Gameplay.Managers
         public IReadOnlyList<Country> Countries => _countries;
         public IReadOnlyList<Player> Players => _players;
         public Player CurrentPlayer => _players[_currentPlayerIndex];
+        public MapGraph Map => _map;
+
+        protected override void Awake()
+        {
+            base.Awake();
+            _map.Bake(_countries);
+        }
+
+        #region Attack legality
+
+        // An attack is legal between neighbours the current player owns one side of, and only while
+        // the attacking country still has an army to send.
+        public bool CanAttack(Country from, Country to) =>
+            from != null && to != null
+            && _players.Count > 0 && from.Owner == CurrentPlayer
+            && to.Owner != from.Owner
+            && !from.IsArmyEmpty
+            && _map.AreNeighbours(from, to);
+
+        public IEnumerable<Country> AttackTargets(Country from) =>
+            _map.Neighbours(from).Where(to => CanAttack(from, to));
+
+        #endregion
 
         private void HandleAttack(Player playerAttacker, Player playerDefender, Country from, Country to)
         {
@@ -115,5 +139,59 @@ namespace Gameplay.Managers
 
         // An empty test map eliminates nobody, so turns still rotate while the map is being built.
         private bool IsEliminated(Player player) => _countries.Count > 0 && !player.OwnedCountries.Any();
+
+#if UNITY_EDITOR
+
+        #region Map authoring
+
+        [ContextMenu("Assign Country Ids")]
+        private void AssignCountryIds()
+        {
+            var used = new HashSet<int>();
+            foreach (var country in _countries)
+                if (country != null && country.Id >= 0)
+                    used.Add(country.Id);
+
+            var next = 0;
+            var assigned = 0;
+            foreach (var country in _countries)
+            {
+                if (country == null || country.Id >= 0)
+                    continue;
+
+                while (!used.Add(next))
+                    next++;
+
+                country.SetId(next);
+                UnityEditor.EditorUtility.SetDirty(country);
+                assigned++;
+            }
+
+            UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(gameObject.scene);
+            Debug.Log($"Assigned {assigned} new country id(s); {_countries.Count} countries on the map.");
+        }
+
+        // Bakes the graph and reports what would break a match: unreachable groups, stray borders.
+        [ContextMenu("Validate Map")]
+        private void ValidateMap()
+        {
+            _map.Bake(_countries);
+
+            var groups = _map.ConnectedGroups();
+            var sizes = string.Join(", ", groups.Select(group => group.Count));
+            var borders = _countries.Where(c => c != null).Sum(c => _map.NeighbourIds(c.Id).Count) / 2;
+
+            if (groups.Count > 1)
+                Debug.LogWarning($"The map falls apart into {groups.Count} groups ({sizes}); " +
+                                 "no player can conquer every country until they are linked.", this);
+            else
+                Debug.Log($"The map is one connected group of {sizes} countries.", this);
+
+            Debug.Log($"{_countries.Count} countries, {borders} borders.", this);
+        }
+
+        #endregion
+
+#endif
     }
 }

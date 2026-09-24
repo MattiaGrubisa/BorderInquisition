@@ -8,6 +8,12 @@ namespace Gameplay
 {
     public class Country : MonoBehaviour
     {
+        // Stable id the gameplay and the future network layer address this country by.
+        [SerializeField] private int _id = -1;
+
+        // Author a border on one side only; MapGraph mirrors it.
+        [SerializeField] private List<Country> _borders = new List<Country>();
+
         [SerializeField] private int _nationDiceNumber;
         [SerializeField] private GameResources _baseResourceGain;
         [SerializeField] private Army _army;
@@ -27,7 +33,15 @@ namespace Gameplay
 
         public Player Owner => _owner;
         public void SetOwner(Player player) => _owner = player;
-        
+
+        public int Id => _id;
+        public IReadOnlyList<Country> Borders => _borders;
+
+#if UNITY_EDITOR
+        public void SetId(int id) => _id = id;
+#endif
+
+
         private void Awake()
         {
             if (!_isDiceNumberSet)

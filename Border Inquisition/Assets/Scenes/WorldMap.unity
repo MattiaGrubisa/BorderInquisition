@@ -119,6 +119,298 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &27846795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 27846796}
+  - component: {fileID: 27846797}
+  m_Layer: 0
+  m_Name: Vargheim
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &27846796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27846795}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.604, y: 0.78, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1655735576}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &27846797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27846795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 0
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &75372149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 75372150}
+  - component: {fileID: 75372151}
+  m_Layer: 0
+  m_Name: Kazamori
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &75372150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75372149}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.998, y: 0.787, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 977343565}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &75372151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75372149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 11
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &105403588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 105403589}
+  - component: {fileID: 105403590}
+  m_Layer: 0
+  m_Name: Nandobe
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &105403589
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105403588}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.55, y: 0.66, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1348779900}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &105403590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105403588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 25
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &106155040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 106155041}
+  - component: {fileID: 106155042}
+  m_Layer: 0
+  m_Name: Jalibari
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &106155041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106155040}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.95, y: 0.97, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1348779900}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &106155042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106155040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 27
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
 --- !u!1 &160077878
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,7 +477,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4281215273
   m_fontColor: {r: 0.16, g: 0.16, b: 0.18, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -198,7 +490,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -256,6 +548,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160077878}
   m_CullTransparentMesh: 1
+--- !u!1 &205432338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 205432339}
+  - component: {fileID: 205432340}
+  m_Layer: 0
+  m_Name: Castramar
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &205432339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205432338}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4, y: 0.18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 461465316}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &205432340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205432338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 17
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
 --- !u!1 &222843222
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,7 +713,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -374,6 +739,152 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &296007078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 296007079}
+  - component: {fileID: 296007080}
+  m_Layer: 0
+  m_Name: Shirakane
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &296007079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296007078}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.638, y: 0.273, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 977343565}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &296007080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296007078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 12
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &352846754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 352846755}
+  - component: {fileID: 352846756}
+  m_Layer: 0
+  m_Name: Takanohara
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &352846755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352846754}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.96, y: -0.27, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 977343565}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &352846756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352846754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 14
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
 --- !u!1 &361455001
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,6 +1169,955 @@ RectTransform:
   m_AnchoredPosition: {x: -180, y: 60}
   m_SizeDelta: {x: 280, y: 64}
   m_Pivot: {x: 1, y: 0}
+--- !u!1 &460457925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 460457926}
+  - component: {fileID: 460457927}
+  m_Layer: 0
+  m_Name: Zlatobor
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &460457926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460457925}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.581, y: -0.493, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1371410508}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &460457927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460457925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 8
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &461465315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 461465316}
+  m_Layer: 0
+  m_Name: Aureliana
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &461465316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461465315}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4, y: 0.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1248822432}
+  - {fileID: 205432339}
+  - {fileID: 1149394241}
+  - {fileID: 1420074826}
+  - {fileID: 1420969151}
+  - {fileID: 965623638}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &505480068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 505480069}
+  - component: {fileID: 505480070}
+  m_Layer: 0
+  m_Name: Eldvik
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &505480069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505480068}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.782, y: -0.199, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1655735576}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &505480070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505480068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 2
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &558919585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 558919586}
+  - component: {fileID: 558919587}
+  m_Layer: 0
+  m_Name: Ifewara
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &558919586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558919585}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.94, y: 1.49, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1348779900}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &558919587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558919585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 24
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &574267539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 574267540}
+  - component: {fileID: 574267541}
+  m_Layer: 0
+  m_Name: Zafirin
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &574267540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574267539}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.55, y: 1.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2105281949}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &574267541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574267539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 30
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &603268832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 603268833}
+  - component: {fileID: 603268834}
+  m_Layer: 0
+  m_Name: Ryuudani
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &603268833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603268832}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.53, y: -0.64, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 977343565}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &603268834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603268832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 13
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &685518109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 685518110}
+  - component: {fileID: 685518111}
+  m_Layer: 0
+  m_Name: Myrkdal
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &685518110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685518109}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.423, y: -1.054, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1655735576}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &685518111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685518109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 4
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &965623637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 965623638}
+  - component: {fileID: 965623639}
+  m_Layer: 0
+  m_Name: Lucanor
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &965623638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965623637}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.09, y: 1.64, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 461465316}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &965623639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965623637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 21
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &972719463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 972719464}
+  - component: {fileID: 972719465}
+  m_Layer: 0
+  m_Name: Sokotai
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &972719464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972719463}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2, y: 1.98, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1348779900}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &972719465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972719463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 23
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &977343564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 977343565}
+  m_Layer: 0
+  m_Name: Higanshu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &977343565
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977343564}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.6, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 75372150}
+  - {fileID: 296007079}
+  - {fileID: 603268833}
+  - {fileID: 352846755}
+  - {fileID: 1828664858}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &980381864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 980381865}
+  - component: {fileID: 980381866}
+  m_Layer: 0
+  m_Name: Radomir
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &980381865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980381864}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.024, y: -0.463, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1371410508}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &980381866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980381864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 7
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1011220005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1011220006}
+  - component: {fileID: 1011220007}
+  m_Layer: 0
+  m_Name: Rakhshan
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1011220006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011220005}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.354, y: -0.122, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2105281949}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1011220007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011220005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 35
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1149394240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1149394241}
+  - component: {fileID: 1149394242}
+  m_Layer: 0
+  m_Name: Veridium
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1149394241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149394240}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.05, y: 0.17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 461465316}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1149394242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149394240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 18
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1156359777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1156359778}
+  - component: {fileID: 1156359779}
+  m_Layer: 0
+  m_Name: Mihrabad
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1156359778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156359777}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.55, y: 1.33, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2105281949}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1156359779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156359777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 31
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
 --- !u!1 &1174911664
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,7 +2151,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Managers.GameController
   _combat: {fileID: 1174911666}
   _dice: {fileID: 1174911667}
-  _countries: []
+  _countries:
+  - {fileID: 27846797}
+  - {fileID: 1213562971}
+  - {fileID: 505480070}
+  - {fileID: 2019535271}
+  - {fileID: 685518111}
+  - {fileID: 1769466541}
+  - {fileID: 1442892387}
+  - {fileID: 980381866}
+  - {fileID: 460457927}
+  - {fileID: 1867213289}
+  - {fileID: 1542909628}
+  - {fileID: 75372151}
+  - {fileID: 296007080}
+  - {fileID: 603268834}
+  - {fileID: 352846756}
+  - {fileID: 1828664859}
+  - {fileID: 1248822433}
+  - {fileID: 205432340}
+  - {fileID: 1149394242}
+  - {fileID: 1420074827}
+  - {fileID: 1420969152}
+  - {fileID: 965623639}
+  - {fileID: 1605105576}
+  - {fileID: 972719465}
+  - {fileID: 558919587}
+  - {fileID: 105403590}
+  - {fileID: 1931649726}
+  - {fileID: 106155042}
+  - {fileID: 1905972410}
+  - {fileID: 1498778174}
+  - {fileID: 574267541}
+  - {fileID: 1156359779}
+  - {fileID: 1464585853}
+  - {fileID: 1254500948}
+  - {fileID: 1460025043}
+  - {fileID: 1011220007}
 --- !u!114 &1174911666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -733,6 +2229,991 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1213562969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1213562970}
+  - component: {fileID: 1213562971}
+  m_Layer: 0
+  m_Name: Skarnfjord
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1213562970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213562969}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.893, y: 0.529, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1655735576}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1213562971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213562969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 1
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1248822431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1248822432}
+  - component: {fileID: 1248822433}
+  m_Layer: 0
+  m_Name: Aurelia
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1248822432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248822431}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.14, y: 0.792, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 461465316}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1248822433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248822431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 16
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1254500946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1254500947}
+  - component: {fileID: 1254500948}
+  m_Layer: 0
+  m_Name: Neydara
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1254500947
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254500946}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.581, y: 0.559, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2105281949}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1254500948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254500946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 33
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1348779899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1348779900}
+  m_Layer: 0
+  m_Name: Kanembara
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1348779900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348779899}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.6, y: -2.8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1605105575}
+  - {fileID: 972719464}
+  - {fileID: 558919586}
+  - {fileID: 105403589}
+  - {fileID: 1931649725}
+  - {fileID: 106155041}
+  - {fileID: 1905972409}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1371410507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1371410508}
+  m_Layer: 0
+  m_Name: Zlatokraj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1371410508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371410507}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.4, y: 3.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1442892386}
+  - {fileID: 980381865}
+  - {fileID: 460457926}
+  - {fileID: 1867213288}
+  - {fileID: 1542909627}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1420074825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1420074826}
+  - component: {fileID: 1420074827}
+  m_Layer: 0
+  m_Name: Solventia
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1420074826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420074825}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.01, y: -0.38, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 461465316}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1420074827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420074825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 19
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1420969150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1420969151}
+  - component: {fileID: 1420969152}
+  m_Layer: 0
+  m_Name: Tarquinia
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1420969151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420969150}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.68, y: -0.69, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 461465316}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1420969152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420969150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 20
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1442892385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1442892386}
+  - component: {fileID: 1442892387}
+  m_Layer: 0
+  m_Name: Volenska
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1442892386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442892385}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.839, y: -0.703, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1371410508}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1442892387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442892385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 6
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1460025041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1460025042}
+  - component: {fileID: 1460025043}
+  m_Layer: 0
+  m_Name: Shirvanah
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1460025042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460025041}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.101, y: 0.888, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2105281949}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1460025043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460025041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 34
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1464585851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1464585852}
+  - component: {fileID: 1464585853}
+  m_Layer: 0
+  m_Name: Qastalin
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1464585852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464585851}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.535, y: 0.157, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2105281949}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1464585853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464585851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 32
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1498778172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1498778173}
+  - component: {fileID: 1498778174}
+  m_Layer: 0
+  m_Name: Asharaq
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1498778173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498778172}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.63, y: 1.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2105281949}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1498778174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498778172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 29
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1503904599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1503904601}
+  - component: {fileID: 1503904600}
+  - component: {fileID: 1503904602}
+  m_Layer: 0
+  m_Name: WorldMap_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1503904600
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503904599}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -1570705033054185393, guid: 7d2d5516f7f142543b426e4524f1b948, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 13.3052635, y: 8.873684}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!4 &1503904601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503904599}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1503904602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503904599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c439e37f159a2f241816b00954f5096d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::View.MapCamera
+  _map: {fileID: 0}
+  _minSize: 1.5
+  _zoomStep: 0.12
+  _keyboardPanSpeed: 1.5
+--- !u!1 &1542909626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1542909627}
+  - component: {fileID: 1542909628}
+  m_Layer: 0
+  m_Name: Tarnovka
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1542909627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542909626}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.272, y: -1.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1371410508}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1542909628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542909626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 10
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1605105574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1605105575}
+  - component: {fileID: 1605105576}
+  m_Layer: 0
+  m_Name: Kanemba
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1605105575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605105574}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.18, y: 1.37, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1348779900}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1605105576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605105574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 22
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
 --- !u!1 &1639934912
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,7 +3261,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4281215273
   m_fontColor: {r: 0.16, g: 0.16, b: 0.18, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -793,7 +3274,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -870,6 +3351,519 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -60}
   m_SizeDelta: {x: 700, y: 60}
   m_Pivot: {x: 0.5, y: 1}
+--- !u!1 &1655735575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1655735576}
+  m_Layer: 0
+  m_Name: Vargmark
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1655735576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655735575}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6, y: 2.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 27846796}
+  - {fileID: 1213562970}
+  - {fileID: 505480069}
+  - {fileID: 2019535270}
+  - {fileID: 685518110}
+  - {fileID: 1769466540}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1769466539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1769466540}
+  - component: {fileID: 1769466541}
+  m_Layer: 0
+  m_Name: Stravenn
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1769466540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769466539}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.714, y: -1.287, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1655735576}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1769466541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769466539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 5
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1828664857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1828664858}
+  - component: {fileID: 1828664859}
+  m_Layer: 0
+  m_Name: Yomigase
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1828664858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828664857}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.87, y: -1.33, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 977343565}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1828664859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828664857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 15
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1867213287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1867213288}
+  - component: {fileID: 1867213289}
+  m_Layer: 0
+  m_Name: Vyshgorod
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1867213288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867213287}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.71, y: -1.287, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1371410508}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1867213289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867213287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 9
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1905972408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1905972409}
+  - component: {fileID: 1905972410}
+  m_Layer: 0
+  m_Name: Zumara
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1905972409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905972408}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.01, y: -0.31, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1348779900}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1905972410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905972408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 28
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &1931649724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1931649725}
+  - component: {fileID: 1931649726}
+  m_Layer: 0
+  m_Name: Tembakuru
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1931649725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931649724}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.01, y: 0.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1348779900}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1931649726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931649724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 26
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &2019535269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2019535270}
+  - component: {fileID: 2019535271}
+  m_Layer: 0
+  m_Name: Norrhald
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2019535270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019535269}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.177, y: -0.149, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1655735576}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2019535271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019535269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94db5a5838e7334499918dca90f12896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
+  _id: 3
+  _borders: []
+  _nationDiceNumber: 0
+  _baseResourceGain:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _army:
+    _knight: 0
+    _horseman: 0
+    _archer: 0
+  _trainingQueue: 
+  _knightCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _horsemanCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _archerCost:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
+  _isDiceNumberSet: 0
+--- !u!1 &2105281948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2105281949}
+  m_Layer: 0
+  m_Name: Ashqaran
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2105281949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105281948}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.8, y: -2.8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1498778173}
+  - {fileID: 574267540}
+  - {fileID: 1156359778}
+  - {fileID: 1464585852}
+  - {fileID: 1254500947}
+  - {fileID: 1460025042}
+  - {fileID: 1011220006}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -878,3 +3872,10 @@ SceneRoots:
   - {fileID: 1174911668}
   - {fileID: 222843227}
   - {fileID: 435254440}
+  - {fileID: 1655735576}
+  - {fileID: 1371410508}
+  - {fileID: 977343565}
+  - {fileID: 461465316}
+  - {fileID: 1348779900}
+  - {fileID: 2105281949}
+  - {fileID: 1503904601}
