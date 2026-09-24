@@ -9,9 +9,31 @@ built), `GameOver`. All must be in Build Profiles with `Bootstrap` first.
 
 ## Build / run
 
-No CLI build. Open `Border Inquisition/` in Unity 6000.3.18f1, open `Bootstrap.unity` and press Play
-(starting from any other scene has no `GameStateMachine`); compilation errors show up in the Unity
-console. There are no tests and no test framework set up.
+No CLI build. Open `Border Inquisition/` in Unity 6000.3.18f1 and press Play from whichever scene is
+open — `Editor/PlayFromBootstrap` redirects play mode to `Bootstrap`, because nothing runs without
+the `GameStateMachine` that only `Bootstrap` holds. Toggle it under
+`Border Inquisition > Always Play From Bootstrap`. Compilation errors show up in the Unity console.
+There are no tests and no test framework set up.
+
+Code can be type-checked without opening Unity: an SDK-style csproj outside the project, targeting
+`netstandard2.1` with `UNITY_EDITOR` defined, compiling `Assets/Scripts/**/*.cs` against
+`<unity>/Editor/Data/Managed/UnityEngine/*.dll` plus these from `Library/ScriptAssemblies`:
+`UnityEngine.UI`, `Unity.TextMeshPro`, `Unity.InputSystem`, `Unity.RenderPipelines.Universal.Runtime`,
+`Unity.RenderPipelines.Core.Runtime`. This catches compile errors only — nothing about scenes.
+
+## Editor tools (`Assets/Scripts/Editor`, menu `Border Inquisition`)
+
+- **Create Flow Scenes** — scaffolds `Bootstrap`, `MainMenu`, `Lobby` and `GameOver`, adds the
+  `WorldMap` manager object and HUD, wires every view through `SerializedObject` and writes the build
+  scene list. A scene that already exists is skipped, so re-running never overwrites hand-made work.
+- **Create Countries** — spawns the 36 named territories under six continent parents, assigns ids and
+  fills `GameController._countries`. Refuses to run if the scene already holds countries.
+- **Link / Unlink Selected Countries** (`Ctrl+Shift+L` / `Ctrl+Shift+U`) — borders the active
+  (last-clicked) country to the rest of the hierarchy selection, refusing duplicates in either
+  direction. Borders and countries are also drawn as scene gizmos.
+- **Always Play From Bootstrap** — toggles the play-mode redirect.
+- Right-click the `GameController` component for **Assign Country Ids**, **Validate Map** and
+  **Debug: Attack A Random Target** (play mode only).
 
 ## Architecture
 
@@ -53,8 +75,22 @@ no `DontDestroyOnLoad`): `GameStateMachine` survives because `Bootstrap` is neve
 `GameController` lives in `WorldMap` and is recreated with it.
 
 **Managers** (`Gameplay.Managers`): `GameController` holds the countries, the per-match player list,
-turn order (`DetermineStartingPlayer`, `NextPlayer` — skips eliminated players), income and attack
-resolution.
+turn order (`DetermineStartingPlayer`, `NextPlayer` — skips eliminated players), income, the map
+graph and attack resolution (`CanAttack`, `AttackTargets`, `TryAttack`, `CanMoveArmy`,
+`TryMoveArmy`).
+
+**The map is a graph.** `Country` carries a stable `_id` and a `_borders` list authored one way only;
+`MapGraph` — a plain C# class owned by `GameController` and baked in `Awake` — mirrors every edge
+into symmetric id-based adjacency, so gameplay and the future network layer pass ids instead of
+object references. It warns about missing or duplicate ids and borders pointing off the map, and
+`ConnectedGroups()` reports whether the map is one reachable whole: six continents joined by sea
+links, and a match cannot be won while any group is cut off. Gameplay asks the graph, never the
+transforms.
+
+**`View`** holds presentation that is not UI. `MapCamera` sits on the map sprite in `WorldMap`, finds
+the Bootstrap camera through `Camera.main` (cross-scene references are impossible), and does
+drag-pan, wheel-zoom towards the cursor and clamping so the view never leaves the map bounds. It
+computes and sets the camera size itself on enable, from the sprite bounds and the current aspect.
 
 **Players** are plain C# objects (`Gameplay.Player`), created per match from `MatchSettings`
 (lobby output, 4–6 players, named by seat for now). Presentation data (colour etc.) belongs to the
@@ -81,7 +117,12 @@ positions, sprites and UI are a separate layer on top. Do not put rendering deci
   deviation from Risk:** surplus dice on the attacking side count as automatic wins. `CombatResult`
   returns the dice unsorted (for display) plus a `AttackerWins[]` array.
 - Losses are applied by `Army.RemoveRandomUnit`, weighted by how numerous each type is.
-  A country with no army left is conquered (`GameController.HandleAttack`).
+  A country with no army left is conquered (`GameController.TryAttack`).
+- An attack is legal between neighbours whose owners differ, from a country the current player owns
+  that still has an army. Attacks are unlimited per turn; the phase only ends on End Phase.
+- On conquest the whole surviving attacking army occupies the conquered country and the attacking
+  country is left empty — the force that won the ground holds it. Everything else is moved by hand
+  with `TryMoveArmy`, between neighbouring countries the player already owns.
 - One building per turn per country, each building unique per country; the building and training
   queues are processed in phase one and silently skipped when unaffordable.
 
@@ -91,53 +132,53 @@ positions, sprites and UI are a separate layer on top. Do not put rendering deci
 - Expression-bodied members for one-line accessors and forwarders; `#region` blocks to group
   Buildings/Units/Queries inside a large class.
 - Namespaces mirror folders: `Gameplay`, `Gameplay.Managers`, `Gameplay.Helpers`, `GameStates`,
-  `UI`, `Diplomacy`. No assembly definitions for game code (only the Better Hierarchy plugin has one).
+  `UI`, `View`, `Diplomacy`, `Editor`. No assembly definitions for game code (only the Better
+  Hierarchy plugin has one); `Assets/Scripts/Editor` is editor-only by folder name as well as by
+  `#if UNITY_EDITOR`.
 - Editor-only helpers go behind `#if UNITY_EDITOR`.
 - Keep code and comments in English; discussion with the user may be in Croatian.
 - Do not edit `.meta` files or anything under `Library/`, `Temp/`, `obj/`, or `Assets/Plugins/`.
 
-## Handoff — resume here (2026-09-22)
+## Handoff — resume here (2026-09-24)
 
-Game-flow code (scene-owning states, phases, lobby, UI views) is written and compiles outside Unity
-(`dotnet build` against the Unity DLLs), but has **never been run in Unity** — the scenes below do
-not exist yet. Next session: walk the user through this setup, then test the flow in Play mode.
+All five scenes exist (generated by **Create Flow Scenes**), the map art is in
+(`Assets/Art/WorldMap.jpg`, 1264×843, 3:2 — use 100 pixels per unit) and the 36 countries are
+generated. Nothing has been **play-tested** yet.
 
-1. Create scenes in `Assets/Scenes/` with exactly these names: `Bootstrap`, `MainMenu`, `Lobby`,
-   `GameOver` (`WorldMap` exists).
-2. Build Profiles: add all five scenes, `Bootstrap` first.
-3. `Bootstrap`: empty GameObject with `GameStateMachine`. Keep the only camera here; remove cameras
-   from the other scenes.
-4. `MainMenu`: Canvas with Play/Quit buttons + `MainMenuView`, wire the buttons.
-5. `Lobby`: Canvas with −, +, Start, Back buttons, a TMP text + `LobbyView`.
-6. `WorldMap`: GameObject with `GameController`, `Dice`, `Combat` (wire references; `Combat` needs
-   its `Dice` too). Canvas with End Phase button, TMP text + `InGameHud`. Countries may stay empty —
-   turns still rotate.
-7. `GameOver`: Canvas with TMP text, Rematch and Main Menu buttons + `GameOverView`.
-8. Every UI scene needs an EventSystem (Unity adds one with the Canvas).
-9. Press Play from `Bootstrap`.
+The user is placing the countries over the map and authoring their borders by hand with
+**Link Selected Countries**. Everything downstream waits on that: until `Validate Map` reports one
+connected group of 36, the graph is empty, no attack is legal and the win condition cannot trigger.
+Do not assume the map is wired — ask.
 
-Testable now: menu → lobby → match (End Phase cycles phases/players) and Back/Quit. GameOver is not
-reachable by play yet (attacks are not wired to phase two).
+Once it is wired:
+1. Play from `Bootstrap`: menu → lobby → match, End Phase cycles phases and players.
+2. In play mode, right-click `GameController` → **Debug: Attack A Random Target** repeatedly until
+   one player owns everything. That is the first path to `GameOver`.
+3. Selecting countries with the mouse needs colliders (a `PolygonCollider2D` per region, drawn when
+   the user does the art). A picker in `View` driving `CanAttack` / `AttackTargets` is the step after
+   that, and it is what finally gates attacks to the attack phase.
 
-Open questions for the user:
-- Add an editor script that sets `EditorSceneManager.playModeStartScene` to `Bootstrap`, so Play
-  works from any open scene? (Offered, not answered.)
-- Country distribution is shuffle + round-robin deal (equal share); confirm that is what "the dice
-  decides" meant, versus a literal per-country roll.
+Open question never answered: country distribution is shuffle + round-robin deal (equal share ±1);
+confirm that is what "the dice decides" meant, versus a literal per-country roll.
 
 ## Known open threads
 
-- Scenes `Bootstrap`, `MainMenu`, `Lobby`, `GameOver` are created by hand in the editor; `WorldMap`
-  needs a `GameController` (with `Dice`, `Combat`, countries) and a canvas with `InGameHud`.
-- `SecondPhase` / `ThirdPhase` have no gameplay yet; `HandleAttack` is not reachable from anything,
-  so the win condition cannot trigger in play yet.
-- Phase one does not wait on animations yet (dice/income animations are TODO).
+- Borders are not authored yet, so `MapGraph` currently bakes an empty graph.
+- `SecondPhase` / `ThirdPhase` run no logic of their own — both only wait for End Phase. Unlimited
+  attacks per turn is deliberate, so the attack phase needs no bookkeeping, but nothing yet stops an
+  attack during the wrong phase: `GameController` is deliberately phase-blind and gating belongs to
+  the view layer.
+- Nothing in play mode can trigger an attack except the debug context menu.
 - Countries start with whatever army is set in the inspector; an empty army is instantly conquerable.
+- Occupying a conquered country empties the attacking one, so a counter-attack can walk straight
+  back in. `TryMoveArmy` is the intended answer and has no UI.
 - Costs are spent immediately per queue entry; accumulating the full cost before spending is planned.
+- Phase one does not wait on animations yet (dice/income animations are TODO).
+- `MapCamera` zooms even while the cursor is over the HUD; it needs an
+  `EventSystem.IsPointerOverGameObject` check once the UI grows.
 - `Market`, `Alliance`, `DiplomacySystem`, `FogOfWar` are empty placeholder classes.
 
-**Planned, not implemented:** the map as a graph — countries as nodes, borders as undirected edges
-authored one way per `Country` and baked by a `MapGraph` into symmetric id-based adjacency, so
-gameplay and the future network layer pass a stable `Country.Id` instead of object references. Fog
-of war = depth-1 traversal from owned countries. The map is fixed and hand-authored (~30
-territories), not procedural.
+**Planned, not implemented:** fog of war as depth-1 traversal from owned countries — the graph is in
+place, `FogOfWar` is still empty. The map is fixed and hand-authored: 36 territories across six
+continents (Vargmark, Zlatokraj, Higanshu, Aureliana, Kanembara, Ashqaran — each named from a
+different real-world tradition, listed in `Editor/MapSetup.cs`), not procedural.

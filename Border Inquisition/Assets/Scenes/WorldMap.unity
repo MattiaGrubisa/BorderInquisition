@@ -164,7 +164,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 0
-  _borders: []
+  _borders:
+  - {fileID: 1213562971}
+  - {fileID: 2019535271}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1324,7 +1326,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 2
-  _borders: []
+  _borders:
+  - {fileID: 1213562971}
+  - {fileID: 1769466541}
+  - {fileID: 2019535271}
+  - {fileID: 685518111}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -1616,7 +1622,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 4
-  _borders: []
+  _borders:
+  - {fileID: 1769466541}
+  - {fileID: 505480070}
+  - {fileID: 2019535271}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -2274,7 +2283,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 1
-  _borders: []
+  _borders:
+  - {fileID: 27846797}
+  - {fileID: 505480070}
+  - {fileID: 1442892387}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3433,7 +3445,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 5
-  _borders: []
+  _borders:
+  - {fileID: 1248822433}
+  - {fileID: 972719465}
+  - {fileID: 505480070}
+  - {fileID: 685518111}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
@@ -3798,7 +3814,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Country
   _id: 3
-  _borders: []
+  _borders:
+  - {fileID: 27846797}
+  - {fileID: 505480070}
+  - {fileID: 685518111}
   _nationDiceNumber: 0
   _baseResourceGain:
     _food: 0
