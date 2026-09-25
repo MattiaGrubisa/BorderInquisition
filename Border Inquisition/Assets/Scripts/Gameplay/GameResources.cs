@@ -22,6 +22,7 @@ namespace Gameplay
         public int Wood => _wood;
         public int Gold => _gold;
         public int Stone => _stone;
+        public bool IsEmpty => _food == 0 && _wood == 0 && _gold == 0 && _stone == 0;
 
         public int Get(ResourceType type)
         {

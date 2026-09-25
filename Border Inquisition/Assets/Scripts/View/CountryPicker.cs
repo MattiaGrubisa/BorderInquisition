@@ -60,7 +60,7 @@ namespace View
             if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
                 return;
 
-            var clicked = CountryUnder(mouse.position.ReadValue());
+            var clicked = MapView.CountryAt(mouse.position.ReadValue());
             switch (GameStateMachine.Instance.CurrentPhase)
             {
                 case TurnPhase.Attack:
@@ -212,16 +212,6 @@ namespace View
 
             foreach (var other in others.ToList())
                 _view.SetHighlight(other, kind);
-        }
-
-        private static Country CountryUnder(Vector2 screen)
-        {
-            var camera = Camera.main;
-            if (camera == null)
-                return null;
-
-            var hit = Physics2D.OverlapPoint(camera.ScreenToWorldPoint(screen));
-            return hit != null ? hit.GetComponentInParent<Country>() : null;
         }
     }
 }

@@ -65,20 +65,17 @@ namespace Gameplay
 
         #region Buildings
         
-        private GameResources ProcessBuildingQueue(GameResources resources)
+        // An unaffordable head of the queue simply waits; the owner sees it in the turn report.
+        private GameResources ProcessBuildingQueue(GameResources resources, TurnReport report)
         {
-            if (!_buildingQueue.Any())
+            if (!_buildingQueue.Any() || !(resources >= _buildingQueue[0].BuildingCost))
                 return resources;
-            
-            if (resources >= _buildingQueue[0].BuildingCost)
-            {
-                _builtBuildings.Add(_buildingQueue[0]);
-                resources-= _buildingQueue[0].BuildingCost;
-                _buildingQueue.RemoveAt(0);
-            }
-            else
-                Debug.LogWarning($"Can't create building {_buildingQueue[0].name}");
 
+            var building = _buildingQueue[0];
+            _builtBuildings.Add(building);
+            resources -= building.BuildingCost;
+            _buildingQueue.RemoveAt(0);
+            report.AddBuilt(this, building);
             return resources;
         }
 
@@ -124,7 +121,7 @@ namespace Gameplay
             }
         }
 
-        private GameResources StartTraining(GameResources resources)
+        private GameResources StartTraining(GameResources resources, TurnReport report)
         {
             for (int i = 0; i < _trainingQueue.Count; )
             {
@@ -134,6 +131,7 @@ namespace Gameplay
                     CreateSoldier(soldier);
                     resources -= GetSoldierCost(soldier);
                     _trainingQueue.RemoveAt(i);
+                    report.AddTrained(this, soldier);
                 }
                 else
                 {
@@ -149,6 +147,7 @@ namespace Gameplay
         public void AddSoldierToQueue(SoldierType soldier) => _trainingQueue.Add(soldier);
         public void RemoveSoldierFromQueue(SoldierType soldier) => _trainingQueue.Remove(soldier);
         public int QueuedSoldiers(SoldierType soldier) => _trainingQueue.Count(queued => queued == soldier);
+        public IReadOnlyList<SoldierType> TrainingQueue => _trainingQueue;
         
         public void RemoveRandomUnit() => _army.RemoveRandomUnit();
         public int UniqueUnits() =>  _army.UniqueUnits();
@@ -173,21 +172,14 @@ namespace Gameplay
 
         #endregion
         
-        public void StartPhaseOne(ref GameResources currentResources)
+        public void StartPhaseOne(ref GameResources currentResources, TurnReport report)
         {
-            currentResources = ProcessBuildingQueue(currentResources);
-            currentResources = StartTraining(currentResources);
+            currentResources = ProcessBuildingQueue(currentResources, report);
+            currentResources = StartTraining(currentResources, report);
         }
 
-        public void GainResources(ref GameResources playerResources, int dice)
-        {
-            if (_nationDiceNumber != dice) 
-                return;
-            
-            var resourceGained = _baseResourceGain;
-            foreach (var building in _builtBuildings)
-                resourceGained += building.ProductionBoost;
-            playerResources += resourceGained;
-        }
+        // What the country pays its owner whenever the income die shows its number.
+        public GameResources Income =>
+            _builtBuildings.Aggregate(_baseResourceGain, (income, building) => income + building.ProductionBoost);
     }
 }

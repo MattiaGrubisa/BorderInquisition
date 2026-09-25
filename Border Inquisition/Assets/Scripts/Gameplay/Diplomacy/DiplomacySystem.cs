@@ -170,6 +170,15 @@ namespace Diplomacy
         // Offers the player did not answer during their turn lapse.
         public void OnTurnEnded(Player player) => _offers.RemoveAll(o => o.To == player);
 
+        // An eliminated player never has another turn, so their treaties and offers go with them -
+        // otherwise a pact they proposed would never count down and a treaty they broke would keep
+        // them marked traitor for good.
+        public void OnEliminated(Player player)
+        {
+            _treaties.RemoveAll(t => t.Involves(player));
+            _offers.RemoveAll(o => o.From == player || o.To == player);
+        }
+
         #endregion
     }
 }

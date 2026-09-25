@@ -14,6 +14,12 @@ namespace GameStates
         Move
     }
 
+    public enum InGameResult
+    {
+        GameOver,
+        Left
+    }
+
     public class InGameState : SceneState
     {
         private readonly FirstPhase _firstPhase = new FirstPhase();
@@ -27,12 +33,14 @@ namespace GameStates
         public MatchSettings Settings { get; set; }
         public Player Winner { get; private set; }
         public TurnPhase CurrentPhase { get; private set; }
+        public InGameResult Result { get; private set; }
 
         protected override string SceneName => "WorldMap";
 
         protected override void OnSceneLoaded()
         {
             Winner = null;
+            Result = InGameResult.GameOver;
             GameController.Instance.MatchWon += OnMatchWon;
             GameController.Instance.StartNewMatch(Settings);
 
@@ -56,6 +64,16 @@ namespace GameStates
         {
             if (IsSceneLoaded)
                 (_phaseMachine.CurrentState as Phase)?.End();
+        }
+
+        // Abandons the match from the pause menu; nothing is kept.
+        public void Leave()
+        {
+            if (!IsSceneLoaded)
+                return;
+
+            Result = InGameResult.Left;
+            StateMachine.OnCompleted(this);
         }
 
         private void NextPhase(IState phase)
@@ -87,6 +105,7 @@ namespace GameStates
         private void OnMatchWon(Player winner)
         {
             Winner = winner;
+            Result = InGameResult.GameOver;
             StateMachine.OnCompleted(this);
         }
 

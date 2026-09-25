@@ -49,6 +49,9 @@ namespace GameStates
                     _inGameState.Settings = _lobbyState.Settings;
                     _gameStateMachine.ChangeState(_inGameState);
                     break;
+                case InGameState when _inGameState.Result == InGameResult.Left:
+                    _gameStateMachine.ChangeState(_mainMenuState);
+                    break;
                 case InGameState:
                     _gameOverState.Winner = _inGameState.Winner;
                     _gameStateMachine.ChangeState(_gameOverState);
@@ -79,6 +82,7 @@ namespace GameStates
         public void StartMatch(int playerCount) => _lobbyState.StartMatch(new MatchSettings(playerCount));
         public void LeaveLobby() => _lobbyState.Back();
         public void EndPhase() => _inGameState.EndPhase();
+        public void LeaveMatch() => _inGameState.Leave();
         public void Rematch() => _gameOverState.Finish(GameOverResult.Rematch);
         public void ReturnToMainMenu() => _gameOverState.Finish(GameOverResult.MainMenu);
 

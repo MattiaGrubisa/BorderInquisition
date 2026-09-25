@@ -87,20 +87,32 @@ namespace Gameplay.Managers
                 return false;
 
             var attacker = from.Owner;
+            var defender = to.Owner;
             result = _combat.AttemptAttack(from, to);
+            var defenderLosses = 0;
             foreach (var attackerWin in result.AttackerWins)
             {
                 if (attackerWin)
+                {
                     to.RemoveRandomUnit();
+                    defenderLosses++;
+                }
                 else
                     from.RemoveRandomUnit();
             }
 
-            if (!to.IsArmyEmpty)
+            var conquered = to.IsArmyEmpty;
+            defender?.Report.AddDefence(attacker, to, defenderLosses,
+                result.AttackerWins.Length - defenderLosses, conquered);
+
+            if (!conquered)
                 return true;
 
             to.SetOwner(attacker);
             from.SendWholeArmy(to);
+
+            if (defender != null && IsEliminated(defender))
+                _diplomacy.OnEliminated(defender);
 
             if (_countries.All(c => c.Owner == attacker))
             {
@@ -241,10 +253,12 @@ namespace Gameplay.Managers
             }
         }
 
-        // Skips players who lost all their countries; bounded so it can never spin forever.
+        // Skips players who lost all their countries; bounded so it can never spin forever. The ending
+        // player has seen their report, so it starts over for what happens until their next turn.
         public void NextPlayer()
         {
             _diplomacy.OnTurnEnded(CurrentPlayer);
+            CurrentPlayer.Report.Clear();
             for (int i = 0; i < _players.Count; i++)
             {
                 _currentPlayerIndex = (_currentPlayerIndex + 1) % _players.Count;

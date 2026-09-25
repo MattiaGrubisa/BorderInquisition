@@ -16,10 +16,22 @@ namespace Gameplay
         public GameResources Resources => _playerResources;
         public IEnumerable<Country> OwnedCountries => GameController.Instance.Countries.Where(c => c.Owner == this);
 
+        // Everything since this player's last turn ended; cleared by GameController.NextPlayer.
+        public TurnReport Report { get; } = new TurnReport();
+
+        // Every roll lands in the report, paying or not, so the player sees each number that came up.
         public void GainResources(int dice)
         {
+            Report.AddRoll(dice);
             foreach (var country in OwnedCountries)
-                country.GainResources(ref _playerResources, dice);
+            {
+                if (country.DiceNumber != dice)
+                    continue;
+
+                var income = country.Income;
+                _playerResources += income;
+                Report.AddPayout(country, income);
+            }
         }
 
         // Trades go straight to the pool; income and queues go through the countries.
@@ -37,7 +49,7 @@ namespace Gameplay
         public void PhaseOne()
         {
             foreach (var country in OwnedCountries)
-                country.StartPhaseOne(ref _playerResources);
+                country.StartPhaseOne(ref _playerResources, Report);
         }
     }
 }

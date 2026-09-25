@@ -3,16 +3,9 @@ using Random = UnityEngine.Random;
 
 namespace Gameplay
 {
+    // Rolls only; showing a roll is the UI's job (UI.DieRoll).
     public class Dice : MonoBehaviour
     {
-        public int RollDice(int minNumber)
-        { 
-            var diceRoll = Random.Range(Mathf.Clamp(minNumber,1, 8) , 10);
-            DiceRollAnimation(diceRoll);
-            return diceRoll;
-        }
-
-        // TODO
-        private void DiceRollAnimation(int diceNumber) {}
+        public int RollDice(int minNumber) => Random.Range(Mathf.Clamp(minNumber, 1, 8), 10);
     }
 }

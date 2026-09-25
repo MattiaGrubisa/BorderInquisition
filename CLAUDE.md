@@ -57,11 +57,11 @@ finished state to the next one — transitions live in the parent, never in the 
 - `Stop()` exits the current state; a parent with a nested machine calls it from its own exit.
 - `StateChanged` fires after a new state has entered (used to publish the current phase).
 - A state with more than one exit exposes a `Result` enum that the parent reads in its
-  `Completed` handler (`MainMenuState`, `LobbyState`, `GameOverState`).
+  `Completed` handler (`MainMenuState`, `LobbyState`, `InGameState`, `GameOverState`).
 
 **Outer flow** (`GameStateMachine`, Singleton in the `Bootstrap` scene):
-MainMenu → Lobby (or Quit); Lobby → InGame (or back to MainMenu); InGame → GameOver;
-GameOver → MainMenu (or rematch → Lobby).
+MainMenu → Lobby (or Quit); Lobby → InGame (or back to MainMenu); InGame → GameOver (or
+MainMenu when the match is left from the pause menu); GameOver → MainMenu (or rematch → Lobby).
 
 **Scenes are owned by states.** Outer states derive from `SceneState`, which additively loads the
 state's scene on enter, makes it the active scene, and unloads it on exit. Subclasses override
@@ -82,7 +82,7 @@ Phases 2-4 wait for End Phase; the 4 → 1 transition calls `GameController.Next
 
 **UI talks to the flow only through `GameStateMachine`.** Views in `UI` (`MainMenuView`,
 `LobbyView`, `InGameHud`, `GameOverView`) call its command forwarders (`Play`, `Quit`,
-`StartMatch`, `LeaveLobby`, `EndPhase`, `Rematch`, `ReturnToMainMenu`) and read `PhaseChanged` /
+`StartMatch`, `LeaveLobby`, `EndPhase`, `LeaveMatch`, `Rematch`, `ReturnToMainMenu`) and read `PhaseChanged` /
 `CurrentPhase` / `Winner`; they never touch the state classes. `InGameHud` builds the in-game
 panels in code at `Awake` (`UiFactory`, layout groups — no scene wiring): the income die box (top
 right), `CombatPanel` (top centre: the last attack's dice sorted and paired, tinted in seat colours; they
@@ -93,8 +93,17 @@ callback) and `CountryPanel` (build phase: queue/unqueue buildings from `GameRul
 and soldiers, costs from the region). `View.CountryPicker` opens them through the HUD. A bottom-left
 action bar (hidden in the income phase) opens `DiplomacyPanel` (any phase of the turn; opens by
 itself at the start of a turn with offers waiting) and `TradePanel` (its button only exists in the
-build phase); both sit on the left edge, one at a time, and close on phase change. The turn label
-gains a "Traitors:" line while anyone is marked.
+build phase); both sit on the left edge, one at a time, and close on phase change. The bar's Menu
+button and Esc open `PauseMenu` (resume, or leave the match — asked twice). The turn label
+gains a "Traitors:" line while anyone is marked. `CountryTooltip` follows the cursor over the map
+and describes the country as the current player sees it (fog-aware; queues on own countries only).
+
+**Turn start.** When Income is followed by Attack, the HUD runs `InGameHud.BeginTurn` (there is no
+handover screen between turns - removed by the user's decision): the income die tumbles, `TurnReportPanel` opens (`Player.Report`: every roll
+since the player's last turn and what it paid, queue deliveries, what is still queued, attacks on
+their countries), diplomacy opens if offers wait, and `TurnBegan` fires — `MapView` spawns
+`IncomePopup`s over the countries this turn's roll paid. `PauseMenu` is a `UiFactory.Overlay`: a
+nested canvas with its own sorting order, above every panel.
 
 **Singletons** derive from `Gameplay.Helpers.Singleton<T>`; they override `protected virtual void
 Awake()` and must call `base.Awake()` first. They are scene-enforced (duplicates destroy themselves,
@@ -153,8 +162,11 @@ positions, sprites and UI are a separate layer on top. Do not put rendering deci
 - `GameResources` is a struct (food/wood/gold/stone) with `+`, `-`, `>=`, `<=` operators. It is passed
   `ref` into countries, which spend from and add to the owning player's pool.
 - Income is the Catan model: at the start of each player's turn one d9 is rolled, and every country
-  whose `_nationDiceNumber` matches pays out `_baseResourceGain` plus its built buildings'
-  `ProductionBoost`, for all players at once.
+  whose `_nationDiceNumber` matches pays out `Country.Income` (`_baseResourceGain` plus its built
+  buildings' `ProductionBoost`), for all players at once.
+- `Player.Report` (`TurnReport`) collects what happens to a player between turns — rolls and payouts,
+  queue deliveries (`Country.StartPhaseOne`), attacks on them (`TryAttack`) — and is cleared in
+  `NextPlayer` when their turn ends. Gameplay fills it; only the HUD reads it.
 - `Dice.RollDice(minNumber)` rolls 1-9 with the floor raised by a bonus. Combat passes an army-power
   bonus derived from `log(ArmyPower)` — a diverse, larger army rolls from a higher floor.
 - Combat (`Combat.AttemptAttack`) is Risk-style: each side rolls one die per *unique unit type*
@@ -194,6 +206,8 @@ positions, sprites and UI are a separate layer on top. Do not put rendering deci
     mark is gone. Nothing else happens to a traitor.
   - The win condition is unchanged: one player must own every country, so allies cannot win
     together. If only allies are left, one of them has to break the alliance.
+  - An eliminated player's treaties and offers are dropped on the conquest that eliminates them
+    (`DiplomacySystem.OnEliminated`), traitor mark included.
 - There is no unit cap per country, by decision.
 
 ## Conventions
@@ -252,9 +266,9 @@ polished — do not start it earlier.
 - A move (including the post-conquest one) must leave `GameRules.MinimumGarrison` (1) units
   behind: `TryMoveArmy` refuses otherwise, `MovePanel` caps the picks, and `CountryPicker` only
   offers countries with more than that. Conquest still empties the attacking country by design.
-- Dice animations (`UI.DieRoll`: ~0.6 s tumble through random faces, then a pop) are presentation
-  only — the roll is already applied and nothing waits for them, so markers and resources update
-  before the dice land. Income animations (resources flying in) are still TODO.
+- Dice animations (`UI.DieRoll`: ~0.6 s tumble through random faces, then a pop) and income popups
+  (`View.IncomePopup`, rising once the die lands) are presentation only — the roll is already
+  applied and nothing waits for them, so markers and resources update before the dice land.
 - Country state that changes during a match (owner, army, built buildings, queues) lives in
   `Country` fields; `_trainingQueue` and `_army` are serialized, the rest is runtime-only. Saving or
   networking will want it pulled out into plain data.

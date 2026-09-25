@@ -5,7 +5,6 @@ using Gameplay;
 using Gameplay.Managers;
 using TMPro;
 using UnityEngine;
-using View;
 
 namespace UI
 {
@@ -63,7 +62,7 @@ namespace UI
         private void Refresh()
         {
             var me = Game.CurrentPlayer;
-            _title.text = $"Diplomacy - {Colored(me)}";
+            _title.text = $"Diplomacy - {Format.Name(me)}";
 
             UiFactory.Clear(_offerRows);
             var offers = Diplomacy.OffersTo(me).ToList();
@@ -80,7 +79,7 @@ namespace UI
         private void OfferRow(Player me, Offer offer)
         {
             var row = UiFactory.Row(_offerRows, "Offer");
-            UiFactory.Label(row, $"{Colored(offer.From)} offers {Describe(offer.Kind)}", 22f, 560f, RowHeight);
+            UiFactory.Label(row, $"{Format.Name(offer.From)} offers {Describe(offer.Kind)}", 22f, 560f, RowHeight);
             UiFactory.Button(row, "Accept", 150f, RowHeight, () => Act(() => Diplomacy.Accept(offer, me)));
             UiFactory.Button(row, "Decline", 150f, RowHeight, () => Act(() => Diplomacy.Decline(offer, me)));
         }
@@ -89,7 +88,7 @@ namespace UI
         {
             var row = UiFactory.Row(_playerRows, other.Name);
             var traitor = Diplomacy.IsTraitor(other) ? " <color=#FF5040>(traitor)</color>" : string.Empty;
-            UiFactory.Label(row, Colored(other) + traitor, 22f, 240f, RowHeight);
+            UiFactory.Label(row, Format.Name(other) + traitor, 22f, 240f, RowHeight);
             UiFactory.Label(row, Status(me, other), 22f, 300f, RowHeight);
 
             ProposeButton(row, me, other, TreatyKind.Pact, "Offer pact");
@@ -142,7 +141,5 @@ namespace UI
 
         private static string Describe(TreatyKind kind) =>
             kind == TreatyKind.Pact ? $"a pact for {Diplomacy.PactTurns} turns" : "an alliance";
-
-        private static string Colored(Player player) => $"<color=#{PlayerPalette.HexOf(player)}>{player.Name}</color>";
     }
 }

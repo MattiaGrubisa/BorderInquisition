@@ -65,6 +65,43 @@ namespace UI
             return text;
         }
 
+        // A label that wraps at the given width and grows as tall as its text.
+        public static TMP_Text Paragraph(Transform parent, string content, float fontSize, float width)
+        {
+            var text = Label(parent, content, fontSize, width, 0f);
+            text.textWrappingMode = TextWrappingModes.Normal;
+            text.GetComponent<LayoutElement>().preferredHeight = -1f;
+            return text;
+        }
+
+        // A full-screen layer with a canvas of its own, drawn above everything on the parent canvas
+        // however the panels there are reordered. It swallows clicks, so nothing under it can be used
+        // while it is up. Call Raise when showing it again: a nested canvas can lose its sorting
+        // override while inactive.
+        public static RectTransform Overlay(Transform parent, string name, int sortingOrder, Color background)
+        {
+            var rect = Create(parent, name);
+            rect.anchorMin = Vector2.zero;
+            rect.anchorMax = Vector2.one;
+            rect.offsetMin = rect.offsetMax = Vector2.zero;
+
+            var canvas = rect.gameObject.AddComponent<Canvas>();
+            canvas.overrideSorting = true;
+            canvas.sortingOrder = sortingOrder;
+            rect.gameObject.AddComponent<GraphicRaycaster>();
+
+            var image = rect.gameObject.AddComponent<Image>();
+            image.color = background;
+            return rect;
+        }
+
+        public static void Raise(RectTransform overlay, int sortingOrder)
+        {
+            var canvas = overlay.GetComponent<Canvas>();
+            canvas.overrideSorting = true;
+            canvas.sortingOrder = sortingOrder;
+        }
+
         public static Button Button(Transform parent, string label, float width, float height, UnityAction onClick)
         {
             var rect = Create(parent, label);
