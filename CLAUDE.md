@@ -68,16 +68,17 @@ state's scene on enter, makes it the active scene, and unloads it on exit. Subcl
 `OnSceneLoaded` / `OnSceneUpdate` / `OnSceneExit`; `IsSceneLoaded` is false until the scene is ready
 and after exit, and every UI command checks it so a stray click on an inactive state is ignored.
 
-**In-game phases.** `InGameState` owns a nested machine with four private phases deriving from
+**In-game phases.** `InGameState` owns a nested machine with three private phases deriving from
 `Phase`. A turn is:
 1. `FirstPhase` (`TurnPhase.Income`) — not a phase the player waits in: queues are processed, the d9
    is rolled and paid out, and the phase ends itself from `OnEnter`. The HUD shows the roll.
 2. `SecondPhase` (`Attack`) — unlimited attacks. After a **conquest** (only then) the player may move
    units between exactly those two countries, any amount.
-3. `ThirdPhase` (`Build`) — queue buildings and soldiers per country.
-4. `FourthPhase` (`Move`) — **one** move per turn, between two neighbouring own countries, any amount.
+3. `ThirdPhase` (`BuildAndMove`, shown as "Build & Move") — queue buildings and soldiers per country,
+   trade, and **one** move per turn between two neighbouring own countries, any amount, in any order.
+   Build and Move were one phase each until the user merged them (2026-09-25).
 
-Phases 2-4 wait for End Phase; the 4 → 1 transition calls `GameController.NextPlayer()`. A match starts in `InGameState.OnSceneLoaded` via
+Phases 2-3 wait for End Phase; the 3 → 1 transition calls `GameController.NextPlayer()`. A match starts in `InGameState.OnSceneLoaded` via
 `GameController.StartNewMatch(settings)`, and ends when `GameController.MatchWon` fires.
 
 **UI talks to the flow only through `GameStateMachine`.** Views in `UI` (`MainMenuView`,
@@ -135,8 +136,9 @@ drag-pan, wheel-zoom towards the cursor and clamping so the view never leaves th
 computes and sets the camera size itself on enable, from the sprite bounds and the current aspect.
 
 **Regions** are the six continents. A `Region` component sits on each continent's parent object and
-holds the soldier training costs; `Country._region` points at it, and a country without one warns in
-`Awake` and cannot train.
+holds the region's profile — `_richIn` and `_poorIn` (a `ResourceType` each) — and its
+`_completionBonus`; `Country._region` points at it, and a country without one warns in `Awake` and
+cannot train.
 
 **Players** are plain C# objects (`Gameplay.Player`), created per match from `MatchSettings`
 (lobby output, 4–6 players, named by seat for now). Presentation data (colour etc.) belongs to the
@@ -184,17 +186,27 @@ positions, sprites and UI are a separate layer on top. Do not put rendering deci
   one and each entry is paid in full when it is delivered — nothing is reserved or paid in part. An
   entry that cannot be afforded **stays queued** and is retried next turn (user's decision); the
   building queue waits on its head, while a cheaper soldier further down may still be trained.
-  Soldier prices come from the country's `Region`.
+- **Prices** (`Country.GetSoldierCost` / `GetBuildingCost`): the base price (`GameRules` knight/horseman/
+  archer cost, `Building._buildingCost`) goes through the country's `Region.Price` — the region's rich
+  resource costs `GameRules.RichPricePercent` (50) of base, its poor one `PoorPricePercent` (150) —
+  and then the owner's best discount. Every scaling rounds up, so nothing becomes free.
+- **Building effects**: `_productionBoost` adds to the country's income; `_tradeRatio` > 0 lowers the
+  owner's bank ratio (Market); `_soldierDiscount` (Barracks) and `_buildingDiscount` (Tavern) are
+  percent off every soldier / building the owner pays for anywhere, while they hold the country the
+  building stands in. Discounts, like trade ratios, do not stack — the best one counts
+  (`Player.SoldierDiscount` / `BuildingDiscount`). Costs are recomputed when a queue entry is paid.
+- **Region bonus**: at the start of a player's turn (`GameController.PhaseOne`, before the queues)
+  every region they own whole pays its `Region._completionBonus`; it shows in the turn report.
 - A country that changes hands drops both queues (`Country.SetOwner`); built buildings stay.
 - **Fog of war is always on**, hotseat or online (user's decision): a player sees their side's
   countries (their own and their allies') and the direct neighbours of those (`GameController.Fog`,
   `FogOfWar.IsVisible`, depth 1 on the graph). Every other country still shows on the map with its
   dice number and nothing else — grey disc, no owner, no army (confirmed by the user). Hotseat views
   the map as `CurrentPlayer`.
-- **Market** (`Gameplay.Market`), build phase only: bank trade at `GameRules.DefaultTradeRatio`
+- **Market** (`Gameplay.Market`), build & move phase only: bank trade at `GameRules.DefaultTradeRatio`
   (4:1) — give 4 of one resource for 1 of another. A built building with `Building._tradeRatio` > 0 (the Market building: 3) lowers the
   owner's ratio while they hold its country; the best ratio wins. The Market building is
-  `ScriptableObjects/Market.asset` (trade ratio 3), listed in `GameRules` next to `House`.
+  `ScriptableObjects/Objects/Market.asset` (trade ratio 3).
 - **Diplomacy** (`Diplomacy.DiplomacySystem`), local rules decided with the user:
   - A **pact** (non-aggression) lasts `GameRules.PactTurns` (3) of the proposer's turns. An **alliance** has no
     end date and also shares vision through the fog. A pact can be upgraded to an alliance.
@@ -226,33 +238,38 @@ positions, sprites and UI are a separate layer on top. Do not put rendering deci
 ## Handoff — resume here (2026-09-25)
 
 The map is wired: 35 countries, one connected group. **Play Out Match** has reached `GameOver`, and
-the user has played a short hotseat match by hand — the four-phase turn, the picker and panels, the
+the user has played a short hotseat match by hand — the (then) four-phase turn, the picker and panels, the
 dice, fog of war, market and diplomacy all behaved. A detailed play-test is still to come.
 
 Setup in `WorldMap` the code expects:
 - `GameController._rules` → a `GameRules` asset (*Create > Create Game Rules*) holding the building
-  catalogue (`House`, the Market building) and the rule numbers. Without it the game logs an error
+  catalogue (only listed buildings can be built) and the rule numbers. Without it the game logs an error
   and runs on defaults with no buildings.
 - `InGameHud._diceFaces` → the nine faces `Assets/Assets/Dice/Sprite-001..009.png` (128×128, white
   body, black pips, point filter — white so the UI tints them), face n at index n-1.
-- Countries use a `CircleCollider2D` for now; traced `PolygonCollider2D` shapes come later.
+- Countries have `PolygonCollider2D`s (converted with **Convert Country Colliders To Polygon**); the
+  user traces the shapes. Nothing in code depends on the collider type (`Physics2D.OverlapPoint`).
 
 `CountryPicker` (added at runtime by `MapView`) enforces the turn rules the view owns — left click
 only, clicks over UI and while `MovePanel` is open are ignored, everything resets on phase change:
 - Attack: own country → white halo + red halo on `AttackTargets`; red one → `TryAttack`, dice in
   `CombatPanel`. On conquest `MovePanel` offers to send units back; selection then follows the army.
-- Build: own country → `CountryPanel`.
-- Move: own country with more than the garrison → green halo on own neighbours; green one →
-  `MovePanel`; a confirmed non-empty move uses up the turn's move.
+- Build & Move: own country → `CountryPanel`, plus, while the turn's move is unused and the country
+  has more than the garrison, green halos on own neighbours; green one → `MovePanel` (the country
+  panel closes and comes back after); a confirmed non-empty move uses up the turn's move.
 
 **The user's to decide or make** (do not pick these yourself):
-- Soldier prices per region (all 1/1/1/1 now).
+- The numbers: base soldier prices (1/1/1/1 now), each region's rich/poor resource and completion
+  bonus, building costs and effects (Barracks/Tavern discounts), per-country incomes.
 - Starting armies and incomes — random stand-ins from `GameRules` until designed.
 - Buildings on conquest: the conqueror may **choose to raze them or keep them** (direction agreed;
   details open — all or one, any refund). Today they are simply kept.
-- The traced country shapes; the Market building's cost (`ScriptableObjects/Market.asset` exists,
-  trade ratio 3, cost still 0).
+- The traced country shapes.
 - More ScriptableObjects besides `GameRules` will be needed; they are made when a feature asks.
+- Trade ratio, later: buildings are a per-country thing, the ratio is per-player, so the ratio
+  should drop with the number of countries the player owns instead of coming from buildings (idea,
+  not final). Until then the Market building keeps lowering it. The building assets are in
+  `ScriptableObjects/Objects` (House, Tavern, Church, Barracks, LumberMill, Quarry, Market).
 
 **Order of work:** polish local hotseat first. The online layer comes only once local play is
 polished — do not start it earlier.

@@ -43,6 +43,8 @@ namespace UI
 
             var report = player.Report;
             Income(report);
+            Section("Region bonus", report.RegionBonuses.Select(bonus =>
+                $"{Format.Resources(bonus.Amount)} for holding all of {bonus.Region.name}"));
             Section("Delivered", report.Deliveries.Select(Describe));
             Section("Still queued - waiting for resources", Waiting(player));
             Section("Attacks on you", report.Defences.Select(Describe));
@@ -80,7 +82,7 @@ namespace UI
             foreach (var country in player.OwnedCountries)
             {
                 foreach (var building in country.BuildingQueue)
-                    yield return $"{building.DisplayName} in {country.name} - costs {Format.Resources(building.BuildingCost)}";
+                    yield return $"{building.DisplayName} in {country.name} - costs {Format.Resources(country.GetBuildingCost(building))}";
 
                 foreach (var group in country.TrainingQueue.GroupBy(soldier => soldier))
                     yield return $"{Format.Count(group.Count(), group.Key.ToString())} in {country.name} - " +

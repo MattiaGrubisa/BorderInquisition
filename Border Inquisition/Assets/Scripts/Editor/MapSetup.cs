@@ -117,6 +117,36 @@ namespace Editor
             Debug.Log($"Added {colliders} country collider(s)" + (addedView ? " and the MapView." : "; MapView already there."));
         }
 
+        // Swaps every country's CircleCollider2D for Unity's default PolygonCollider2D, ready to be traced
+        // over the region art. Countries without a circle are skipped.
+        [MenuItem("Border Inquisition/Convert Country Colliders To Polygon")]
+        public static void ConvertCollidersToPolygon()
+        {
+            var countries = Object.FindObjectsByType<Country>(FindObjectsSortMode.None);
+            if (countries.Length == 0)
+            {
+                Debug.LogError("No countries in the open scene - open WorldMap first.");
+                return;
+            }
+
+            Undo.SetCurrentGroupName("Convert Country Colliders To Polygon");
+            var converted = 0;
+            foreach (var country in countries)
+            {
+                var circle = country.GetComponent<CircleCollider2D>();
+                if (circle == null)
+                    continue;
+
+                Undo.DestroyObjectImmediate(circle);
+                Undo.AddComponent<PolygonCollider2D>(country.gameObject);
+                converted++;
+            }
+
+            if (converted > 0)
+                EditorSceneManager.MarkSceneDirty(countries[0].gameObject.scene);
+            Debug.Log($"Converted {converted} circle collider(s) to polygons.");
+        }
+
         private static IEnumerable<Country> CreateContinent(Continent continent, int firstId)
         {
             var parent = ObjectFactory.CreateGameObject(continent.Name).transform;

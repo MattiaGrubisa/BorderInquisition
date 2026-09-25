@@ -57,6 +57,19 @@ namespace Gameplay
             return default;
         }
 
+        // Every amount scaled to percent of itself, rounded up so a discount never makes anything free.
+        public GameResources Percent(int percent) =>
+            new GameResources(Scale(_food, percent), Scale(_wood, percent), Scale(_gold, percent), Scale(_stone, percent));
+
+        // Only one resource scaled, the others untouched.
+        public GameResources Percent(ResourceType type, int percent)
+        {
+            var amount = Get(type);
+            return this - Of(type, amount) + Of(type, Scale(amount, percent));
+        }
+
+        private static int Scale(int amount, int percent) => Mathf.CeilToInt(amount * percent / 100f);
+
         public override string ToString() => $"F{_food} W{_wood} G{_gold} S{_stone}";
 
         public static bool operator >=(GameResources r1, GameResources r2) =>

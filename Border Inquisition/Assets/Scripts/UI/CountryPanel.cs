@@ -5,9 +5,10 @@ using UnityEngine;
 
 namespace UI
 {
-    // Build-phase panel for one country: queue or unqueue buildings and soldiers. Nothing is paid here -
+    // Build & Move phase panel for one country: queue or unqueue buildings and soldiers. Nothing is paid here -
     // both queues are processed at the start of the owner's next turn, and whatever is unaffordable then
-    // stays queued. Costs are shown so the player can plan against their current resources.
+    // stays queued. Costs are shown so the player can plan against their current resources; they are the
+    // region's prices less the owner's discounts, and are recomputed when the queue is paid.
     public class CountryPanel : MonoBehaviour
     {
         private const float RowHeight = 42f;
@@ -88,7 +89,7 @@ namespace UI
         private void BuildingRow(Building building)
         {
             var row = UiFactory.Row(_buildingRows, building.DisplayName);
-            UiFactory.Label(row, $"{building.DisplayName}  {building.BuildingCost}", 22f, 360f, RowHeight);
+            UiFactory.Label(row, $"{building.DisplayName}  {_country.GetBuildingCost(building)}", 22f, 360f, RowHeight);
 
             if (_country.IsBuilt(building))
             {

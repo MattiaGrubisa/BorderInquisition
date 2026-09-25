@@ -27,6 +27,16 @@ namespace Gameplay
         // Units a move must leave in the country it starts from.
         [SerializeField, Min(0)] private int _minimumGarrison = 1;
 
+        // Base soldier prices; the country's region raises or lowers them (Region.Price).
+        [SerializeField] private GameResources _knightCost = new GameResources(1, 1, 1, 1);
+        [SerializeField] private GameResources _horsemanCost = new GameResources(1, 1, 1, 1);
+        [SerializeField] private GameResources _archerCost = new GameResources(1, 1, 1, 1);
+
+        [Header("Regions")]
+        // What a region's rich and poor resource cost there, in percent of the base price.
+        [SerializeField, Min(0)] private int _richPricePercent = 50;
+        [SerializeField, Min(0)] private int _poorPricePercent = 150;
+
         [Header("Market")]
         // Bank trade ratio without a trade building: give this many for 1.
         [SerializeField, Min(1)] private int _defaultTradeRatio = 4;
@@ -41,6 +51,22 @@ namespace Gameplay
         public int MinCountriesPerDiceNumber => _minCountriesPerDiceNumber;
         public int MaxCountriesPerDiceNumber => _maxCountriesPerDiceNumber;
         public int MinimumGarrison => _minimumGarrison;
+        public int RichPricePercent => _richPricePercent;
+        public int PoorPricePercent => _poorPricePercent;
+
+        public GameResources SoldierCost(SoldierType soldier)
+        {
+            switch (soldier)
+            {
+                case SoldierType.Knight:
+                    return _knightCost;
+                case SoldierType.Horseman:
+                    return _horsemanCost;
+                case SoldierType.Archer:
+                    return _archerCost;
+            }
+            return default;
+        }
         public int DefaultTradeRatio => _defaultTradeRatio;
         public int PactTurns => _pactTurns;
     }

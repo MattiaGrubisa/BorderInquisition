@@ -10,8 +10,7 @@ namespace GameStates
     {
         Income,
         Attack,
-        Build,
-        Move
+        BuildAndMove
     }
 
     public enum InGameResult
@@ -25,7 +24,6 @@ namespace GameStates
         private readonly FirstPhase _firstPhase = new FirstPhase();
         private readonly SecondPhase _secondPhase = new SecondPhase();
         private readonly ThirdPhase _thirdPhase = new ThirdPhase();
-        private readonly FourthPhase _fourthPhase = new FourthPhase();
         private StateMachine _phaseMachine;
 
         public event Action<TurnPhase> PhaseChanged;
@@ -87,9 +85,6 @@ namespace GameStates
                     _phaseMachine.ChangeState(_thirdPhase);
                     break;
                 case ThirdPhase:
-                    _phaseMachine.ChangeState(_fourthPhase);
-                    break;
-                case FourthPhase:
                     GameController.Instance.NextPlayer();
                     _phaseMachine.ChangeState(_firstPhase);
                     break;
@@ -140,14 +135,10 @@ namespace GameStates
             public override TurnPhase Kind => TurnPhase.Attack;
         }
 
+        // Queue buildings and soldiers, trade, and make the turn's one move, in any order.
         private class ThirdPhase : Phase
         {
-            public override TurnPhase Kind => TurnPhase.Build;
-        }
-
-        private class FourthPhase : Phase
-        {
-            public override TurnPhase Kind => TurnPhase.Move;
+            public override TurnPhase Kind => TurnPhase.BuildAndMove;
         }
     }
 }

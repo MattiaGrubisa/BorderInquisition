@@ -180,8 +180,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &27846798
-CircleCollider2D:
+--- !u!60 &27846798
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -215,7 +215,23 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.08322811, y: 0.25094724}
+      - {x: -0.7127214, y: -0.12225601}
+      - {x: -1.0417571, y: -0.9754733}
+      - {x: -0.6303717, y: -0.94899154}
+      - {x: 0.4441216, y: 0.059332788}
+  m_UseDelaunayMesh: 1
 --- !u!1 &75372149
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,8 +294,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &75372152
-CircleCollider2D:
+--- !u!60 &75372152
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -313,7 +329,26 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26011896, y: 0.5767548}
+      - {x: -0.035493374, y: 0.5305464}
+      - {x: -0.85754806, y: -0.3568767}
+      - {x: -0.6850364, y: -0.6225183}
+      - {x: -0.32142776, y: -0.75517887}
+      - {x: 1.4163995, y: 0.39487338}
+      - {x: 0.9522673, y: 0.6097212}
+      - {x: 0.48467588, y: 0.16792709}
+  m_UseDelaunayMesh: 1
 --- !u!1 &105403588
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,8 +410,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &105403591
-CircleCollider2D:
+--- !u!60 &105403591
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -410,7 +445,42 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.9036174, y: 0.22132647}
+      - {x: 0.7784431, y: 0.39589977}
+      - {x: 0.6010039, y: 0.47115004}
+      - {x: 0.42273378, y: 0.4242412}
+      - {x: 0.2895515, y: 0.4910319}
+      - {x: 0.15194774, y: 0.4909749}
+      - {x: -0.010628939, y: 0.5268668}
+      - {x: -0.21369648, y: 0.45359337}
+      - {x: -0.3270378, y: 0.3192277}
+      - {x: -0.43500566, y: 0.30706275}
+      - {x: -0.56720304, y: 0.37535036}
+      - {x: -0.65823275, y: 0.37124208}
+      - {x: -0.71713257, y: 0.25415814}
+      - {x: -0.4993868, y: 0.04742098}
+      - {x: -0.39150047, y: -0.049264908}
+      - {x: -0.34444666, y: -0.14351797}
+      - {x: -0.44503397, y: -0.5674375}
+      - {x: -0.2371893, y: -0.6903267}
+      - {x: 0.25469863, y: -0.45030785}
+      - {x: 0.33949757, y: -0.3118062}
+      - {x: 0.6200297, y: -0.26732612}
+      - {x: 0.70092726, y: -0.20888662}
+      - {x: 0.8420119, y: 0.003174305}
+      - {x: 0.9637189, y: 0.0810954}
+  m_UseDelaunayMesh: 1
 --- !u!1 &106155040
 GameObject:
   m_ObjectHideFlags: 0
@@ -475,8 +545,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &106155043
-CircleCollider2D:
+--- !u!60 &106155043
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -510,7 +580,35 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.7059034, y: 0.30697954}
+      - {x: 0.59329903, y: 0.30910826}
+      - {x: 0.49348783, y: 0.28193557}
+      - {x: 0.3564322, y: 0.41539693}
+      - {x: 0.024160147, y: 0.35975796}
+      - {x: -0.29590726, y: 0.49482596}
+      - {x: -0.46243286, y: 0.34023857}
+      - {x: -0.4848523, y: 0.15789092}
+      - {x: -0.61972237, y: 0.08886182}
+      - {x: -0.7305959, y: -0.0020439327}
+      - {x: -0.6593509, y: -0.13139915}
+      - {x: -0.574826, y: -0.19914842}
+      - {x: -0.5575852, y: -0.33789575}
+      - {x: 0.15894413, y: -0.33789563}
+      - {x: 0.79643714, y: -0.022484064}
+      - {x: 0.770152, y: 0.12152767}
+      - {x: 0.7728758, y: 0.19727677}
+  m_UseDelaunayMesh: 1
 --- !u!1 &160077878
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,8 +809,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &205432341
-CircleCollider2D:
+--- !u!60 &205432341
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -746,7 +844,23 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 1}
+      - {x: -0.95105654, y: 0.30901697}
+      - {x: -0.5877852, y: -0.80901706}
+      - {x: 0.58778536, y: -0.80901694}
+      - {x: 0.9510565, y: 0.30901712}
+  m_UseDelaunayMesh: 1
 --- !u!1 &222843222
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,8 +1051,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &296007081
-CircleCollider2D:
+--- !u!60 &296007081
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -972,7 +1086,26 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.107476234, y: 0.27453768}
+      - {x: -1.2197461, y: -0.6146041}
+      - {x: -1.1104007, y: -0.77658856}
+      - {x: -0.9283395, y: -0.8937762}
+      - {x: -0.7324338, y: -0.87449896}
+      - {x: -0.23512977, y: -0.29178923}
+      - {x: 0.19482672, y: -0.19438905}
+      - {x: 0.27261496, y: -0.0604313}
+  m_UseDelaunayMesh: 1
 --- !u!1 &352846754
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,8 +1168,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &352846757
-CircleCollider2D:
+--- !u!60 &352846757
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1070,7 +1203,30 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.32621598, y: 0.24001908}
+      - {x: 0.021656036, y: 0.30071545}
+      - {x: -0.20971179, y: 0.61811197}
+      - {x: -0.5826056, y: 0.39222765}
+      - {x: -0.79928064, y: 0.15598309}
+      - {x: -0.72744685, y: -0.08306596}
+      - {x: -0.2632153, y: -0.26642904}
+      - {x: -0.41985387, y: -0.86275494}
+      - {x: 0.44550538, y: -0.58935225}
+      - {x: 0.5227053, y: -0.4585068}
+      - {x: 0.3593992, y: -0.036533892}
+      - {x: 0.4573388, y: 0.06383771}
+  m_UseDelaunayMesh: 1
 --- !u!1 &361455001
 GameObject:
   m_ObjectHideFlags: 0
@@ -1416,8 +1572,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &460457928
-CircleCollider2D:
+--- !u!60 &460457928
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1451,7 +1607,30 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.942533, y: 0.17755818}
+      - {x: -1.3076906, y: -0.29871652}
+      - {x: -0.88338065, y: -0.37300873}
+      - {x: -0.5578201, y: -0.19553113}
+      - {x: -0.08558649, y: -0.36140501}
+      - {x: 0.29301608, y: -0.20128334}
+      - {x: 0.5374737, y: -0.2688446}
+      - {x: 1.0685997, y: 0.30675077}
+      - {x: 0.56567, y: 0.46098328}
+      - {x: -0.016164303, y: 0.45600915}
+      - {x: -0.06211567, y: 0.23405576}
+      - {x: -0.6501577, y: 0.38543862}
+  m_UseDelaunayMesh: 1
 --- !u!1 &461465315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,21 +1680,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3260a1ea021809c45b12c306c8a88748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Region
-  _knightCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
-  _horsemanCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
-  _archerCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
+  _richIn: 3
+  _poorIn: 1
+  _completionBonus:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
 --- !u!1 &505480068
 GameObject:
   m_ObjectHideFlags: 0
@@ -1579,8 +1750,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &505480071
-CircleCollider2D:
+--- !u!60 &505480071
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1614,7 +1785,25 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.03111267, y: 0.4498868}
+      - {x: -0.9265018, y: 0.18624309}
+      - {x: -0.9833443, y: -0.15697694}
+      - {x: -0.8028772, y: -0.49018133}
+      - {x: -0.0076791644, y: -0.37317002}
+      - {x: 0.30524457, y: -0.29102564}
+      - {x: 0.450724, y: 0.30018777}
+  m_UseDelaunayMesh: 1
 --- !u!1 &558919585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,8 +1864,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &558919588
-CircleCollider2D:
+--- !u!60 &558919588
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1710,7 +1899,29 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26905954, y: 0.66092306}
+      - {x: 0.098232985, y: 0.60706806}
+      - {x: 0.1611042, y: 0.4410267}
+      - {x: 0.05988431, y: 0.19355595}
+      - {x: -0.34201175, y: -0.15969482}
+      - {x: -0.07978004, y: -0.3122388}
+      - {x: 0.092314124, y: -0.1930021}
+      - {x: 0.33490682, y: 0.15277684}
+      - {x: 0.7561848, y: 0.08350003}
+      - {x: 0.8559416, y: 0.30360478}
+      - {x: 0.47953808, y: 0.539163}
+  m_UseDelaunayMesh: 1
 --- !u!1 &574267539
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,8 +1983,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &574267542
-CircleCollider2D:
+--- !u!60 &574267542
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1807,7 +2018,42 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.13981414, y: 0.8011534}
+      - {x: -0.36838245, y: 0.6773888}
+      - {x: -0.7644937, y: 0.2682758}
+      - {x: -0.7850645, y: -0.07886192}
+      - {x: -0.61572576, y: -0.13487053}
+      - {x: -0.5131569, y: -0.23126113}
+      - {x: -0.35085225, y: -0.2475779}
+      - {x: -0.27966332, y: -0.3316456}
+      - {x: -0.17591047, y: -0.43085515}
+      - {x: -0.1440112, y: -0.5583354}
+      - {x: 0.024350405, y: -0.50723064}
+      - {x: 0.12985826, y: -0.40828717}
+      - {x: 0.2303592, y: -0.42955744}
+      - {x: 0.30480838, y: -0.2883203}
+      - {x: 0.27500677, y: -0.24298191}
+      - {x: 0.31654644, y: -0.1355511}
+      - {x: 0.43122578, y: -0.098086}
+      - {x: 0.4835639, y: -0.03387165}
+      - {x: 0.47112894, y: 0.022847652}
+      - {x: 0.5203512, y: 0.09008908}
+      - {x: 0.612484, y: 0.15840727}
+      - {x: 0.61777663, y: 0.40261197}
+      - {x: 0.8022771, y: 0.50994873}
+      - {x: 0.7926004, y: 0.68806845}
+  m_UseDelaunayMesh: 1
 --- !u!1 &603268832
 GameObject:
   m_ObjectHideFlags: 0
@@ -1870,8 +2116,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &603268835
-CircleCollider2D:
+--- !u!60 &603268835
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1905,7 +2151,27 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.35318565, y: 0.3318854}
+      - {x: -0.77130985, y: 0.4718961}
+      - {x: -0.8502999, y: 0.40977362}
+      - {x: -0.69201607, y: 0.03525424}
+      - {x: -0.80642843, y: -0.4225035}
+      - {x: -0.19047296, y: -0.6526704}
+      - {x: 0.87937546, y: 0.44103205}
+      - {x: 0.38861513, y: 0.5470505}
+      - {x: -0.011343479, y: -0.031470895}
+  m_UseDelaunayMesh: 1
 --- !u!1 &685518109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1968,8 +2234,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &685518112
-CircleCollider2D:
+--- !u!60 &685518112
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2003,7 +2269,32 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.11669302, y: 0.5514736}
+      - {x: -0.21235228, y: 0.5089357}
+      - {x: -0.31344604, y: 0.16093981}
+      - {x: -0.8946505, y: 0.06680289}
+      - {x: -1.0063205, y: -0.08893323}
+      - {x: -1.3417621, y: -0.05271268}
+      - {x: -1.6191545, y: -0.2873981}
+      - {x: -1.4423852, y: -0.87263936}
+      - {x: -0.91062117, y: -0.5097842}
+      - {x: -0.3621611, y: -0.706159}
+      - {x: -0.071930885, y: -1.0571934}
+      - {x: 0.046950936, y: -0.4838528}
+      - {x: 0.46994615, y: -0.21190906}
+      - {x: 0.5396242, y: 0.24265712}
+  m_UseDelaunayMesh: 1
 --- !u!1 &972719463
 GameObject:
   m_ObjectHideFlags: 0
@@ -2067,8 +2358,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &972719466
-CircleCollider2D:
+--- !u!60 &972719466
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2102,7 +2393,36 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1032629, y: 0.78609836}
+      - {x: -0.95105654, y: 0.30901697}
+      - {x: -0.92215437, y: 0.01616931}
+      - {x: -0.4537611, y: -0.13372225}
+      - {x: -0.20420122, y: -0.24978793}
+      - {x: 0.0152897835, y: -0.28817296}
+      - {x: 0.18357396, y: -0.44890952}
+      - {x: 0.2935648, y: -0.44947517}
+      - {x: 0.46412992, y: -0.56891084}
+      - {x: 0.6614078, y: -0.44090402}
+      - {x: 0.87508726, y: -0.5647898}
+      - {x: 1.0784383, y: -0.58565927}
+      - {x: 1.2294862, y: -0.35034025}
+      - {x: 1.0288641, y: -0.1585607}
+      - {x: 0.8870201, y: -0.059345543}
+      - {x: 1.2219632, y: 0.28568363}
+      - {x: 1.2959852, y: 0.4927435}
+      - {x: 1.1502063, y: 0.7663242}
+  m_UseDelaunayMesh: 1
 --- !u!1 &977343564
 GameObject:
   m_ObjectHideFlags: 0
@@ -2152,21 +2472,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3260a1ea021809c45b12c306c8a88748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Region
-  _knightCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
-  _horsemanCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
-  _archerCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
+  _richIn: 3
+  _poorIn: 0
+  _completionBonus:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
 --- !u!1 &980381864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2230,8 +2542,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &980381867
-CircleCollider2D:
+--- !u!60 &980381867
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2265,7 +2577,29 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.32388186, y: 0.8144047}
+      - {x: -1.0820649, y: 0.17436936}
+      - {x: -0.832438, y: -0.2397511}
+      - {x: -0.42373955, y: -0.28293276}
+      - {x: -0.3223648, y: -0.60811114}
+      - {x: -0.11833817, y: -0.7726258}
+      - {x: 0.11137915, y: -0.77949286}
+      - {x: 0.5867269, y: -0.44369626}
+      - {x: 0.86799777, y: -0.24859214}
+      - {x: 0.93891454, y: -0.047570944}
+      - {x: 0.5907831, y: 0.5273647}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1011220005
 GameObject:
   m_ObjectHideFlags: 0
@@ -2328,8 +2662,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1011220008
-CircleCollider2D:
+--- !u!60 &1011220008
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2363,7 +2697,47 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.0016844273, y: 0.56524014}
+      - {x: -0.21393418, y: 0.6630535}
+      - {x: -0.3362043, y: 0.58003664}
+      - {x: -0.35251498, y: 0.43132997}
+      - {x: -0.44536257, y: 0.3606248}
+      - {x: -0.6068413, y: 0.34615397}
+      - {x: -0.70202374, y: 0.19720864}
+      - {x: -0.99095774, y: 0.27328634}
+      - {x: -1.1889641, y: 0.22221282}
+      - {x: -1.1689298, y: -0.008001566}
+      - {x: -1.2904198, y: -0.190866}
+      - {x: -1.4636104, y: -0.29662418}
+      - {x: -1.5408843, y: -0.45910323}
+      - {x: -1.2428019, y: -0.59028125}
+      - {x: -1.0419881, y: -0.4664302}
+      - {x: -0.79962134, y: -0.65021443}
+      - {x: -0.6028805, y: -0.48922372}
+      - {x: -0.10664487, y: -1.0694482}
+      - {x: 0.34406137, y: -0.91055536}
+      - {x: 0.56565523, y: -0.39648056}
+      - {x: 0.7489042, y: -0.23379946}
+      - {x: 1.22016, y: -0.3121209}
+      - {x: 1.5542146, y: 0.15741229}
+      - {x: 1.3152361, y: 0.61848116}
+      - {x: 1.0767617, y: 0.63981724}
+      - {x: 0.91887665, y: 0.7835462}
+      - {x: 0.66285276, y: 0.7189894}
+      - {x: 0.4578371, y: 0.49241948}
+      - {x: 0.19693804, y: 0.45342296}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1117821159
 GameObject:
   m_ObjectHideFlags: 0
@@ -2464,8 +2838,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1149394243
-CircleCollider2D:
+--- !u!60 &1149394243
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2499,7 +2873,32 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.2167267, y: 0.018846124}
+      - {x: 1.0587169, y: 0.380054}
+      - {x: 0.32087517, y: 0.73164874}
+      - {x: -0.67723227, y: 0.9412805}
+      - {x: -0.6759258, y: 0.63547784}
+      - {x: -1.0528371, y: 0.32076088}
+      - {x: -1.0417191, y: -0.20634583}
+      - {x: -0.7913464, y: -0.49193144}
+      - {x: -0.19826174, y: -0.83459616}
+      - {x: 0.2411443, y: -0.9724585}
+      - {x: 0.4473008, y: -0.8075579}
+      - {x: 0.39205348, y: -0.59762657}
+      - {x: 0.6252607, y: -0.40476775}
+      - {x: 1.1154714, y: -0.5913495}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1156359777
 GameObject:
   m_ObjectHideFlags: 0
@@ -2561,8 +2960,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1156359780
-CircleCollider2D:
+--- !u!60 &1156359780
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2596,7 +2995,46 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.15490866, y: 0.7482733}
+      - {x: -0.28408843, y: 0.64465237}
+      - {x: -0.35423017, y: 0.38100135}
+      - {x: -0.48143435, y: 0.27567005}
+      - {x: -0.52933717, y: 0.11394346}
+      - {x: -0.65880156, y: 0.082627535}
+      - {x: -0.6596372, y: -0.05703497}
+      - {x: -0.73118496, y: -0.19795346}
+      - {x: -0.6935625, y: -0.25658846}
+      - {x: -0.59891653, y: -0.28773844}
+      - {x: -0.5263624, y: -0.27590358}
+      - {x: -0.46269155, y: -0.3202585}
+      - {x: -0.44981933, y: -0.38369894}
+      - {x: -0.4127912, y: -0.44687688}
+      - {x: -0.24753284, y: -0.4271636}
+      - {x: -0.1341691, y: -0.4039086}
+      - {x: -0.016691685, y: -0.3450433}
+      - {x: 0.07257891, y: -0.3448248}
+      - {x: 0.1870637, y: -0.30189002}
+      - {x: 0.24912643, y: -0.22578609}
+      - {x: 0.3355322, y: -0.22484589}
+      - {x: 0.3641821, y: -0.19896865}
+      - {x: 0.5045042, y: -0.17152464}
+      - {x: 0.5469694, y: -0.012161016}
+      - {x: 0.6748743, y: 0.11567879}
+      - {x: 0.7119632, y: 0.30856884}
+      - {x: 0.8515749, y: 0.42777818}
+      - {x: 0.85639, y: 0.5478347}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1174911664
 GameObject:
   m_ObjectHideFlags: 0
@@ -2770,8 +3208,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1213562972
-CircleCollider2D:
+--- !u!60 &1213562972
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2805,7 +3243,25 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.07832575, y: 0.26523018}
+      - {x: -0.5221301, y: -0.11990973}
+      - {x: -0.23345488, y: -0.5255524}
+      - {x: 0.5695534, y: -0.35528755}
+      - {x: 1.0703719, y: -0.40525436}
+      - {x: 1.5351536, y: -0.20478988}
+      - {x: 1.3949021, y: 0.2978279}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1248822431
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,8 +3325,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1248822434
-CircleCollider2D:
+--- !u!60 &1248822434
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2904,7 +3360,38 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.70291287, y: 0.3482281}
+      - {x: 0.60141, y: 0.46747708}
+      - {x: 0.8009186, y: 0.78927433}
+      - {x: 0.47837546, y: 0.8719311}
+      - {x: -0.05906108, y: 0.7100545}
+      - {x: -0.6534844, y: 0.38435164}
+      - {x: -1.2930446, y: -0.09506953}
+      - {x: -1.454812, y: -0.76648736}
+      - {x: -1.1525542, y: -0.8494132}
+      - {x: -0.5877852, y: -0.80901706}
+      - {x: -0.19987783, y: -1.0023909}
+      - {x: -0.055510342, y: -0.87917614}
+      - {x: -0.0005405545, y: -0.71735126}
+      - {x: 0.23421416, y: -0.57454437}
+      - {x: 0.31749967, y: -0.38699192}
+      - {x: 0.7278602, y: -0.25288212}
+      - {x: 0.98242366, y: -0.4394232}
+      - {x: 1.3582809, y: -0.16302645}
+      - {x: 1.3615029, y: 0.15742457}
+      - {x: 0.9510565, y: 0.30901712}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1254500946
 GameObject:
   m_ObjectHideFlags: 0
@@ -2964,8 +3451,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1254500949
-CircleCollider2D:
+--- !u!60 &1254500949
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2999,7 +3486,43 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.60042167, y: 0.030397415}
+      - {x: 0.5326257, y: 0.037422657}
+      - {x: 0.50667214, y: 0.13615263}
+      - {x: 0.5567446, y: 0.2604115}
+      - {x: 0.44729948, y: 0.41208637}
+      - {x: 0.27465725, y: 0.43106687}
+      - {x: 0.10799146, y: 0.50531375}
+      - {x: 0.02118206, y: 0.3933481}
+      - {x: -0.15551496, y: 0.36830902}
+      - {x: -0.21813965, y: 0.29426038}
+      - {x: -0.47463322, y: 0.3391266}
+      - {x: -0.5792339, y: 0.16694379}
+      - {x: -0.710989, y: 0.13879704}
+      - {x: -0.7792514, y: 0.054993063}
+      - {x: -0.71631956, y: -0.09888816}
+      - {x: -0.5936434, y: -0.20328951}
+      - {x: -0.54235935, y: -0.42102885}
+      - {x: -0.33531278, y: -0.57011855}
+      - {x: -0.20609999, y: -0.4742036}
+      - {x: 0.007682085, y: -0.5263748}
+      - {x: 0.17242754, y: -0.55654454}
+      - {x: 0.2433629, y: -0.41359162}
+      - {x: 0.46103954, y: -0.3851056}
+      - {x: 0.5236149, y: -0.17763901}
+      - {x: 0.63071537, y: -0.1009112}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1348779899
 GameObject:
   m_ObjectHideFlags: 0
@@ -3051,21 +3574,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3260a1ea021809c45b12c306c8a88748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Region
-  _knightCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
-  _horsemanCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
-  _archerCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
+  _richIn: 0
+  _poorIn: 3
+  _completionBonus:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
 --- !u!1 &1371410507
 GameObject:
   m_ObjectHideFlags: 0
@@ -3115,21 +3630,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3260a1ea021809c45b12c306c8a88748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Region
-  _knightCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
-  _horsemanCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
-  _archerCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
+  _richIn: 2
+  _poorIn: 0
+  _completionBonus:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
 --- !u!1 &1420074825
 GameObject:
   m_ObjectHideFlags: 0
@@ -3192,8 +3699,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1420074828
-CircleCollider2D:
+--- !u!60 &1420074828
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3227,7 +3734,37 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.81027, y: 0.314508}
+      - {x: 0.37766552, y: 0.5314157}
+      - {x: -0.15843225, y: 0.48698115}
+      - {x: -0.46848774, y: 0.48495924}
+      - {x: -0.83034617, y: -0.011619806}
+      - {x: -0.6896345, y: -0.3676699}
+      - {x: -0.4178921, y: -0.39470357}
+      - {x: -0.23832583, y: -0.22432637}
+      - {x: -0.14532125, y: -0.6611504}
+      - {x: 0.039931774, y: -0.6556024}
+      - {x: 0.35454035, y: -0.44234663}
+      - {x: 0.55346984, y: -0.5604739}
+      - {x: 0.8901643, y: -0.8705653}
+      - {x: 1.0691472, y: -0.54176855}
+      - {x: 1.0485356, y: -0.36978218}
+      - {x: 0.6881872, y: -0.39097756}
+      - {x: 0.6512877, y: -0.2219225}
+      - {x: 0.7740044, y: -0.10977842}
+      - {x: 0.8756125, y: 0.11663507}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1420969150
 GameObject:
   m_ObjectHideFlags: 0
@@ -3290,8 +3827,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1420969153
-CircleCollider2D:
+--- !u!60 &1420969153
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3325,7 +3862,43 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.4166232, y: 0.5415149}
+      - {x: 0.2650356, y: 0.65683615}
+      - {x: 0.06395939, y: 0.5900642}
+      - {x: -0.07741782, y: 0.41875562}
+      - {x: -0.24739847, y: 0.44872272}
+      - {x: -0.43506676, y: 0.3188709}
+      - {x: -0.80649513, y: 0.44944462}
+      - {x: -0.87372816, y: 0.35505906}
+      - {x: -0.86457217, y: 0.21313247}
+      - {x: -0.9930942, y: 0.13862501}
+      - {x: -1.0366433, y: -0.036896765}
+      - {x: -0.6758789, y: -0.0015985966}
+      - {x: -0.47815213, y: -0.36028257}
+      - {x: -0.57708687, y: -0.6984674}
+      - {x: -0.06724316, y: -1.0318567}
+      - {x: 0.28923902, y: -0.7506461}
+      - {x: 0.9459878, y: -1.288511}
+      - {x: 1.0177978, y: -1.1333946}
+      - {x: 0.63414496, y: -0.5879173}
+      - {x: 1.0488143, y: -0.17985359}
+      - {x: 1.1422127, y: 0.079876736}
+      - {x: 1.0742301, y: 0.17339519}
+      - {x: 0.8495418, y: 0.18459018}
+      - {x: 0.710801, y: 0.38798574}
+      - {x: 0.555217, y: 0.38747177}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1442892385
 GameObject:
   m_ObjectHideFlags: 0
@@ -3389,8 +3962,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1442892388
-CircleCollider2D:
+--- !u!60 &1442892388
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3424,7 +3997,36 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.19872046, y: 0.4998052}
+      - {x: 0.29930753, y: 0.91437817}
+      - {x: -0.388133, y: 1.4578457}
+      - {x: -0.9097807, y: 1.2838516}
+      - {x: -0.9198721, y: 0.7886021}
+      - {x: -0.55876815, y: 0.61954045}
+      - {x: -0.4088526, y: 0.41761827}
+      - {x: -0.7035962, y: 0.2980998}
+      - {x: -0.706009, y: -0.22475529}
+      - {x: -0.21994016, y: -0.30754757}
+      - {x: -0.39127213, y: -0.72201717}
+      - {x: 0.2492131, y: -0.95458186}
+      - {x: 0.32529867, y: -0.69712853}
+      - {x: 0.31121194, y: -0.45602202}
+      - {x: 0.69225645, y: -0.2503264}
+      - {x: 0.8084457, y: -0.02918744}
+      - {x: 0.75732446, y: 0.20054102}
+      - {x: 0.57986593, y: 0.4327473}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1460025041
 GameObject:
   m_ObjectHideFlags: 0
@@ -3488,8 +4090,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1460025044
-CircleCollider2D:
+--- !u!60 &1460025044
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3523,7 +4125,45 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.2100487, y: -0.25580978}
+      - {x: 1.0921159, y: 0.30224144}
+      - {x: 0.8184848, y: 0.3103428}
+      - {x: 0.6003585, y: 0.61336017}
+      - {x: 0.3622985, y: 0.9003786}
+      - {x: 0.02507782, y: 0.8188808}
+      - {x: -0.030700684, y: 0.67605126}
+      - {x: -0.0023255348, y: 0.615252}
+      - {x: -0.1286745, y: 0.47552288}
+      - {x: -0.21084118, y: 0.28353995}
+      - {x: -0.33159113, y: 0.26864398}
+      - {x: -0.4697671, y: 0.20408392}
+      - {x: -0.6417055, y: 0.054596543}
+      - {x: -0.74082327, y: 0.095778346}
+      - {x: -0.970407, y: 0.025391102}
+      - {x: -1.1204937, y: 0.017110974}
+      - {x: -1.1369901, y: -0.15013409}
+      - {x: -1.0200579, y: -0.3393587}
+      - {x: -0.73015594, y: -0.4112196}
+      - {x: -0.6610389, y: -0.51995516}
+      - {x: -0.3517413, y: -0.50713944}
+      - {x: -0.25502682, y: -0.34107065}
+      - {x: -0.12494326, y: -0.24575686}
+      - {x: 0.041018605, y: -0.1968255}
+      - {x: 0.19325924, y: -0.22445178}
+      - {x: 0.2983327, y: -0.34068465}
+      - {x: 0.4860711, y: -0.3615896}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1464585851
 GameObject:
   m_ObjectHideFlags: 0
@@ -3585,8 +4225,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1464585854
-CircleCollider2D:
+--- !u!60 &1464585854
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3620,7 +4260,35 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.04859662, y: 0.52444136}
+      - {x: -0.21667159, y: 0.60052097}
+      - {x: -0.37097514, y: 0.5859151}
+      - {x: -0.57390773, y: 0.73468864}
+      - {x: -0.7390157, y: 0.75901663}
+      - {x: -1.1727612, y: 0.31865624}
+      - {x: 0.23338985, y: -1.3423016}
+      - {x: 0.7617568, y: -1.3273747}
+      - {x: -0.0012875199, y: -0.31786144}
+      - {x: 0.4416027, y: -0.5575497}
+      - {x: 0.5935637, y: -0.5027671}
+      - {x: 0.6939523, y: -0.32851171}
+      - {x: 0.72070646, y: -0.08867264}
+      - {x: 0.48444176, y: 0.055267334}
+      - {x: 0.41608047, y: 0.31208038}
+      - {x: 0.3117783, y: 0.32975817}
+      - {x: 0.29236865, y: 0.51465625}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1498778172
 GameObject:
   m_ObjectHideFlags: 0
@@ -3683,8 +4351,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1498778175
-CircleCollider2D:
+--- !u!60 &1498778175
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3718,7 +4386,45 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.72651935, y: 0.099190235}
+      - {x: 0.6414454, y: 0.17699814}
+      - {x: 0.55100536, y: 0.24652576}
+      - {x: 0.3514862, y: 0.28844428}
+      - {x: 0.24153614, y: 0.35505354}
+      - {x: -0.008454084, y: 0.509652}
+      - {x: -0.27234983, y: 0.40077245}
+      - {x: -0.46717095, y: 0.5714505}
+      - {x: -0.60069835, y: 0.58439434}
+      - {x: -0.5315119, y: 0.30361247}
+      - {x: -0.6434978, y: 0.28863633}
+      - {x: -0.79013395, y: 0.2208488}
+      - {x: -0.94905585, y: -0.055104822}
+      - {x: -0.80923945, y: -0.13123286}
+      - {x: -0.74682164, y: -0.095401645}
+      - {x: -0.6316844, y: -0.1556015}
+      - {x: -0.573238, y: -0.25432205}
+      - {x: -0.47101963, y: -0.29768777}
+      - {x: -0.319937, y: -0.26662922}
+      - {x: -0.07580328, y: -0.33965135}
+      - {x: 0.026966572, y: -0.31126654}
+      - {x: 0.1565398, y: -0.35344493}
+      - {x: 0.217345, y: -0.27195203}
+      - {x: 0.34574962, y: -0.22298408}
+      - {x: 0.45785642, y: -0.065176845}
+      - {x: 0.6865616, y: -0.105289936}
+      - {x: 0.78329563, y: -0.052657783}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1503904599
 GameObject:
   m_ObjectHideFlags: 0
@@ -3904,8 +4610,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1542909629
-CircleCollider2D:
+--- !u!60 &1542909629
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3939,7 +4645,30 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.031792164, y: 0.24891138}
+      - {x: -0.3692913, y: 0.4194144}
+      - {x: -0.6678281, y: 0.22055304}
+      - {x: -0.8450585, y: -0.12880108}
+      - {x: -0.66447115, y: -0.39323306}
+      - {x: -0.39907616, y: -0.6802157}
+      - {x: -0.18953586, y: -0.7006409}
+      - {x: 0.40075636, y: -0.27555764}
+      - {x: 0.5388725, y: 0.029325843}
+      - {x: 0.73482406, y: 0.11295414}
+      - {x: 0.8870745, y: 0.31510687}
+      - {x: 0.3907206, y: 0.43618554}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1605105574
 GameObject:
   m_ObjectHideFlags: 0
@@ -4001,8 +4730,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1605105577
-CircleCollider2D:
+--- !u!60 &1605105577
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4036,7 +4765,47 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.2944062, y: 0.07426441}
+      - {x: 1.1052978, y: 0.12354958}
+      - {x: 0.98646545, y: 0.25449145}
+      - {x: 0.91392064, y: 0.2430464}
+      - {x: 0.71322274, y: 0.28686225}
+      - {x: 0.5623658, y: 0.39677203}
+      - {x: 0.41429543, y: 0.3938008}
+      - {x: 0.3155818, y: 0.47942895}
+      - {x: 0.22249222, y: 0.4647075}
+      - {x: 0.06277418, y: 0.56343365}
+      - {x: -0.31856108, y: 0.6574051}
+      - {x: -0.49365717, y: 0.4214503}
+      - {x: -0.3814783, y: 0.30452502}
+      - {x: -0.6815276, y: -0.012277484}
+      - {x: -1.1287336, y: -0.3372376}
+      - {x: -1.1576266, y: -0.68858945}
+      - {x: -0.5877852, y: -0.80901706}
+      - {x: -0.25702298, y: -0.435825}
+      - {x: -0.05590582, y: -0.501209}
+      - {x: 0.07976198, y: -0.4678383}
+      - {x: 0.19869328, y: -0.32980847}
+      - {x: 0.39969778, y: -0.28525627}
+      - {x: 0.5488734, y: -0.31586802}
+      - {x: 0.6888833, y: -0.31810725}
+      - {x: 0.80699253, y: -0.3738612}
+      - {x: 0.9932406, y: -0.3392228}
+      - {x: 1.1831403, y: -0.41260743}
+      - {x: 1.3875029, y: -0.2598946}
+      - {x: 1.464664, y: -0.044801414}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1639934912
 GameObject:
   m_ObjectHideFlags: 0
@@ -4224,21 +4993,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3260a1ea021809c45b12c306c8a88748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Region
-  _knightCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
-  _horsemanCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
-  _archerCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
+  _richIn: 1
+  _poorIn: 2
+  _completionBonus:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
 --- !u!1 &1769466539
 GameObject:
   m_ObjectHideFlags: 0
@@ -4302,8 +5063,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1769466542
-CircleCollider2D:
+--- !u!60 &1769466542
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4337,7 +5098,30 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.15061331, y: 0.6252184}
+      - {x: -0.3946395, y: 0.41018116}
+      - {x: -0.49096584, y: 0.015200257}
+      - {x: -0.9023171, y: -0.21319255}
+      - {x: -0.8772347, y: -0.847012}
+      - {x: -0.5189356, y: -0.62541884}
+      - {x: -0.02999425, y: -1.1159903}
+      - {x: 0.5633745, y: -0.44231224}
+      - {x: 1.0571381, y: -0.14701939}
+      - {x: 1.0891972, y: 0.07462782}
+      - {x: 0.6469567, y: 0.21358454}
+      - {x: 0.4116509, y: 0.568212}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1828664857
 GameObject:
   m_ObjectHideFlags: 0
@@ -4399,8 +5183,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1828664860
-CircleCollider2D:
+--- !u!60 &1828664860
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4434,7 +5218,24 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.4717965, y: 0.3719903}
+      - {x: 0.15634632, y: 0.78111494}
+      - {x: -0.4681192, y: 0.12140113}
+      - {x: -0.43838733, y: -0.24269521}
+      - {x: 0.2681433, y: -0.52759314}
+      - {x: 0.5584531, y: -0.15307367}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1867213287
 GameObject:
   m_ObjectHideFlags: 0
@@ -4497,8 +5298,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1867213290
-CircleCollider2D:
+--- !u!60 &1867213290
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4532,7 +5333,31 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.001308322, y: 0.5247762}
+      - {x: -0.1493864, y: 0.40637875}
+      - {x: -0.15802896, y: 0.33821344}
+      - {x: -0.38071334, y: 0.12503338}
+      - {x: -0.6526485, y: -0.0767301}
+      - {x: -0.56595045, y: -0.28134418}
+      - {x: 0.11444926, y: -0.39161885}
+      - {x: 0.6078855, y: -0.31968272}
+      - {x: 0.722433, y: -0.18308783}
+      - {x: 0.77866924, y: -0.08637726}
+      - {x: 0.4947611, y: -0.02808094}
+      - {x: 0.32816076, y: 0.12642515}
+      - {x: 0.3004613, y: 0.39810747}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1905972408
 GameObject:
   m_ObjectHideFlags: 0
@@ -4594,8 +5419,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1905972411
-CircleCollider2D:
+--- !u!60 &1905972411
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4629,7 +5454,27 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.4654019, y: 0.31233287}
+      - {x: 0.39584565, y: 0.5722742}
+      - {x: 0.1219666, y: 0.6903765}
+      - {x: -0.22807121, y: 0.60372615}
+      - {x: -0.44644886, y: 0.13511255}
+      - {x: -0.16281766, y: -0.48944128}
+      - {x: 0.73397434, y: -0.72402334}
+      - {x: 1.1347351, y: -0.31290698}
+      - {x: 0.6403091, y: 0.20068306}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1931649724
 GameObject:
   m_ObjectHideFlags: 0
@@ -4691,8 +5536,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &1931649727
-CircleCollider2D:
+--- !u!60 &1931649727
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4726,7 +5571,37 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.44870007, y: 0.02088213}
+      - {x: 0.599717, y: 0.33242178}
+      - {x: 0.7275448, y: 0.6362276}
+      - {x: 0.06868136, y: 0.42974257}
+      - {x: -0.117417336, y: 0.19890976}
+      - {x: -0.25102043, y: 0.19840908}
+      - {x: -0.34696293, y: 0.2458427}
+      - {x: -0.36244273, y: 0.3341174}
+      - {x: -0.46500945, y: 0.36747622}
+      - {x: -0.6598275, y: 0.41845417}
+      - {x: -0.773149, y: 0.35250902}
+      - {x: -0.8898614, y: 0.16622785}
+      - {x: -0.81765866, y: 0.09649539}
+      - {x: -0.64898056, y: 0.013720393}
+      - {x: -0.5574825, y: -0.22494555}
+      - {x: -0.40945697, y: -0.35068274}
+      - {x: 0.05979967, y: -0.33261347}
+      - {x: 0.47559392, y: -0.5642357}
+      - {x: 0.6212815, y: -0.08535296}
+  m_UseDelaunayMesh: 1
 --- !u!1 &2019535269
 GameObject:
   m_ObjectHideFlags: 0
@@ -4789,8 +5664,8 @@ MonoBehaviour:
     _horseman: 0
     _archer: 0
   _trainingQueue: 
---- !u!58 &2019535272
-CircleCollider2D:
+--- !u!60 &2019535272
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4824,7 +5699,39 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.1193631, y: -0.16334486}
+      - {x: 1.1821189, y: -0.12825012}
+      - {x: 1.1975768, y: -0.08125019}
+      - {x: 1.2005885, y: 0.0015821457}
+      - {x: 1.1526794, y: 0.030206442}
+      - {x: 1.2138534, y: 0.21222806}
+      - {x: 1.1555738, y: 0.32839513}
+      - {x: 0.9552505, y: 0.55548286}
+      - {x: 0.69048834, y: 0.4076352}
+      - {x: 0.587832, y: 0.24843597}
+      - {x: 0.19274092, y: 0.17314792}
+      - {x: 0.13683844, y: 0.45631003}
+      - {x: -0.07631397, y: 0.51888967}
+      - {x: -0.4765826, y: 0.42514685}
+      - {x: -0.55665493, y: 0.08721113}
+      - {x: -0.45166922, y: -0.2056917}
+      - {x: -0.2825293, y: -0.44403684}
+      - {x: -0.03268087, y: -0.6198908}
+      - {x: 0.43452978, y: -0.4950186}
+      - {x: 0.48320723, y: -0.19493484}
+      - {x: 0.9320195, y: -0.07074386}
+  m_UseDelaunayMesh: 1
 --- !u!1 &2105281948
 GameObject:
   m_ObjectHideFlags: 0
@@ -4876,21 +5783,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3260a1ea021809c45b12c306c8a88748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Region
-  _knightCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
-  _horsemanCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
-  _archerCost:
-    _food: 1
-    _wood: 1
-    _gold: 1
-    _stone: 1
+  _richIn: 2
+  _poorIn: 1
+  _completionBonus:
+    _food: 0
+    _wood: 0
+    _gold: 0
+    _stone: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

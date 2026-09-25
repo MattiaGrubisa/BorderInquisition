@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Gameplay.Managers;
@@ -45,6 +46,13 @@ namespace Gameplay
         }
 
         public void Receive(GameResources gain) => _playerResources += gain;
+
+        // The best discount among the buildings in this player's countries, in percent; they do not stack.
+        public int SoldierDiscount => BestDiscount(building => building.SoldierDiscount);
+        public int BuildingDiscount => BestDiscount(building => building.BuildingDiscount);
+
+        private int BestDiscount(Func<Building, int> discount) =>
+            OwnedCountries.SelectMany(country => country.BuiltBuildings).Select(discount).DefaultIfEmpty(0).Max();
 
         public void PhaseOne()
         {

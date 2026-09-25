@@ -19,7 +19,8 @@ MonoBehaviour:
     _gold: 0
     _stone: 0
   _productionBoost:
-    _food: 0
+    _food: 1
     _wood: 0
     _gold: 0
     _stone: 0
+  _tradeRatio: 4

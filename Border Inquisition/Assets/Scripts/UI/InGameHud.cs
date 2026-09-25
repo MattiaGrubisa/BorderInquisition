@@ -70,7 +70,7 @@ namespace UI
 
         // On every phase change. The income phase ends as soon as it is entered, so income followed by
         // attack means a new turn; its presentation starts once the panels have been reset. The market
-        // only exists in the build phase.
+        // only exists in the build & move phase.
         private void Refresh(TurnPhase phase)
         {
             var turnStarted = _phase == TurnPhase.Income && phase == TurnPhase.Attack;
@@ -80,9 +80,9 @@ namespace UI
             DiplomacyPanel.Close();
             TurnReportPanel.Close();
             _actionBar.gameObject.SetActive(phase != TurnPhase.Income);
-            _marketButton.gameObject.SetActive(phase == TurnPhase.Build);
+            _marketButton.gameObject.SetActive(phase == TurnPhase.BuildAndMove);
 
-            UiFactory.SetLabel(_endPhaseButton, phase == TurnPhase.Move ? "End Turn" : $"End {phase}");
+            UiFactory.SetLabel(_endPhaseButton, phase == TurnPhase.BuildAndMove ? "End Turn" : $"End {Name(phase)}");
             UpdateStatus();
 
             if (turnStarted)
@@ -119,7 +119,7 @@ namespace UI
                   string.Join(", ", traitors.Select(Format.Name));
 
             _turnLabel.text =
-                $"{Format.Name(player)} - {_phase}\n" +
+                $"{Format.Name(player)} - {Name(_phase)}\n" +
                 $"Food {resources.Food}   Wood {resources.Wood}   Gold {resources.Gold}   Stone {resources.Stone}\n" +
                 Hint(_phase) + traitorLine;
         }
@@ -130,13 +130,14 @@ namespace UI
             {
                 case TurnPhase.Attack:
                     return "Click your country, then a red target to attack";
-                case TurnPhase.Build:
-                    return "Click your country to queue buildings and soldiers";
-                case TurnPhase.Move:
-                    return "One move: click your country, then a green neighbour";
+                case TurnPhase.BuildAndMove:
+                    return "Click your country to build and train; one move a turn to a green neighbour";
             }
             return string.Empty;
         }
+
+        private static string Name(TurnPhase phase) =>
+            phase == TurnPhase.BuildAndMove ? "Build & Move" : phase.ToString();
 
         // Bottom left; the two side panels open above it on the left edge.
         private void CreateActionBar()

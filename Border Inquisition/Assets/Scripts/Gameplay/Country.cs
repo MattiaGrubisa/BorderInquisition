@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Gameplay.Managers;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -13,7 +14,7 @@ namespace Gameplay
         // Author a border on one side only; MapGraph mirrors it.
         [SerializeField] private List<Country> _borders = new List<Country>();
 
-        // Soldier prices are set per region, not per country.
+        // Prices, soldiers and buildings alike, are set per region, not per country.
         [SerializeField] private Region _region;
 
         [SerializeField] private int _nationDiceNumber;
@@ -68,12 +69,16 @@ namespace Gameplay
         // An unaffordable head of the queue simply waits; the owner sees it in the turn report.
         private GameResources ProcessBuildingQueue(GameResources resources, TurnReport report)
         {
-            if (!_buildingQueue.Any() || !(resources >= _buildingQueue[0].BuildingCost))
+            if (!_buildingQueue.Any())
                 return resources;
 
             var building = _buildingQueue[0];
+            var cost = GetBuildingCost(building);
+            if (!(resources >= cost))
+                return resources;
+
             _builtBuildings.Add(building);
-            resources -= building.BuildingCost;
+            resources -= cost;
             _buildingQueue.RemoveAt(0);
             report.AddBuilt(this, building);
             return resources;
@@ -97,6 +102,9 @@ namespace Gameplay
         public IReadOnlyList<Building> BuildingQueue => _buildingQueue;
         public bool IsBuilt(Building building) => _builtBuildings.Contains(building);
         public bool IsQueued(Building building) => _buildingQueue.Contains(building);
+
+        public GameResources GetBuildingCost(Building building) =>
+            PriceHere(building.BuildingCost, _owner?.BuildingDiscount ?? 0);
 
         #endregion
 
@@ -142,7 +150,7 @@ namespace Gameplay
         }
 
         public GameResources GetSoldierCost(SoldierType soldier) =>
-            _region != null ? _region.SoldierCost(soldier) : default;
+            PriceHere(GameController.Instance.Rules.SoldierCost(soldier), _owner?.SoldierDiscount ?? 0);
         
         public void AddSoldierToQueue(SoldierType soldier) => _trainingQueue.Add(soldier);
         public void RemoveSoldierFromQueue(SoldierType soldier) => _trainingQueue.Remove(soldier);
@@ -176,6 +184,13 @@ namespace Gameplay
         {
             currentResources = ProcessBuildingQueue(currentResources, report);
             currentResources = StartTraining(currentResources, report);
+        }
+
+        // The region's price for a base cost, less the owner's best discount in percent.
+        private GameResources PriceHere(GameResources baseCost, int discount)
+        {
+            var price = _region != null ? _region.Price(baseCost, GameController.Instance.Rules) : baseCost;
+            return price.Percent(100 - discount);
         }
 
         // What the country pays its owner whenever the income die shows its number.

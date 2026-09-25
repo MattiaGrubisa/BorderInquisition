@@ -4,7 +4,7 @@ using System.Linq;
 namespace Gameplay
 {
     // What happened to one player since their last turn ended, so a hotseat player who was away from
-    // the screen can catch up: every income roll and what it paid them, what their queues delivered
+    // the screen can catch up: every income roll and what it paid them, the bonus of every region they hold whole, what their queues delivered
     // at the start of this turn, and every attack on their countries. Gameplay fills it, the HUD shows
     // it when the turn begins, and it is cleared when the player's turn ends.
     public class TurnReport
@@ -61,11 +61,14 @@ namespace Gameplay
         private readonly List<Payout> _payouts = new List<Payout>();
         private readonly List<Delivery> _deliveries = new List<Delivery>();
         private readonly List<Defence> _defences = new List<Defence>();
+        private readonly List<(Region Region, GameResources Amount)> _regionBonuses =
+            new List<(Region Region, GameResources Amount)>();
 
         public IReadOnlyList<int> Rolls => _rolls;
         public IReadOnlyList<Payout> Payouts => _payouts;
         public IReadOnlyList<Delivery> Deliveries => _deliveries;
         public IReadOnlyList<Defence> Defences => _defences;
+        public IReadOnlyList<(Region Region, GameResources Amount)> RegionBonuses => _regionBonuses;
 
         public GameResources TotalIncome => _payouts.Aggregate(default(GameResources), (sum, p) => sum + p.Amount);
 
@@ -76,6 +79,8 @@ namespace Gameplay
         // Belongs to the roll added last.
         public void AddPayout(Country country, GameResources amount) =>
             _payouts.Add(new Payout(_rolls.Count - 1, country, amount));
+
+        public void AddRegionBonus(Region region, GameResources amount) => _regionBonuses.Add((region, amount));
 
         public void AddBuilt(Country country, Building building) =>
             _deliveries.Add(new Delivery(country, building, default));
@@ -112,6 +117,7 @@ namespace Gameplay
             _payouts.Clear();
             _deliveries.Clear();
             _defences.Clear();
+            _regionBonuses.Clear();
         }
     }
 }

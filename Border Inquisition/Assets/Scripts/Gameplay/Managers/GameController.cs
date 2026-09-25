@@ -245,11 +245,26 @@ namespace Gameplay.Managers
         public void PhaseOne()
         {
             _diplomacy.OnTurnStarted(CurrentPlayer);
+            PayRegionBonuses(CurrentPlayer);
             CurrentPlayer.PhaseOne();
             LastIncomeRoll = _dice.RollDice(0);
             foreach (var p in _players)
             {
                 p.GainResources(LastIncomeRoll);
+            }
+        }
+
+        // Every region the player holds whole pays its bonus, before the queues so it can pay for them.
+        private void PayRegionBonuses(Player player)
+        {
+            var regions = _countries.Where(c => c.Region != null).GroupBy(c => c.Region);
+            foreach (var region in regions)
+            {
+                if (region.Key.CompletionBonus.IsEmpty || region.Any(c => c.Owner != player))
+                    continue;
+
+                player.Receive(region.Key.CompletionBonus);
+                player.Report.AddRegionBonus(region.Key, region.Key.CompletionBonus);
             }
         }
 

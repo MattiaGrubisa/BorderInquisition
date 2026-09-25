@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c7b241335614c73a089d1e401d23c54, type: 3}
-  m_Name: Market
+  m_Name: Church
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Building
-  _name: 
+  _name: Church
   _buildingCost:
     _food: 0
     _wood: 0
@@ -21,6 +21,6 @@ MonoBehaviour:
   _productionBoost:
     _food: 0
     _wood: 0
-    _gold: 0
+    _gold: 1
     _stone: 0
-  _tradeRatio: 3
+  _tradeRatio: 4

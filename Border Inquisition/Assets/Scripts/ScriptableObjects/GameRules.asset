@@ -13,12 +13,34 @@ MonoBehaviour:
   m_Name: GameRules
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.GameRules
   _buildings:
+  - {fileID: 11400000, guid: b6e52b1008ee2e547854bdfefc68fee2, type: 2}
+  - {fileID: 11400000, guid: 14daa4458b6bb1a4eb203358dedc0443, type: 2}
   - {fileID: 11400000, guid: e31f522e1b1655f40bb603bb7aedd6a2, type: 2}
+  - {fileID: 11400000, guid: 36e791dd711be6949997ea58fafb7eee, type: 2}
   - {fileID: 11400000, guid: 37d628c6f78b46144899f2ce7c1b75c7, type: 2}
+  - {fileID: 11400000, guid: 42de7b821747f5e42b32687c60f478f8, type: 2}
+  - {fileID: 11400000, guid: 3c5b517b15ef0724ea8772edb38b8e5c, type: 2}
   _randomUnitsPerType: {x: 0, y: 4}
   _randomResourceGain: {x: 0, y: 3}
   _minCountriesPerDiceNumber: 2
   _maxCountriesPerDiceNumber: 5
   _minimumGarrison: 1
+  _knightCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _horsemanCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _archerCost:
+    _food: 1
+    _wood: 1
+    _gold: 1
+    _stone: 1
+  _richPricePercent: 50
+  _poorPricePercent: 150
   _defaultTradeRatio: 4
   _pactTurns: 3

@@ -14,8 +14,8 @@ namespace View
     // to the view are enforced (GameController itself is phase-blind):
     // - Attack: click your country, then a red target. After a conquest the move panel offers to send
     //   units back between exactly those two countries; the selection then follows the army.
-    // - Build: click your country to open its build/train panel.
-    // - Move: one move per turn - click your country, then a green neighbour you own.
+    // - Build & Move: click your country to open its build/train panel; while the turn's one move is
+    //   unused, its own neighbours light up green and a click on one opens the move panel.
     // Left click only; right and middle drag stay with MapCamera.
     [RequireComponent(typeof(MapView))]
     public class CountryPicker : MonoBehaviour
@@ -66,11 +66,8 @@ namespace View
                 case TurnPhase.Attack:
                     ClickInAttack(clicked);
                     break;
-                case TurnPhase.Build:
-                    ClickInBuild(clicked);
-                    break;
-                case TurnPhase.Move:
-                    ClickInMove(clicked);
+                case TurnPhase.BuildAndMove:
+                    ClickInBuildAndMove(clicked);
                     break;
             }
         }
@@ -130,10 +127,16 @@ namespace View
 
         #endregion
 
-        #region Build
+        #region Build & Move
 
-        private void ClickInBuild(Country clicked)
+        private void ClickInBuildAndMove(Country clicked)
         {
+            if (clicked != null && clicked != _selected && Destinations(_selected).Contains(clicked))
+            {
+                OpenMove(_selected, clicked);
+                return;
+            }
+
             if (!IsOwn(clicked))
             {
                 Deselect();
@@ -141,36 +144,19 @@ namespace View
                 return;
             }
 
-            Highlight(clicked, null, CountryMarker.Highlight.None);
-            _hud.CountryPanel.Open(clicked);
+            SelectForBuildAndMove(clicked);
         }
 
-        #endregion
-
-        #region Move
-
-        private void ClickInMove(Country clicked)
+        private void SelectForBuildAndMove(Country country)
         {
-            if (_moveUsed)
-            {
-                Debug.Log("The move for this turn is used - end the turn.");
-                return;
-            }
-
-            if (_selected != null && clicked != null && Game.CanMoveArmy(_selected, clicked) && clicked != _selected)
-            {
-                OpenMove(_selected, clicked);
-                return;
-            }
-
-            if (IsOwn(clicked) && CanSendUnits(clicked))
-                Highlight(clicked, Destinations(clicked), CountryMarker.Highlight.Destination);
-            else
-                Deselect();
+            Highlight(country, Destinations(country), CountryMarker.Highlight.Destination);
+            _hud.CountryPanel.Open(country);
         }
 
+        // Either way the selection returns to the country the units left from, with its panel.
         private void OpenMove(Country from, Country to)
         {
+            _hud.CountryPanel.Close();
             Highlight(from, new[] { to }, CountryMarker.Highlight.Destination);
             _hud.MovePanel.Open($"Move units from {from.name} to {to.name}", from.Army,
                 Game.Rules.MinimumGarrison,
@@ -178,13 +164,16 @@ namespace View
                 {
                     if (Move(from, to, units))
                         _moveUsed = true;
-                    Deselect();
+                    SelectForBuildAndMove(from);
                 },
-                () => Highlight(from, Destinations(from), CountryMarker.Highlight.Destination));
+                () => SelectForBuildAndMove(from));
         }
 
+        // None once the turn's move is used, or when the garrison is all the country has.
         private IEnumerable<Country> Destinations(Country from) =>
-            Game.Map.Neighbours(from).Where(to => Game.CanMoveArmy(from, to));
+            from == null || _moveUsed || !CanSendUnits(from)
+                ? Enumerable.Empty<Country>()
+                : Game.Map.Neighbours(from).Where(to => Game.CanMoveArmy(from, to));
 
         #endregion
 
