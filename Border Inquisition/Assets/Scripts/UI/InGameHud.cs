@@ -7,25 +7,30 @@ using View;
 
 namespace UI
 {
-    // Debug HUD for driving the turn loop by hand until the real game UI exists. The move and country
-    // panels and the income die are built in code on this canvas; the map picker opens the panels.
+    // Debug HUD for driving the turn loop by hand until the real game UI exists. The move, country and
+    // combat panels and the income die are built in code on this canvas; the map picker opens the panels.
     public class InGameHud : MonoBehaviour
     {
         [SerializeField] private Button _endPhaseButton;
         [SerializeField] private TMP_Text _turnLabel;
+        [SerializeField] private DiceFaces _diceFaces = new DiceFaces();
 
-        private TMP_Text _dieLabel;
+        private Image _incomeDie;
 
         public MovePanel MovePanel { get; private set; }
         public CountryPanel CountryPanel { get; private set; }
+        public CombatPanel CombatPanel { get; private set; }
 
         private void Awake()
         {
             _endPhaseButton.onClick.AddListener(() => GameStateMachine.Instance.EndPhase());
+            if (!_diceFaces.IsComplete)
+                Debug.LogWarning("InGameHud is missing dice faces - assign all nine, 1 to 9 in order.", this);
 
-            _dieLabel = CreateDie();
+            _incomeDie = CreateDie();
             MovePanel = MovePanel.Create(transform);
             CountryPanel = CountryPanel.Create(transform);
+            CombatPanel = CombatPanel.Create(transform, _diceFaces);
         }
 
         private void OnEnable() => GameStateMachine.Instance.PhaseChanged += Refresh;
@@ -49,7 +54,8 @@ namespace UI
                 $"Food {resources.Food}   Wood {resources.Wood}   Gold {resources.Gold}   Stone {resources.Stone}\n" +
                 Hint(phase);
 
-            _dieLabel.text = game.LastIncomeRoll > 0 ? game.LastIncomeRoll.ToString() : "-";
+            _incomeDie.sprite = _diceFaces.Face(game.LastIncomeRoll);
+            _incomeDie.enabled = _incomeDie.sprite != null;
             UiFactory.SetLabel(_endPhaseButton, phase == TurnPhase.Move ? "End Turn" : $"End {phase}");
         }
 
@@ -67,12 +73,13 @@ namespace UI
             return string.Empty;
         }
 
-        private TMP_Text CreateDie()
+        // Top right, clear of the turn label in the top left and the combat panel in the middle.
+        private Image CreateDie()
         {
-            var panel = UiFactory.Panel(transform, "IncomeDie", new Vector2(0f, 1f));
-            panel.anchoredPosition = new Vector2(20f, -20f);
+            var panel = UiFactory.Panel(transform, "IncomeDie", new Vector2(1f, 1f));
+            panel.anchoredPosition = new Vector2(-20f, -20f);
             UiFactory.Label(panel, "Income roll", 22f, 140f, 30f, TextAlignmentOptions.Center);
-            return UiFactory.Label(panel, "-", 72f, 140f, 90f, TextAlignmentOptions.Center);
+            return UiFactory.Icon(panel, null, 140f, 128f);
         }
     }
 }

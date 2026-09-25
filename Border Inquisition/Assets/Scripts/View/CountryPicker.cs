@@ -46,6 +46,7 @@ namespace View
             {
                 _hud.MovePanel.Close();
                 _hud.CountryPanel.Close();
+                _hud.CombatPanel.Hide();
             }
             Deselect();
         }
@@ -89,13 +90,12 @@ namespace View
 
         private void Attack(Country from, Country to)
         {
+            var defender = to.Owner;
             if (!Game.TryAttack(from, to, out var result))
                 return;
 
             var conquered = to.Owner == from.Owner;
-            Debug.Log($"{from.name} attacks {to.name}: " +
-                      $"[{string.Join(" ", result.AttackerDice)}] vs [{string.Join(" ", result.DefenderDice)}]" +
-                      (conquered ? $" - {to.name} falls to {to.Owner.Name}." : "."));
+            _hud.CombatPanel.Show(from, to, from.Owner, defender, result);
 
             if (Game.Winner != null)
                 return;
@@ -106,8 +106,15 @@ namespace View
                 return;
             }
 
+            if (!CanSendUnits(to))
+            {
+                AfterConquest(from, to);
+                return;
+            }
+
             Highlight(to, new[] { from }, CountryMarker.Highlight.Destination);
             _hud.MovePanel.Open($"{to.name} taken - send units back to {from.name}?", to.Army,
+                GameController.MinimumGarrison,
                 units =>
                 {
                     Move(to, from, units);
@@ -156,7 +163,7 @@ namespace View
                 return;
             }
 
-            if (IsOwn(clicked) && !clicked.IsArmyEmpty)
+            if (IsOwn(clicked) && CanSendUnits(clicked))
                 Highlight(clicked, Destinations(clicked), CountryMarker.Highlight.Destination);
             else
                 Deselect();
@@ -166,6 +173,7 @@ namespace View
         {
             Highlight(from, new[] { to }, CountryMarker.Highlight.Destination);
             _hud.MovePanel.Open($"Move units from {from.name} to {to.name}", from.Army,
+                GameController.MinimumGarrison,
                 units =>
                 {
                     if (Move(from, to, units))
@@ -184,6 +192,9 @@ namespace View
             !units.IsArmyEmpty() && Game.TryMoveArmy(from, to, units.Knights, units.Horsemen, units.Archers);
 
         private static bool IsOwn(Country country) => country != null && country.Owner == Game.CurrentPlayer;
+
+        // Whether anything is left to move once the garrison stays behind.
+        private static bool CanSendUnits(Country country) => country.Army.Count > GameController.MinimumGarrison;
 
         private void Deselect() => Highlight(null, null, CountryMarker.Highlight.None);
 

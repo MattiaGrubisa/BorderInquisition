@@ -25,6 +25,9 @@ namespace Gameplay.Managers
         [SerializeField] private int _maxCountriesPerDiceNumber = 5;
         private const int DiceFaces = 9;
 
+        // Units a move must leave in the country it starts from.
+        public const int MinimumGarrison = 1;
+
         private readonly List<Player> _players = new List<Player>();
         private readonly MapGraph _map = new MapGraph();
         private int _currentPlayerIndex;
@@ -99,8 +102,11 @@ namespace Gameplay.Managers
             return true;
         }
 
+        // A move always leaves at least MinimumGarrison units behind, so moving never opens a country up.
         public bool TryMoveArmy(Country from, Country to, int knights, int horsemen, int archers) =>
-            CanMoveArmy(from, to) && from.SendUnits(to, knights, horsemen, archers);
+            CanMoveArmy(from, to)
+            && from.Army.Count - (knights + horsemen + archers) >= MinimumGarrison
+            && from.SendUnits(to, knights, horsemen, archers);
 
         public void StartNewMatch(MatchSettings settings)
         {
@@ -298,8 +304,9 @@ namespace Gameplay.Managers
             foreach (var from in idle)
             {
                 var step = NextStepTowardsEnemy(from);
-                if (step != null)
-                    TryMoveArmy(from, step, from.Army.Knights, from.Army.Horsemen, from.Army.Archers);
+                // The debug march moves whole armies, ignoring the garrison rule like it ignores phases.
+                if (step != null && CanMoveArmy(from, step))
+                    from.SendWholeArmy(step);
             }
         }
 

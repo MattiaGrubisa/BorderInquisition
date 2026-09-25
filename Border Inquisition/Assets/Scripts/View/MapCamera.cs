@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
 namespace View
@@ -58,6 +59,10 @@ namespace View
 
             var scroll = mouse.scroll.ReadValue().y;
             if (Mathf.Approximately(scroll, 0f))
+                return;
+
+            // Scrolling over the HUD belongs to the HUD.
+            if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
                 return;
 
             // Keep whatever sits under the cursor in place, so zooming follows the pointer.

@@ -23,6 +23,7 @@ namespace Gameplay
         public int Knights => _knight;
         public int Horsemen => _horseman;
         public int Archers => _archer;
+        public int Count => _knight + _horseman + _archer;
 
         public bool Contains(int knight, int horseman, int archer) =>
             _knight >= knight && _horseman >= horseman && _archer >= archer;

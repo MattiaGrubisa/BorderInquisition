@@ -18,6 +18,7 @@ namespace UI
         private readonly TMP_Text[] _counts = new TMP_Text[Types.Length];
         private readonly int[] _chosen = new int[Types.Length];
         private readonly int[] _available = new int[Types.Length];
+        private int _mustStay;
 
         private Action<Army> _onConfirm;
         private Action _onCancel;
@@ -54,12 +55,14 @@ namespace UI
         }
 
         // Cancel means no units move; onCancel still runs, so the caller can carry on either way.
-        public void Open(string title, Army source, Action<Army> onConfirm, Action onCancel)
+        // mustStay units of any type are held back from the choice.
+        public void Open(string title, Army source, int mustStay, Action<Army> onConfirm, Action onCancel)
         {
             _title.text = title;
             _available[0] = source.Knights;
             _available[1] = source.Horsemen;
             _available[2] = source.Archers;
+            _mustStay = mustStay;
             Array.Clear(_chosen, 0, _chosen.Length);
 
             _onConfirm = onConfirm;
@@ -80,9 +83,12 @@ namespace UI
         private void Change(int index, int delta)
         {
             var next = delta == int.MaxValue ? _available[index] : _chosen[index] + delta;
-            _chosen[index] = Mathf.Clamp(next, 0, _available[index]);
+            var room = Sum(_available) - _mustStay - (Sum(_chosen) - _chosen[index]);
+            _chosen[index] = Mathf.Clamp(next, 0, Mathf.Max(0, Mathf.Min(_available[index], room)));
             Refresh();
         }
+
+        private static int Sum(int[] counts) => counts[0] + counts[1] + counts[2];
 
         private void Refresh()
         {

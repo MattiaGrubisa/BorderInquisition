@@ -86,6 +86,22 @@ namespace UI
             return button;
         }
 
+        public static Image Icon(Transform parent, Sprite sprite, float width, float height)
+        {
+            var rect = Create(parent, "Icon");
+            Size(rect, width, height);
+
+            var image = rect.gameObject.AddComponent<Image>();
+            image.sprite = sprite;
+            image.preserveAspect = true;
+            image.raycastTarget = false;
+            return image;
+        }
+
+        // Empty room in a layout row, to keep columns lined up.
+        public static void Spacer(Transform parent, float width, float height) =>
+            Size(Create(parent, "Spacer"), width, height);
+
         public static void SetLabel(Button button, string label) =>
             button.GetComponentInChildren<TMP_Text>().text = label;
 

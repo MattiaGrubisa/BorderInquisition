@@ -35,9 +35,6 @@ plus the dlls above, and every script path. Use Windows paths (`C:/...`) for `-o
   run; the scene now has 35 — Lucanor was removed on purpose and is still listed in `MapSetup`.)
 - **Set Up Map View** — adds a `MapView` to the map sprite and a default `PolygonCollider2D` to every
   country without a collider. Existing colliders are never touched; the shapes are traced by hand.
-- **Link / Unlink Selected Countries** (`Ctrl+Shift+L` / `Ctrl+Shift+U`) — borders the active
-  (last-clicked) country to the rest of the hierarchy selection, refusing duplicates in either
-  direction. Borders and countries are also drawn as scene gizmos.
 - **Always Play From Bootstrap** — toggles the play-mode redirect.
 - Right-click the `GameController` component for **Assign Country Ids**, **Assign Regions** (puts a
   `Region` on each continent parent and links its countries) and **Validate Map**.
@@ -85,7 +82,9 @@ Phases 2-4 wait for End Phase; the 4 → 1 transition calls `GameController.Next
 `LobbyView`, `InGameHud`, `GameOverView`) call its command forwarders (`Play`, `Quit`,
 `StartMatch`, `LeaveLobby`, `EndPhase`, `Rematch`, `ReturnToMainMenu`) and read `PhaseChanged` /
 `CurrentPhase` / `Winner`; they never touch the state classes. `InGameHud` builds the in-game
-panels in code at `Awake` (`UiFactory`, layout groups — no scene wiring): the income die box,
+panels in code at `Awake` (`UiFactory`, layout groups — no scene wiring): the income die box (top
+right), `CombatPanel` (top centre: the last attack's dice sorted and paired, tinted in seat colours,
+each pair's loser dimmed; never blocks map clicks, hides on phase change),
 `MovePanel` (pick knights/horsemen/archers with +/-/All; the caller performs the move in the confirm
 callback) and `CountryPanel` (build phase: queue/unqueue buildings from `GameController._buildings`
 and soldiers, costs from the region). `View.CountryPicker` opens them through the HUD.
@@ -131,7 +130,8 @@ positions, sprites and UI are a separate layer on top. Do not put rendering deci
 
 ## Gameplay rules worth knowing
 
-- Match setup (`StartNewMatch`): countries are shuffled and dealt round-robin (equal share ±1);
+- Match setup (`StartNewMatch`): countries are shuffled and dealt round-robin (equal share ±1, not by
+  region);
   every country gets a random army (`_randomUnitsPerType`, never empty) and a random
   `_baseResourceGain` (`_randomResourceGain`) — a stand-in until starting values are designed; then
   income dice numbers are assigned; the starting player is decided by roll-offs
@@ -203,23 +203,28 @@ The four-phase turn, the panels and the picker were written 2026-09-25 and **not
 `GameController._buildings` must be filled in the inspector (drag `ScriptableObjects/House.asset`)
 or the build panel says there are none.
 
-Next: play-test the turn loop; show combat dice somewhere better than the console.
+Next: play-test the turn loop (postponed by the user).
 
-Open question: "countries are given to players by region" came up once and was then re-read as the
-dice-number rule; country dealing is still shuffle + round-robin. Confirm before changing it.
+Country dealing stays shuffle + round-robin — confirmed by the user, countries are not dealt by
+region.
+
+Dice art is in `Assets/Assets/Dice/Sprite-001..009.png` (128×128, white body, black pips, point
+filter) — white so the UI tints it. `InGameHud._diceFaces` must hold all nine, face n at index n-1;
+the HUD warns in `Awake` if any is missing.
 
 ## Known open threads
 
 - `GameController` is deliberately phase-blind: the phase gates, the post-conquest move pair and the
   one-move-per-turn limit all live in `CountryPicker` (View), not in gameplay code.
-- **Play Out Match** ignores phases entirely — it is a debug shortcut.
-- Moves may leave a country with no army; an empty country falls to the first attack.
+- **Play Out Match** ignores phases and the garrison rule entirely (it marches whole armies) — it
+  is a debug shortcut.
+- A move (including the post-conquest one) must leave `GameController.MinimumGarrison` (1) units
+  behind: `TryMoveArmy` refuses otherwise, `MovePanel` caps the picks, and `CountryPicker` only
+  offers countries with more than that. Conquest still empties the attacking country by design.
 - Queued buildings and soldiers are paid and delivered at the start of the owner's next turn, not
   when queued; the build panel does not reserve resources.
 - Costs are spent immediately per queue entry; accumulating the full cost before spending is planned.
 - Phase one does not wait on animations yet (dice/income animations are TODO).
-- `MapCamera` zooms even while the cursor is over the HUD; it needs the same
-  `EventSystem.IsPointerOverGameObject` check `CountryPicker` already does.
 - `Market`, `Alliance`, `DiplomacySystem`, `FogOfWar` are empty placeholder classes.
 
 **Planned, not implemented:** fog of war as depth-1 traversal from owned countries — the graph is in

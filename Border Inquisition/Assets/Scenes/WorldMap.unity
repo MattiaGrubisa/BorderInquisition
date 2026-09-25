@@ -781,6 +781,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UI.InGameHud
   _endPhaseButton: {fileID: 457999271}
   _turnLabel: {fileID: 1639934913}
+  _diceFaces:
+    _faces:
+    - {fileID: 21300000, guid: 5f17880ab7760fc44be0e8285db96e93, type: 3}
+    - {fileID: 21300000, guid: 12b5365fa5ab1214ab726250a4b769a4, type: 3}
+    - {fileID: 21300000, guid: f6355a48d6fd8b5448ae3aa16988741d, type: 3}
+    - {fileID: 21300000, guid: f469e48c873f3784a9870e8114e17ac5, type: 3}
+    - {fileID: 21300000, guid: e5789331cbbc67642b2c80440e6f5786, type: 3}
+    - {fileID: 21300000, guid: 0ffd67613bffd294692891b81defbf6b, type: 3}
+    - {fileID: 21300000, guid: 3ec3b108ae0bc6a44bc97790171627b9, type: 3}
+    - {fileID: 21300000, guid: f74e161e801d59849bd728e684103368, type: 3}
+    - {fileID: 21300000, guid: 1a858469820ec5b49bc8e9704b432a42, type: 3}
 --- !u!114 &222843224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2657,8 +2668,8 @@ MonoBehaviour:
   - {fileID: 1011220007}
   _buildings:
   - {fileID: 11400000, guid: e31f522e1b1655f40bb603bb7aedd6a2, type: 2}
-  _randomUnitsPerType: {x: 1, y: 2}
-  _randomResourceGain: {x: 1, y: 2}
+  _randomUnitsPerType: {x: 0, y: 4}
+  _randomResourceGain: {x: 0, y: 3}
   _minCountriesPerDiceNumber: 2
   _maxCountriesPerDiceNumber: 5
 --- !u!114 &1174911666
