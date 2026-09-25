@@ -74,7 +74,7 @@ namespace UI
             UiFactory.Clear(_buildingRows);
             var buildings = GameController.Instance.Buildings;
             if (buildings.Count == 0)
-                UiFactory.Label(_buildingRows, "No buildings set on the GameController.", 22f, 560f, RowHeight);
+                UiFactory.Label(_buildingRows, "No buildings in the GameRules asset.", 22f, 560f, RowHeight);
 
             foreach (var building in buildings)
                 if (building != null)

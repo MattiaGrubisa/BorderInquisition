@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Diplomacy;
 using Gameplay.Helpers;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -12,50 +13,57 @@ namespace Gameplay.Managers
         [SerializeField] private Combat _combat;
         [SerializeField] private Dice _dice;
         [SerializeField] private List<Country> _countries;
+        [SerializeField] private GameRules _rules;
 
-        // Every building a country can put in its build queue.
-        [SerializeField] private List<Building> _buildings = new List<Building>();
-
-        // Temporary match setup: every country starts with a random army and a random income, both inclusive ranges.
-        [SerializeField] private Vector2Int _randomUnitsPerType = new Vector2Int(0, 4);
-        [SerializeField] private Vector2Int _randomResourceGain = new Vector2Int(0, 3);
-
-        // Every face of the income die pays out on at least min and at most max countries.
-        [SerializeField] private int _minCountriesPerDiceNumber = 2;
-        [SerializeField] private int _maxCountriesPerDiceNumber = 5;
         private const int DiceFaces = 9;
-
-        // Units a move must leave in the country it starts from.
-        public const int MinimumGarrison = 1;
 
         private readonly List<Player> _players = new List<Player>();
         private readonly MapGraph _map = new MapGraph();
+        private DiplomacySystem _diplomacy;
+        private Market _market;
+        private FogOfWar _fog;
         private int _currentPlayerIndex;
 
         public event Action<Player> MatchWon;
 
         public IReadOnlyList<Country> Countries => _countries;
-        public IReadOnlyList<Building> Buildings => _buildings;
+        public GameRules Rules => _rules;
+        public IReadOnlyList<Building> Buildings => _rules.Buildings;
         public IReadOnlyList<Player> Players => _players;
         public Player CurrentPlayer => _players[_currentPlayerIndex];
         public Player Winner { get; private set; }
         public int LastIncomeRoll { get; private set; }
         public MapGraph Map => _map;
+        public FogOfWar Fog => _fog;
+        public DiplomacySystem Diplomacy => _diplomacy;
+        public Market Market => _market;
 
         protected override void Awake()
         {
             base.Awake();
+
+            // Without an asset the game still runs on the default rules, with no buildings.
+            if (_rules == null)
+            {
+                Debug.LogError("GameController has no GameRules asset - running on defaults.", this);
+                _rules = ScriptableObject.CreateInstance<GameRules>();
+            }
+
             _map.Bake(_countries);
+            _diplomacy = new DiplomacySystem(_rules);
+            _market = new Market(_rules);
+            _fog = new FogOfWar(_map, _diplomacy);
         }
 
         #region Attack legality
 
-        // An attack is legal between neighbours the current player owns one side of, and only while
-        // the attacking country still has an army to send.
+        // An attack is legal between neighbours the current player owns one side of, only while the
+        // attacking country still has an army to send, and never across a pact or alliance.
         public bool CanAttack(Country from, Country to) =>
             from != null && to != null
             && _players.Count > 0 && from.Owner == CurrentPlayer
             && to.Owner != from.Owner
+            && !_diplomacy.AtPeace(from.Owner, to.Owner)
             && !from.IsArmyEmpty
             && _map.AreNeighbours(from, to);
 
@@ -102,15 +110,17 @@ namespace Gameplay.Managers
             return true;
         }
 
-        // A move always leaves at least MinimumGarrison units behind, so moving never opens a country up.
+        // A move always leaves at least GameRules.MinimumGarrison units behind, so moving never opens a
+        // country up.
         public bool TryMoveArmy(Country from, Country to, int knights, int horsemen, int archers) =>
             CanMoveArmy(from, to)
-            && from.Army.Count - (knights + horsemen + archers) >= MinimumGarrison
+            && from.Army.Count - (knights + horsemen + archers) >= _rules.MinimumGarrison
             && from.SendUnits(to, knights, horsemen, archers);
 
         public void StartNewMatch(MatchSettings settings)
         {
             _players.Clear();
+            _diplomacy.Clear();
             Winner = null;
             LastIncomeRoll = 0;
             foreach (var playerName in settings.PlayerNames)
@@ -122,21 +132,22 @@ namespace Gameplay.Managers
             _currentPlayerIndex = DetermineStartingPlayer();
         }
 
-        // Each number 1-9 is put in the pool _minCountriesPerDiceNumber times, the rest of the pool is
-        // drawn at random from the numbers still under _maxCountriesPerDiceNumber, and the pool is
+        // Each number 1-9 is put in the pool MinCountriesPerDiceNumber times, the rest of the pool is
+        // drawn at random from the numbers still under MaxCountriesPerDiceNumber, and the pool is
         // shuffled over the countries.
         private void AssignDiceNumbers()
         {
-            if (_countries.Count < DiceFaces * _minCountriesPerDiceNumber
-                || _countries.Count > DiceFaces * _maxCountriesPerDiceNumber)
+            var min = _rules.MinCountriesPerDiceNumber;
+            var max = _rules.MaxCountriesPerDiceNumber;
+            if (_countries.Count < DiceFaces * min || _countries.Count > DiceFaces * max)
             {
                 Debug.LogWarning($"{_countries.Count} countries cannot carry every dice number between " +
-                                 $"{_minCountriesPerDiceNumber} and {_maxCountriesPerDiceNumber} times.", this);
+                                 $"{min} and {max} times.", this);
             }
 
             var numbers = new List<int>();
             var counts = new int[DiceFaces + 1];
-            for (var copy = 0; copy < _minCountriesPerDiceNumber; copy++)
+            for (var copy = 0; copy < min; copy++)
             {
                 for (var number = 1; number <= DiceFaces; number++)
                 {
@@ -147,7 +158,7 @@ namespace Gameplay.Managers
 
             while (numbers.Count < _countries.Count)
             {
-                var open = Enumerable.Range(1, DiceFaces).Where(n => counts[n] < _maxCountriesPerDiceNumber).ToList();
+                var open = Enumerable.Range(1, DiceFaces).Where(n => counts[n] < max).ToList();
                 var number = open.Count > 0 ? open[Random.Range(0, open.Count)] : Random.Range(1, DiceFaces + 1);
                 numbers.Add(number);
                 counts[number]++;
@@ -174,8 +185,9 @@ namespace Gameplay.Managers
             }
         }
 
-        private int RandomUnits() => Random.Range(_randomUnitsPerType.x, _randomUnitsPerType.y + 1);
-        private int RandomGain() => Random.Range(_randomResourceGain.x, _randomResourceGain.y + 1);
+        private int RandomUnits() => RandomIn(_rules.RandomUnitsPerType);
+        private int RandomGain() => RandomIn(_rules.RandomResourceGain);
+        private static int RandomIn(Vector2Int range) => Random.Range(range.x, range.y + 1);
 
         // Shuffled and dealt round-robin, so every player starts with an equal share (±1).
         private void DistributeCountries()
@@ -220,6 +232,7 @@ namespace Gameplay.Managers
 
         public void PhaseOne()
         {
+            _diplomacy.OnTurnStarted(CurrentPlayer);
             CurrentPlayer.PhaseOne();
             LastIncomeRoll = _dice.RollDice(0);
             foreach (var p in _players)
@@ -231,6 +244,7 @@ namespace Gameplay.Managers
         // Skips players who lost all their countries; bounded so it can never spin forever.
         public void NextPlayer()
         {
+            _diplomacy.OnTurnEnded(CurrentPlayer);
             for (int i = 0; i < _players.Count; i++)
             {
                 _currentPlayerIndex = (_currentPlayerIndex + 1) % _players.Count;
@@ -240,7 +254,7 @@ namespace Gameplay.Managers
         }
 
         // An empty test map eliminates nobody, so turns still rotate while the map is being built.
-        private bool IsEliminated(Player player) => _countries.Count > 0 && !player.OwnedCountries.Any();
+        public bool IsEliminated(Player player) => _countries.Count > 0 && !player.OwnedCountries.Any();
 
         #region Simulation
 

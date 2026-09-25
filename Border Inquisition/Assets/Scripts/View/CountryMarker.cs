@@ -1,11 +1,12 @@
 using Gameplay;
+using Gameplay.Managers;
 using TMPro;
 using UnityEngine;
 
 namespace View
 {
     // Crudest possible country marker: a disc in the owner's colour carrying the income dice number,
-    // with the army (knights/horsemen/archers) underneath. It lives in the world, not on a canvas, so
+    // with the army (knights/horsemen/archers) underneath; under fog of war only the number is left. It lives in the world, not on a canvas, so
     // it pans and zooms with the map for free. It reads the country every frame - there are only a
     // few dozen of them.
     public class CountryMarker : MonoBehaviour
@@ -76,10 +77,16 @@ namespace View
             if (_country == null)
                 return;
 
+            // Hotseat: the map is seen through the current player's eyes. Under fog only the dice
+            // number shows, on a disc in the no-owner grey.
+            var game = GameController.Instance;
+            var viewer = game != null && game.Players.Count > 0 ? game.CurrentPlayer : null;
+            var visible = game != null && game.Fog.IsVisible(viewer, _country);
+
             var army = _country.Army;
-            _disc.color = PlayerPalette.ColorOf(_country.Owner);
+            _disc.color = PlayerPalette.ColorOf(visible ? _country.Owner : null);
             _diceLabel.text = _country.DiceNumber.ToString();
-            _armyLabel.text = $"{army.Knights}/{army.Horsemen}/{army.Archers}";
+            _armyLabel.text = visible ? $"{army.Knights}/{army.Horsemen}/{army.Archers}" : string.Empty;
         }
 
         public void SetHighlight(Highlight highlight)

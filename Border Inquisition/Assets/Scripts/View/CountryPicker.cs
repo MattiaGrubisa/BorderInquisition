@@ -114,7 +114,7 @@ namespace View
 
             Highlight(to, new[] { from }, CountryMarker.Highlight.Destination);
             _hud.MovePanel.Open($"{to.name} taken - send units back to {from.name}?", to.Army,
-                GameController.MinimumGarrison,
+                Game.Rules.MinimumGarrison,
                 units =>
                 {
                     Move(to, from, units);
@@ -173,7 +173,7 @@ namespace View
         {
             Highlight(from, new[] { to }, CountryMarker.Highlight.Destination);
             _hud.MovePanel.Open($"Move units from {from.name} to {to.name}", from.Army,
-                GameController.MinimumGarrison,
+                Game.Rules.MinimumGarrison,
                 units =>
                 {
                     if (Move(from, to, units))
@@ -194,7 +194,7 @@ namespace View
         private static bool IsOwn(Country country) => country != null && country.Owner == Game.CurrentPlayer;
 
         // Whether anything is left to move once the garrison stays behind.
-        private static bool CanSendUnits(Country country) => country.Army.Count > GameController.MinimumGarrison;
+        private static bool CanSendUnits(Country country) => country.Army.Count > Game.Rules.MinimumGarrison;
 
         private void Deselect() => Highlight(null, null, CountryMarker.Highlight.None);
 

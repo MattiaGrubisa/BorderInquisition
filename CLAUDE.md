@@ -36,6 +36,8 @@ plus the dlls above, and every script path. Use Windows paths (`C:/...`) for `-o
 - **Set Up Map View** — adds a `MapView` to the map sprite and a default `PolygonCollider2D` to every
   country without a collider. Existing colliders are never touched; the shapes are traced by hand.
 - **Always Play From Bootstrap** — toggles the play-mode redirect.
+- Countries and their borders are drawn as scene gizmos (`Editor/MapLinker`). Borders are authored
+  in the `Country` inspector, one side only.
 - Right-click the `GameController` component for **Assign Country Ids**, **Assign Regions** (puts a
   `Region` on each continent parent and links its countries) and **Validate Map**.
 - The `GameController` inspector has a **Play Out Match** button (play mode, match running,
@@ -83,21 +85,28 @@ Phases 2-4 wait for End Phase; the 4 → 1 transition calls `GameController.Next
 `StartMatch`, `LeaveLobby`, `EndPhase`, `Rematch`, `ReturnToMainMenu`) and read `PhaseChanged` /
 `CurrentPhase` / `Winner`; they never touch the state classes. `InGameHud` builds the in-game
 panels in code at `Awake` (`UiFactory`, layout groups — no scene wiring): the income die box (top
-right), `CombatPanel` (top centre: the last attack's dice sorted and paired, tinted in seat colours,
-each pair's loser dimmed; never blocks map clicks, hides on phase change),
+right), `CombatPanel` (top centre: the last attack's dice sorted and paired, tinted in seat colours; they
+tumble, then each pair's loser dims and the outcome appears; never blocks map clicks, hides on phase
+change),
 `MovePanel` (pick knights/horsemen/archers with +/-/All; the caller performs the move in the confirm
-callback) and `CountryPanel` (build phase: queue/unqueue buildings from `GameController._buildings`
-and soldiers, costs from the region). `View.CountryPicker` opens them through the HUD.
+callback) and `CountryPanel` (build phase: queue/unqueue buildings from `GameRules`
+and soldiers, costs from the region). `View.CountryPicker` opens them through the HUD. A bottom-left
+action bar (hidden in the income phase) opens `DiplomacyPanel` (any phase of the turn; opens by
+itself at the start of a turn with offers waiting) and `TradePanel` (its button only exists in the
+build phase); both sit on the left edge, one at a time, and close on phase change. The turn label
+gains a "Traitors:" line while anyone is marked.
 
 **Singletons** derive from `Gameplay.Helpers.Singleton<T>`; they override `protected virtual void
 Awake()` and must call `base.Awake()` first. They are scene-enforced (duplicates destroy themselves,
 no `DontDestroyOnLoad`): `GameStateMachine` survives because `Bootstrap` is never unloaded,
 `GameController` lives in `WorldMap` and is recreated with it.
 
-**Managers** (`Gameplay.Managers`): `GameController` holds the countries, the per-match player list,
+**Managers** (`Gameplay.Managers`): `GameController` holds the `GameRules` asset, the countries, the per-match player list,
 turn order (`DetermineStartingPlayer`, `NextPlayer` — skips eliminated players), income, the map
 graph and attack resolution (`CanAttack`, `AttackTargets`, `TryAttack`, `CanMoveArmy`,
-`TryMoveArmy`).
+`TryMoveArmy`). Like `MapGraph` it owns per-match plain C# systems: `Fog` (`FogOfWar`), `Market`
+and `Diplomacy` (`Diplomacy.DiplomacySystem`). The diplomacy hooks run in `PhaseOne`
+(`OnTurnStarted`) and `NextPlayer` (`OnTurnEnded`).
 
 **The map is a graph.** `Country` carries a stable `_id` and a `_borders` list authored one way only;
 `MapGraph` — a plain C# class owned by `GameController` and baked in `Awake` — mirrors every edge
@@ -132,12 +141,13 @@ positions, sprites and UI are a separate layer on top. Do not put rendering deci
 
 - Match setup (`StartNewMatch`): countries are shuffled and dealt round-robin (equal share ±1, not by
   region);
-  every country gets a random army (`_randomUnitsPerType`, never empty) and a random
-  `_baseResourceGain` (`_randomResourceGain`) — a stand-in until starting values are designed; then
+  every country gets a random army (`GameRules.RandomUnitsPerType`, never empty) and a random
+  `_baseResourceGain` (`GameRules.RandomResourceGain`) — a stand-in until the user designs starting
+  values; then
   income dice numbers are assigned; the starting player is decided by roll-offs
   (`DetermineStartingPlayer`).
 - Income dice numbers are dealt per match, not stored in the scene: every number 1-9 lands on at least
-  `_minCountriesPerDiceNumber` (2) and at most `_maxCountriesPerDiceNumber` (5) countries; the rest is
+  `GameRules.MinCountriesPerDiceNumber` (2) and at most `MaxCountriesPerDiceNumber` (5) countries; the rest is
   random.
 - Win condition: one player owns every country (checked after each conquest).
 - `GameResources` is a struct (food/wood/gold/stone) with `+`, `-`, `>=`, `<=` operators. It is passed
@@ -158,9 +168,32 @@ positions, sprites and UI are a separate layer on top. Do not put rendering deci
 - On conquest the whole surviving attacking army occupies the conquered country and the attacking
   country is left empty — the force that won the ground holds it. Everything else is moved by hand
   with `TryMoveArmy`, between neighbouring countries the player already owns.
-- One building per turn per country, each building unique per country; the building and training
-  queues are processed in phase one and silently skipped when unaffordable. Soldier prices come from
-  the country's `Region`.
+- One building per turn per country, each building unique per country. Queues are processed in phase
+  one and each entry is paid in full when it is delivered — nothing is reserved or paid in part. An
+  entry that cannot be afforded **stays queued** and is retried next turn (user's decision); the
+  building queue waits on its head, while a cheaper soldier further down may still be trained.
+  Soldier prices come from the country's `Region`.
+- A country that changes hands drops both queues (`Country.SetOwner`); built buildings stay.
+- **Fog of war is always on**, hotseat or online (user's decision): a player sees their side's
+  countries (their own and their allies') and the direct neighbours of those (`GameController.Fog`,
+  `FogOfWar.IsVisible`, depth 1 on the graph). Every other country still shows on the map with its
+  dice number and nothing else — grey disc, no owner, no army (confirmed by the user). Hotseat views
+  the map as `CurrentPlayer`.
+- **Market** (`Gameplay.Market`), build phase only: bank trade at `GameRules.DefaultTradeRatio`
+  (4:1) — give 4 of one resource for 1 of another. A built building with `Building._tradeRatio` > 0 (the Market building: 3) lowers the
+  owner's ratio while they hold its country; the best ratio wins. The Market building is
+  `ScriptableObjects/Market.asset` (trade ratio 3), listed in `GameRules` next to `House`.
+- **Diplomacy** (`Diplomacy.DiplomacySystem`), local rules decided with the user:
+  - A **pact** (non-aggression) lasts `GameRules.PactTurns` (3) of the proposer's turns. An **alliance** has no
+    end date and also shares vision through the fog. A pact can be upgraded to an alliance.
+  - Any treaty forbids attacks both ways (`CanAttack` checks `AtPeace`); moving into allied countries
+    is not allowed.
+  - Offers wait for the target's turn and lapse when it ends unanswered.
+  - **Breaking** a treaty takes effect at the start of the breaker's next turn — until then it still
+    holds, and the breaker is marked **traitor**, visible to everyone for that one round, then the
+    mark is gone. Nothing else happens to a traitor.
+  - The win condition is unchanged: one player must own every country, so allies cannot win
+    together. If only allies are left, one of them has to break the alliance.
 - There is no unit cap per country, by decision.
 
 ## Conventions
@@ -178,39 +211,37 @@ positions, sprites and UI are a separate layer on top. Do not put rendering deci
 
 ## Handoff — resume here (2026-09-25)
 
-The map is wired: 35 countries, one connected group. A full match has been played out with
-**Play Out Match** and reached `GameOver` — the whole flow works end to end.
+The map is wired: 35 countries, one connected group. **Play Out Match** has reached `GameOver`, and
+the user has played a short hotseat match by hand — the four-phase turn, the picker and panels, the
+dice, fog of war, market and diplomacy all behaved. A detailed play-test is still to come.
 
-Just written, **not yet run** in Unity:
-- `Region` + **Assign Regions** (the user still sets the costs on the six continents).
-- `MapView` / `CountryMarker` / `PlayerPalette` and **Set Up Map View** — run it once in `WorldMap`;
-  the user traces the `PolygonCollider2D` shapes over the art later.
-- The HUD label now shows the current player in seat colour, their resources and the last income
-  roll (three lines — the `TurnLabel` rect may need to be taller).
-
-Countries use a `CircleCollider2D` for now (the user swapped it in `Set Up Map View`); traced
-polygons come later.
+Setup in `WorldMap` the code expects:
+- `GameController._rules` → a `GameRules` asset (*Create > Create Game Rules*) holding the building
+  catalogue (`House`, the Market building) and the rule numbers. Without it the game logs an error
+  and runs on defaults with no buildings.
+- `InGameHud._diceFaces` → the nine faces `Assets/Assets/Dice/Sprite-001..009.png` (128×128, white
+  body, black pips, point filter — white so the UI tints them), face n at index n-1.
+- Countries use a `CircleCollider2D` for now; traced `PolygonCollider2D` shapes come later.
 
 `CountryPicker` (added at runtime by `MapView`) enforces the turn rules the view owns — left click
 only, clicks over UI and while `MovePanel` is open are ignored, everything resets on phase change:
-- Attack: own country → white halo + red halo on `AttackTargets`; red one → `TryAttack`, dice to the
-  console. On conquest `MovePanel` offers to send units back; selection then follows the army.
+- Attack: own country → white halo + red halo on `AttackTargets`; red one → `TryAttack`, dice in
+  `CombatPanel`. On conquest `MovePanel` offers to send units back; selection then follows the army.
 - Build: own country → `CountryPanel`.
-- Move: own country with an army → green halo on own neighbours; green one → `MovePanel`; a confirmed
-  non-empty move uses up the turn's move.
+- Move: own country with more than the garrison → green halo on own neighbours; green one →
+  `MovePanel`; a confirmed non-empty move uses up the turn's move.
 
-The four-phase turn, the panels and the picker were written 2026-09-25 and **not yet run**.
-`GameController._buildings` must be filled in the inspector (drag `ScriptableObjects/House.asset`)
-or the build panel says there are none.
+**The user's to decide or make** (do not pick these yourself):
+- Soldier prices per region (all 1/1/1/1 now).
+- Starting armies and incomes — random stand-ins from `GameRules` until designed.
+- Buildings on conquest: the conqueror may **choose to raze them or keep them** (direction agreed;
+  details open — all or one, any refund). Today they are simply kept.
+- The traced country shapes; the Market building's cost (`ScriptableObjects/Market.asset` exists,
+  trade ratio 3, cost still 0).
+- More ScriptableObjects besides `GameRules` will be needed; they are made when a feature asks.
 
-Next: play-test the turn loop (postponed by the user).
-
-Country dealing stays shuffle + round-robin — confirmed by the user, countries are not dealt by
-region.
-
-Dice art is in `Assets/Assets/Dice/Sprite-001..009.png` (128×128, white body, black pips, point
-filter) — white so the UI tints it. `InGameHud._diceFaces` must hold all nine, face n at index n-1;
-the HUD warns in `Awake` if any is missing.
+**Order of work:** polish local hotseat first. The online layer comes only once local play is
+polished — do not start it earlier.
 
 ## Known open threads
 
@@ -218,16 +249,19 @@ the HUD warns in `Awake` if any is missing.
   one-move-per-turn limit all live in `CountryPicker` (View), not in gameplay code.
 - **Play Out Match** ignores phases and the garrison rule entirely (it marches whole armies) — it
   is a debug shortcut.
-- A move (including the post-conquest one) must leave `GameController.MinimumGarrison` (1) units
+- A move (including the post-conquest one) must leave `GameRules.MinimumGarrison` (1) units
   behind: `TryMoveArmy` refuses otherwise, `MovePanel` caps the picks, and `CountryPicker` only
   offers countries with more than that. Conquest still empties the attacking country by design.
-- Queued buildings and soldiers are paid and delivered at the start of the owner's next turn, not
-  when queued; the build panel does not reserve resources.
-- Costs are spent immediately per queue entry; accumulating the full cost before spending is planned.
-- Phase one does not wait on animations yet (dice/income animations are TODO).
-- `Market`, `Alliance`, `DiplomacySystem`, `FogOfWar` are empty placeholder classes.
+- Dice animations (`UI.DieRoll`: ~0.6 s tumble through random faces, then a pop) are presentation
+  only — the roll is already applied and nothing waits for them, so markers and resources update
+  before the dice land. Income animations (resources flying in) are still TODO.
+- Country state that changes during a match (owner, army, built buildings, queues) lives in
+  `Country` fields; `_trainingQueue` and `_army` are serialized, the rest is runtime-only. Saving or
+  networking will want it pulled out into plain data.
+- **Planned for online play, not before** (user's decision): player-to-player trade offers (the
+  other player accepts or declines on their turn), and tribute/gifts between players (one-off or
+  "X per turn for N turns", e.g. to buy peace). Everything so far is built for local hotseat.
 
-**Planned, not implemented:** fog of war as depth-1 traversal from owned countries — the graph is in
-place, `FogOfWar` is still empty. The map is fixed and hand-authored: 35 territories across six
+The map is fixed and hand-authored: 35 territories across six
 continents (Vargmark, Zlatokraj, Higanshu, Aureliana, Kanembara, Ashqaran — each named from a
 different real-world tradition, listed in `Editor/MapSetup.cs`), not procedural.

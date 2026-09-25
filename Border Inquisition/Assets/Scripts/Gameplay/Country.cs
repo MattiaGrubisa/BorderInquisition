@@ -26,7 +26,16 @@ namespace Gameplay
         private List<Building> _buildingQueue;
 
         public Player Owner => _owner;
-        public void SetOwner(Player player) => _owner = player;
+        // A new owner does not inherit the old one's orders; built buildings stay with the country.
+        public void SetOwner(Player player)
+        {
+            if (player != _owner)
+            {
+                _buildingQueue?.Clear();
+                _trainingQueue?.Clear();
+            }
+            _owner = player;
+        }
 
         public int Id => _id;
         public IReadOnlyList<Country> Borders => _borders;
@@ -41,25 +50,6 @@ namespace Gameplay
 #if UNITY_EDITOR
         public void SetId(int id) => _id = id;
         public void SetRegion(Region region) => _region = region;
-
-        // Refuses a duplicate in either direction, so an edge is only ever authored once.
-        public bool AddBorder(Country other)
-        {
-            if (other == null || other == this || _borders.Contains(other) || other._borders.Contains(this))
-                return false;
-
-            _borders.Add(other);
-            return true;
-        }
-
-        public bool RemoveBorder(Country other)
-        {
-            if (other == null)
-                return false;
-
-            var removed = _borders.Remove(other);
-            return other._borders.Remove(this) || removed;
-        }
 #endif
 
 

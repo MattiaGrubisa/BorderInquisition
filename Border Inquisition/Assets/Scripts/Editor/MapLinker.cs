@@ -1,15 +1,12 @@
 #if UNITY_EDITOR
-using System.Collections.Generic;
-using System.Linq;
 using Gameplay;
 using UnityEditor;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 
 namespace Editor
 {
-    // Authoring borders by dragging object references is slow and easy to get wrong, so borders are
-    // made from the hierarchy selection instead and drawn as gizmos to check the result at a glance.
+    // Draws every country and its borders as scene gizmos, to check the map graph at a glance. Borders
+    // themselves are authored in the Country inspector.
     public static class MapLinker
     {
         private static readonly Color BorderColor = new Color(1f, 0.82f, 0.25f, 0.9f);

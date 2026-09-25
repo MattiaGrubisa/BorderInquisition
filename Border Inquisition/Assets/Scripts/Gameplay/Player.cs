@@ -22,6 +22,18 @@ namespace Gameplay
                 country.GainResources(ref _playerResources, dice);
         }
 
+        // Trades go straight to the pool; income and queues go through the countries.
+        public bool TrySpend(GameResources cost)
+        {
+            if (!(_playerResources >= cost))
+                return false;
+
+            _playerResources -= cost;
+            return true;
+        }
+
+        public void Receive(GameResources gain) => _playerResources += gain;
+
         public void PhaseOne()
         {
             foreach (var country in OwnedCountries)

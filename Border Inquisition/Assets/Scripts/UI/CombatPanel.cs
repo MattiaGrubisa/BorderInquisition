@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Linq;
 using Gameplay;
 using TMPro;
@@ -8,8 +9,9 @@ using View;
 namespace UI
 {
     // Shows the last attack: both sides' dice sorted and paired highest-to-highest, one column per pair,
-    // each die in its owner's seat colour and the loser of every pair dimmed. It never blocks map
-    // clicks, so the player can keep attacking while it is up; it hides on phase change.
+    // each die in its owner's seat colour. The dice tumble first; then the loser of every pair dims and
+    // the outcome line appears. It never blocks map clicks, so the player can keep attacking while it
+    // is up; it hides on phase change.
     public class CombatPanel : MonoBehaviour
     {
         private const float DieSize = 64f;
@@ -56,12 +58,22 @@ namespace UI
 
             var defenderLosses = attackerWins.Count(win => win);
             var attackerLosses = attackerWins.Length - defenderLosses;
-            _outcome.text = to.Owner == attacker
+            var outcome = to.Owner == attacker
                 ? $"{to.name} falls to {attacker.Name}"
                 : $"Attacker loses {attackerLosses}, defender loses {defenderLosses}";
 
             gameObject.SetActive(true);
             transform.SetAsLastSibling();
+
+            StopAllCoroutines();
+            StartCoroutine(RevealOutcome(outcome));
+        }
+
+        private IEnumerator RevealOutcome(string outcome)
+        {
+            _outcome.text = "...";
+            yield return new WaitForSecondsRealtime(DieRoll.Duration);
+            _outcome.text = outcome;
         }
 
         public void Hide() => gameObject.SetActive(false);
@@ -84,8 +96,8 @@ namespace UI
                 }
 
                 var won = attackerWins[i] == isAttacker;
-                var die = UiFactory.Icon(row, _faces.Face(dice[i]), DieSize, DieSize);
-                die.color = won ? tint : new Color(tint.r, tint.g, tint.b, LostAlpha);
+                var die = UiFactory.Icon(row, null, DieSize, DieSize);
+                DieRoll.Roll(die, _faces, dice[i], won ? tint : new Color(tint.r, tint.g, tint.b, LostAlpha));
             }
         }
     }
