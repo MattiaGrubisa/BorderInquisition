@@ -25,4 +25,4 @@ MonoBehaviour:
     _stone: 1
   _tradeRatio: 3
   _soldierDiscount: 0
-  _buildingDiscount: 20
+  _buildingDiscount: 0

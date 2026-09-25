@@ -1683,10 +1683,10 @@ MonoBehaviour:
   _richIn: 3
   _poorIn: 1
   _completionBonus:
-    _food: 0
+    _food: 2
     _wood: 0
     _gold: 0
-    _stone: 0
+    _stone: 2
 --- !u!1 &505480068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2477,8 +2477,8 @@ MonoBehaviour:
   _completionBonus:
     _food: 0
     _wood: 0
-    _gold: 0
-    _stone: 0
+    _gold: 1
+    _stone: 2
 --- !u!1 &980381864
 GameObject:
   m_ObjectHideFlags: 0
@@ -3577,9 +3577,9 @@ MonoBehaviour:
   _richIn: 0
   _poorIn: 3
   _completionBonus:
-    _food: 0
+    _food: 3
     _wood: 0
-    _gold: 0
+    _gold: 1
     _stone: 0
 --- !u!1 &1371410507
 GameObject:
@@ -3634,8 +3634,8 @@ MonoBehaviour:
   _poorIn: 0
   _completionBonus:
     _food: 0
-    _wood: 0
-    _gold: 0
+    _wood: 1
+    _gold: 2
     _stone: 0
 --- !u!1 &1420074825
 GameObject:
@@ -4997,9 +4997,9 @@ MonoBehaviour:
   _poorIn: 2
   _completionBonus:
     _food: 0
-    _wood: 0
+    _wood: 2
     _gold: 0
-    _stone: 0
+    _stone: 1
 --- !u!1 &1769466539
 GameObject:
   m_ObjectHideFlags: 0
@@ -5788,8 +5788,8 @@ MonoBehaviour:
   _completionBonus:
     _food: 0
     _wood: 0
-    _gold: 0
-    _stone: 0
+    _gold: 2
+    _stone: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
