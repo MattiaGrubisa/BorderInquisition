@@ -17,7 +17,7 @@ namespace UI
             _mainMenuButton.onClick.AddListener(() => GameStateMachine.Instance.ReturnToMainMenu());
 
             var winner = GameStateMachine.Instance.Winner;
-            _winnerLabel.text = winner != null ? $"{winner.Name} wins!" : "Game over";
+            _winnerLabel.text = winner != null ? $"{winner.Name} wins!" : "Defeated - no human player is left";
         }
     }
 }

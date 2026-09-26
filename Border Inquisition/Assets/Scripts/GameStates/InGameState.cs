@@ -40,6 +40,7 @@ namespace GameStates
             Winner = null;
             Result = InGameResult.GameOver;
             GameController.Instance.MatchWon += OnMatchWon;
+            GameController.Instance.MatchLost += OnMatchLost;
             GameController.Instance.StartNewMatch(Settings);
 
             _phaseMachine = new StateMachine();
@@ -56,6 +57,7 @@ namespace GameStates
             _phaseMachine.Completed -= NextPhase;
             _phaseMachine.StateChanged -= OnPhaseChanged;
             GameController.Instance.MatchWon -= OnMatchWon;
+            GameController.Instance.MatchLost -= OnMatchLost;
         }
 
         public void EndPhase()
@@ -100,6 +102,14 @@ namespace GameStates
         private void OnMatchWon(Player winner)
         {
             Winner = winner;
+            Result = InGameResult.GameOver;
+            StateMachine.OnCompleted(this);
+        }
+
+        // No human is left; GameOver shows it without a winner.
+        private void OnMatchLost()
+        {
+            Winner = null;
             Result = InGameResult.GameOver;
             StateMachine.OnCompleted(this);
         }

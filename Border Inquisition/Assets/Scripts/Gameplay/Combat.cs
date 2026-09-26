@@ -27,7 +27,11 @@ namespace Gameplay
             }
         }
         
-        public CombatResult AttemptAttack(Country attacker, Country defender)
+        public CombatResult AttemptAttack(Country attacker, Country defender) =>
+            AttemptAttack(attacker.Army, defender.Army);
+
+        // One round on two armies without touching any country, so the AI can simulate battles.
+        public CombatResult AttemptAttack(Army attacker, Army defender)
         {
             var attackerArmyPower = CalculateBonusArmyPower(attacker);
             var defenderArmyPower = CalculateBonusArmyPower(defender);
@@ -59,9 +63,9 @@ namespace Gameplay
             return new CombatResult(attackerDice, defenderDice, attackerWins);
         }
 
-        private int CalculateBonusArmyPower(Country country)
+        private int CalculateBonusArmyPower(Army army)
         {
-            double snaga = country.GetArmyPower;
+            double snaga = army.ArmyPower;
             float logSnaga = snaga <= 0 ? 0 : (float)Math.Log(snaga);
             return Mathf.FloorToInt(logSnaga * _armyFactor);
         }

@@ -79,7 +79,7 @@ namespace GameStates
         // UI calls these without knowing which state is active; an inactive state ignores the call.
         public void Play() => _mainMenuState.Finish(MainMenuResult.Play);
         public void Quit() => _mainMenuState.Finish(MainMenuResult.Quit);
-        public void StartMatch(int playerCount) => _lobbyState.StartMatch(new MatchSettings(playerCount));
+        public void StartMatch(MatchSettings settings) => _lobbyState.StartMatch(settings);
         public void LeaveLobby() => _lobbyState.Back();
         public void EndPhase() => _inGameState.EndPhase();
         public void LeaveMatch() => _inGameState.Leave();

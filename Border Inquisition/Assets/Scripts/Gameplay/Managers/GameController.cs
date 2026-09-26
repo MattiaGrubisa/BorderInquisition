@@ -23,8 +23,13 @@ namespace Gameplay.Managers
         private Market _market;
         private FogOfWar _fog;
         private int _currentPlayerIndex;
+        private Player _lastHuman;
 
         public event Action<Player> MatchWon;
+        // Every human player is out; the AIs do not play the match to its end.
+        public event Action MatchLost;
+        // Any attack, human or AI, once its outcome is applied: from, to, attacker, defender, dice.
+        public event Action<Country, Country, Player, Player, Combat.CombatResult> AttackResolved;
 
         public IReadOnlyList<Country> Countries => _countries;
         public GameRules Rules => _rules;
@@ -32,11 +37,17 @@ namespace Gameplay.Managers
         public IReadOnlyList<Player> Players => _players;
         public Player CurrentPlayer => _players[_currentPlayerIndex];
         public Player Winner { get; private set; }
+        public bool IsOver { get; private set; }
+
+        // Whose eyes the map is seen through: the current player on a human turn, during an AI turn
+        // the last human who played.
+        public Player Viewer => _players.Count == 0 ? null : CurrentPlayer.IsAI ? _lastHuman : CurrentPlayer;
         public int LastIncomeRoll { get; private set; }
         public MapGraph Map => _map;
         public FogOfWar Fog => _fog;
         public DiplomacySystem Diplomacy => _diplomacy;
         public Market Market => _market;
+        public Combat Combat => _combat;
 
         protected override void Awake()
         {
@@ -53,6 +64,9 @@ namespace Gameplay.Managers
             _diplomacy = new DiplomacySystem(_rules);
             _market = new Market(_rules);
             _fog = new FogOfWar(_map, _diplomacy);
+
+            if (!TryGetComponent<AI.AiDriver>(out _))
+                gameObject.AddComponent<AI.AiDriver>();
         }
 
         #region Attack legality
@@ -61,7 +75,7 @@ namespace Gameplay.Managers
         // attacking country still has an army to send, and never across a pact or alliance.
         public bool CanAttack(Country from, Country to) =>
             from != null && to != null
-            && _players.Count > 0 && from.Owner == CurrentPlayer
+            && _players.Count > 0 && !IsOver && from.Owner == CurrentPlayer
             && to.Owner != from.Owner
             && !_diplomacy.AtPeace(from.Owner, to.Owner)
             && !from.IsArmyEmpty
@@ -105,21 +119,51 @@ namespace Gameplay.Managers
             defender?.Report.AddDefence(attacker, to, defenderLosses,
                 result.AttackerWins.Length - defenderLosses, conquered);
 
-            if (!conquered)
-                return true;
+            if (conquered)
+            {
+                to.SetOwner(attacker);
+                from.SendWholeArmy(to);
+            }
 
-            to.SetOwner(attacker);
-            from.SendWholeArmy(to);
+            AttackResolved?.Invoke(from, to, attacker, defender, result);
+            if (conquered)
+                AfterConquest(attacker, defender);
+            return true;
+        }
 
+        // A conquest may eliminate the defender, win the match, or leave no human standing.
+        private void AfterConquest(Player attacker, Player defender)
+        {
             if (defender != null && IsEliminated(defender))
+            {
                 _diplomacy.OnEliminated(defender);
+                if (defender == _lastHuman)
+                    _lastHuman = NextHuman();
+            }
 
             if (_countries.All(c => c.Owner == attacker))
             {
+                IsOver = true;
                 Winner = attacker;
                 MatchWon?.Invoke(attacker);
             }
-            return true;
+            else if (_lastHuman == null && _players.Any(p => !p.IsAI))
+            {
+                IsOver = true;
+                MatchLost?.Invoke();
+            }
+        }
+
+        // The first human still in the match, in turn order from the current player.
+        private Player NextHuman()
+        {
+            for (var i = 0; i < _players.Count; i++)
+            {
+                var player = _players[(_currentPlayerIndex + i) % _players.Count];
+                if (!player.IsAI && !IsEliminated(player))
+                    return player;
+            }
+            return null;
         }
 
         // A move always leaves at least GameRules.MinimumGarrison units behind, so moving never opens a
@@ -134,14 +178,19 @@ namespace Gameplay.Managers
             _players.Clear();
             _diplomacy.Clear();
             Winner = null;
+            IsOver = false;
             LastIncomeRoll = 0;
-            foreach (var playerName in settings.PlayerNames)
-                _players.Add(new Player(playerName));
+            for (var i = 0; i < settings.Seats.Count; i++)
+            {
+                var seat = settings.Seats[i];
+                _players.Add(new Player(MatchSettings.PlayerName(i, seat), seat.IsAI, seat.Difficulty));
+            }
 
             DistributeCountries();
             RandomizeCountries();
             AssignDiceNumbers();
             _currentPlayerIndex = DetermineStartingPlayer();
+            _lastHuman = NextHuman();
         }
 
         // Each number 1-9 is put in the pool MinCountriesPerDiceNumber times, the rest of the pool is
@@ -244,6 +293,8 @@ namespace Gameplay.Managers
 
         public void PhaseOne()
         {
+            if (!CurrentPlayer.IsAI)
+                _lastHuman = CurrentPlayer;
             _diplomacy.OnTurnStarted(CurrentPlayer);
             PayRegionBonuses(CurrentPlayer);
             CurrentPlayer.PhaseOne();
@@ -300,17 +351,17 @@ namespace Gameplay.Managers
 
             var turns = 0;
             var attacks = 0;
-            while (Winner == null && turns < maxTurns && _countries.Any(c => !c.IsArmyEmpty))
+            while (!IsOver && turns < maxTurns && _countries.Any(c => !c.IsArmyEmpty))
             {
                 attacks += PlayOutTurn();
                 turns++;
-                if (Winner == null)
+                if (!IsOver)
                     NextPlayer();
             }
 
             if (Winner != null)
                 Debug.Log($"{Winner.Name} wins after {turns} turns and {attacks} attacks.", this);
-            else
+            else if (!IsOver)
                 Debug.LogWarning($"No winner after {turns} turns and {attacks} attacks - the match is stuck.", this);
         }
 
@@ -319,10 +370,10 @@ namespace Gameplay.Managers
             const int maxAttacks = 10000;
 
             var attacks = 0;
-            while (Winner == null && attacks < maxAttacks && TryBestAttack())
+            while (!IsOver && attacks < maxAttacks && TryBestAttack())
                 attacks++;
 
-            if (Winner == null)
+            if (!IsOver)
                 AdvanceIdleArmies();
             return attacks;
         }

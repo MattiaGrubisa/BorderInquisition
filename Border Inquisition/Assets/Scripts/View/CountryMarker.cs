@@ -77,10 +77,10 @@ namespace View
             if (_country == null)
                 return;
 
-            // Hotseat: the map is seen through the current player's eyes. Under fog only the dice
-            // number shows, on a disc in the no-owner grey.
+            // Hotseat: the map is seen through the eyes of GameController.Viewer. Under fog only the
+            // dice number shows, on a disc in the no-owner grey.
             var game = GameController.Instance;
-            var viewer = game != null && game.Players.Count > 0 ? game.CurrentPlayer : null;
+            var viewer = game != null ? game.Viewer : null;
             var visible = game != null && game.Fog.IsVisible(viewer, _country);
 
             var army = _country.Army;

@@ -11,9 +11,18 @@ namespace Gameplay
     {
         private GameResources _playerResources;
 
-        public Player(string name) => Name = name;
+        public Player(string name, bool isAI = false, Difficulty difficulty = Difficulty.Normal)
+        {
+            Name = name;
+            IsAI = isAI;
+            Difficulty = difficulty;
+        }
 
         public string Name { get; }
+
+        // An AI seat is played by AI.AiDriver; Difficulty means nothing for a human.
+        public bool IsAI { get; }
+        public Difficulty Difficulty { get; }
         public GameResources Resources => _playerResources;
         public IEnumerable<Country> OwnedCountries => GameController.Instance.Countries.Where(c => c.Owner == this);
 

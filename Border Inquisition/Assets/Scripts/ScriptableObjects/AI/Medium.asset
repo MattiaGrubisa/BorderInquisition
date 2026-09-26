@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396caae3ad7a03a46961bb6712ca65f3, type: 3}
+  m_Name: Medium
+  m_EditorClassIdentifier: Assembly-CSharp::AI.AiProfile
+  _seesThroughFog: 0
+  _minWinChance: 0.55
+  _mistakeChance: 0.1
+  _maxAttacksPerTurn: 15
+  _simulations: 100
+  _trades: 1
+  _buildFirstChance: 0.4
+  _pactAcceptRatio: 0.8
+  _allianceAcceptRatio: 1.5
+  _offerChance: 0.1
+  _actionDelay: 0.6

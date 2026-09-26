@@ -16,7 +16,8 @@ namespace View
     //   units back between exactly those two countries; the selection then follows the army.
     // - Build & Move: click your country to open its build/train panel; while the turn's one move is
     //   unused, its own neighbours light up green and a click on one opens the move panel.
-    // Left click only; right and middle drag stay with MapCamera.
+    // Left click only; right and middle drag stay with MapCamera. During an AI turn clicks are ignored
+    // (AI.AiDriver highlights its own battles).
     [RequireComponent(typeof(MapView))]
     public class CountryPicker : MonoBehaviour
     {
@@ -60,6 +61,9 @@ namespace View
             if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
                 return;
 
+            if (Game.Players.Count == 0 || Game.CurrentPlayer.IsAI)
+                return;
+
             var clicked = MapView.CountryAt(mouse.position.ReadValue());
             switch (GameStateMachine.Instance.CurrentPhase)
             {
@@ -87,14 +91,11 @@ namespace View
 
         private void Attack(Country from, Country to)
         {
-            var defender = to.Owner;
-            if (!Game.TryAttack(from, to, out var result))
+            if (!Game.TryAttack(from, to, out _))
                 return;
 
             var conquered = to.Owner == from.Owner;
-            _hud.CombatPanel.Show(from, to, from.Owner, defender, result);
-
-            if (Game.Winner != null)
+            if (Game.IsOver)
                 return;
 
             if (!conquered)

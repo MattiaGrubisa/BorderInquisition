@@ -9,7 +9,7 @@ namespace View
 {
     // Puts a marker over every country once WorldMap is up; the markers keep themselves current. The
     // picker is added here too, so the scene needs nothing but this component. When the HUD reveals a
-    // turn, the income this turn's roll paid the current player rises from each paying country.
+    // turn, the income this turn's roll paid the viewer rises from each paying country.
     public class MapView : MonoBehaviour
     {
         private readonly Dictionary<Country, CountryMarker> _markers = new Dictionary<Country, CountryMarker>();
@@ -38,7 +38,11 @@ namespace View
         // The popups wait for the income die to land.
         private void ShowIncome()
         {
-            var report = GameController.Instance.CurrentPlayer.Report;
+            var viewer = GameController.Instance.Viewer;
+            if (viewer == null)
+                return;
+
+            var report = viewer.Report;
             foreach (var payout in report.PayoutsOf(report.Rolls.Count - 1).Where(p => p.Country != null && !p.Amount.IsEmpty))
                 IncomePopup.Spawn(payout.Country.transform.position, "+ " + Format.Resources(payout.Amount),
                     DieRoll.Duration);

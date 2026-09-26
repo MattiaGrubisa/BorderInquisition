@@ -12,7 +12,9 @@ namespace UI
     // Debug HUD for driving the turn loop by hand until the real game UI exists. The move, country,
     // combat, trade, diplomacy and turn report panels, the income die, the action bar, the country
     // tooltip and the pause menu are built in code on this canvas; the map picker opens the
-    // move/country/combat panels, the action bar the trade and diplomacy ones.
+    // country/move panels, the action bar the trade and diplomacy ones. Every attack, human or AI, shows
+    // in the combat panel. During an AI turn End Phase and the action bar are hidden (Esc still
+    // pauses) and the label shows the viewer's resources, not the AI's.
     public class InGameHud : MonoBehaviour
     {
         [SerializeField] private Button _endPhaseButton;
@@ -60,6 +62,14 @@ namespace UI
                 PauseMenu.Toggle();
         }
 
+        private void Start() => GameController.Instance.AttackResolved += CombatPanel.Show;
+
+        private void OnDestroy()
+        {
+            if (GameController.Instance != null)
+                GameController.Instance.AttackResolved -= CombatPanel.Show;
+        }
+
         private void OnEnable() => GameStateMachine.Instance.PhaseChanged += Refresh;
 
         private void OnDisable()
@@ -79,7 +89,9 @@ namespace UI
             TradePanel.Close();
             DiplomacyPanel.Close();
             TurnReportPanel.Close();
-            _actionBar.gameObject.SetActive(phase != TurnPhase.Income);
+            var aiTurn = GameController.Instance.CurrentPlayer.IsAI;
+            _endPhaseButton.gameObject.SetActive(!aiTurn);
+            _actionBar.gameObject.SetActive(phase != TurnPhase.Income && !aiTurn);
             _marketButton.gameObject.SetActive(phase == TurnPhase.BuildAndMove);
 
             UiFactory.SetLabel(_endPhaseButton, phase == TurnPhase.BuildAndMove ? "End Turn" : $"End {Name(phase)}");
@@ -97,9 +109,12 @@ namespace UI
             if (game.LastIncomeRoll > 0)
                 DieRoll.Roll(_incomeDie, _diceFaces, game.LastIncomeRoll, Color.white);
 
-            TurnReportPanel.Open(game.CurrentPlayer);
-            if (game.Diplomacy.OffersTo(game.CurrentPlayer).Any())
-                DiplomacyPanel.Open();
+            if (!game.CurrentPlayer.IsAI)
+            {
+                TurnReportPanel.Open(game.CurrentPlayer);
+                if (game.Diplomacy.OffersTo(game.CurrentPlayer).Any())
+                    DiplomacyPanel.Open();
+            }
 
             TurnBegan?.Invoke();
         }
@@ -110,7 +125,7 @@ namespace UI
         {
             var game = GameController.Instance;
             var player = game.CurrentPlayer;
-            var resources = player.Resources;
+            var resources = (game.Viewer ?? player).Resources;
 
             var traitors = game.Diplomacy.Traitors.ToList();
             var traitorLine = traitors.Count == 0
@@ -121,7 +136,7 @@ namespace UI
             _turnLabel.text =
                 $"{Format.Name(player)} - {Name(_phase)}\n" +
                 $"Food {resources.Food}   Wood {resources.Wood}   Gold {resources.Gold}   Stone {resources.Stone}\n" +
-                Hint(_phase) + traitorLine;
+                (player.IsAI ? $"{player.Name} is playing..." : Hint(_phase)) + traitorLine;
         }
 
         private static string Hint(TurnPhase phase)

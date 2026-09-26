@@ -80,7 +80,7 @@ namespace UI
 
         private static string Describe(Country country)
         {
-            var viewer = Game.CurrentPlayer;
+            var viewer = Game.Viewer;
             var region = country.Region != null ? country.Region.name : "no region";
             var lines = new List<string> { $"<b>{country.name}</b>  <color=#9A9A9A>{region}</color>" };
 
