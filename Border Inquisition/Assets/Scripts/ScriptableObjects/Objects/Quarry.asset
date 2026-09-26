@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Gameplay.Building
   _name: Quarry
   _buildingCost:
-    _food: 0
-    _wood: 0
+    _food: 2
+    _wood: 2
     _gold: 0
     _stone: 0
   _productionBoost:
@@ -24,3 +24,5 @@ MonoBehaviour:
     _gold: 0
     _stone: 1
   _tradeRatio: 4
+  _soldierDiscount: 0
+  _buildingDiscount: 0

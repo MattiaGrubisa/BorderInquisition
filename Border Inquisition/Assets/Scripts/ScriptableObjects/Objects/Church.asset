@@ -15,12 +15,14 @@ MonoBehaviour:
   _name: Church
   _buildingCost:
     _food: 0
-    _wood: 0
+    _wood: 2
     _gold: 0
-    _stone: 0
+    _stone: 3
   _productionBoost:
     _food: 0
     _wood: 0
     _gold: 1
     _stone: 0
   _tradeRatio: 4
+  _soldierDiscount: 0
+  _buildingDiscount: 0

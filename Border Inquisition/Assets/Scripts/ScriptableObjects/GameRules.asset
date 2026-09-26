@@ -31,16 +31,16 @@ MonoBehaviour:
     _gold: 1
     _stone: 1
   _horsemanCost:
-    _food: 1
+    _food: 2
     _wood: 1
-    _gold: 1
-    _stone: 1
+    _gold: 2
+    _stone: 0
   _archerCost:
     _food: 1
-    _wood: 1
+    _wood: 2
     _gold: 1
-    _stone: 1
+    _stone: 0
   _richPricePercent: 50
   _poorPricePercent: 150
   _defaultTradeRatio: 4
-  _pactTurns: 3
+  _pactTurns: 2
