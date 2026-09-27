@@ -49,6 +49,10 @@ namespace GameStates
                 case MainMenuState when _mainMenuState.Result == MainMenuResult.Quit:
                     QuitApplication();
                     break;
+                case MainMenuState when _mainMenuState.Result == MainMenuResult.Continue:
+                    _inGameState.Resume = _mainMenuState.Save;
+                    _gameStateMachine.ChangeState(_inGameState);
+                    break;
                 case MainMenuState:
                     _gameStateMachine.ChangeState(_lobbyState);
                     break;
@@ -57,6 +61,7 @@ namespace GameStates
                     break;
                 case LobbyState:
                     _inGameState.Settings = _lobbyState.Settings;
+                    _inGameState.Resume = null;
                     _gameStateMachine.ChangeState(_inGameState);
                     break;
                 case InGameState when _inGameState.Result == InGameResult.Left:
@@ -101,6 +106,8 @@ namespace GameStates
         // UI calls these without knowing which state is active; an inactive state ignores the call.
         public void Play() => _mainMenuState.Finish(MainMenuResult.Play);
         public void Quit() => _mainMenuState.Finish(MainMenuResult.Quit);
+
+        public void Continue() => _mainMenuState.Continue();
         public void StartMatch(MatchSettings settings) => _lobbyState.StartMatch(settings);
         public void LeaveLobby() => _lobbyState.Back();
         public void EndPhase() => _inGameState.EndPhase();

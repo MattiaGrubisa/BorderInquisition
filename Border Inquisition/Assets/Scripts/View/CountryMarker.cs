@@ -116,7 +116,8 @@ namespace View
             go.transform.localScale = Vector3.one / Diameter;
 
             var label = go.AddComponent<TextMeshPro>();
-            label.fontSize = fontSize;
+            UI.UiFactory.ApplyFont(label);
+            label.fontSize = UI.UiFactory.FontSize(fontSize);
             label.color = colour;
             label.alignment = TextAlignmentOptions.Center;
             label.textWrappingMode = TextWrappingModes.NoWrap;

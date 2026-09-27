@@ -1,6 +1,7 @@
 using System;
 using Gameplay;
 using Gameplay.Managers;
+using Save;
 using IState = Gameplay.Helpers.IState;
 using StateMachine = Gameplay.Helpers.StateMachine;
 
@@ -29,6 +30,8 @@ namespace GameStates
         public event Action<TurnPhase> PhaseChanged;
 
         public MatchSettings Settings { get; set; }
+        // A saved match to pick up instead of starting a new one from Settings.
+        public MatchSave Resume { get; set; }
         public Player Winner { get; private set; }
         public TurnPhase CurrentPhase { get; private set; }
         public InGameResult Result { get; private set; }
@@ -41,12 +44,28 @@ namespace GameStates
             Result = InGameResult.GameOver;
             GameController.Instance.MatchWon += OnMatchWon;
             GameController.Instance.MatchLost += OnMatchLost;
-            GameController.Instance.StartNewMatch(Settings);
 
             _phaseMachine = new StateMachine();
             _phaseMachine.Completed += NextPhase;
             _phaseMachine.StateChanged += OnPhaseChanged;
-            _phaseMachine.ChangeState(_firstPhase);
+
+            if (Resume == null)
+            {
+                GameController.Instance.StartNewMatch(Settings);
+                _phaseMachine.ChangeState(_firstPhase);
+            }
+            else if (MatchSnapshot.TryRestore(GameController.Instance, Resume))
+            {
+                Resume = null;
+                _phaseMachine.ChangeState(_secondPhase);
+            }
+            else
+            {
+                Resume = null;
+                SaveSystem.Delete();
+                Result = InGameResult.Left;
+                StateMachine.OnCompleted(this);
+            }
         }
 
         protected override void OnSceneUpdate() => _phaseMachine.Update();
@@ -66,7 +85,7 @@ namespace GameStates
                 (_phaseMachine.CurrentState as Phase)?.End();
         }
 
-        // Abandons the match from the pause menu; nothing is kept.
+        // Leaves the match from the pause menu; the save from the start of this turn stays for Continue.
         public void Leave()
         {
             if (!IsSceneLoaded)
@@ -81,6 +100,8 @@ namespace GameStates
             switch (phase)
             {
                 case FirstPhase:
+                    if (!GameController.Instance.IsOver)
+                        SaveSystem.Write(MatchSnapshot.Capture(GameController.Instance));
                     _phaseMachine.ChangeState(_secondPhase);
                     break;
                 case SecondPhase:
@@ -101,6 +122,7 @@ namespace GameStates
 
         private void OnMatchWon(Player winner)
         {
+            SaveSystem.Delete();
             Winner = winner;
             Result = InGameResult.GameOver;
             StateMachine.OnCompleted(this);
@@ -109,6 +131,7 @@ namespace GameStates
         // No human is left; GameOver shows it without a winner.
         private void OnMatchLost()
         {
+            SaveSystem.Delete();
             Winner = null;
             Result = InGameResult.GameOver;
             StateMachine.OnCompleted(this);

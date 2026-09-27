@@ -58,8 +58,9 @@ namespace UI
             Size(rect, width, height);
 
             var text = rect.gameObject.AddComponent<TextMeshProUGUI>();
+            ApplyFont(text);
             text.text = content;
-            text.fontSize = fontSize;
+            text.fontSize = FontSize(fontSize);
             text.color = TextColor;
             text.alignment = alignment;
             text.textWrappingMode = TextWrappingModes.NoWrap;
@@ -109,21 +110,52 @@ namespace UI
             var rect = Create(parent, label);
             Size(rect, width, height);
 
+            var theme = UiTheme.Current;
+            var sprite = theme != null ? theme.ButtonSprite(height) : null;
             var image = rect.gameObject.AddComponent<Image>();
-            image.color = ButtonColor;
+            if (sprite != null)
+            {
+                image.sprite = sprite;
+                image.color = Color.white;
+                image.type = sprite.border != Vector4.zero ? Image.Type.Sliced : Image.Type.Simple;
+                image.pixelsPerUnitMultiplier = theme.SlicedPixelScale;
+            }
+            else
+                image.color = ButtonColor;
 
             var button = rect.gameObject.AddComponent<Button>();
             button.targetGraphic = image;
             ClickSound(button);
             button.onClick.AddListener(onClick);
 
+            var padding = sprite != null ? theme.LabelPadding : 0f;
             var text = Label(rect, label, 24f, width, height, TextAlignmentOptions.Center);
-            text.color = ButtonTextColor;
+            text.color = sprite != null ? theme.ButtonTextColor : ButtonTextColor;
+            text.enableAutoSizing = true;
+            text.fontSizeMin = FontSize(10f);
+            text.fontSizeMax = FontSize(24f);
             var textRect = text.rectTransform;
             textRect.anchorMin = Vector2.zero;
             textRect.anchorMax = Vector2.one;
-            textRect.offsetMin = textRect.offsetMax = Vector2.zero;
+            textRect.offsetMin = new Vector2(padding, 0f);
+            textRect.offsetMax = new Vector2(-padding, 0f);
             return button;
+        }
+
+        // The theme's font, for texts built in code (UI and the world-space markers alike); without a
+        // theme the TMP default stays.
+        // A size as written in code, times the theme's font scale.
+        public static float FontSize(float size)
+        {
+            var theme = UiTheme.Current;
+            return theme != null ? size * theme.FontScale : size;
+        }
+
+        public static void ApplyFont(TMP_Text text)
+        {
+            var theme = UiTheme.Current;
+            if (theme != null && theme.Font != null)
+                text.font = theme.Font;
         }
 
         // Buttons placed in a scene get their click sound through this.

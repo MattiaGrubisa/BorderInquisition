@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cf5273757e522b841bc943f9701a9466
+guid: e67b7ec0a153a684abb5943baa0e42d2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9528535945450361
-    second: UI_Cursor_Wait_02_64_0
+      213: -5084762131057480094
+    second: Game_over_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,8 +37,8 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
-    aniso: 1
+    filterMode: 2
+    aniso: 2
     mipBias: 0
     wrapU: 1
     wrapV: 1
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Cursor_Wait_02_64_0
+      name: Game_over_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 3
-        width: 46
-        height: 58
+        x: 0
+        y: 0
+        width: 1376
+        height: 768
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9731248272ad12000800000000000000
-      internalID: 9528535945450361
+      spriteID: 26ee5f238cb4f69b0800000000000000
+      internalID: -5084762131057480094
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Cursor_Wait_02_64_0: 9528535945450361
+      Game_over_0: -5084762131057480094
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

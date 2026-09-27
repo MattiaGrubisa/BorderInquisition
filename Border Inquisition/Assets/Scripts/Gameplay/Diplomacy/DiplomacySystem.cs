@@ -75,6 +75,17 @@ namespace Diplomacy
             _offers.Clear();
         }
 
+        public IReadOnlyList<Treaty> Treaties => _treaties;
+        public IReadOnlyList<Offer> Offers => _offers;
+
+        // Loading a saved match; no events fire, nothing was signed or broken just now.
+        public void Restore(IEnumerable<Treaty> treaties, IEnumerable<Offer> offers)
+        {
+            Clear();
+            _treaties.AddRange(treaties);
+            _offers.AddRange(offers);
+        }
+
         #region Queries
 
         public Treaty Between(Player a, Player b) =>

@@ -47,6 +47,16 @@ namespace Gameplay
 
         public void SetArmy(Army army) => _army = army;
         public void SetBaseResourceGain(GameResources gain) => _baseResourceGain = gain;
+        public GameResources BaseResourceGain => _baseResourceGain;
+
+        // Loading a saved match: what stands and what is queued here, replacing whatever was there.
+        public void RestoreQueues(IEnumerable<Building> built, IEnumerable<Building> buildingQueue,
+            IEnumerable<SoldierType> trainingQueue)
+        {
+            _builtBuildings = new HashSet<Building>(built);
+            _buildingQueue = new List<Building>(buildingQueue);
+            _trainingQueue = new List<SoldierType>(trainingQueue);
+        }
 
 #if UNITY_EDITOR
         public void SetId(int id) => _id = id;

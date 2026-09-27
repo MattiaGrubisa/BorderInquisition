@@ -82,7 +82,7 @@ namespace UI
             if (!_confirmingLeave)
             {
                 _confirmingLeave = true;
-                UiFactory.SetLabel(_leaveButton, "Sure? The match is lost");
+                UiFactory.SetLabel(_leaveButton, "Sure? This turn is lost");
                 return;
             }
 

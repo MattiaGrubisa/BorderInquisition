@@ -82,6 +82,10 @@ namespace Gameplay
         public void AddPayout(Country country, GameResources amount) =>
             _payouts.Add(new Payout(_rolls.Count - 1, country, amount));
 
+        // Loading a saved report, where the roll is already known.
+        public void AddPayout(int rollIndex, Country country, GameResources amount) =>
+            _payouts.Add(new Payout(rollIndex, country, amount));
+
         public void AddRegionBonus(Region region, GameResources amount) => _regionBonuses.Add((region, amount));
 
         public void AddBuilt(Country country, Building building) =>
@@ -110,7 +114,8 @@ namespace Gameplay
         public void AddRazed(Player attacker, Country country, Building building) =>
             DefenceAgainst(attacker, country).Razed.Add(building);
 
-        private Defence DefenceAgainst(Player attacker, Country country)
+        // Public for loading a saved report.
+        public Defence DefenceAgainst(Player attacker, Country country)
         {
             var defence = _defences.FirstOrDefault(d => d.Attacker == attacker && d.Country == country);
             if (defence == null)

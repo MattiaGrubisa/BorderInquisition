@@ -55,6 +55,7 @@ namespace Gameplay.Managers
         // Whose eyes the map is seen through: the current player on a human turn, during an AI turn
         // the last human who played.
         public Player Viewer => _players.Count == 0 ? null : CurrentPlayer.IsAI ? _lastHuman : CurrentPlayer;
+        public Player LastHuman => _lastHuman;
         public int LastIncomeRoll { get; private set; }
         public MapGraph Map => _map;
         public FogOfWar Fog => _fog;
@@ -243,6 +244,21 @@ namespace Gameplay.Managers
             AssignDiceNumbers();
             _currentPlayerIndex = DetermineStartingPlayer();
             _lastHuman = NextHuman();
+        }
+
+        // A saved match takes over from here: Save.MatchSnapshot then restores the countries, the
+        // treaties and the reports. It resumes at the current player's attack phase, income paid.
+        public void ResumeMatch(IEnumerable<Player> players, int currentPlayerIndex, Player lastHuman, int lastIncomeRoll)
+        {
+            _players.Clear();
+            _players.AddRange(players);
+            _diplomacy.Clear();
+            _conqueredThisTurn.Clear();
+            Winner = null;
+            IsOver = false;
+            LastIncomeRoll = lastIncomeRoll;
+            _currentPlayerIndex = currentPlayerIndex;
+            _lastHuman = lastHuman;
         }
 
         // Each number 1-9 is put in the pool MinCountriesPerDiceNumber times, the rest of the pool is
