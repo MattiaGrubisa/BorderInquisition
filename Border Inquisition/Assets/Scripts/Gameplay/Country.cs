@@ -93,9 +93,8 @@ namespace Gameplay
             return true;
         }
 
-        // Mabye change to razing building so when country conquered, give some % of razed buildings as win?
-        // Raze all or one?
-        public void DestroyBuildings(Building building) => _builtBuildings.Remove(building);
+        // Whether razing is allowed, and what it pays, is the GameController's call (TryRaze).
+        public bool Raze(Building building) => _builtBuildings.Remove(building);
         public bool RemoveBuildingFromQueue(Building building) => _buildingQueue.Remove(building);
 
         public IReadOnlyCollection<Building> BuiltBuildings => _builtBuildings;

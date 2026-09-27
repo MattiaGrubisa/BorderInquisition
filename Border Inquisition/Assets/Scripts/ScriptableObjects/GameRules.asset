@@ -17,7 +17,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 14daa4458b6bb1a4eb203358dedc0443, type: 2}
   - {fileID: 11400000, guid: e31f522e1b1655f40bb603bb7aedd6a2, type: 2}
   - {fileID: 11400000, guid: 36e791dd711be6949997ea58fafb7eee, type: 2}
-  - {fileID: 11400000, guid: 37d628c6f78b46144899f2ce7c1b75c7, type: 2}
   - {fileID: 11400000, guid: 42de7b821747f5e42b32687c60f478f8, type: 2}
   - {fileID: 11400000, guid: 3c5b517b15ef0724ea8772edb38b8e5c, type: 2}
   _randomUnitsPerType: {x: 0, y: 4}
@@ -40,7 +39,9 @@ MonoBehaviour:
     _wood: 2
     _gold: 1
     _stone: 0
+  _razeLootPercent: 50
   _richPricePercent: 50
   _poorPricePercent: 150
   _defaultTradeRatio: 4
+  _regionTradeRatio: 3
   _pactTurns: 2

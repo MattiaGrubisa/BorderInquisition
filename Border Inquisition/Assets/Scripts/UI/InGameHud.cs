@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using Gameplay;
 using Gameplay.Managers;
 using GameStates;
 using TMPro;
@@ -9,12 +10,13 @@ using UnityEngine.UI;
 
 namespace UI
 {
-    // Debug HUD for driving the turn loop by hand until the real game UI exists. The move, country,
-    // combat, trade, diplomacy and turn report panels, the income die, the action bar, the country
-    // tooltip and the pause menu are built in code on this canvas; the map picker opens the
-    // country/move panels, the action bar the trade and diplomacy ones. Every attack, human or AI, shows
-    // in the combat panel. During an AI turn End Phase and the action bar are hidden (Esc still
-    // pauses) and the label shows the viewer's resources, not the AI's.
+    // Debug HUD for driving the turn loop by hand until the real game UI exists. The move, raze,
+    // country, combat, trade, diplomacy and turn report panels, the income die, the action bar, the
+    // country tooltip and the pause menu are built in code on this canvas; the map picker opens the
+    // country/move/raze panels, the action bar the trade and diplomacy ones. Every attack the viewer's
+    // fog of war shows, human or AI, shows in the combat panel. During an AI turn End Phase and the
+    // action bar are hidden (Esc still pauses), the label shows the viewer's resources, not the AI's,
+    // and what the AI visibly did last (ShowActivity).
     public class InGameHud : MonoBehaviour
     {
         [SerializeField] private Button _endPhaseButton;
@@ -25,8 +27,10 @@ namespace UI
         private RectTransform _actionBar;
         private Button _marketButton;
         private TurnPhase _phase;
+        private string _activity;
 
         public MovePanel MovePanel { get; private set; }
+        public RazePanel RazePanel { get; private set; }
         public CountryPanel CountryPanel { get; private set; }
         public CombatPanel CombatPanel { get; private set; }
         public TradePanel TradePanel { get; private set; }
@@ -45,6 +49,7 @@ namespace UI
             BackTurnLabel();
             _incomeDie = CreateDie();
             MovePanel = MovePanel.Create(transform);
+            RazePanel = RazePanel.Create(transform);
             CountryPanel = CountryPanel.Create(transform);
             CombatPanel = CombatPanel.Create(transform, _diceFaces);
             TradePanel = TradePanel.Create(transform, UpdateStatus);
@@ -62,13 +67,31 @@ namespace UI
                 PauseMenu.Toggle();
         }
 
-        private void Start() => GameController.Instance.AttackResolved += CombatPanel.Show;
+        private void Start() => GameController.Instance.AttackResolved += OnAttackResolved;
 
         private void OnDestroy()
         {
             if (GameController.Instance != null)
-                GameController.Instance.AttackResolved -= CombatPanel.Show;
+                GameController.Instance.AttackResolved -= OnAttackResolved;
         }
+
+        // Battles the viewer cannot see stay hidden, AI turns included.
+        private void OnAttackResolved(Country from, Country to, Player attacker, Player defender,
+            Combat.CombatResult result)
+        {
+            if (GameController.Instance.Fog.SeesBattle(GameController.Instance.Viewer, from, to, defender))
+                CombatPanel.Show(from, to, attacker, defender, result);
+        }
+
+        // Replaces the "is playing" line of an AI turn until the phase changes.
+        public void ShowActivity(string line)
+        {
+            _activity = line;
+            UpdateStatus();
+        }
+
+        // For changes the HUD does not hear of by itself, like loot from razing.
+        public void RefreshStatus() => UpdateStatus();
 
         private void OnEnable() => GameStateMachine.Instance.PhaseChanged += Refresh;
 
@@ -85,6 +108,7 @@ namespace UI
         {
             var turnStarted = _phase == TurnPhase.Income && phase == TurnPhase.Attack;
             _phase = phase;
+            _activity = null;
 
             TradePanel.Close();
             DiplomacyPanel.Close();
@@ -136,7 +160,7 @@ namespace UI
             _turnLabel.text =
                 $"{Format.Name(player)} - {Name(_phase)}\n" +
                 $"Food {resources.Food}   Wood {resources.Wood}   Gold {resources.Gold}   Stone {resources.Stone}\n" +
-                (player.IsAI ? $"{player.Name} is playing..." : Hint(_phase)) + traitorLine;
+                (player.IsAI ? _activity ?? $"{player.Name} is playing..." : Hint(_phase)) + traitorLine;
         }
 
         private static string Hint(TurnPhase phase)

@@ -42,6 +42,12 @@ namespace Gameplay
             Seats = list;
         }
 
+        private MatchSettings(List<Seat> seats) => Seats = seats;
+
+        // Every seat an AI, for the editor's simulated matches only; the lobby always seats a human.
+        public static MatchSettings AllAI(IEnumerable<Difficulty> difficulties) =>
+            new MatchSettings(difficulties.Take(MaxPlayers).Select(difficulty => new Seat(true, difficulty)).ToList());
+
         public static string PlayerName(int seatIndex, Seat seat) =>
             seat.IsAI ? $"Player {seatIndex + 1} (AI)" : $"Player {seatIndex + 1}";
     }

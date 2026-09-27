@@ -23,6 +23,5 @@ MonoBehaviour:
     _wood: 0
     _gold: 0
     _stone: 0
-  _tradeRatio: 4
   _soldierDiscount: 0
   _buildingDiscount: 0

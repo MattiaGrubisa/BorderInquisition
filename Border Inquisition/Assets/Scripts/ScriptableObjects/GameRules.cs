@@ -32,14 +32,21 @@ namespace Gameplay
         [SerializeField] private GameResources _horsemanCost = new GameResources(1, 1, 1, 1);
         [SerializeField] private GameResources _archerCost = new GameResources(1, 1, 1, 1);
 
+        [Header("Conquest")]
+        // A conqueror may raze the buildings of a country they took this turn; each razed one pays
+        // them this percent of its base cost (0: razing only denies it).
+        [SerializeField, Range(0, 100)] private int _razeLootPercent = 50;
+
         [Header("Regions")]
         // What a region's rich and poor resource cost there, in percent of the base price.
         [SerializeField, Min(0)] private int _richPricePercent = 50;
         [SerializeField, Min(0)] private int _poorPricePercent = 150;
 
         [Header("Market")]
-        // Bank trade ratio without a trade building: give this many for 1.
+        // Bank trade ratio: give this many for 1.
         [SerializeField, Min(1)] private int _defaultTradeRatio = 4;
+        // The ratio for a resource that a region the player holds whole is rich in.
+        [SerializeField, Min(1)] private int _regionTradeRatio = 2;
 
         [Header("Diplomacy")]
         // How many of the proposer's turns a pact covers.
@@ -51,6 +58,7 @@ namespace Gameplay
         public int MinCountriesPerDiceNumber => _minCountriesPerDiceNumber;
         public int MaxCountriesPerDiceNumber => _maxCountriesPerDiceNumber;
         public int MinimumGarrison => _minimumGarrison;
+        public int RazeLootPercent => _razeLootPercent;
         public int RichPricePercent => _richPricePercent;
         public int PoorPricePercent => _poorPricePercent;
 
@@ -68,6 +76,7 @@ namespace Gameplay
             return default;
         }
         public int DefaultTradeRatio => _defaultTradeRatio;
+        public int RegionTradeRatio => _regionTradeRatio;
         public int PactTurns => _pactTurns;
     }
 }

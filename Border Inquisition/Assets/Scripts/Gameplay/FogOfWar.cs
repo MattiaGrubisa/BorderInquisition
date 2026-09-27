@@ -22,6 +22,11 @@ namespace Gameplay
             viewer != null && country != null
             && (OnSide(viewer, country) || _map.Neighbours(country).Any(neighbour => OnSide(viewer, neighbour)));
 
+        // A battle is seen when either country is, or when it is fought against the viewer's side. Holds
+        // before and after the attack, although a conquest changes the defending country's owner.
+        public bool SeesBattle(Player viewer, Country from, Country to, Player defender) =>
+            IsVisible(viewer, from) || IsVisible(viewer, to) || _diplomacy.AreAllied(viewer, defender);
+
         private bool OnSide(Player viewer, Country country) => _diplomacy.AreAllied(viewer, country.Owner);
     }
 }

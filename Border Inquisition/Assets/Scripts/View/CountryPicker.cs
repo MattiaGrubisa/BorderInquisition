@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Gameplay;
@@ -12,8 +13,9 @@ namespace View
 {
     // Map input for the current player, and the only place the turn rules that GameController leaves
     // to the view are enforced (GameController itself is phase-blind):
-    // - Attack: click your country, then a red target. After a conquest the move panel offers to send
-    //   units back between exactly those two countries; the selection then follows the army.
+    // - Attack: click your country, then a red target. After a conquest the raze panel asks what to do
+    //   with the country's buildings (if it has any), then the move panel offers to send units back
+    //   between exactly those two countries; the selection then follows the army.
     // - Build & Move: click your country to open its build/train panel; while the turn's one move is
     //   unused, its own neighbours light up green and a click on one opens the move panel.
     // Left click only; right and middle drag stay with MapCamera. During an AI turn clicks are ignored
@@ -46,6 +48,7 @@ namespace View
             if (_hud != null)
             {
                 _hud.MovePanel.Close();
+                _hud.RazePanel.Close();
                 _hud.CountryPanel.Close();
                 _hud.CombatPanel.Hide();
             }
@@ -55,7 +58,8 @@ namespace View
         private void Update()
         {
             var mouse = Mouse.current;
-            if (mouse == null || !mouse.leftButton.wasPressedThisFrame || _hud == null || _hud.MovePanel.IsOpen)
+            if (mouse == null || !mouse.leftButton.wasPressedThisFrame || _hud == null
+                || _hud.MovePanel.IsOpen || _hud.RazePanel.IsOpen)
                 return;
 
             if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
@@ -104,6 +108,31 @@ namespace View
                 return;
             }
 
+            OfferRaze(from, to, () => OfferSendBack(from, to));
+        }
+
+        // Nothing to ask when the country has no buildings.
+        private void OfferRaze(Country from, Country to, Action next)
+        {
+            var buildings = to.BuiltBuildings.Where(building => Game.CanRaze(to, building)).ToList();
+            if (buildings.Count == 0)
+            {
+                next();
+                return;
+            }
+
+            Highlight(to, new[] { from }, CountryMarker.Highlight.Destination);
+            _hud.RazePanel.Open(to, buildings, Game.RazeLoot, razed =>
+            {
+                foreach (var building in razed)
+                    Game.TryRaze(to, building);
+                _hud.RefreshStatus();
+                next();
+            });
+        }
+
+        private void OfferSendBack(Country from, Country to)
+        {
             if (!CanSendUnits(to))
             {
                 AfterConquest(from, to);

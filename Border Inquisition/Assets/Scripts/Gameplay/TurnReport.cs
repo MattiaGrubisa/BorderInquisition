@@ -55,6 +55,8 @@ namespace Gameplay
             public int UnitsLost { get; set; }
             public int UnitsKilled { get; set; }
             public bool Fallen { get; set; }
+            // Buildings the attacker razed after taking the country.
+            public List<Building> Razed { get; } = new List<Building>();
         }
 
         private readonly List<int> _rolls = new List<int>();
@@ -98,17 +100,25 @@ namespace Gameplay
 
         public void AddDefence(Player attacker, Country country, int unitsLost, int unitsKilled, bool fallen)
         {
+            var defence = DefenceAgainst(attacker, country);
+            defence.Attacks++;
+            defence.UnitsLost += unitsLost;
+            defence.UnitsKilled += unitsKilled;
+            defence.Fallen |= fallen;
+        }
+
+        public void AddRazed(Player attacker, Country country, Building building) =>
+            DefenceAgainst(attacker, country).Razed.Add(building);
+
+        private Defence DefenceAgainst(Player attacker, Country country)
+        {
             var defence = _defences.FirstOrDefault(d => d.Attacker == attacker && d.Country == country);
             if (defence == null)
             {
                 defence = new Defence(attacker, country);
                 _defences.Add(defence);
             }
-
-            defence.Attacks++;
-            defence.UnitsLost += unitsLost;
-            defence.UnitsKilled += unitsKilled;
-            defence.Fallen |= fallen;
+            return defence;
         }
 
         public void Clear()

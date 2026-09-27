@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using Gameplay;
 using Gameplay.Managers;
 using TMPro;
@@ -7,8 +8,8 @@ using UnityEngine;
 namespace UI
 {
     // Build-phase bank trade for the current player: pick what to give, what to get and how much.
-    // The ratio and the trade itself come from GameController.Market; the HUD only opens this panel
-    // in the build phase.
+    // The ratios (per resource given, better for a region the player holds whole) and the trade itself
+    // come from GameController.Market; the HUD only opens this panel in the build phase.
     public class TradePanel : MonoBehaviour
     {
         private const float RowHeight = 42f;
@@ -19,6 +20,7 @@ namespace UI
 
         private TMP_Text _title;
         private TMP_Text _resources;
+        private TMP_Text _rates;
         private Transform _giveRow;
         private Transform _getRow;
         private TMP_Text _amount;
@@ -49,6 +51,7 @@ namespace UI
         {
             _title = UiFactory.Label(root, "-", 30f, Width, 40f);
             _resources = UiFactory.Label(root, "-", 22f, Width, 30f);
+            _rates = UiFactory.Paragraph(root, "-", 22f, Width);
 
             UiFactory.Label(root, "Give", 24f, Width, 32f);
             _giveRow = UiFactory.Row(root, "Give");
@@ -94,11 +97,12 @@ namespace UI
         private void Refresh()
         {
             var player = Game.CurrentPlayer;
-            var ratio = Game.Market.RatioFor(player);
+            var ratio = Game.Market.RatioFor(player, _give);
             var cost = ratio * _count;
 
-            _title.text = $"Market - {ratio}:1";
+            _title.text = "Market";
             _resources.text = $"You have {player.Resources}";
+            _rates.text = "Rates: " + string.Join(", ", Types.Select(type => Rate(player, type)));
             FillChoices(_giveRow, _give, type => _give = type);
             FillChoices(_getRow, _get, type => _get = type);
             _amount.text = _count.ToString();
@@ -107,6 +111,14 @@ namespace UI
                 ? "Pick two different resources"
                 : $"Pay {cost} {_give} for {_count} {_get}" +
                   (player.Resources.Get(_give) < cost ? " - not enough" : string.Empty);
+        }
+
+        // "Stone 2:1 (Aureliana)" when a whole region makes it cheaper.
+        private static string Rate(Player player, ResourceType type)
+        {
+            var rate = $"{type} {Game.Market.RatioFor(player, type)}:1";
+            var regions = Game.Market.RegionsRichIn(player, type).Select(region => region.name).ToList();
+            return regions.Count == 0 ? rate : $"<b>{rate}</b> ({string.Join(", ", regions)})";
         }
 
         private void FillChoices(Transform row, ResourceType selected, Action<ResourceType> select)

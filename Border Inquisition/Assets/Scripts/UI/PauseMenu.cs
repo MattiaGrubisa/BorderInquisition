@@ -1,3 +1,4 @@
+using AI;
 using GameStates;
 using TMPro;
 using UnityEngine;
@@ -5,8 +6,8 @@ using UnityEngine.UI;
 
 namespace UI
 {
-    // Esc or the Menu button: resume, or abandon the match for the main menu (asked twice - nothing
-    // of the match is kept). It dims and blocks the whole screen, above every panel; the game itself
+    // Esc or the Menu button: resume, set how fast AI turns play (AiSettings, kept between sessions), or
+    // abandon the match for the main menu (asked twice - nothing of the match is kept). It dims and blocks the whole screen, above every panel; the game itself
     // has nothing running on a clock, so nothing needs stopping.
     public class PauseMenu : MonoBehaviour
     {
@@ -17,6 +18,7 @@ namespace UI
 
         private RectTransform _root;
         private Button _leaveButton;
+        private Button _paceButton;
         private bool _confirmingLeave;
 
         public bool IsOpen => gameObject.activeSelf;
@@ -36,8 +38,15 @@ namespace UI
             var panel = UiFactory.Panel(root, "Panel", new Vector2(0.5f, 0.5f));
             UiFactory.Label(panel, "Paused", 36f, Width, 50f, TextAlignmentOptions.Center);
             UiFactory.Button(panel, "Resume", Width, 56f, Close);
+            _paceButton = UiFactory.Button(panel, PaceLabel, Width, 56f, () =>
+            {
+                AiSettings.NextPace();
+                UiFactory.SetLabel(_paceButton, PaceLabel);
+            });
             _leaveButton = UiFactory.Button(panel, "Leave match", Width, 56f, Leave);
         }
+
+        private static string PaceLabel => $"AI speed: {AiSettings.Pace}";
 
         public void Toggle()
         {

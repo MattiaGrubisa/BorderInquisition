@@ -99,8 +99,11 @@ namespace UI
         {
             var attacks = defence.Attacks == 1 ? "attacked" : $"attacked {defence.Attacks} times";
             var outcome = defence.Fallen ? "<color=#FF5040>taken</color>" : "held";
+            var razed = defence.Razed.Count == 0
+                ? string.Empty
+                : $" They razed {string.Join(", ", defence.Razed.Select(b => b.DisplayName))}.";
             return $"{Format.Name(defence.Attacker)} {attacks} {defence.Country.name} - {outcome}. " +
-                   $"You lost {Format.Count(defence.UnitsLost, "unit")}, they lost {defence.UnitsKilled}.";
+                   $"You lost {Format.Count(defence.UnitsLost, "unit")}, they lost {defence.UnitsKilled}." + razed;
         }
 
         private void Section(string heading, IEnumerable<string> lines)

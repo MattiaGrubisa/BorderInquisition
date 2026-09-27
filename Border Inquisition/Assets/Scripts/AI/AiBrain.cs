@@ -60,9 +60,28 @@ namespace AI
             return true;
         }
 
-        // After a conquest the whole army stands in the conquered country and its origin is empty; units
-        // go back in proportion to the threat each of the two faces.
-        public Army SendBack(Country origin, Country conquered)
+        // After a conquest: part of the army goes back, then the buildings are kept or razed. Returns how
+        // many were razed.
+        public int Occupy(Country origin, Country conquered)
+        {
+            var back = SendBack(origin, conquered);
+            if (!back.IsArmyEmpty())
+                Game.TryMoveArmy(conquered, origin, back.Knights, back.Horsemen, back.Archers);
+
+            if (!ShouldRaze(conquered))
+                return 0;
+
+            return conquered.BuiltBuildings.ToList().Count(building => Game.TryRaze(conquered, building));
+        }
+
+        // A kept building works for the AI from now on, a razed one pays loot at once. Keeping wins unless
+        // the country looks likely to be lost again - then the loot is worth more, and the enemy does not
+        // get the building back.
+        private bool ShouldRaze(Country conquered) => Threat(conquered) > conquered.GetArmyPower;
+
+        // The whole army stands in the conquered country and its origin is empty; units go back in
+        // proportion to the threat each of the two faces.
+        private Army SendBack(Country origin, Country conquered)
         {
             var army = conquered.Army;
             var spare = army.Count - Garrison;
@@ -133,9 +152,10 @@ namespace AI
 
         #region Build & Move
 
-        public void PlayBuildAndMove()
+        // Everything in the phase but the move, which the caller makes first (TryChooseMove) so it can
+        // be shown.
+        public void PlayEconomy()
         {
-            MakeMove();
             if (_profile.Trades)
                 Trade();
 
@@ -158,8 +178,11 @@ namespace AI
         // The turn's one move, from where units are needed least to a neighbour that needs them most.
         // On the front a country needs them more the harder it is pressed; behind it, the closer to the
         // front the better. Behind the front everything but the garrison goes, on it half the spare.
-        private void MakeMove()
+        // The caller makes the move (TryMoveArmy).
+        public bool TryChooseMove(out Country from, out Country to, out Army units)
         {
+            from = to = null;
+            units = default;
             var own = _me.OwnedCountries.ToList();
             var distance = DistancesToFront(own);
             var urgency = own.ToDictionary(c => c, c =>
@@ -168,34 +191,33 @@ namespace AI
                 return threat > 0f ? 100f + threat - (float)c.GetArmyPower : -distance[c];
             });
 
-            Country bestFrom = null, bestTo = null;
             var bestCount = 0;
             var bestGain = 0f;
-            foreach (var from in own.Where(c => c.Army.Count > Garrison))
+            foreach (var origin in own.Where(c => c.Army.Count > Garrison))
             {
-                var spare = from.Army.Count - Garrison;
-                var count = Threat(from) > 0f ? spare / 2 : spare;
+                var spare = origin.Army.Count - Garrison;
+                var count = Threat(origin) > 0f ? spare / 2 : spare;
                 if (count <= 0)
                     continue;
 
-                foreach (var to in Game.Map.Neighbours(from).Where(t => Game.CanMoveArmy(from, t)))
+                foreach (var destination in Game.Map.Neighbours(origin).Where(t => Game.CanMoveArmy(origin, t)))
                 {
-                    var lift = urgency[to] - urgency[from];
+                    var lift = urgency[destination] - urgency[origin];
                     if (lift <= 1f || lift * count <= bestGain)
                         continue;
 
-                    bestFrom = from;
-                    bestTo = to;
+                    from = origin;
+                    to = destination;
                     bestCount = count;
                     bestGain = lift * count;
                 }
             }
 
-            if (bestFrom == null)
-                return;
+            if (from == null)
+                return false;
 
-            var units = Take(bestFrom.Army, bestCount);
-            Game.TryMoveArmy(bestFrom, bestTo, units.Knights, units.Horsemen, units.Archers);
+            units = Take(from.Army, bestCount);
+            return true;
         }
 
         // Steps through own countries to the nearest one with a hostile neighbour; own.Count when cut off.
@@ -224,15 +246,16 @@ namespace AI
             return distance;
         }
 
-        // Bank trades that turn a pile of one resource into the one it is shortest of.
+        // Bank trades that turn a pile of one resource into the one it is shortest of. It gives whatever
+        // is left highest after paying, so a region's cheap resource goes first.
         private void Trade()
         {
-            var ratio = Game.Market.RatioFor(_me);
             for (var i = 0; i < MaxTradesPerTurn; i++)
             {
                 var have = _me.Resources;
-                var most = ResourceTypes.OrderByDescending(type => have.Get(type)).First();
+                var most = ResourceTypes.OrderByDescending(type => have.Get(type) - Game.Market.RatioFor(_me, type)).First();
                 var least = ResourceTypes.OrderBy(type => have.Get(type)).First();
+                var ratio = Game.Market.RatioFor(_me, most);
                 if (have.Get(most) - ratio < have.Get(least) + 2 || !Game.Market.TryTrade(_me, most, least, 1))
                     return;
             }
@@ -323,8 +346,8 @@ namespace AI
                 budget -= bestSite.GetBuildingCost(bestBuilding);
         }
 
-        // Production counts more for the resources it is short of; a discount or trade ratio only when
-        // it beats what the player already has.
+        // Production counts more for the resources it is short of; a discount only when it beats what
+        // the player already has.
         private float BuildingScore(Building building)
         {
             var have = _me.Resources;
@@ -334,8 +357,6 @@ namespace AI
                 score += (building.SoldierDiscount - _me.SoldierDiscount) / 10f;
             if (building.BuildingDiscount > _me.BuildingDiscount)
                 score += (building.BuildingDiscount - _me.BuildingDiscount) / 15f;
-            if (building.TradeRatio > 0 && building.TradeRatio < Game.Market.RatioFor(_me))
-                score += 1f;
             return score;
         }
 

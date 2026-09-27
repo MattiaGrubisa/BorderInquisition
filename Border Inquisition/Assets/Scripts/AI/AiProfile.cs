@@ -53,6 +53,16 @@ namespace AI
         public float ActionDelay => _actionDelay;
         public float AimDelay => _aimDelay;
 
+        // A copy that estimates win chances from fewer battles, so simulated matches run faster. The
+        // caller destroys it.
+        public AiProfile WithSimulations(int simulations)
+        {
+            var copy = Instantiate(this);
+            copy.name = $"{name} ({simulations} samples)";
+            copy._simulations = Mathf.Max(1, simulations);
+            return copy;
+        }
+
         // Easy and Normal play fair through the fog, Hard sees everything (user's decision).
         public static AiProfile Preset(Difficulty difficulty)
         {

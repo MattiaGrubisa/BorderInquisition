@@ -24,6 +24,8 @@ namespace Gameplay.Managers
         private FogOfWar _fog;
         private int _currentPlayerIndex;
         private Player _lastHuman;
+        // Countries the current player took this turn, with who held them before; only these can be razed.
+        private readonly Dictionary<Country, Player> _conqueredThisTurn = new Dictionary<Country, Player>();
 
         public event Action<Player> MatchWon;
         // Every human player is out; the AIs do not play the match to its end.
@@ -38,6 +40,10 @@ namespace Gameplay.Managers
         public Player CurrentPlayer => _players[_currentPlayerIndex];
         public Player Winner { get; private set; }
         public bool IsOver { get; private set; }
+
+        // Set while an editor simulation plays matches back to back: MatchWon, MatchLost and
+        // AttackResolved stay silent, so neither the flow nor the HUD reacts to them.
+        public bool Simulating { get; set; }
 
         // Whose eyes the map is seen through: the current player on a human turn, during an AI turn
         // the last human who played.
@@ -62,7 +68,7 @@ namespace Gameplay.Managers
 
             _map.Bake(_countries);
             _diplomacy = new DiplomacySystem(_rules);
-            _market = new Market(_rules);
+            _market = new Market(_rules, _countries);
             _fog = new FogOfWar(_map, _diplomacy);
 
             if (!TryGetComponent<AI.AiDriver>(out _))
@@ -123,9 +129,11 @@ namespace Gameplay.Managers
             {
                 to.SetOwner(attacker);
                 from.SendWholeArmy(to);
+                _conqueredThisTurn[to] = defender;
             }
 
-            AttackResolved?.Invoke(from, to, attacker, defender, result);
+            if (!Simulating)
+                AttackResolved?.Invoke(from, to, attacker, defender, result);
             if (conquered)
                 AfterConquest(attacker, defender);
             return true;
@@ -145,14 +153,40 @@ namespace Gameplay.Managers
             {
                 IsOver = true;
                 Winner = attacker;
-                MatchWon?.Invoke(attacker);
+                if (!Simulating)
+                    MatchWon?.Invoke(attacker);
             }
             else if (_lastHuman == null && _players.Any(p => !p.IsAI))
             {
                 IsOver = true;
-                MatchLost?.Invoke();
+                if (!Simulating)
+                    MatchLost?.Invoke();
             }
         }
+
+        #region Razing
+
+        // The conqueror may raze a building of a country they took this turn, while they still hold it.
+        public bool CanRaze(Country country, Building building) =>
+            country != null && building != null && !IsOver && _players.Count > 0
+            && country.Owner == CurrentPlayer && _conqueredThisTurn.ContainsKey(country)
+            && country.IsBuilt(building);
+
+        // Paid on the building's base price, not the region's.
+        public GameResources RazeLoot(Building building) => building.BuildingCost.Percent(_rules.RazeLootPercent);
+
+        // The building is gone, the conqueror gets the loot, and the former owner reads it in their report.
+        public bool TryRaze(Country country, Building building)
+        {
+            if (!CanRaze(country, building) || !country.Raze(building))
+                return false;
+
+            CurrentPlayer.Receive(RazeLoot(building));
+            _conqueredThisTurn[country]?.Report.AddRazed(CurrentPlayer, country, building);
+            return true;
+        }
+
+        #endregion
 
         // The first human still in the match, in turn order from the current player.
         private Player NextHuman()
@@ -177,6 +211,7 @@ namespace Gameplay.Managers
         {
             _players.Clear();
             _diplomacy.Clear();
+            _conqueredThisTurn.Clear();
             Winner = null;
             IsOver = false;
             LastIncomeRoll = 0;
@@ -325,6 +360,7 @@ namespace Gameplay.Managers
         {
             _diplomacy.OnTurnEnded(CurrentPlayer);
             CurrentPlayer.Report.Clear();
+            _conqueredThisTurn.Clear();
             for (int i = 0; i < _players.Count; i++)
             {
                 _currentPlayerIndex = (_currentPlayerIndex + 1) % _players.Count;
@@ -335,105 +371,6 @@ namespace Gameplay.Managers
 
         // An empty test map eliminates nobody, so turns still rotate while the map is being built.
         public bool IsEliminated(Player player) => _countries.Count > 0 && !player.OwnedCountries.Any();
-
-        #region Simulation
-
-        // Plays the match out without input: each turn the current player attacks until no legal attack
-        // is left, then idle armies march one step towards the nearest enemy. Ends on a winner, or with
-        // a warning when every army is gone or the turn limit runs out.
-        public void PlayOutMatch(int maxTurns = 1000)
-        {
-            if (_players.Count == 0)
-            {
-                Debug.LogWarning("No match is running.", this);
-                return;
-            }
-
-            var turns = 0;
-            var attacks = 0;
-            while (!IsOver && turns < maxTurns && _countries.Any(c => !c.IsArmyEmpty))
-            {
-                attacks += PlayOutTurn();
-                turns++;
-                if (!IsOver)
-                    NextPlayer();
-            }
-
-            if (Winner != null)
-                Debug.Log($"{Winner.Name} wins after {turns} turns and {attacks} attacks.", this);
-            else if (!IsOver)
-                Debug.LogWarning($"No winner after {turns} turns and {attacks} attacks - the match is stuck.", this);
-        }
-
-        private int PlayOutTurn()
-        {
-            const int maxAttacks = 10000;
-
-            var attacks = 0;
-            while (!IsOver && attacks < maxAttacks && TryBestAttack())
-                attacks++;
-
-            if (!IsOver)
-                AdvanceIdleArmies();
-            return attacks;
-        }
-
-        // Picks the legal attack with the biggest power advantage.
-        private bool TryBestAttack()
-        {
-            var best = CurrentPlayer.OwnedCountries
-                .SelectMany(from => AttackTargets(from).Select(to => (from, to)))
-                .OrderByDescending(pair => pair.from.GetArmyPower - pair.to.GetArmyPower)
-                .FirstOrDefault();
-
-            return best.from != null && TryAttack(best.from, best.to, out _);
-        }
-
-        private void AdvanceIdleArmies()
-        {
-            var idle = CurrentPlayer.OwnedCountries
-                .Where(c => !c.IsArmyEmpty && !AttackTargets(c).Any())
-                .ToList();
-
-            foreach (var from in idle)
-            {
-                var step = NextStepTowardsEnemy(from);
-                // The debug march moves whole armies, ignoring the garrison rule like it ignores phases.
-                if (step != null && CanMoveArmy(from, step))
-                    from.SendWholeArmy(step);
-            }
-        }
-
-        // Breadth-first search through the owner's own countries; returns the first step of the shortest
-        // path to a country someone else holds, or null when there is none.
-        private Country NextStepTowardsEnemy(Country from)
-        {
-            var firstStep = new Dictionary<int, Country>();
-            var visited = new HashSet<int> { from.Id };
-            var pending = new Queue<Country>();
-            pending.Enqueue(from);
-
-            while (pending.Count > 0)
-            {
-                var current = pending.Dequeue();
-                foreach (var neighbour in _map.Neighbours(current))
-                {
-                    if (!visited.Add(neighbour.Id))
-                        continue;
-
-                    var step = current == from ? neighbour : firstStep[current.Id];
-                    if (neighbour.Owner != from.Owner)
-                        return step;
-
-                    firstStep[neighbour.Id] = step;
-                    pending.Enqueue(neighbour);
-                }
-            }
-
-            return null;
-        }
-
-        #endregion
 
 #if UNITY_EDITOR
 

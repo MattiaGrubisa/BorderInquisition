@@ -25,6 +25,19 @@ namespace UI
             $"{Count(army.Knights, "knight")}, {Count(army.Horsemen, "horseman", "horsemen")}, " +
             Count(army.Archers, "archer");
 
+        // "income Food 1, soldiers -20%": what a building does for whoever holds its country.
+        public static string Effects(Building building)
+        {
+            var parts = new List<string>();
+            if (!building.ProductionBoost.IsEmpty)
+                parts.Add("income " + Resources(building.ProductionBoost));
+            if (building.SoldierDiscount > 0)
+                parts.Add($"soldiers -{building.SoldierDiscount}%");
+            if (building.BuildingDiscount > 0)
+                parts.Add($"buildings -{building.BuildingDiscount}%");
+            return parts.Count > 0 ? string.Join(", ", parts) : "no effect";
+        }
+
         public static string Count(int count, string one, string many = null) =>
             $"{count} {(count == 1 ? one : many ?? one + "s")}";
 
