@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: eca2100c9afecfc48a6ae8b45e33e12e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4470723223611082969
+    second: clima_tormenta_electrica_0
+  - first:
+      213: -2951291257969733580
+    second: clima_tormenta_electrica_1
+  - first:
+      213: -8592188669168875746
+    second: clima_tormenta_electrica_2
+  - first:
+      213: -8522424428218792899
+    second: clima_tormenta_electrica_3
+  - first:
+      213: -624081884296740837
+    second: clima_tormenta_electrica_4
+  - first:
+      213: -6186297909954761160
+    second: clima_tormenta_electrica_5
+  - first:
+      213: -2406636774885777073
+    second: clima_tormenta_electrica_6
+  - first:
+      213: -4997138355622285129
+    second: clima_tormenta_electrica_7
+  - first:
+      213: 467830609887037335
+    second: clima_tormenta_electrica_8
+  - first:
+      213: -7150648788073445303
+    second: clima_tormenta_electrica_9
+  - first:
+      213: -2289904842681332685
+    second: clima_tormenta_electrica_10
+  - first:
+      213: -894071310317506178
+    second: clima_tormenta_electrica_11
+  - first:
+      213: 7936183165508339293
+    second: clima_tormenta_electrica_12
+  - first:
+      213: -3755390388664605064
+    second: clima_tormenta_electrica_13
+  - first:
+      213: -6374078109189187038
+    second: clima_tormenta_electrica_14
+  - first:
+      213: 1936985145407194388
+    second: clima_tormenta_electrica_15
+  - first:
+      213: 2501444225006444149
+    second: clima_tormenta_electrica_16
+  - first:
+      213: -3058214324021596889
+    second: clima_tormenta_electrica_17
+  - first:
+      213: -2963098225818101372
+    second: clima_tormenta_electrica_18
+  - first:
+      213: 4005801767725063424
+    second: clima_tormenta_electrica_19
+  - first:
+      213: -4359218428365180406
+    second: clima_tormenta_electrica_20
+  - first:
+      213: -9192309696970599799
+    second: clima_tormenta_electrica_21
+  - first:
+      213: -6935235260880887635
+    second: clima_tormenta_electrica_22
+  - first:
+      213: -9016422441763232115
+    second: clima_tormenta_electrica_23
+  - first:
+      213: -8213733413479113870
+    second: clima_tormenta_electrica_24
+  - first:
+      213: 7075901863490132300
+    second: clima_tormenta_electrica_25
+  - first:
+      213: 2151714946598768113
+    second: clima_tormenta_electrica_26
+  - first:
+      213: -7628105701958068506
+    second: clima_tormenta_electrica_27
+  - first:
+      213: -5815385536399772338
+    second: clima_tormenta_electrica_28
+  - first:
+      213: 2772652783665362861
+    second: clima_tormenta_electrica_29
+  - first:
+      213: 123083009860037060
+    second: clima_tormenta_electrica_30
+  - first:
+      213: -7345839554937463736
+    second: clima_tormenta_electrica_31
+  - first:
+      213: 2324364594074464998
+    second: clima_tormenta_electrica_32
+  - first:
+      213: -3378661280064259221
+    second: clima_tormenta_electrica_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_0
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 0
+        width: 75
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727729f3aecc4f1c0800000000000000
+      internalID: -4470723223611082969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_1
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 92
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4309ffbcc38ea07d0800000000000000
+      internalID: -2951291257969733580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_2
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 134
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e178d03cde962c880800000000000000
+      internalID: -8592188669168875746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_3
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 164
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3448e2e2244ab980800000000000000
+      internalID: -8522424428218792899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_4
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 292
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b108cbf25d0d657f0800000000000000
+      internalID: -624081884296740837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_5
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 0
+        width: 429
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ea76ac3dad52aa0800000000000000
+      internalID: -6186297909954761160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_6
+      rect:
+        serializedVersion: 2
+        x: 6649
+        y: 0
+        width: 68
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41aa89aa98e99ed0800000000000000
+      internalID: -2406636774885777073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_7
+      rect:
+        serializedVersion: 2
+        x: 6723
+        y: 0
+        width: 100
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b077ab342996aab0800000000000000
+      internalID: -4997138355622285129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_8
+      rect:
+        serializedVersion: 2
+        x: 6973
+        y: 103
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7970f5506711e7600800000000000000
+      internalID: 467830609887037335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_9
+      rect:
+        serializedVersion: 2
+        x: 7043
+        y: 0
+        width: 414
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9480e4120dac3cc90800000000000000
+      internalID: -7150648788073445303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_10
+      rect:
+        serializedVersion: 2
+        x: 8010
+        y: 0
+        width: 77
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c48829daf9830e0800000000000000
+      internalID: -2289904842681332685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_11
+      rect:
+        serializedVersion: 2
+        x: 8330
+        y: 0
+        width: 388
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7138a851ee9793f0800000000000000
+      internalID: -894071310317506178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_12
+      rect:
+        serializedVersion: 2
+        x: 14079
+        y: 45
+        width: 72
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d564f849a8cf22e60800000000000000
+      internalID: 7936183165508339293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_13
+      rect:
+        serializedVersion: 2
+        x: 14399
+        y: 2
+        width: 380
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876eab2a65c22ebc0800000000000000
+      internalID: -3755390388664605064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_14
+      rect:
+        serializedVersion: 2
+        x: 16213
+        y: 0
+        width: 103
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a5f232bb9ba87a0800000000000000
+      internalID: -6374078109189187038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_15
+      rect:
+        serializedVersion: 2
+        x: 16572
+        y: 154
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41544372abd81ea10800000000000000
+      internalID: 1936985145407194388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_16
+      rect:
+        serializedVersion: 2
+        x: 16777
+        y: 0
+        width: 178
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e16f8f44ae6b220800000000000000
+      internalID: 2501444225006444149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_17
+      rect:
+        serializedVersion: 2
+        x: 17097
+        y: 0
+        width: 413
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d6ea1864a0f85d0800000000000000
+      internalID: -3058214324021596889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_18
+      rect:
+        serializedVersion: 2
+        x: 18285
+        y: 0
+        width: 75
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489958fdcd5f0e6d0800000000000000
+      internalID: -2963098225818101372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_19
+      rect:
+        serializedVersion: 2
+        x: 18605
+        y: 0
+        width: 396
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d52edeb77779730800000000000000
+      internalID: 4005801767725063424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_20
+      rect:
+        serializedVersion: 2
+        x: 18632
+        y: 155
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02f4fe7fe1f083c0800000000000000
+      internalID: -4359218428365180406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_21
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 0
+        width: 85
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98250b6980b5e6080800000000000000
+      internalID: -9192309696970599799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_22
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 153
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da06e61564811cf90800000000000000
+      internalID: -6935235260880887635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_23
+      rect:
+        serializedVersion: 2
+        x: 16533
+        y: 0
+        width: 103
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86a7dd6f8b3fd280800000000000000
+      internalID: -9016422441763232115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_24
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 128
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b12d98af4f20e80800000000000000
+      internalID: -8213733413479113870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_25
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 0
+        width: 75
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c499ade4147a23260800000000000000
+      internalID: 7075901863490132300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_26
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 112
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd0be9f75d6cdd10800000000000000
+      internalID: 2151714946598768113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_27
+      rect:
+        serializedVersion: 2
+        x: 6969
+        y: 0
+        width: 68
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e658ad8746832690800000000000000
+      internalID: -7628105701958068506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_28
+      rect:
+        serializedVersion: 2
+        x: 8384
+        y: 91
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4572f67aa99b4fa0800000000000000
+      internalID: -5815385536399772338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_29
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 0
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da73fdf34017a7620800000000000000
+      internalID: 2772652783665362861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_30
+      rect:
+        serializedVersion: 2
+        x: 8345
+        y: 0
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9e798685745b100800000000000000
+      internalID: 123083009860037060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_31
+      rect:
+        serializedVersion: 2
+        x: 8368
+        y: 0
+        width: 28
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c50fe38d55e0a90800000000000000
+      internalID: -7345839554937463736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_32
+      rect:
+        serializedVersion: 2
+        x: 14079
+        y: 0
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2bd46884dc14020800000000000000
+      internalID: 2324364594074464998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tormenta_electrica_33
+      rect:
+        serializedVersion: 2
+        x: 14399
+        y: 0
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b376977759c11d0800000000000000
+      internalID: -3378661280064259221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clima_tormenta_electrica_0: -4470723223611082969
+      clima_tormenta_electrica_1: -2951291257969733580
+      clima_tormenta_electrica_10: -2289904842681332685
+      clima_tormenta_electrica_11: -894071310317506178
+      clima_tormenta_electrica_12: 7936183165508339293
+      clima_tormenta_electrica_13: -3755390388664605064
+      clima_tormenta_electrica_14: -6374078109189187038
+      clima_tormenta_electrica_15: 1936985145407194388
+      clima_tormenta_electrica_16: 2501444225006444149
+      clima_tormenta_electrica_17: -3058214324021596889
+      clima_tormenta_electrica_18: -2963098225818101372
+      clima_tormenta_electrica_19: 4005801767725063424
+      clima_tormenta_electrica_2: -8592188669168875746
+      clima_tormenta_electrica_20: -4359218428365180406
+      clima_tormenta_electrica_21: -9192309696970599799
+      clima_tormenta_electrica_22: -6935235260880887635
+      clima_tormenta_electrica_23: -9016422441763232115
+      clima_tormenta_electrica_24: -8213733413479113870
+      clima_tormenta_electrica_25: 7075901863490132300
+      clima_tormenta_electrica_26: 2151714946598768113
+      clima_tormenta_electrica_27: -7628105701958068506
+      clima_tormenta_electrica_28: -5815385536399772338
+      clima_tormenta_electrica_29: 2772652783665362861
+      clima_tormenta_electrica_3: -8522424428218792899
+      clima_tormenta_electrica_30: 123083009860037060
+      clima_tormenta_electrica_31: -7345839554937463736
+      clima_tormenta_electrica_32: 2324364594074464998
+      clima_tormenta_electrica_33: -3378661280064259221
+      clima_tormenta_electrica_4: -624081884296740837
+      clima_tormenta_electrica_5: -6186297909954761160
+      clima_tormenta_electrica_6: -2406636774885777073
+      clima_tormenta_electrica_7: -4997138355622285129
+      clima_tormenta_electrica_8: 467830609887037335
+      clima_tormenta_electrica_9: -7150648788073445303
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

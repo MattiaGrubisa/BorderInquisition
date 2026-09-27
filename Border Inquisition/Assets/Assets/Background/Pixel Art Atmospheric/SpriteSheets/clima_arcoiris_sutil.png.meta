@@ -1,0 +1,1651 @@
+fileFormatVersion: 2
+guid: aeebdd2d09dff4a4094e9593fcba3a2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5903034682614873320
+    second: clima_arcoiris_sutil_0
+  - first:
+      213: -7017115629705818454
+    second: clima_arcoiris_sutil_1
+  - first:
+      213: -2557138123474568617
+    second: clima_arcoiris_sutil_2
+  - first:
+      213: 1013655376938314808
+    second: clima_arcoiris_sutil_3
+  - first:
+      213: -3641942481293187210
+    second: clima_arcoiris_sutil_4
+  - first:
+      213: -8973302263957046969
+    second: clima_arcoiris_sutil_5
+  - first:
+      213: 4786789615853764444
+    second: clima_arcoiris_sutil_6
+  - first:
+      213: -7671551343719842334
+    second: clima_arcoiris_sutil_7
+  - first:
+      213: -253114944208593193
+    second: clima_arcoiris_sutil_8
+  - first:
+      213: 9208388552643610259
+    second: clima_arcoiris_sutil_9
+  - first:
+      213: 7688177926375784779
+    second: clima_arcoiris_sutil_10
+  - first:
+      213: 4472959524376636853
+    second: clima_arcoiris_sutil_11
+  - first:
+      213: 7586490122924721350
+    second: clima_arcoiris_sutil_12
+  - first:
+      213: 32227800424970303
+    second: clima_arcoiris_sutil_13
+  - first:
+      213: 4978098152774735257
+    second: clima_arcoiris_sutil_14
+  - first:
+      213: 4556508116124691519
+    second: clima_arcoiris_sutil_15
+  - first:
+      213: 6814577239918142550
+    second: clima_arcoiris_sutil_16
+  - first:
+      213: -7056584756704229268
+    second: clima_arcoiris_sutil_17
+  - first:
+      213: -7840547996360381081
+    second: clima_arcoiris_sutil_18
+  - first:
+      213: -4079107836224729134
+    second: clima_arcoiris_sutil_19
+  - first:
+      213: -11813798664674337
+    second: clima_arcoiris_sutil_20
+  - first:
+      213: 3908859228885392212
+    second: clima_arcoiris_sutil_21
+  - first:
+      213: 8001479217229126732
+    second: clima_arcoiris_sutil_22
+  - first:
+      213: 9005612157457477315
+    second: clima_arcoiris_sutil_23
+  - first:
+      213: -8096521137368572659
+    second: clima_arcoiris_sutil_24
+  - first:
+      213: 3548098219807846006
+    second: clima_arcoiris_sutil_25
+  - first:
+      213: 6809490666060438162
+    second: clima_arcoiris_sutil_26
+  - first:
+      213: -5845007669868850184
+    second: clima_arcoiris_sutil_27
+  - first:
+      213: 480882443789029016
+    second: clima_arcoiris_sutil_28
+  - first:
+      213: 1663757393710239385
+    second: clima_arcoiris_sutil_29
+  - first:
+      213: -4322679199563712724
+    second: clima_arcoiris_sutil_30
+  - first:
+      213: 5151713620194133679
+    second: clima_arcoiris_sutil_31
+  - first:
+      213: -3618003641162551712
+    second: clima_arcoiris_sutil_32
+  - first:
+      213: 8293429295487470604
+    second: clima_arcoiris_sutil_33
+  - first:
+      213: 1038517840399702363
+    second: clima_arcoiris_sutil_34
+  - first:
+      213: -1776622584726307631
+    second: clima_arcoiris_sutil_35
+  - first:
+      213: 6807309785237281070
+    second: clima_arcoiris_sutil_36
+  - first:
+      213: 520544172798847619
+    second: clima_arcoiris_sutil_37
+  - first:
+      213: 4921955779912241663
+    second: clima_arcoiris_sutil_38
+  - first:
+      213: -9152409754007691815
+    second: clima_arcoiris_sutil_39
+  - first:
+      213: 4375118953670893361
+    second: clima_arcoiris_sutil_40
+  - first:
+      213: -7283397011973836319
+    second: clima_arcoiris_sutil_41
+  - first:
+      213: 2751644673234439633
+    second: clima_arcoiris_sutil_42
+  - first:
+      213: 8119498167075325373
+    second: clima_arcoiris_sutil_43
+  - first:
+      213: 5150258109702009279
+    second: clima_arcoiris_sutil_44
+  - first:
+      213: 894576937969752504
+    second: clima_arcoiris_sutil_45
+  - first:
+      213: -4909740508968043584
+    second: clima_arcoiris_sutil_46
+  - first:
+      213: 4825375766680981231
+    second: clima_arcoiris_sutil_47
+  - first:
+      213: 804766507472617376
+    second: clima_arcoiris_sutil_48
+  - first:
+      213: -6352606256109560989
+    second: clima_arcoiris_sutil_49
+  - first:
+      213: 9039810471045448394
+    second: clima_arcoiris_sutil_50
+  - first:
+      213: 3137296370839179634
+    second: clima_arcoiris_sutil_51
+  - first:
+      213: 937758421952817585
+    second: clima_arcoiris_sutil_52
+  - first:
+      213: -8046829622910245853
+    second: clima_arcoiris_sutil_53
+  - first:
+      213: -1558186776815231784
+    second: clima_arcoiris_sutil_54
+  - first:
+      213: -2942827221679722122
+    second: clima_arcoiris_sutil_55
+  - first:
+      213: -4375361647520805320
+    second: clima_arcoiris_sutil_56
+  - first:
+      213: -5332483651144847881
+    second: clima_arcoiris_sutil_57
+  - first:
+      213: -8114844199072971423
+    second: clima_arcoiris_sutil_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_0
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 12
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8130ee55b35341ea0800000000000000
+      internalID: -5903034682614873320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 21
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae0b8753823e9e90800000000000000
+      internalID: -7017115629705818454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_2
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 32
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a70bccc68338cd0800000000000000
+      internalID: -2557138123474568617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_3
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 42
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ca21bd13a311e00800000000000000
+      internalID: 1013655376938314808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 53
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6776d1eeb98357dc0800000000000000
+      internalID: -3641942481293187210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_5
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 64
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749b1ae222d687380800000000000000
+      internalID: -8973302263957046969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_6
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 74
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ffd7b4bc71e6240800000000000000
+      internalID: 4786789615853764444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_7
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 85
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed7861d2bc298590800000000000000
+      internalID: -7671551343719842334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_8
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 96
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de9a1f9c41cc7cf0800000000000000
+      internalID: -253114944208593193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_9
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 106
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396881ab994cacf70800000000000000
+      internalID: 9208388552643610259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_10
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 117
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41c0af1715e1ba60800000000000000
+      internalID: 7688177926375784779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_11
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 128
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd6b291df4231e30800000000000000
+      internalID: 4472959524376636853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_12
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 0
+        width: 138
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c400f46290a84960800000000000000
+      internalID: 7586490122924721350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_13
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 0
+        width: 149
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38f834830f727000800000000000000
+      internalID: 32227800424970303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_14
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 160
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9959a2515e1c51540800000000000000
+      internalID: 4978098152774735257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_15
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 170
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cebcd7df7fb3f30800000000000000
+      internalID: 4556508116124691519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_16
+      rect:
+        serializedVersion: 2
+        x: 5440
+        y: 0
+        width: 181
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65468cff4ed329e50800000000000000
+      internalID: 6814577239918142550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_17
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 192
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6845391d89f11e90800000000000000
+      internalID: -7056584756704229268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_18
+      rect:
+        serializedVersion: 2
+        x: 6080
+        y: 0
+        width: 202
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76de9886327c03390800000000000000
+      internalID: -7840547996360381081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_19
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 213
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df0055f8091467c0800000000000000
+      internalID: -4079107836224729134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_20
+      rect:
+        serializedVersion: 2
+        x: 6720
+        y: 0
+        width: 224
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3e427a96706dff0800000000000000
+      internalID: -11813798664674337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_21
+      rect:
+        serializedVersion: 2
+        x: 7040
+        y: 0
+        width: 234
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b98b632ce0f3630800000000000000
+      internalID: 3908859228885392212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_22
+      rect:
+        serializedVersion: 2
+        x: 7360
+        y: 0
+        width: 245
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cdc9454f6fa0f60800000000000000
+      internalID: 8001479217229126732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_23
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 256
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce213e1b8c5afc70800000000000000
+      internalID: 9005612157457477315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_24
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 0
+        width: 266
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d54ba3ce063af80800000000000000
+      internalID: -8096521137368572659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_25
+      rect:
+        serializedVersion: 2
+        x: 8320
+        y: 0
+        width: 277
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ea7d348806d3130800000000000000
+      internalID: 3548098219807846006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_26
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 0
+        width: 288
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29adedbbeab208e50800000000000000
+      internalID: 6809490666060438162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_27
+      rect:
+        serializedVersion: 2
+        x: 8960
+        y: 0
+        width: 298
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f398001e7c52eea0800000000000000
+      internalID: -5845007669868850184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_28
+      rect:
+        serializedVersion: 2
+        x: 9280
+        y: 0
+        width: 309
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e44c8e8007ca600800000000000000
+      internalID: 480882443789029016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_29
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 0
+        width: 320
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e478cd88ad61710800000000000000
+      internalID: 1663757393710239385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_30
+      rect:
+        serializedVersion: 2
+        x: 9930
+        y: 0
+        width: 310
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27f808ab22c204c0800000000000000
+      internalID: -4322679199563712724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_31
+      rect:
+        serializedVersion: 2
+        x: 10261
+        y: 0
+        width: 299
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6863c1e309e7740800000000000000
+      internalID: 5151713620194133679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_32
+      rect:
+        serializedVersion: 2
+        x: 10592
+        y: 0
+        width: 288
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06eaf6c7bd44acdc0800000000000000
+      internalID: -3618003641162551712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_33
+      rect:
+        serializedVersion: 2
+        x: 10922
+        y: 0
+        width: 278
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c4957f00e281370800000000000000
+      internalID: 8293429295487470604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_34
+      rect:
+        serializedVersion: 2
+        x: 11253
+        y: 0
+        width: 267
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b591ee9397e896e00800000000000000
+      internalID: 1038517840399702363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_35
+      rect:
+        serializedVersion: 2
+        x: 11584
+        y: 0
+        width: 256
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcb3711c2b2857e0800000000000000
+      internalID: -1776622584726307631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_36
+      rect:
+        serializedVersion: 2
+        x: 11914
+        y: 0
+        width: 246
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29db19de2c687e50800000000000000
+      internalID: 6807309785237281070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_37
+      rect:
+        serializedVersion: 2
+        x: 12245
+        y: 0
+        width: 235
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a239dca28593700800000000000000
+      internalID: 520544172798847619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_38
+      rect:
+        serializedVersion: 2
+        x: 12576
+        y: 0
+        width: 224
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff199d544bc4e4440800000000000000
+      internalID: 4921955779912241663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_39
+      rect:
+        serializedVersion: 2
+        x: 12906
+        y: 0
+        width: 214
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd1d8df1db1cf080800000000000000
+      internalID: -9152409754007691815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_40
+      rect:
+        serializedVersion: 2
+        x: 13237
+        y: 0
+        width: 203
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fd1ab028b87bc30800000000000000
+      internalID: 4375118953670893361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_41
+      rect:
+        serializedVersion: 2
+        x: 13568
+        y: 0
+        width: 192
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e17827b10d2cea90800000000000000
+      internalID: -7283397011973836319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_42
+      rect:
+        serializedVersion: 2
+        x: 13898
+        y: 0
+        width: 182
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd0c30604ecf2620800000000000000
+      internalID: 2751644673234439633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_43
+      rect:
+        serializedVersion: 2
+        x: 14229
+        y: 0
+        width: 171
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5c5f260904ea070800000000000000
+      internalID: 8119498167075325373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_44
+      rect:
+        serializedVersion: 2
+        x: 14560
+        y: 0
+        width: 160
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1fc5aa674697740800000000000000
+      internalID: 5150258109702009279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_45
+      rect:
+        serializedVersion: 2
+        x: 14890
+        y: 0
+        width: 150
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b991f34cfc2a6c00800000000000000
+      internalID: 894576937969752504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_46
+      rect:
+        serializedVersion: 2
+        x: 15221
+        y: 0
+        width: 139
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb3d9f15091ddbb0800000000000000
+      internalID: -4909740508968043584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_47
+      rect:
+        serializedVersion: 2
+        x: 15552
+        y: 0
+        width: 128
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee4cc0a1bd27f240800000000000000
+      internalID: 4825375766680981231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_48
+      rect:
+        serializedVersion: 2
+        x: 15882
+        y: 0
+        width: 118
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af790defda1b2b00800000000000000
+      internalID: 804766507472617376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_49
+      rect:
+        serializedVersion: 2
+        x: 16213
+        y: 0
+        width: 107
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b5aa2844207d7a0800000000000000
+      internalID: -6352606256109560989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_50
+      rect:
+        serializedVersion: 2
+        x: 16544
+        y: 0
+        width: 96
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2458b7abbd37d70800000000000000
+      internalID: 9039810471045448394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_51
+      rect:
+        serializedVersion: 2
+        x: 16874
+        y: 0
+        width: 86
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271ddfa5d6ae98b20800000000000000
+      internalID: 3137296370839179634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_52
+      rect:
+        serializedVersion: 2
+        x: 17205
+        y: 0
+        width: 75
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9e0a9f056930d00800000000000000
+      internalID: 937758421952817585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_53
+      rect:
+        serializedVersion: 2
+        x: 17536
+        y: 0
+        width: 64
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3242856871be35090800000000000000
+      internalID: -8046829622910245853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_54
+      rect:
+        serializedVersion: 2
+        x: 17866
+        y: 0
+        width: 54
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc9732d165306ae0800000000000000
+      internalID: -1558186776815231784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_55
+      rect:
+        serializedVersion: 2
+        x: 18197
+        y: 0
+        width: 43
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6713e60db3af827d0800000000000000
+      internalID: -2942827221679722122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_56
+      rect:
+        serializedVersion: 2
+        x: 18528
+        y: 0
+        width: 32
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e87a363c79743c0800000000000000
+      internalID: -4375361647520805320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_57
+      rect:
+        serializedVersion: 2
+        x: 18858
+        y: 0
+        width: 22
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdeeea3f563ff5b0800000000000000
+      internalID: -5332483651144847881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_arcoiris_sutil_58
+      rect:
+        serializedVersion: 2
+        x: 19189
+        y: 0
+        width: 11
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165cd9af138426f80800000000000000
+      internalID: -8114844199072971423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clima_arcoiris_sutil_0: -5903034682614873320
+      clima_arcoiris_sutil_1: -7017115629705818454
+      clima_arcoiris_sutil_10: 7688177926375784779
+      clima_arcoiris_sutil_11: 4472959524376636853
+      clima_arcoiris_sutil_12: 7586490122924721350
+      clima_arcoiris_sutil_13: 32227800424970303
+      clima_arcoiris_sutil_14: 4978098152774735257
+      clima_arcoiris_sutil_15: 4556508116124691519
+      clima_arcoiris_sutil_16: 6814577239918142550
+      clima_arcoiris_sutil_17: -7056584756704229268
+      clima_arcoiris_sutil_18: -7840547996360381081
+      clima_arcoiris_sutil_19: -4079107836224729134
+      clima_arcoiris_sutil_2: -2557138123474568617
+      clima_arcoiris_sutil_20: -11813798664674337
+      clima_arcoiris_sutil_21: 3908859228885392212
+      clima_arcoiris_sutil_22: 8001479217229126732
+      clima_arcoiris_sutil_23: 9005612157457477315
+      clima_arcoiris_sutil_24: -8096521137368572659
+      clima_arcoiris_sutil_25: 3548098219807846006
+      clima_arcoiris_sutil_26: 6809490666060438162
+      clima_arcoiris_sutil_27: -5845007669868850184
+      clima_arcoiris_sutil_28: 480882443789029016
+      clima_arcoiris_sutil_29: 1663757393710239385
+      clima_arcoiris_sutil_3: 1013655376938314808
+      clima_arcoiris_sutil_30: -4322679199563712724
+      clima_arcoiris_sutil_31: 5151713620194133679
+      clima_arcoiris_sutil_32: -3618003641162551712
+      clima_arcoiris_sutil_33: 8293429295487470604
+      clima_arcoiris_sutil_34: 1038517840399702363
+      clima_arcoiris_sutil_35: -1776622584726307631
+      clima_arcoiris_sutil_36: 6807309785237281070
+      clima_arcoiris_sutil_37: 520544172798847619
+      clima_arcoiris_sutil_38: 4921955779912241663
+      clima_arcoiris_sutil_39: -9152409754007691815
+      clima_arcoiris_sutil_4: -3641942481293187210
+      clima_arcoiris_sutil_40: 4375118953670893361
+      clima_arcoiris_sutil_41: -7283397011973836319
+      clima_arcoiris_sutil_42: 2751644673234439633
+      clima_arcoiris_sutil_43: 8119498167075325373
+      clima_arcoiris_sutil_44: 5150258109702009279
+      clima_arcoiris_sutil_45: 894576937969752504
+      clima_arcoiris_sutil_46: -4909740508968043584
+      clima_arcoiris_sutil_47: 4825375766680981231
+      clima_arcoiris_sutil_48: 804766507472617376
+      clima_arcoiris_sutil_49: -6352606256109560989
+      clima_arcoiris_sutil_5: -8973302263957046969
+      clima_arcoiris_sutil_50: 9039810471045448394
+      clima_arcoiris_sutil_51: 3137296370839179634
+      clima_arcoiris_sutil_52: 937758421952817585
+      clima_arcoiris_sutil_53: -8046829622910245853
+      clima_arcoiris_sutil_54: -1558186776815231784
+      clima_arcoiris_sutil_55: -2942827221679722122
+      clima_arcoiris_sutil_56: -4375361647520805320
+      clima_arcoiris_sutil_57: -5332483651144847881
+      clima_arcoiris_sutil_58: -8114844199072971423
+      clima_arcoiris_sutil_6: 4786789615853764444
+      clima_arcoiris_sutil_7: -7671551343719842334
+      clima_arcoiris_sutil_8: -253114944208593193
+      clima_arcoiris_sutil_9: 9208388552643610259
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

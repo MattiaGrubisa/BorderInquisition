@@ -1,0 +1,2457 @@
+fileFormatVersion: 2
+guid: 39ea621ca1a8d04429598a46370bad7c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8897575152516911691
+    second: clima_meteoritos_0
+  - first:
+      213: -7259138505897900452
+    second: clima_meteoritos_1
+  - first:
+      213: -684680362788406430
+    second: clima_meteoritos_2
+  - first:
+      213: -4166312689674263731
+    second: clima_meteoritos_3
+  - first:
+      213: -1335872616848109329
+    second: clima_meteoritos_4
+  - first:
+      213: -2445149306216601713
+    second: clima_meteoritos_5
+  - first:
+      213: -2850539220804870499
+    second: clima_meteoritos_6
+  - first:
+      213: -6098909221755022072
+    second: clima_meteoritos_7
+  - first:
+      213: 2298826806245732678
+    second: clima_meteoritos_8
+  - first:
+      213: 3801981913053531971
+    second: clima_meteoritos_9
+  - first:
+      213: 5666898047513649383
+    second: clima_meteoritos_10
+  - first:
+      213: -1277186633432548662
+    second: clima_meteoritos_11
+  - first:
+      213: 1888478784707819056
+    second: clima_meteoritos_12
+  - first:
+      213: 1298271442045448261
+    second: clima_meteoritos_13
+  - first:
+      213: 7553706665427342843
+    second: clima_meteoritos_14
+  - first:
+      213: -5317418245563316469
+    second: clima_meteoritos_15
+  - first:
+      213: 5310974958535493898
+    second: clima_meteoritos_16
+  - first:
+      213: 1831885680043684270
+    second: clima_meteoritos_17
+  - first:
+      213: -4685517357633492953
+    second: clima_meteoritos_18
+  - first:
+      213: -3408042244882028646
+    second: clima_meteoritos_19
+  - first:
+      213: 1986318694461231885
+    second: clima_meteoritos_20
+  - first:
+      213: -3833714035151505687
+    second: clima_meteoritos_21
+  - first:
+      213: 790938793796127041
+    second: clima_meteoritos_22
+  - first:
+      213: 8087494094235882477
+    second: clima_meteoritos_23
+  - first:
+      213: -2777678970348714218
+    second: clima_meteoritos_24
+  - first:
+      213: 1969892544300449699
+    second: clima_meteoritos_25
+  - first:
+      213: -7143675130827890548
+    second: clima_meteoritos_26
+  - first:
+      213: -4303023555150493627
+    second: clima_meteoritos_27
+  - first:
+      213: 6009201038196938825
+    second: clima_meteoritos_28
+  - first:
+      213: -5246532949538904898
+    second: clima_meteoritos_29
+  - first:
+      213: 5072486456803701396
+    second: clima_meteoritos_30
+  - first:
+      213: 7780635544643328379
+    second: clima_meteoritos_31
+  - first:
+      213: -3260312774932050572
+    second: clima_meteoritos_32
+  - first:
+      213: 166471745014301494
+    second: clima_meteoritos_33
+  - first:
+      213: -6618958655812208981
+    second: clima_meteoritos_34
+  - first:
+      213: 879336096556367237
+    second: clima_meteoritos_35
+  - first:
+      213: -1296348841315171077
+    second: clima_meteoritos_36
+  - first:
+      213: 5863289953459320791
+    second: clima_meteoritos_37
+  - first:
+      213: -7830190577739487496
+    second: clima_meteoritos_38
+  - first:
+      213: 4901515477184724913
+    second: clima_meteoritos_39
+  - first:
+      213: -736696196487266994
+    second: clima_meteoritos_40
+  - first:
+      213: 6102166431405357839
+    second: clima_meteoritos_41
+  - first:
+      213: -7106333761507670064
+    second: clima_meteoritos_42
+  - first:
+      213: -4902235563252605548
+    second: clima_meteoritos_43
+  - first:
+      213: 6449926638385890244
+    second: clima_meteoritos_44
+  - first:
+      213: -708156828654954461
+    second: clima_meteoritos_45
+  - first:
+      213: 8719245231393591165
+    second: clima_meteoritos_46
+  - first:
+      213: -4207594182576626375
+    second: clima_meteoritos_47
+  - first:
+      213: 6769467170616298197
+    second: clima_meteoritos_48
+  - first:
+      213: -3800768812405891419
+    second: clima_meteoritos_49
+  - first:
+      213: -4236927850948702597
+    second: clima_meteoritos_50
+  - first:
+      213: 99986779668741449
+    second: clima_meteoritos_51
+  - first:
+      213: 8832325592523687529
+    second: clima_meteoritos_52
+  - first:
+      213: 704737046614757660
+    second: clima_meteoritos_53
+  - first:
+      213: 6126080399792127477
+    second: clima_meteoritos_54
+  - first:
+      213: 1944803584426931009
+    second: clima_meteoritos_55
+  - first:
+      213: -2997951489313814138
+    second: clima_meteoritos_56
+  - first:
+      213: -1710790385238070835
+    second: clima_meteoritos_57
+  - first:
+      213: 2499746814285095777
+    second: clima_meteoritos_58
+  - first:
+      213: -4913045571212289000
+    second: clima_meteoritos_59
+  - first:
+      213: 4873934360050699182
+    second: clima_meteoritos_60
+  - first:
+      213: -485117693975754718
+    second: clima_meteoritos_61
+  - first:
+      213: -6086722235815187901
+    second: clima_meteoritos_62
+  - first:
+      213: 4652723630441429548
+    second: clima_meteoritos_63
+  - first:
+      213: 6483383479353019822
+    second: clima_meteoritos_64
+  - first:
+      213: -251835613426757693
+    second: clima_meteoritos_65
+  - first:
+      213: -9164357216783229625
+    second: clima_meteoritos_66
+  - first:
+      213: 8305852774043368911
+    second: clima_meteoritos_67
+  - first:
+      213: 3636743354775087223
+    second: clima_meteoritos_68
+  - first:
+      213: 3506498383333672794
+    second: clima_meteoritos_69
+  - first:
+      213: 4890150300187643438
+    second: clima_meteoritos_70
+  - first:
+      213: 7879905739655182698
+    second: clima_meteoritos_71
+  - first:
+      213: 6426323149071289220
+    second: clima_meteoritos_72
+  - first:
+      213: 863961457442304340
+    second: clima_meteoritos_73
+  - first:
+      213: 8722853899165299760
+    second: clima_meteoritos_74
+  - first:
+      213: -4488340586039652858
+    second: clima_meteoritos_75
+  - first:
+      213: -6173652668176832831
+    second: clima_meteoritos_76
+  - first:
+      213: -6540950374964083169
+    second: clima_meteoritos_77
+  - first:
+      213: 1243497781671801761
+    second: clima_meteoritos_78
+  - first:
+      213: -5036885785261071881
+    second: clima_meteoritos_79
+  - first:
+      213: -820488714250319459
+    second: clima_meteoritos_80
+  - first:
+      213: 855963732019561901
+    second: clima_meteoritos_81
+  - first:
+      213: 1866925081831045159
+    second: clima_meteoritos_82
+  - first:
+      213: -8401800260908762373
+    second: clima_meteoritos_83
+  - first:
+      213: 1137819858099681075
+    second: clima_meteoritos_84
+  - first:
+      213: 2649453336612305572
+    second: clima_meteoritos_85
+  - first:
+      213: -1357780893607033217
+    second: clima_meteoritos_86
+  - first:
+      213: 3207714679313420357
+    second: clima_meteoritos_87
+  - first:
+      213: -3794445837894880681
+    second: clima_meteoritos_88
+  - first:
+      213: -4011055743385013990
+    second: clima_meteoritos_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clima_meteoritos_0
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 175
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd23e74a86758480800000000000000
+      internalID: -8897575152516911691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_1
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 169
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56889c4dfb524b90800000000000000
+      internalID: -7259138505897900452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_2
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 162
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bbf4f66d68f76f0800000000000000
+      internalID: -684680362788406430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_3
+      rect:
+        serializedVersion: 2
+        x: 7626
+        y: 175
+        width: 199
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4363cccea84e26c0800000000000000
+      internalID: -4166312689674263731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_4
+      rect:
+        serializedVersion: 2
+        x: 7935
+        y: 172
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0d897cee6067de0800000000000000
+      internalID: -1335872616848109329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_5
+      rect:
+        serializedVersion: 2
+        x: 8127
+        y: 170
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87aa2439a5111ed0800000000000000
+      internalID: -2445149306216601713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_6
+      rect:
+        serializedVersion: 2
+        x: 8244
+        y: 168
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e5b957ea9d078d0800000000000000
+      internalID: -2850539220804870499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_7
+      rect:
+        serializedVersion: 2
+        x: 8439
+        y: 165
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80510ff40625c5ba0800000000000000
+      internalID: -6098909221755022072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_8
+      rect:
+        serializedVersion: 2
+        x: 8553
+        y: 164
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6413c62fcc217ef10800000000000000
+      internalID: 2298826806245732678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_9
+      rect:
+        serializedVersion: 2
+        x: 8820
+        y: 168
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f040af76a53c430800000000000000
+      internalID: 3801981913053531971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_10
+      rect:
+        serializedVersion: 2
+        x: 9131
+        y: 163
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0e76cefbdd4ae40800000000000000
+      internalID: 5666898047513649383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_11
+      rect:
+        serializedVersion: 2
+        x: 10064
+        y: 147
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca30621685864ee0800000000000000
+      internalID: -1277186633432548662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_12
+      rect:
+        serializedVersion: 2
+        x: 10376
+        y: 173
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036fe58f279353a10800000000000000
+      internalID: 1888478784707819056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_13
+      rect:
+        serializedVersion: 2
+        x: 10686
+        y: 169
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540372d7ff2640210800000000000000
+      internalID: 1298271442045448261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_14
+      rect:
+        serializedVersion: 2
+        x: 10995
+        y: 165
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf51c42e03824d860800000000000000
+      internalID: 7553706665427342843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 156
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07840f474cb436b0800000000000000
+      internalID: -5317418245563316469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_16
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 151
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09c086069f54b940800000000000000
+      internalID: 5310974958535493898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_17
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 156
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1f02cf15a2c6910800000000000000
+      internalID: 1831885680043684270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_18
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 150
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7282455c9c2b9feb0800000000000000
+      internalID: -4685517357633492953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_19
+      rect:
+        serializedVersion: 2
+        x: 8751
+        y: 160
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97284682a334b0d0800000000000000
+      internalID: -3408042244882028646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_20
+      rect:
+        serializedVersion: 2
+        x: 8861
+        y: 160
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0354122452d09b10800000000000000
+      internalID: 1986318694461231885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_21
+      rect:
+        serializedVersion: 2
+        x: 9063
+        y: 156
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e67d5c9569ebcac0800000000000000
+      internalID: -3833714035151505687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_22
+      rect:
+        serializedVersion: 2
+        x: 9170
+        y: 156
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1494b4374aaf9fa00800000000000000
+      internalID: 790938793796127041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_23
+      rect:
+        serializedVersion: 2
+        x: 9442
+        y: 157
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3dff1870d8c3070800000000000000
+      internalID: 8087494094235882477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_24
+      rect:
+        serializedVersion: 2
+        x: 9479
+        y: 152
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617ca4871b3b379d0800000000000000
+      internalID: -2777678970348714218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_25
+      rect:
+        serializedVersion: 2
+        x: 9753
+        y: 152
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aff7b405d6765b10800000000000000
+      internalID: 1969892544300449699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_26
+      rect:
+        serializedVersion: 2
+        x: 10515
+        y: 153
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80263c31519cdc90800000000000000
+      internalID: -7143675130827890548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_27
+      rect:
+        serializedVersion: 2
+        x: 11304
+        y: 161
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548cd1fffd69844c0800000000000000
+      internalID: -4303023555150493627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_28
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 146
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94813a19188f46350800000000000000
+      internalID: 6009201038196938825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_29
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 141
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4e95864129037b0800000000000000
+      internalID: -5246532949538904898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_30
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 135
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492b3c9ae87156640800000000000000
+      internalID: 5072486456803701396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_31
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 143
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b795e35edce5afb60800000000000000
+      internalID: 7780635544643328379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_32
+      rect:
+        serializedVersion: 2
+        x: 10375
+        y: 142
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dc1891eca01c2d0800000000000000
+      internalID: -3260312774932050572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_33
+      rect:
+        serializedVersion: 2
+        x: 10686
+        y: 136
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63387ba8b2d6f4200800000000000000
+      internalID: 166471745014301494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_34
+      rect:
+        serializedVersion: 2
+        x: 10825
+        y: 148
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6f059db2cb424a0800000000000000
+      internalID: -6618958655812208981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_35
+      rect:
+        serializedVersion: 2
+        x: 11135
+        y: 144
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dbb695587043c00800000000000000
+      internalID: 879336096556367237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_36
+      rect:
+        serializedVersion: 2
+        x: 11445
+        y: 140
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf48b60e891720ee0800000000000000
+      internalID: -1296348841315171077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_37
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 130
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d73f0bc5279e5150800000000000000
+      internalID: 5863289953459320791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_38
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 125
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f62a3ad723955390800000000000000
+      internalID: -7830190577739487496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_39
+      rect:
+        serializedVersion: 2
+        x: 4479
+        y: 60
+        width: 50
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfbcae6b5ea50440800000000000000
+      internalID: 4901515477184724913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_40
+      rect:
+        serializedVersion: 2
+        x: 4824
+        y: 128
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4dbef466bab6c5f0800000000000000
+      internalID: -736696196487266994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_41
+      rect:
+        serializedVersion: 2
+        x: 10996
+        y: 131
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bba38e9004fa450800000000000000
+      internalID: 6102166431405357839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_42
+      rect:
+        serializedVersion: 2
+        x: 11307
+        y: 126
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d748f9481b316d90800000000000000
+      internalID: -7106333761507670064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_43
+      rect:
+        serializedVersion: 2
+        x: 11755
+        y: 136
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d9a077ab2c7fbb0800000000000000
+      internalID: -4902235563252605548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_44
+      rect:
+        serializedVersion: 2
+        x: 12065
+        y: 132
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3025cba1eb28950800000000000000
+      internalID: 6449926638385890244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_45
+      rect:
+        serializedVersion: 2
+        x: 12375
+        y: 128
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32811c6cd1f1c26f0800000000000000
+      internalID: -708156828654954461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_46
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 120
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fcbb6675bf00970800000000000000
+      internalID: 8719245231393591165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_47
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 115
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935258c326f9b95c0800000000000000
+      internalID: -4207594182576626375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_48
+      rect:
+        serializedVersion: 2
+        x: 5136
+        y: 122
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dac047868af1fd50800000000000000
+      internalID: 6769467170616298197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_49
+      rect:
+        serializedVersion: 2
+        x: 5448
+        y: 116
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aed92707e4f04bc0800000000000000
+      internalID: -3800768812405891419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_50
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 111
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e4e3951986335c0800000000000000
+      internalID: -4236927850948702597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_51
+      rect:
+        serializedVersion: 2
+        x: 11618
+        y: 120
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94df3644279336100800000000000000
+      internalID: 99986779668741449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_52
+      rect:
+        serializedVersion: 2
+        x: 11929
+        y: 115
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96647faa459b29a70800000000000000
+      internalID: 8832325592523687529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_53
+      rect:
+        serializedVersion: 2
+        x: 12685
+        y: 123
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11d78b2c9ab7c900800000000000000
+      internalID: 704737046614757660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_54
+      rect:
+        serializedVersion: 2
+        x: 12995
+        y: 119
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fdb71f8aa5340550800000000000000
+      internalID: 6126080399792127477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_55
+      rect:
+        serializedVersion: 2
+        x: 13305
+        y: 115
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1437ca75e845dfa10800000000000000
+      internalID: 1944803584426931009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_56
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 107
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689c89911032566d0800000000000000
+      internalID: -2997951489313814138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_57
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 103
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc92bb2753d0248e0800000000000000
+      internalID: -1710790385238070835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_58
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 110
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163a0edbb72e0b220800000000000000
+      internalID: 2499746814285095777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_59
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 104
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cd59a551b51dbb0800000000000000
+      internalID: -4913045571212289000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_60
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 99
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab846d2a71b3a340800000000000000
+      internalID: 4873934360050699182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_61
+      rect:
+        serializedVersion: 2
+        x: 6079
+        y: 109
+        width: 323
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228815017048449f0800000000000000
+      internalID: -485117693975754718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_62
+      rect:
+        serializedVersion: 2
+        x: 12240
+        y: 110
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34aa3c7106e978ba0800000000000000
+      internalID: -6086722235815187901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_63
+      rect:
+        serializedVersion: 2
+        x: 13615
+        y: 111
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2af68e9d7bc19040800000000000000
+      internalID: 4652723630441429548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_64
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 90
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead097d8cea99f950800000000000000
+      internalID: 6483383479353019822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_65
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 100
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfc7e708dc418cf0800000000000000
+      internalID: -251835613426757693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_66
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 96
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d19da8aa9a1d080800000000000000
+      internalID: -9164357216783229625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_67
+      rect:
+        serializedVersion: 2
+        x: 3443
+        y: 92
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd3c897711544370800000000000000
+      internalID: 8305852774043368911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_68
+      rect:
+        serializedVersion: 2
+        x: 15148
+        y: 87
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778a1a810de487230800000000000000
+      internalID: 3636743354775087223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_69
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 85
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57c51093b599a030800000000000000
+      internalID: 3506498383333672794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_70
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 79
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e44f4f9cd4dd340800000000000000
+      internalID: 4890150300187643438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_71
+      rect:
+        serializedVersion: 2
+        x: 3753
+        y: 89
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6975bb458c0b5d60800000000000000
+      internalID: 7879905739655182698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_72
+      rect:
+        serializedVersion: 2
+        x: 4064
+        y: 85
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b83402bd2ee2950800000000000000
+      internalID: 6426323149071289220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_73
+      rect:
+        serializedVersion: 2
+        x: 4374
+        y: 81
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4513a7a3e586dfb00800000000000000
+      internalID: 863961457442304340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_74
+      rect:
+        serializedVersion: 2
+        x: 15454
+        y: 83
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034f067d76dcd0970800000000000000
+      internalID: 8722853899165299760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_75
+      rect:
+        serializedVersion: 2
+        x: 15760
+        y: 79
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e432a640636b1c0800000000000000
+      internalID: -4488340586039652858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_76
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 74
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c66da29b97c25aa0800000000000000
+      internalID: -6173652668176832831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_77
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 68
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16cec61a40e935a0800000000000000
+      internalID: -6540950374964083169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_78
+      rect:
+        serializedVersion: 2
+        x: 4684
+        y: 77
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3b883e4aac14110800000000000000
+      internalID: 1243497781671801761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_79
+      rect:
+        serializedVersion: 2
+        x: 4994
+        y: 74
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1ac4b9013691ab0800000000000000
+      internalID: -5036885785261071881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_80
+      rect:
+        serializedVersion: 2
+        x: 5304
+        y: 70
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9984ec8cd90d94f0800000000000000
+      internalID: -820488714250319459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_81
+      rect:
+        serializedVersion: 2
+        x: 16066
+        y: 75
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5c4abaa7ef0eb00800000000000000
+      internalID: 855963732019561901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_82
+      rect:
+        serializedVersion: 2
+        x: 16372
+        y: 71
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7287ec47876a8e910800000000000000
+      internalID: 1866925081831045159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_83
+      rect:
+        serializedVersion: 2
+        x: 16678
+        y: 67
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfabfb66d2fc66b80800000000000000
+      internalID: -8401800260908762373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_84
+      rect:
+        serializedVersion: 2
+        x: 3844
+        y: 63
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337ba6ce1295acf00800000000000000
+      internalID: 1137819858099681075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_85
+      rect:
+        serializedVersion: 2
+        x: 4159
+        y: 59
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aaffb1b5cfb4c420800000000000000
+      internalID: 2649453336612305572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_86
+      rect:
+        serializedVersion: 2
+        x: 16984
+        y: 63
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f768db99871382de0800000000000000
+      internalID: -1357780893607033217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_87
+      rect:
+        serializedVersion: 2
+        x: 17290
+        y: 59
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54058417187148c20800000000000000
+      internalID: 3207714679313420357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_88
+      rect:
+        serializedVersion: 2
+        x: 17599
+        y: 55
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752f0d04d9b675bc0800000000000000
+      internalID: -3794445837894880681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_meteoritos_89
+      rect:
+        serializedVersion: 2
+        x: 17919
+        y: 57
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11fe398d0ed558c0800000000000000
+      internalID: -4011055743385013990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clima_meteoritos_0: -8897575152516911691
+      clima_meteoritos_1: -7259138505897900452
+      clima_meteoritos_10: 5666898047513649383
+      clima_meteoritos_11: -1277186633432548662
+      clima_meteoritos_12: 1888478784707819056
+      clima_meteoritos_13: 1298271442045448261
+      clima_meteoritos_14: 7553706665427342843
+      clima_meteoritos_15: -5317418245563316469
+      clima_meteoritos_16: 5310974958535493898
+      clima_meteoritos_17: 1831885680043684270
+      clima_meteoritos_18: -4685517357633492953
+      clima_meteoritos_19: -3408042244882028646
+      clima_meteoritos_2: -684680362788406430
+      clima_meteoritos_20: 1986318694461231885
+      clima_meteoritos_21: -3833714035151505687
+      clima_meteoritos_22: 790938793796127041
+      clima_meteoritos_23: 8087494094235882477
+      clima_meteoritos_24: -2777678970348714218
+      clima_meteoritos_25: 1969892544300449699
+      clima_meteoritos_26: -7143675130827890548
+      clima_meteoritos_27: -4303023555150493627
+      clima_meteoritos_28: 6009201038196938825
+      clima_meteoritos_29: -5246532949538904898
+      clima_meteoritos_3: -4166312689674263731
+      clima_meteoritos_30: 5072486456803701396
+      clima_meteoritos_31: 7780635544643328379
+      clima_meteoritos_32: -3260312774932050572
+      clima_meteoritos_33: 166471745014301494
+      clima_meteoritos_34: -6618958655812208981
+      clima_meteoritos_35: 879336096556367237
+      clima_meteoritos_36: -1296348841315171077
+      clima_meteoritos_37: 5863289953459320791
+      clima_meteoritos_38: -7830190577739487496
+      clima_meteoritos_39: 4901515477184724913
+      clima_meteoritos_4: -1335872616848109329
+      clima_meteoritos_40: -736696196487266994
+      clima_meteoritos_41: 6102166431405357839
+      clima_meteoritos_42: -7106333761507670064
+      clima_meteoritos_43: -4902235563252605548
+      clima_meteoritos_44: 6449926638385890244
+      clima_meteoritos_45: -708156828654954461
+      clima_meteoritos_46: 8719245231393591165
+      clima_meteoritos_47: -4207594182576626375
+      clima_meteoritos_48: 6769467170616298197
+      clima_meteoritos_49: -3800768812405891419
+      clima_meteoritos_5: -2445149306216601713
+      clima_meteoritos_50: -4236927850948702597
+      clima_meteoritos_51: 99986779668741449
+      clima_meteoritos_52: 8832325592523687529
+      clima_meteoritos_53: 704737046614757660
+      clima_meteoritos_54: 6126080399792127477
+      clima_meteoritos_55: 1944803584426931009
+      clima_meteoritos_56: -2997951489313814138
+      clima_meteoritos_57: -1710790385238070835
+      clima_meteoritos_58: 2499746814285095777
+      clima_meteoritos_59: -4913045571212289000
+      clima_meteoritos_6: -2850539220804870499
+      clima_meteoritos_60: 4873934360050699182
+      clima_meteoritos_61: -485117693975754718
+      clima_meteoritos_62: -6086722235815187901
+      clima_meteoritos_63: 4652723630441429548
+      clima_meteoritos_64: 6483383479353019822
+      clima_meteoritos_65: -251835613426757693
+      clima_meteoritos_66: -9164357216783229625
+      clima_meteoritos_67: 8305852774043368911
+      clima_meteoritos_68: 3636743354775087223
+      clima_meteoritos_69: 3506498383333672794
+      clima_meteoritos_7: -6098909221755022072
+      clima_meteoritos_70: 4890150300187643438
+      clima_meteoritos_71: 7879905739655182698
+      clima_meteoritos_72: 6426323149071289220
+      clima_meteoritos_73: 863961457442304340
+      clima_meteoritos_74: 8722853899165299760
+      clima_meteoritos_75: -4488340586039652858
+      clima_meteoritos_76: -6173652668176832831
+      clima_meteoritos_77: -6540950374964083169
+      clima_meteoritos_78: 1243497781671801761
+      clima_meteoritos_79: -5036885785261071881
+      clima_meteoritos_8: 2298826806245732678
+      clima_meteoritos_80: -820488714250319459
+      clima_meteoritos_81: 855963732019561901
+      clima_meteoritos_82: 1866925081831045159
+      clima_meteoritos_83: -8401800260908762373
+      clima_meteoritos_84: 1137819858099681075
+      clima_meteoritos_85: 2649453336612305572
+      clima_meteoritos_86: -1357780893607033217
+      clima_meteoritos_87: 3207714679313420357
+      clima_meteoritos_88: -3794445837894880681
+      clima_meteoritos_89: -4011055743385013990
+      clima_meteoritos_9: 3801981913053531971
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

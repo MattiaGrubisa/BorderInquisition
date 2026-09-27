@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: cb28cee3c79985b439a70cdf2ff0cfec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3038512278546118214
+    second: clima_aurora_boreal_0
+  - first:
+      213: 8864256657486915230
+    second: clima_aurora_boreal_1
+  - first:
+      213: 1422038039071164430
+    second: clima_aurora_boreal_2
+  - first:
+      213: 2422308927810906846
+    second: clima_aurora_boreal_3
+  - first:
+      213: -2155040073001604425
+    second: clima_aurora_boreal_4
+  - first:
+      213: -440672489205404804
+    second: clima_aurora_boreal_5
+  - first:
+      213: 5183992721341886298
+    second: clima_aurora_boreal_6
+  - first:
+      213: 7259879552701538583
+    second: clima_aurora_boreal_7
+  - first:
+      213: -7595751596914047288
+    second: clima_aurora_boreal_8
+  - first:
+      213: -2824748706277923439
+    second: clima_aurora_boreal_9
+  - first:
+      213: -925339199002831259
+    second: clima_aurora_boreal_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clima_aurora_boreal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 229
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646776091d6fa2a20800000000000000
+      internalID: 3038512278546118214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_aurora_boreal_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 8884
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e962663177a240b70800000000000000
+      internalID: 8864256657486915230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_aurora_boreal_2
+      rect:
+        serializedVersion: 2
+        x: 9123
+        y: 0
+        width: 308
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e080eefef081cb310800000000000000
+      internalID: 1422038039071164430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_aurora_boreal_3
+      rect:
+        serializedVersion: 2
+        x: 9439
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda2d6ac225cd9120800000000000000
+      internalID: 2422308927810906846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_aurora_boreal_4
+      rect:
+        serializedVersion: 2
+        x: 9599
+        y: 49
+        width: 148
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bae104b872c712e0800000000000000
+      internalID: -2155040073001604425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_aurora_boreal_5
+      rect:
+        serializedVersion: 2
+        x: 9753
+        y: 0
+        width: 158
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7bef92b4ba62e9f0800000000000000
+      internalID: -440672489205404804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_aurora_boreal_6
+      rect:
+        serializedVersion: 2
+        x: 9919
+        y: 0
+        width: 308
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f2bc10aed31f740800000000000000
+      internalID: 5183992721341886298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_aurora_boreal_7
+      rect:
+        serializedVersion: 2
+        x: 10231
+        y: 0
+        width: 8404
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711a5ea1df540c460800000000000000
+      internalID: 7259879552701538583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_aurora_boreal_8
+      rect:
+        serializedVersion: 2
+        x: 18639
+        y: 0
+        width: 310
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c605d7aa28769690800000000000000
+      internalID: -7595751596914047288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_aurora_boreal_9
+      rect:
+        serializedVersion: 2
+        x: 18957
+        y: 45
+        width: 158
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1956f8e840a7cc8d0800000000000000
+      internalID: -2824748706277923439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_aurora_boreal_10
+      rect:
+        serializedVersion: 2
+        x: 19121
+        y: 13
+        width: 79
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56611b2b6e88823f0800000000000000
+      internalID: -925339199002831259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clima_aurora_boreal_0: 3038512278546118214
+      clima_aurora_boreal_1: 8864256657486915230
+      clima_aurora_boreal_10: -925339199002831259
+      clima_aurora_boreal_2: 1422038039071164430
+      clima_aurora_boreal_3: 2422308927810906846
+      clima_aurora_boreal_4: -2155040073001604425
+      clima_aurora_boreal_5: -440672489205404804
+      clima_aurora_boreal_6: 5183992721341886298
+      clima_aurora_boreal_7: 7259879552701538583
+      clima_aurora_boreal_8: -7595751596914047288
+      clima_aurora_boreal_9: -2824748706277923439
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

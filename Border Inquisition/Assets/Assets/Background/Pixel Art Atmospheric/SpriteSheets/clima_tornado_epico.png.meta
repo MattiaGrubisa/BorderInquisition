@@ -1,0 +1,1677 @@
+fileFormatVersion: 2
+guid: 5fa2ab8cf9cb15642b61da3c6d8a9351
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6529392604897658050
+    second: clima_tornado_epico_0
+  - first:
+      213: -5647488605854001623
+    second: clima_tornado_epico_1
+  - first:
+      213: -3313126849881728763
+    second: clima_tornado_epico_2
+  - first:
+      213: 7735245022052947384
+    second: clima_tornado_epico_3
+  - first:
+      213: 1677703310800535061
+    second: clima_tornado_epico_4
+  - first:
+      213: -454733889074030772
+    second: clima_tornado_epico_5
+  - first:
+      213: 8194208851643589322
+    second: clima_tornado_epico_6
+  - first:
+      213: -6874140991735410321
+    second: clima_tornado_epico_7
+  - first:
+      213: 221381318047404409
+    second: clima_tornado_epico_8
+  - first:
+      213: -140479071509498149
+    second: clima_tornado_epico_9
+  - first:
+      213: 7840040547543888756
+    second: clima_tornado_epico_10
+  - first:
+      213: -2589486402249966045
+    second: clima_tornado_epico_11
+  - first:
+      213: -3213246204577615913
+    second: clima_tornado_epico_12
+  - first:
+      213: -2760615577871023363
+    second: clima_tornado_epico_13
+  - first:
+      213: 3646378009382747281
+    second: clima_tornado_epico_14
+  - first:
+      213: 5771953023832899520
+    second: clima_tornado_epico_15
+  - first:
+      213: -5000690764819944045
+    second: clima_tornado_epico_16
+  - first:
+      213: 8338152735536493821
+    second: clima_tornado_epico_17
+  - first:
+      213: -6627847189839296237
+    second: clima_tornado_epico_18
+  - first:
+      213: 7124242977542570178
+    second: clima_tornado_epico_19
+  - first:
+      213: 8178441911018724417
+    second: clima_tornado_epico_20
+  - first:
+      213: -9018795699473240688
+    second: clima_tornado_epico_21
+  - first:
+      213: 2095634357836596241
+    second: clima_tornado_epico_22
+  - first:
+      213: 8730869375678723948
+    second: clima_tornado_epico_23
+  - first:
+      213: -3922245982667511727
+    second: clima_tornado_epico_24
+  - first:
+      213: -3660499034826646708
+    second: clima_tornado_epico_25
+  - first:
+      213: -5360698011586842370
+    second: clima_tornado_epico_26
+  - first:
+      213: 5560942647150005817
+    second: clima_tornado_epico_27
+  - first:
+      213: -1820190645973986521
+    second: clima_tornado_epico_28
+  - first:
+      213: 5578192704913438754
+    second: clima_tornado_epico_29
+  - first:
+      213: -2983206775939200617
+    second: clima_tornado_epico_30
+  - first:
+      213: 4647602914038473559
+    second: clima_tornado_epico_31
+  - first:
+      213: 5319877308450644669
+    second: clima_tornado_epico_32
+  - first:
+      213: -8468843467252020188
+    second: clima_tornado_epico_33
+  - first:
+      213: 276557899738015093
+    second: clima_tornado_epico_34
+  - first:
+      213: 6970260320350164632
+    second: clima_tornado_epico_35
+  - first:
+      213: 6051877954435728653
+    second: clima_tornado_epico_36
+  - first:
+      213: -9170093170113346682
+    second: clima_tornado_epico_37
+  - first:
+      213: 7005226340691621254
+    second: clima_tornado_epico_38
+  - first:
+      213: 5865269713365231237
+    second: clima_tornado_epico_39
+  - first:
+      213: 8799929402864485209
+    second: clima_tornado_epico_40
+  - first:
+      213: 240938641574577848
+    second: clima_tornado_epico_41
+  - first:
+      213: -7761887793697067003
+    second: clima_tornado_epico_42
+  - first:
+      213: 2658692931408455002
+    second: clima_tornado_epico_43
+  - first:
+      213: 9112045465131600273
+    second: clima_tornado_epico_44
+  - first:
+      213: -8761996615313324030
+    second: clima_tornado_epico_45
+  - first:
+      213: -7442300679008346712
+    second: clima_tornado_epico_46
+  - first:
+      213: -8298916882466765900
+    second: clima_tornado_epico_47
+  - first:
+      213: -6882498400482249482
+    second: clima_tornado_epico_48
+  - first:
+      213: -894494782126850592
+    second: clima_tornado_epico_49
+  - first:
+      213: 507367150918611874
+    second: clima_tornado_epico_50
+  - first:
+      213: 1345444750409365033
+    second: clima_tornado_epico_51
+  - first:
+      213: 5984842600087402540
+    second: clima_tornado_epico_52
+  - first:
+      213: 1509018720206845514
+    second: clima_tornado_epico_53
+  - first:
+      213: 4226575298443623062
+    second: clima_tornado_epico_54
+  - first:
+      213: 701228182618415752
+    second: clima_tornado_epico_55
+  - first:
+      213: -1536208983884258467
+    second: clima_tornado_epico_56
+  - first:
+      213: 3129768488913497252
+    second: clima_tornado_epico_57
+  - first:
+      213: 8452703965508283089
+    second: clima_tornado_epico_58
+  - first:
+      213: -2685510111357275196
+    second: clima_tornado_epico_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clima_tornado_epico_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 274
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4ccfddaff0d9a50800000000000000
+      internalID: 6529392604897658050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926910fd80710a1b0800000000000000
+      internalID: -5647488605854001623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_2
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5099df80fa86502d0800000000000000
+      internalID: -3313126849881728763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_3
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 0
+        width: 274
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5131e4d5c195b60800000000000000
+      internalID: 7735245022052947384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_4
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 0
+        width: 274
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e33c6b546684710800000000000000
+      internalID: 1677703310800535061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_5
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 0
+        width: 274
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47196aefe570b9f0800000000000000
+      internalID: -454733889074030772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_6
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 0
+        width: 274
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2e399298da7b170800000000000000
+      internalID: 8194208851643589322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_7
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61d8a350352a90a0800000000000000
+      internalID: -6874140991735410321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_8
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 0
+        width: 258
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9719f16c221821300800000000000000
+      internalID: 221381318047404409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_9
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 0
+        width: 250
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6bc4c570bec0ef0800000000000000
+      internalID: -140479071509498149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_10
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 0
+        width: 242
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4733305f65b6dcc60800000000000000
+      internalID: 7840040547543888756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_11
+      rect:
+        serializedVersion: 2
+        x: 3603
+        y: 0
+        width: 238
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ebf2b36db401cd0800000000000000
+      internalID: -2589486402249966045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_12
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 0
+        width: 242
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df6748f9914863d0800000000000000
+      internalID: -3213246204577615913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_13
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 0
+        width: 246
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2869f12c250b9d0800000000000000
+      internalID: -2760615577871023363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_14
+      rect:
+        serializedVersion: 2
+        x: 4543
+        y: 0
+        width: 258
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cfd0eea798a9230800000000000000
+      internalID: 3646378009382747281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_15
+      rect:
+        serializedVersion: 2
+        x: 4863
+        y: 0
+        width: 258
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf3dcda1b81a1050800000000000000
+      internalID: 5771953023832899520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_16
+      rect:
+        serializedVersion: 2
+        x: 5183
+        y: 0
+        width: 258
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39da4538e3af99ab0800000000000000
+      internalID: -5000690764819944045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_17
+      rect:
+        serializedVersion: 2
+        x: 5499
+        y: 0
+        width: 262
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4ba9c4cb117b370800000000000000
+      internalID: 8338152735536493821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_18
+      rect:
+        serializedVersion: 2
+        x: 5819
+        y: 0
+        width: 262
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319ce00c8182504a0800000000000000
+      internalID: -6627847189839296237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_19
+      rect:
+        serializedVersion: 2
+        x: 6135
+        y: 0
+        width: 266
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c00ff10e356ed260800000000000000
+      internalID: 7124242977542570178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_20
+      rect:
+        serializedVersion: 2
+        x: 6455
+        y: 0
+        width: 266
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c107a3699af7170800000000000000
+      internalID: 8178441911018724417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_21
+      rect:
+        serializedVersion: 2
+        x: 6771
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09da31f481dc6d280800000000000000
+      internalID: -9018795699473240688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_22
+      rect:
+        serializedVersion: 2
+        x: 7087
+        y: 0
+        width: 274
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11444f56850351d10800000000000000
+      internalID: 2095634357836596241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_23
+      rect:
+        serializedVersion: 2
+        x: 7403
+        y: 0
+        width: 274
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67baa560774a2970800000000000000
+      internalID: 8730869375678723948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_24
+      rect:
+        serializedVersion: 2
+        x: 7715
+        y: 0
+        width: 286
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15866694f026199c0800000000000000
+      internalID: -3922245982667511727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_25
+      rect:
+        serializedVersion: 2
+        x: 8031
+        y: 0
+        width: 290
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b5f70a58b433dc0800000000000000
+      internalID: -3660499034826646708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_26
+      rect:
+        serializedVersion: 2
+        x: 8351
+        y: 0
+        width: 282
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef039378f89fa95b0800000000000000
+      internalID: -5360698011586842370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_27
+      rect:
+        serializedVersion: 2
+        x: 8667
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e42bbdfdf6c2d40800000000000000
+      internalID: 5560942647150005817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_28
+      rect:
+        serializedVersion: 2
+        x: 8987
+        y: 0
+        width: 262
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7235b3350426db6e0800000000000000
+      internalID: -1820190645973986521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_29
+      rect:
+        serializedVersion: 2
+        x: 9299
+        y: 0
+        width: 266
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2287a09e5b8b96d40800000000000000
+      internalID: 5578192704913438754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_30
+      rect:
+        serializedVersion: 2
+        x: 9615
+        y: 0
+        width: 274
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7990b943e358996d0800000000000000
+      internalID: -2983206775939200617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_31
+      rect:
+        serializedVersion: 2
+        x: 9931
+        y: 0
+        width: 278
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753655ce93a9f7040800000000000000
+      internalID: 4647602914038473559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_32
+      rect:
+        serializedVersion: 2
+        x: 10251
+        y: 0
+        width: 278
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2acd2e93004d940800000000000000
+      internalID: 5319877308450644669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_33
+      rect:
+        serializedVersion: 2
+        x: 10571
+        y: 0
+        width: 274
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c4e048cbf987a80800000000000000
+      internalID: -8468843467252020188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_34
+      rect:
+        serializedVersion: 2
+        x: 10883
+        y: 0
+        width: 274
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57566bdc1f786d300800000000000000
+      internalID: 276557899738015093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_35
+      rect:
+        serializedVersion: 2
+        x: 11199
+        y: 0
+        width: 266
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896d872d4d65bb060800000000000000
+      internalID: 6970260320350164632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_36
+      rect:
+        serializedVersion: 2
+        x: 11519
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05c8227fe69cf350800000000000000
+      internalID: 6051877954435728653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_37
+      rect:
+        serializedVersion: 2
+        x: 11839
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6838826d8d84db080800000000000000
+      internalID: -9170093170113346682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_38
+      rect:
+        serializedVersion: 2
+        x: 12159
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6853228dd30973160800000000000000
+      internalID: 7005226340691621254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_39
+      rect:
+        serializedVersion: 2
+        x: 12479
+        y: 0
+        width: 266
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586edf09abf956150800000000000000
+      internalID: 5865269713365231237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_40
+      rect:
+        serializedVersion: 2
+        x: 12799
+        y: 0
+        width: 262
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953c04afa21af1a70800000000000000
+      internalID: 8799929402864485209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_41
+      rect:
+        serializedVersion: 2
+        x: 13119
+        y: 0
+        width: 250
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6c7bffa6cf75300800000000000000
+      internalID: 240938641574577848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_42
+      rect:
+        serializedVersion: 2
+        x: 13439
+        y: 0
+        width: 246
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500fe360d2c384490800000000000000
+      internalID: -7761887793697067003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_43
+      rect:
+        serializedVersion: 2
+        x: 13759
+        y: 0
+        width: 250
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55617f722395e420800000000000000
+      internalID: 2658692931408455002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_44
+      rect:
+        serializedVersion: 2
+        x: 14079
+        y: 0
+        width: 250
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199c066a21d747e70800000000000000
+      internalID: 9112045465131600273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_45
+      rect:
+        serializedVersion: 2
+        x: 14399
+        y: 0
+        width: 258
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208031d5082276680800000000000000
+      internalID: -8761996615313324030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_46
+      rect:
+        serializedVersion: 2
+        x: 14719
+        y: 0
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad1f04a6f2a7b890800000000000000
+      internalID: -7442300679008346712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_47
+      rect:
+        serializedVersion: 2
+        x: 15039
+        y: 0
+        width: 258
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b38310a01354dc80800000000000000
+      internalID: -8298916882466765900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_48
+      rect:
+        serializedVersion: 2
+        x: 15359
+        y: 0
+        width: 258
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4bf087b247c70a0800000000000000
+      internalID: -6882498400482249482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_49
+      rect:
+        serializedVersion: 2
+        x: 15679
+        y: 0
+        width: 262
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed73e12cbd1693f0800000000000000
+      internalID: -894494782126850592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_50
+      rect:
+        serializedVersion: 2
+        x: 15999
+        y: 0
+        width: 262
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3b4315cb78a0700800000000000000
+      internalID: 507367150918611874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_51
+      rect:
+        serializedVersion: 2
+        x: 16319
+        y: 0
+        width: 266
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926701d3fdafba210800000000000000
+      internalID: 1345444750409365033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_52
+      rect:
+        serializedVersion: 2
+        x: 16639
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28b5deb2ae6e0350800000000000000
+      internalID: 5984842600087402540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_53
+      rect:
+        serializedVersion: 2
+        x: 16959
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46f759e78c11f410800000000000000
+      internalID: 1509018720206845514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_54
+      rect:
+        serializedVersion: 2
+        x: 17279
+        y: 0
+        width: 274
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a3c2037dfc7aa30800000000000000
+      internalID: 4226575298443623062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_55
+      rect:
+        serializedVersion: 2
+        x: 17599
+        y: 0
+        width: 282
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882a67b11534bb900800000000000000
+      internalID: 701228182618415752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_56
+      rect:
+        serializedVersion: 2
+        x: 17923
+        y: 0
+        width: 282
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53a0de711a4eaae0800000000000000
+      internalID: -1536208983884258467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_57
+      rect:
+        serializedVersion: 2
+        x: 18255
+        y: 0
+        width: 274
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac66e2cbdb2f6b20800000000000000
+      internalID: 3129768488913497252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_58
+      rect:
+        serializedVersion: 2
+        x: 18583
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da28a7e8790e4570800000000000000
+      internalID: 8452703965508283089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_tornado_epico_59
+      rect:
+        serializedVersion: 2
+        x: 18919
+        y: 0
+        width: 254
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c374db38c62bbad0800000000000000
+      internalID: -2685510111357275196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clima_tornado_epico_0: 6529392604897658050
+      clima_tornado_epico_1: -5647488605854001623
+      clima_tornado_epico_10: 7840040547543888756
+      clima_tornado_epico_11: -2589486402249966045
+      clima_tornado_epico_12: -3213246204577615913
+      clima_tornado_epico_13: -2760615577871023363
+      clima_tornado_epico_14: 3646378009382747281
+      clima_tornado_epico_15: 5771953023832899520
+      clima_tornado_epico_16: -5000690764819944045
+      clima_tornado_epico_17: 8338152735536493821
+      clima_tornado_epico_18: -6627847189839296237
+      clima_tornado_epico_19: 7124242977542570178
+      clima_tornado_epico_2: -3313126849881728763
+      clima_tornado_epico_20: 8178441911018724417
+      clima_tornado_epico_21: -9018795699473240688
+      clima_tornado_epico_22: 2095634357836596241
+      clima_tornado_epico_23: 8730869375678723948
+      clima_tornado_epico_24: -3922245982667511727
+      clima_tornado_epico_25: -3660499034826646708
+      clima_tornado_epico_26: -5360698011586842370
+      clima_tornado_epico_27: 5560942647150005817
+      clima_tornado_epico_28: -1820190645973986521
+      clima_tornado_epico_29: 5578192704913438754
+      clima_tornado_epico_3: 7735245022052947384
+      clima_tornado_epico_30: -2983206775939200617
+      clima_tornado_epico_31: 4647602914038473559
+      clima_tornado_epico_32: 5319877308450644669
+      clima_tornado_epico_33: -8468843467252020188
+      clima_tornado_epico_34: 276557899738015093
+      clima_tornado_epico_35: 6970260320350164632
+      clima_tornado_epico_36: 6051877954435728653
+      clima_tornado_epico_37: -9170093170113346682
+      clima_tornado_epico_38: 7005226340691621254
+      clima_tornado_epico_39: 5865269713365231237
+      clima_tornado_epico_4: 1677703310800535061
+      clima_tornado_epico_40: 8799929402864485209
+      clima_tornado_epico_41: 240938641574577848
+      clima_tornado_epico_42: -7761887793697067003
+      clima_tornado_epico_43: 2658692931408455002
+      clima_tornado_epico_44: 9112045465131600273
+      clima_tornado_epico_45: -8761996615313324030
+      clima_tornado_epico_46: -7442300679008346712
+      clima_tornado_epico_47: -8298916882466765900
+      clima_tornado_epico_48: -6882498400482249482
+      clima_tornado_epico_49: -894494782126850592
+      clima_tornado_epico_5: -454733889074030772
+      clima_tornado_epico_50: 507367150918611874
+      clima_tornado_epico_51: 1345444750409365033
+      clima_tornado_epico_52: 5984842600087402540
+      clima_tornado_epico_53: 1509018720206845514
+      clima_tornado_epico_54: 4226575298443623062
+      clima_tornado_epico_55: 701228182618415752
+      clima_tornado_epico_56: -1536208983884258467
+      clima_tornado_epico_57: 3129768488913497252
+      clima_tornado_epico_58: 8452703965508283089
+      clima_tornado_epico_59: -2685510111357275196
+      clima_tornado_epico_6: 8194208851643589322
+      clima_tornado_epico_7: -6874140991735410321
+      clima_tornado_epico_8: 221381318047404409
+      clima_tornado_epico_9: -140479071509498149
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3315 @@
+fileFormatVersion: 2
+guid: 775f488d39ad29b4186522497514995e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7626163273930454786
+    second: clima_rayos_lunares_0
+  - first:
+      213: -9130735913821083888
+    second: clima_rayos_lunares_1
+  - first:
+      213: 3300615214471079241
+    second: clima_rayos_lunares_2
+  - first:
+      213: -865471361259471583
+    second: clima_rayos_lunares_3
+  - first:
+      213: 2370943016940325487
+    second: clima_rayos_lunares_4
+  - first:
+      213: 5161761290294771635
+    second: clima_rayos_lunares_5
+  - first:
+      213: -7762449813548194570
+    second: clima_rayos_lunares_6
+  - first:
+      213: 7133431694570055351
+    second: clima_rayos_lunares_7
+  - first:
+      213: -4780346024285359752
+    second: clima_rayos_lunares_8
+  - first:
+      213: 7132044333856912156
+    second: clima_rayos_lunares_9
+  - first:
+      213: -6205804476416953038
+    second: clima_rayos_lunares_10
+  - first:
+      213: 3513599870640904335
+    second: clima_rayos_lunares_11
+  - first:
+      213: 3128129779280406723
+    second: clima_rayos_lunares_12
+  - first:
+      213: 3841122053250918251
+    second: clima_rayos_lunares_13
+  - first:
+      213: -3078477639540266370
+    second: clima_rayos_lunares_14
+  - first:
+      213: 461125203537269577
+    second: clima_rayos_lunares_15
+  - first:
+      213: -5783602851953173249
+    second: clima_rayos_lunares_16
+  - first:
+      213: 7931889021857385905
+    second: clima_rayos_lunares_17
+  - first:
+      213: 431256522592360802
+    second: clima_rayos_lunares_18
+  - first:
+      213: 1599529722225828692
+    second: clima_rayos_lunares_19
+  - first:
+      213: -1372862129790983303
+    second: clima_rayos_lunares_20
+  - first:
+      213: 7405388877521624937
+    second: clima_rayos_lunares_21
+  - first:
+      213: 637484907303378164
+    second: clima_rayos_lunares_22
+  - first:
+      213: 6634908199401560158
+    second: clima_rayos_lunares_23
+  - first:
+      213: -2052733951185103183
+    second: clima_rayos_lunares_24
+  - first:
+      213: -1137349974676778437
+    second: clima_rayos_lunares_25
+  - first:
+      213: 69767068002935397
+    second: clima_rayos_lunares_26
+  - first:
+      213: 5027931561200920731
+    second: clima_rayos_lunares_27
+  - first:
+      213: 7338075008182030987
+    second: clima_rayos_lunares_28
+  - first:
+      213: 6562708574800835017
+    second: clima_rayos_lunares_29
+  - first:
+      213: 8278476610993710866
+    second: clima_rayos_lunares_30
+  - first:
+      213: -7680231312996168067
+    second: clima_rayos_lunares_31
+  - first:
+      213: 7965973224298341312
+    second: clima_rayos_lunares_32
+  - first:
+      213: -8203870481007152315
+    second: clima_rayos_lunares_33
+  - first:
+      213: 858686072152570531
+    second: clima_rayos_lunares_34
+  - first:
+      213: 2303117244476389774
+    second: clima_rayos_lunares_35
+  - first:
+      213: 7400391825221711935
+    second: clima_rayos_lunares_36
+  - first:
+      213: 1636126747617543765
+    second: clima_rayos_lunares_37
+  - first:
+      213: -95991205286208870
+    second: clima_rayos_lunares_38
+  - first:
+      213: 5454667619584811709
+    second: clima_rayos_lunares_39
+  - first:
+      213: 5512093007905939688
+    second: clima_rayos_lunares_40
+  - first:
+      213: 5789996230974840268
+    second: clima_rayos_lunares_41
+  - first:
+      213: -5589391733356321369
+    second: clima_rayos_lunares_42
+  - first:
+      213: 6964404460050922690
+    second: clima_rayos_lunares_43
+  - first:
+      213: -5850145980794388870
+    second: clima_rayos_lunares_44
+  - first:
+      213: -5084049403927552286
+    second: clima_rayos_lunares_45
+  - first:
+      213: 1136027081400703853
+    second: clima_rayos_lunares_46
+  - first:
+      213: 4098407465236559822
+    second: clima_rayos_lunares_47
+  - first:
+      213: 4551635933565453216
+    second: clima_rayos_lunares_48
+  - first:
+      213: 6842608677111129630
+    second: clima_rayos_lunares_49
+  - first:
+      213: -4953495800667481686
+    second: clima_rayos_lunares_50
+  - first:
+      213: -8153728475484404286
+    second: clima_rayos_lunares_51
+  - first:
+      213: 5709528122549001554
+    second: clima_rayos_lunares_52
+  - first:
+      213: -8266316237419263484
+    second: clima_rayos_lunares_53
+  - first:
+      213: -2575503485638972109
+    second: clima_rayos_lunares_54
+  - first:
+      213: 4437531901253861933
+    second: clima_rayos_lunares_55
+  - first:
+      213: 6300010714748005087
+    second: clima_rayos_lunares_56
+  - first:
+      213: -4870643984033891489
+    second: clima_rayos_lunares_57
+  - first:
+      213: 593556117976557632
+    second: clima_rayos_lunares_58
+  - first:
+      213: -4928080600871285650
+    second: clima_rayos_lunares_59
+  - first:
+      213: 3402925843049489764
+    second: clima_rayos_lunares_60
+  - first:
+      213: 2411184467651468581
+    second: clima_rayos_lunares_61
+  - first:
+      213: -1663933025578261346
+    second: clima_rayos_lunares_62
+  - first:
+      213: -432454208314066027
+    second: clima_rayos_lunares_63
+  - first:
+      213: 543659043739789044
+    second: clima_rayos_lunares_64
+  - first:
+      213: 899773983864952790
+    second: clima_rayos_lunares_65
+  - first:
+      213: -9143862467759785920
+    second: clima_rayos_lunares_66
+  - first:
+      213: 1489711655259963652
+    second: clima_rayos_lunares_67
+  - first:
+      213: -1405975373072518270
+    second: clima_rayos_lunares_68
+  - first:
+      213: -6879676304733245171
+    second: clima_rayos_lunares_69
+  - first:
+      213: 4973465029145406984
+    second: clima_rayos_lunares_70
+  - first:
+      213: -8357058239068380506
+    second: clima_rayos_lunares_71
+  - first:
+      213: 1070148986049120372
+    second: clima_rayos_lunares_72
+  - first:
+      213: 7213285840956164682
+    second: clima_rayos_lunares_73
+  - first:
+      213: 7376847477774902971
+    second: clima_rayos_lunares_74
+  - first:
+      213: 3632953222748125381
+    second: clima_rayos_lunares_75
+  - first:
+      213: 7870916110742985009
+    second: clima_rayos_lunares_76
+  - first:
+      213: 2728822976222344926
+    second: clima_rayos_lunares_77
+  - first:
+      213: 9127203206003136679
+    second: clima_rayos_lunares_78
+  - first:
+      213: 8948175541631209749
+    second: clima_rayos_lunares_79
+  - first:
+      213: -6355720846594633947
+    second: clima_rayos_lunares_80
+  - first:
+      213: 7288898902287127893
+    second: clima_rayos_lunares_81
+  - first:
+      213: 7553066867267705670
+    second: clima_rayos_lunares_82
+  - first:
+      213: 380522153831156526
+    second: clima_rayos_lunares_83
+  - first:
+      213: -4845315432738123019
+    second: clima_rayos_lunares_84
+  - first:
+      213: -179197769980381952
+    second: clima_rayos_lunares_85
+  - first:
+      213: 2339777431013130465
+    second: clima_rayos_lunares_86
+  - first:
+      213: 3246501332510724046
+    second: clima_rayos_lunares_87
+  - first:
+      213: -7567000809208781592
+    second: clima_rayos_lunares_88
+  - first:
+      213: 6232481831714665165
+    second: clima_rayos_lunares_89
+  - first:
+      213: 1621264537624559253
+    second: clima_rayos_lunares_90
+  - first:
+      213: -4637225035516290248
+    second: clima_rayos_lunares_91
+  - first:
+      213: -3199095283123574166
+    second: clima_rayos_lunares_92
+  - first:
+      213: 2496051760695566249
+    second: clima_rayos_lunares_93
+  - first:
+      213: -4711786864843932557
+    second: clima_rayos_lunares_94
+  - first:
+      213: -3698640235954662075
+    second: clima_rayos_lunares_95
+  - first:
+      213: -5655722742898605068
+    second: clima_rayos_lunares_96
+  - first:
+      213: 7056761720365327683
+    second: clima_rayos_lunares_97
+  - first:
+      213: 5556202972417223216
+    second: clima_rayos_lunares_98
+  - first:
+      213: -2543417253231236400
+    second: clima_rayos_lunares_99
+  - first:
+      213: -124886183680723877
+    second: clima_rayos_lunares_100
+  - first:
+      213: -3259327645652504255
+    second: clima_rayos_lunares_101
+  - first:
+      213: 4269642673025101730
+    second: clima_rayos_lunares_102
+  - first:
+      213: -4304763749922990979
+    second: clima_rayos_lunares_103
+  - first:
+      213: 3241383886612573354
+    second: clima_rayos_lunares_104
+  - first:
+      213: 1486127956544070120
+    second: clima_rayos_lunares_105
+  - first:
+      213: -4219421826543600213
+    second: clima_rayos_lunares_106
+  - first:
+      213: 1654228806130903409
+    second: clima_rayos_lunares_107
+  - first:
+      213: -5744824171357704955
+    second: clima_rayos_lunares_108
+  - first:
+      213: -2519477693392285069
+    second: clima_rayos_lunares_109
+  - first:
+      213: 1774508454190249013
+    second: clima_rayos_lunares_110
+  - first:
+      213: 8874241698026126908
+    second: clima_rayos_lunares_111
+  - first:
+      213: 5442489021890939447
+    second: clima_rayos_lunares_112
+  - first:
+      213: 2437684351404416295
+    second: clima_rayos_lunares_113
+  - first:
+      213: -6589981965839511840
+    second: clima_rayos_lunares_114
+  - first:
+      213: 5985018402546867499
+    second: clima_rayos_lunares_115
+  - first:
+      213: 9044222960653864373
+    second: clima_rayos_lunares_116
+  - first:
+      213: -312222289230358332
+    second: clima_rayos_lunares_117
+  - first:
+      213: 2014772085480640998
+    second: clima_rayos_lunares_118
+  - first:
+      213: 5263439429835740429
+    second: clima_rayos_lunares_119
+  - first:
+      213: 5691236558914959086
+    second: clima_rayos_lunares_120
+  - first:
+      213: 6637984059359019004
+    second: clima_rayos_lunares_121
+  - first:
+      213: -2963938926286145691
+    second: clima_rayos_lunares_122
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clima_rayos_lunares_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 103
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20731cda71395d960800000000000000
+      internalID: 7626163273930454786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017eac6201c194180800000000000000
+      internalID: -9130735913821083888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 252
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9456cc6dc042ecd20800000000000000
+      internalID: 3300615214471079241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_3
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dfad4e16a3df3f0800000000000000
+      internalID: -865471361259471583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_4
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 0
+        width: 258
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6acb63bc1847e020800000000000000
+      internalID: 2370943016940325487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_5
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfb16b9b8242a740800000000000000
+      internalID: 5161761290294771635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_6
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 263
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4a9a4950d364490800000000000000
+      internalID: -7762449813548194570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_7
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b66c58e45a0ff260800000000000000
+      internalID: 7133431694570055351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_8
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 0
+        width: 270
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87135074e9cc8adb0800000000000000
+      internalID: -4780346024285359752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_9
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13f0e1d88c1af260800000000000000
+      internalID: 7132044333856912156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_10
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 0
+        width: 323
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23573ad55bd80e9a0800000000000000
+      internalID: -6205804476416953038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_11
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 0
+        width: 326
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88d86c6770d2c030800000000000000
+      internalID: 3513599870640904335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_12
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 0
+        width: 327
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c86451f579596b20800000000000000
+      internalID: 3128129779280406723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_13
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 0
+        width: 193
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67a0f208286e4530800000000000000
+      internalID: 3841122053250918251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_14
+      rect:
+        serializedVersion: 2
+        x: 2477
+        y: 0
+        width: 239
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a2836b5ec0745d0800000000000000
+      internalID: -3078477639540266370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_15
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 191
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94391d1fdee366600800000000000000
+      internalID: 461125203537269577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_16
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 234
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc156759d38cbfa0800000000000000
+      internalID: -5783602851953173249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_17
+      rect:
+        serializedVersion: 2
+        x: 3013
+        y: 0
+        width: 192
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd41a95a0bb31e60800000000000000
+      internalID: 7931889021857385905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_18
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 0
+        width: 228
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269103cb5812cf500800000000000000
+      internalID: 431256522592360802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_19
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 0
+        width: 194
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45323f4cecba23610800000000000000
+      internalID: 1599529722225828692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_20
+      rect:
+        serializedVersion: 2
+        x: 3446
+        y: 0
+        width: 225
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973e83caa2d92fce0800000000000000
+      internalID: -1372862129790983303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_21
+      rect:
+        serializedVersion: 2
+        x: 3641
+        y: 0
+        width: 198
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f1e4cd2f935c660800000000000000
+      internalID: 7405388877521624937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_22
+      rect:
+        serializedVersion: 2
+        x: 3768
+        y: 0
+        width: 221
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc9d79452dc8d800800000000000000
+      internalID: 637484907303378164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_23
+      rect:
+        serializedVersion: 2
+        x: 3956
+        y: 0
+        width: 198
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5818a6aadde31c50800000000000000
+      internalID: 6634908199401560158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_24
+      rect:
+        serializedVersion: 2
+        x: 4087
+        y: 0
+        width: 221
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b65a35e8593383e0800000000000000
+      internalID: -2052733951185103183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_25
+      rect:
+        serializedVersion: 2
+        x: 4269
+        y: 0
+        width: 198
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32571659325730f0800000000000000
+      internalID: -1137349974676778437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_26
+      rect:
+        serializedVersion: 2
+        x: 4405
+        y: 0
+        width: 223
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562e55957ccd7f000800000000000000
+      internalID: 69767068002935397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_27
+      rect:
+        serializedVersion: 2
+        x: 4582
+        y: 0
+        width: 199
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b982b54ad1dc6c540800000000000000
+      internalID: 5027931561200920731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_28
+      rect:
+        serializedVersion: 2
+        x: 4723
+        y: 0
+        width: 225
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b829cd5575416d560800000000000000
+      internalID: 7338075008182030987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_29
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 0
+        width: 204
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1f9659dac631b50800000000000000
+      internalID: 6562708574800835017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_30
+      rect:
+        serializedVersion: 2
+        x: 5039
+        y: 0
+        width: 229
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217e8afcd9e03e270800000000000000
+      internalID: 8278476610993710866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_31
+      rect:
+        serializedVersion: 2
+        x: 5212
+        y: 0
+        width: 209
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e080cff465a6590800000000000000
+      internalID: -7680231312996168067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_32
+      rect:
+        serializedVersion: 2
+        x: 5355
+        y: 0
+        width: 234
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c363942172dc8e60800000000000000
+      internalID: 7965973224298341312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_33
+      rect:
+        serializedVersion: 2
+        x: 5526
+        y: 0
+        width: 217
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5437144734ff52e80800000000000000
+      internalID: -8203870481007152315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_34
+      rect:
+        serializedVersion: 2
+        x: 5671
+        y: 0
+        width: 239
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aaba30ee6aaaeb00800000000000000
+      internalID: 858686072152570531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_35
+      rect:
+        serializedVersion: 2
+        x: 5840
+        y: 0
+        width: 226
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8977117ee056ff10800000000000000
+      internalID: 2303117244476389774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_36
+      rect:
+        serializedVersion: 2
+        x: 5988
+        y: 0
+        width: 244
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f387b05f72973b660800000000000000
+      internalID: 7400391825221711935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_37
+      rect:
+        serializedVersion: 2
+        x: 6156
+        y: 0
+        width: 233
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556424fbb90b4b610800000000000000
+      internalID: 1636126747617543765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_38
+      rect:
+        serializedVersion: 2
+        x: 6303
+        y: 0
+        width: 252
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a9a53e188faaef0800000000000000
+      internalID: -95991205286208870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_39
+      rect:
+        serializedVersion: 2
+        x: 6473
+        y: 0
+        width: 240
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2ad29cc4fd2bb40800000000000000
+      internalID: 5454667619584811709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_40
+      rect:
+        serializedVersion: 2
+        x: 6617
+        y: 0
+        width: 260
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0e529e263ee7c40800000000000000
+      internalID: 5512093007905939688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_41
+      rect:
+        serializedVersion: 2
+        x: 6788
+        y: 0
+        width: 249
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd1b1635e23a5050800000000000000
+      internalID: 5789996230974840268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_42
+      rect:
+        serializedVersion: 2
+        x: 6932
+        y: 0
+        width: 268
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5aac615dd7e62b0800000000000000
+      internalID: -5589391733356321369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_43
+      rect:
+        serializedVersion: 2
+        x: 7106
+        y: 0
+        width: 415
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc3b7915f886a060800000000000000
+      internalID: 6964404460050922690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_44
+      rect:
+        serializedVersion: 2
+        x: 7423
+        y: 0
+        width: 198
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e3292d93b10dea0800000000000000
+      internalID: -5850145980794388870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_45
+      rect:
+        serializedVersion: 2
+        x: 7519
+        y: 0
+        width: 227
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee9c5ae004d179b0800000000000000
+      internalID: -5084049403927552286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_46
+      rect:
+        serializedVersion: 2
+        x: 7653
+        y: 0
+        width: 192
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bdc129c9af3cf00800000000000000
+      internalID: 1136027081400703853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_47
+      rect:
+        serializedVersion: 2
+        x: 7742
+        y: 0
+        width: 198
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7fb3610e770e830800000000000000
+      internalID: 4098407465236559822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_48
+      rect:
+        serializedVersion: 2
+        x: 7844
+        y: 0
+        width: 218
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3821714c8aa2f30800000000000000
+      internalID: 4551635933565453216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_49
+      rect:
+        serializedVersion: 2
+        x: 7977
+        y: 0
+        width: 281
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16e6309654d5fe50800000000000000
+      internalID: 6842608677111129630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_50
+      rect:
+        serializedVersion: 2
+        x: 8170
+        y: 0
+        width: 207
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa953d460d5a14bb0800000000000000
+      internalID: -4953495800667481686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_51
+      rect:
+        serializedVersion: 2
+        x: 8298
+        y: 0
+        width: 280
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5c3cfd62328de80800000000000000
+      internalID: -8153728475484404286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_52
+      rect:
+        serializedVersion: 2
+        x: 8495
+        y: 0
+        width: 196
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25dd2abb3915c3f40800000000000000
+      internalID: 5709528122549001554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_53
+      rect:
+        serializedVersion: 2
+        x: 8621
+        y: 0
+        width: 278
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ac49bcd25284d80800000000000000
+      internalID: -8266316237419263484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_54
+      rect:
+        serializedVersion: 2
+        x: 8821
+        y: 0
+        width: 185
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d65b4b939f14cd0800000000000000
+      internalID: -2575503485638972109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_55
+      rect:
+        serializedVersion: 2
+        x: 8943
+        y: 0
+        width: 276
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2243bdc0c7459d30800000000000000
+      internalID: 4437531901253861933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_56
+      rect:
+        serializedVersion: 2
+        x: 9136
+        y: 0
+        width: 186
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdaa5bdbd522e6750800000000000000
+      internalID: 6300010714748005087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_57
+      rect:
+        serializedVersion: 2
+        x: 9264
+        y: 0
+        width: 276
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b34403a1ff76cb0800000000000000
+      internalID: -4870643984033891489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_58
+      rect:
+        serializedVersion: 2
+        x: 9452
+        y: 0
+        width: 191
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048a04ef42cbc3800800000000000000
+      internalID: 593556117976557632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_59
+      rect:
+        serializedVersion: 2
+        x: 9584
+        y: 0
+        width: 279
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6cc298bdc0fb9bb0800000000000000
+      internalID: -4928080600871285650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_60
+      rect:
+        serializedVersion: 2
+        x: 9768
+        y: 0
+        width: 201
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46526f7560f993f20800000000000000
+      internalID: 3402925843049489764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_61
+      rect:
+        serializedVersion: 2
+        x: 9905
+        y: 0
+        width: 280
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d1e429f7f367120800000000000000
+      internalID: 2411184467651468581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_62
+      rect:
+        serializedVersion: 2
+        x: 10084
+        y: 0
+        width: 210
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94ed58aab588e8e0800000000000000
+      internalID: -1663933025578261346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_63
+      rect:
+        serializedVersion: 2
+        x: 10224
+        y: 0
+        width: 395
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b31d3503d9ff9f0800000000000000
+      internalID: -432454208314066027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_64
+      rect:
+        serializedVersion: 2
+        x: 10544
+        y: 0
+        width: 161
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6e90515077b8700800000000000000
+      internalID: 543659043739789044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_65
+      rect:
+        serializedVersion: 2
+        x: 10599
+        y: 0
+        width: 345
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7986ecba3ac7c00800000000000000
+      internalID: 899773983864952790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_66
+      rect:
+        serializedVersion: 2
+        x: 10863
+        y: 0
+        width: 161
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048b62628897a1180800000000000000
+      internalID: -9143862467759785920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_67
+      rect:
+        serializedVersion: 2
+        x: 10923
+        y: 0
+        width: 347
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401878d8bd48ca410800000000000000
+      internalID: 1489711655259963652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_68
+      rect:
+        serializedVersion: 2
+        x: 11182
+        y: 0
+        width: 162
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283b01de8d8fc7ce0800000000000000
+      internalID: -1405975373072518270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_69
+      rect:
+        serializedVersion: 2
+        x: 11246
+        y: 0
+        width: 347
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01f3b6d9da7680a0800000000000000
+      internalID: -6879676304733245171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_70
+      rect:
+        serializedVersion: 2
+        x: 11502
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e2a0de71c450540800000000000000
+      internalID: 4973465029145406984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_71
+      rect:
+        serializedVersion: 2
+        x: 11569
+        y: 0
+        width: 348
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2e3152fc3c50c80800000000000000
+      internalID: -8357058239068380506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_72
+      rect:
+        serializedVersion: 2
+        x: 11820
+        y: 0
+        width: 159
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478c33a35dee9de00800000000000000
+      internalID: 1070148986049120372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_73
+      rect:
+        serializedVersion: 2
+        x: 11892
+        y: 0
+        width: 349
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a0c85314dba1460800000000000000
+      internalID: 7213285840956164682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_74
+      rect:
+        serializedVersion: 2
+        x: 12137
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6620362b3df5660800000000000000
+      internalID: 7376847477774902971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_75
+      rect:
+        serializedVersion: 2
+        x: 12214
+        y: 0
+        width: 285
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8338735b7da6230800000000000000
+      internalID: 3632953222748125381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_76
+      rect:
+        serializedVersion: 2
+        x: 12397
+        y: 0
+        width: 217
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1391cb5308c1b3d60800000000000000
+      internalID: 7870916110742985009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_77
+      rect:
+        serializedVersion: 2
+        x: 12537
+        y: 0
+        width: 284
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed638a8f90abed520800000000000000
+      internalID: 2728822976222344926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_78
+      rect:
+        serializedVersion: 2
+        x: 12720
+        y: 0
+        width: 211
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a89f9635f65aae70800000000000000
+      internalID: 9127203206003136679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_79
+      rect:
+        serializedVersion: 2
+        x: 12859
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51154c2ee3e4e2c70800000000000000
+      internalID: 8948175541631209749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_80
+      rect:
+        serializedVersion: 2
+        x: 12913
+        y: 0
+        width: 229
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f8e276091fbc7a0800000000000000
+      internalID: -6355720846594633947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_81
+      rect:
+        serializedVersion: 2
+        x: 13041
+        y: 0
+        width: 205
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5551f82feee572560800000000000000
+      internalID: 7288898902287127893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_82
+      rect:
+        serializedVersion: 2
+        x: 13180
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b93444c42e1d860800000000000000
+      internalID: 7553066867267705670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_83
+      rect:
+        serializedVersion: 2
+        x: 13238
+        y: 0
+        width: 226
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2bc54002e2e74500800000000000000
+      internalID: 380522153831156526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_84
+      rect:
+        serializedVersion: 2
+        x: 13363
+        y: 0
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f21de6194bf1ccb0800000000000000
+      internalID: -4845315432738123019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_85
+      rect:
+        serializedVersion: 2
+        x: 13502
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005f6cfd39c538df0800000000000000
+      internalID: -179197769980381952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_86
+      rect:
+        serializedVersion: 2
+        x: 13565
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e083054d2f887020800000000000000
+      internalID: 2339777431013130465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_87
+      rect:
+        serializedVersion: 2
+        x: 13684
+        y: 0
+        width: 195
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf422fd2c3ed0d20800000000000000
+      internalID: 3246501332510724046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_88
+      rect:
+        serializedVersion: 2
+        x: 13821
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e464001bdc9cf690800000000000000
+      internalID: -7567000809208781592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_89
+      rect:
+        serializedVersion: 2
+        x: 13892
+        y: 0
+        width: 216
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2bd6074393e7650800000000000000
+      internalID: 6232481831714665165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_90
+      rect:
+        serializedVersion: 2
+        x: 14005
+        y: 0
+        width: 190
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ebc04d183ef7610800000000000000
+      internalID: 1621264537624559253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_91
+      rect:
+        serializedVersion: 2
+        x: 14143
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bd086366445afb0800000000000000
+      internalID: -4637225035516290248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_92
+      rect:
+        serializedVersion: 2
+        x: 14217
+        y: 0
+        width: 295
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6aaace1ac78a93d0800000000000000
+      internalID: -3199095283123574166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_93
+      rect:
+        serializedVersion: 2
+        x: 14462
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af5f390ad1c3a220800000000000000
+      internalID: 2496051760695566249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_94
+      rect:
+        serializedVersion: 2
+        x: 14544
+        y: 0
+        width: 283
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c30af7fce5c9eb0800000000000000
+      internalID: -4711786864843932557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_95
+      rect:
+        serializedVersion: 2
+        x: 14781
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54594f73d4acbacc0800000000000000
+      internalID: -3698640235954662075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_96
+      rect:
+        serializedVersion: 2
+        x: 14869
+        y: 0
+        width: 274
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f34e617126d281b0800000000000000
+      internalID: -5655722742898605068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_97
+      rect:
+        serializedVersion: 2
+        x: 15100
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34523f67567aee160800000000000000
+      internalID: 7056761720365327683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_98
+      rect:
+        serializedVersion: 2
+        x: 15195
+        y: 0
+        width: 265
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ae5e65a299b1d40800000000000000
+      internalID: 5556202972417223216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_99
+      rect:
+        serializedVersion: 2
+        x: 15420
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da6d89db77f3bcd0800000000000000
+      internalID: -2543417253231236400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_100
+      rect:
+        serializedVersion: 2
+        x: 15519
+        y: 0
+        width: 256
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b543b587da0544ef0800000000000000
+      internalID: -124886183680723877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_101
+      rect:
+        serializedVersion: 2
+        x: 15737
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141b54266ca84c2d0800000000000000
+      internalID: -3259327645652504255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_102
+      rect:
+        serializedVersion: 2
+        x: 15843
+        y: 0
+        width: 250
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afa28bb361d04b30800000000000000
+      internalID: 4269642673025101730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_103
+      rect:
+        serializedVersion: 2
+        x: 16056
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d749cd35d286244c0800000000000000
+      internalID: -4304763749922990979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_104
+      rect:
+        serializedVersion: 2
+        x: 16167
+        y: 0
+        width: 241
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaca736a875bbfc20800000000000000
+      internalID: 3241383886612573354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_105
+      rect:
+        serializedVersion: 2
+        x: 16374
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1269ca089cf9410800000000000000
+      internalID: 1486127956544070120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_106
+      rect:
+        serializedVersion: 2
+        x: 16491
+        y: 0
+        width: 235
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badb657443a9175c0800000000000000
+      internalID: -4219421826543600213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_107
+      rect:
+        serializedVersion: 2
+        x: 16691
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179a6aea55005f610800000000000000
+      internalID: 1654228806130903409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_108
+      rect:
+        serializedVersion: 2
+        x: 16814
+        y: 0
+        width: 229
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d65218ad84640b0800000000000000
+      internalID: -5744824171357704955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_109
+      rect:
+        serializedVersion: 2
+        x: 17009
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37215d9f264090dd0800000000000000
+      internalID: -2519477693392285069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_110
+      rect:
+        serializedVersion: 2
+        x: 17137
+        y: 0
+        width: 223
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534ffee890250a810800000000000000
+      internalID: 1774508454190249013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_111
+      rect:
+        serializedVersion: 2
+        x: 17324
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e7ecd7ec3a72b70800000000000000
+      internalID: 8874241698026126908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_112
+      rect:
+        serializedVersion: 2
+        x: 17459
+        y: 0
+        width: 219
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ac5cb0eea978b40800000000000000
+      internalID: 5442489021890939447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_113
+      rect:
+        serializedVersion: 2
+        x: 17642
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d1dff800564d120800000000000000
+      internalID: 2437684351404416295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_114
+      rect:
+        serializedVersion: 2
+        x: 17780
+        y: 0
+        width: 223
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eec7e9315eab84a0800000000000000
+      internalID: -6589981965839511840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_115
+      rect:
+        serializedVersion: 2
+        x: 17957
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d5bf1f68e0f0350800000000000000
+      internalID: 5985018402546867499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_116
+      rect:
+        serializedVersion: 2
+        x: 18099
+        y: 0
+        width: 230
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd84374dd8838d70800000000000000
+      internalID: 9044222960653864373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_117
+      rect:
+        serializedVersion: 2
+        x: 18275
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8177f6b73caabf0800000000000000
+      internalID: -312222289230358332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_118
+      rect:
+        serializedVersion: 2
+        x: 18419
+        y: 0
+        width: 235
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1527a7988e5fb10800000000000000
+      internalID: 2014772085480640998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_119
+      rect:
+        serializedVersion: 2
+        x: 18590
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05d428464e7b0940800000000000000
+      internalID: 5263439429835740429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_120
+      rect:
+        serializedVersion: 2
+        x: 18738
+        y: 0
+        width: 239
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6b7d23f755bfe40800000000000000
+      internalID: 5691236558914959086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_121
+      rect:
+        serializedVersion: 2
+        x: 18907
+        y: 0
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cffbcca155bde1c50800000000000000
+      internalID: 6637984059359019004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_rayos_lunares_122
+      rect:
+        serializedVersion: 2
+        x: 19058
+        y: 0
+        width: 142
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567f2ca0049fdd6d0800000000000000
+      internalID: -2963938926286145691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clima_rayos_lunares_0: 7626163273930454786
+      clima_rayos_lunares_1: -9130735913821083888
+      clima_rayos_lunares_10: -6205804476416953038
+      clima_rayos_lunares_100: -124886183680723877
+      clima_rayos_lunares_101: -3259327645652504255
+      clima_rayos_lunares_102: 4269642673025101730
+      clima_rayos_lunares_103: -4304763749922990979
+      clima_rayos_lunares_104: 3241383886612573354
+      clima_rayos_lunares_105: 1486127956544070120
+      clima_rayos_lunares_106: -4219421826543600213
+      clima_rayos_lunares_107: 1654228806130903409
+      clima_rayos_lunares_108: -5744824171357704955
+      clima_rayos_lunares_109: -2519477693392285069
+      clima_rayos_lunares_11: 3513599870640904335
+      clima_rayos_lunares_110: 1774508454190249013
+      clima_rayos_lunares_111: 8874241698026126908
+      clima_rayos_lunares_112: 5442489021890939447
+      clima_rayos_lunares_113: 2437684351404416295
+      clima_rayos_lunares_114: -6589981965839511840
+      clima_rayos_lunares_115: 5985018402546867499
+      clima_rayos_lunares_116: 9044222960653864373
+      clima_rayos_lunares_117: -312222289230358332
+      clima_rayos_lunares_118: 2014772085480640998
+      clima_rayos_lunares_119: 5263439429835740429
+      clima_rayos_lunares_12: 3128129779280406723
+      clima_rayos_lunares_120: 5691236558914959086
+      clima_rayos_lunares_121: 6637984059359019004
+      clima_rayos_lunares_122: -2963938926286145691
+      clima_rayos_lunares_13: 3841122053250918251
+      clima_rayos_lunares_14: -3078477639540266370
+      clima_rayos_lunares_15: 461125203537269577
+      clima_rayos_lunares_16: -5783602851953173249
+      clima_rayos_lunares_17: 7931889021857385905
+      clima_rayos_lunares_18: 431256522592360802
+      clima_rayos_lunares_19: 1599529722225828692
+      clima_rayos_lunares_2: 3300615214471079241
+      clima_rayos_lunares_20: -1372862129790983303
+      clima_rayos_lunares_21: 7405388877521624937
+      clima_rayos_lunares_22: 637484907303378164
+      clima_rayos_lunares_23: 6634908199401560158
+      clima_rayos_lunares_24: -2052733951185103183
+      clima_rayos_lunares_25: -1137349974676778437
+      clima_rayos_lunares_26: 69767068002935397
+      clima_rayos_lunares_27: 5027931561200920731
+      clima_rayos_lunares_28: 7338075008182030987
+      clima_rayos_lunares_29: 6562708574800835017
+      clima_rayos_lunares_3: -865471361259471583
+      clima_rayos_lunares_30: 8278476610993710866
+      clima_rayos_lunares_31: -7680231312996168067
+      clima_rayos_lunares_32: 7965973224298341312
+      clima_rayos_lunares_33: -8203870481007152315
+      clima_rayos_lunares_34: 858686072152570531
+      clima_rayos_lunares_35: 2303117244476389774
+      clima_rayos_lunares_36: 7400391825221711935
+      clima_rayos_lunares_37: 1636126747617543765
+      clima_rayos_lunares_38: -95991205286208870
+      clima_rayos_lunares_39: 5454667619584811709
+      clima_rayos_lunares_4: 2370943016940325487
+      clima_rayos_lunares_40: 5512093007905939688
+      clima_rayos_lunares_41: 5789996230974840268
+      clima_rayos_lunares_42: -5589391733356321369
+      clima_rayos_lunares_43: 6964404460050922690
+      clima_rayos_lunares_44: -5850145980794388870
+      clima_rayos_lunares_45: -5084049403927552286
+      clima_rayos_lunares_46: 1136027081400703853
+      clima_rayos_lunares_47: 4098407465236559822
+      clima_rayos_lunares_48: 4551635933565453216
+      clima_rayos_lunares_49: 6842608677111129630
+      clima_rayos_lunares_5: 5161761290294771635
+      clima_rayos_lunares_50: -4953495800667481686
+      clima_rayos_lunares_51: -8153728475484404286
+      clima_rayos_lunares_52: 5709528122549001554
+      clima_rayos_lunares_53: -8266316237419263484
+      clima_rayos_lunares_54: -2575503485638972109
+      clima_rayos_lunares_55: 4437531901253861933
+      clima_rayos_lunares_56: 6300010714748005087
+      clima_rayos_lunares_57: -4870643984033891489
+      clima_rayos_lunares_58: 593556117976557632
+      clima_rayos_lunares_59: -4928080600871285650
+      clima_rayos_lunares_6: -7762449813548194570
+      clima_rayos_lunares_60: 3402925843049489764
+      clima_rayos_lunares_61: 2411184467651468581
+      clima_rayos_lunares_62: -1663933025578261346
+      clima_rayos_lunares_63: -432454208314066027
+      clima_rayos_lunares_64: 543659043739789044
+      clima_rayos_lunares_65: 899773983864952790
+      clima_rayos_lunares_66: -9143862467759785920
+      clima_rayos_lunares_67: 1489711655259963652
+      clima_rayos_lunares_68: -1405975373072518270
+      clima_rayos_lunares_69: -6879676304733245171
+      clima_rayos_lunares_7: 7133431694570055351
+      clima_rayos_lunares_70: 4973465029145406984
+      clima_rayos_lunares_71: -8357058239068380506
+      clima_rayos_lunares_72: 1070148986049120372
+      clima_rayos_lunares_73: 7213285840956164682
+      clima_rayos_lunares_74: 7376847477774902971
+      clima_rayos_lunares_75: 3632953222748125381
+      clima_rayos_lunares_76: 7870916110742985009
+      clima_rayos_lunares_77: 2728822976222344926
+      clima_rayos_lunares_78: 9127203206003136679
+      clima_rayos_lunares_79: 8948175541631209749
+      clima_rayos_lunares_8: -4780346024285359752
+      clima_rayos_lunares_80: -6355720846594633947
+      clima_rayos_lunares_81: 7288898902287127893
+      clima_rayos_lunares_82: 7553066867267705670
+      clima_rayos_lunares_83: 380522153831156526
+      clima_rayos_lunares_84: -4845315432738123019
+      clima_rayos_lunares_85: -179197769980381952
+      clima_rayos_lunares_86: 2339777431013130465
+      clima_rayos_lunares_87: 3246501332510724046
+      clima_rayos_lunares_88: -7567000809208781592
+      clima_rayos_lunares_89: 6232481831714665165
+      clima_rayos_lunares_9: 7132044333856912156
+      clima_rayos_lunares_90: 1621264537624559253
+      clima_rayos_lunares_91: -4637225035516290248
+      clima_rayos_lunares_92: -3199095283123574166
+      clima_rayos_lunares_93: 2496051760695566249
+      clima_rayos_lunares_94: -4711786864843932557
+      clima_rayos_lunares_95: -3698640235954662075
+      clima_rayos_lunares_96: -5655722742898605068
+      clima_rayos_lunares_97: 7056761720365327683
+      clima_rayos_lunares_98: 5556202972417223216
+      clima_rayos_lunares_99: -2543417253231236400
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

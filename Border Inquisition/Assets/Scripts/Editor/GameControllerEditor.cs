@@ -7,12 +7,17 @@ using UnityEngine;
 namespace Editor
 {
     // Play mode tools for the running match (MatchSimulator): play it out to its end, or run a batch
-    // of all-AI matches and log statistics for balancing. The batch settings last for the session.
+    // of all-AI matches and log statistics for balancing. The batch settings and the foldout are kept
+    // in EditorPrefs (this machine's editor, not the project), so they survive a restart.
     [CustomEditor(typeof(GameController))]
     public class GameControllerEditor : UnityEditor.Editor
     {
-        private static readonly MatchSimulator.BatchSettings Batch = new MatchSimulator.BatchSettings();
+        private const string Prefix = "BorderInquisition.Simulation.";
+
+        private static MatchSimulator.BatchSettings _batch;
         private static bool _batchOpen;
+
+        private static MatchSimulator.BatchSettings Batch => _batch ??= LoadBatch();
 
         public override void OnInspectorGUI()
         {
@@ -28,7 +33,10 @@ namespace Editor
                     MatchSimulator.PlayOut(game, Batch.RoundLimit);
             }
 
-            _batchOpen = EditorGUILayout.Foldout(_batchOpen, "AI Simulation", true);
+            EditorGUI.BeginChangeCheck();
+            _batchOpen = EditorGUILayout.Foldout(EditorPrefs.GetBool(Prefix + "Open"), "AI Simulation", true);
+            if (EditorGUI.EndChangeCheck())
+                EditorPrefs.SetBool(Prefix + "Open", _batchOpen);
             if (_batchOpen)
                 BatchGUI(game, running);
 
@@ -40,6 +48,7 @@ namespace Editor
         {
             using (new EditorGUI.IndentLevelScope())
             {
+                EditorGUI.BeginChangeCheck();
                 Batch.Matches = Mathf.Max(1, EditorGUILayout.IntField("Matches", Batch.Matches));
                 Batch.Players = EditorGUILayout.IntSlider("Players", Batch.Players, MatchSettings.MinPlayers,
                     MatchSettings.MaxPlayers);
@@ -48,6 +57,8 @@ namespace Editor
                     Batch.Difficulty = (Difficulty)EditorGUILayout.EnumPopup("Difficulty", Batch.Difficulty);
                 Batch.Samples = Mathf.Max(1, EditorGUILayout.IntField("Battle Samples", Batch.Samples));
                 Batch.RoundLimit = Mathf.Max(1, EditorGUILayout.IntField("Round Limit", Batch.RoundLimit));
+                if (EditorGUI.EndChangeCheck())
+                    SaveBatch();
 
                 EditorGUILayout.HelpBox("Plays every match in one go - the editor waits, the progress bar can " +
                                         "cancel. Statistics go to the console, then the game returns to the main " +
@@ -59,6 +70,29 @@ namespace Editor
                         MatchSimulator.RunBatch(game, Batch);
                 }
             }
+        }
+
+        // Missing keys fall back to the BatchSettings defaults.
+        private static MatchSimulator.BatchSettings LoadBatch()
+        {
+            var batch = new MatchSimulator.BatchSettings();
+            batch.Matches = EditorPrefs.GetInt(Prefix + "Matches", batch.Matches);
+            batch.Players = EditorPrefs.GetInt(Prefix + "Players", batch.Players);
+            batch.Difficulty = (Difficulty)EditorPrefs.GetInt(Prefix + "Difficulty", (int)batch.Difficulty);
+            batch.Mixed = EditorPrefs.GetBool(Prefix + "Mixed", batch.Mixed);
+            batch.Samples = EditorPrefs.GetInt(Prefix + "Samples", batch.Samples);
+            batch.RoundLimit = EditorPrefs.GetInt(Prefix + "RoundLimit", batch.RoundLimit);
+            return batch;
+        }
+
+        private static void SaveBatch()
+        {
+            EditorPrefs.SetInt(Prefix + "Matches", Batch.Matches);
+            EditorPrefs.SetInt(Prefix + "Players", Batch.Players);
+            EditorPrefs.SetInt(Prefix + "Difficulty", (int)Batch.Difficulty);
+            EditorPrefs.SetBool(Prefix + "Mixed", Batch.Mixed);
+            EditorPrefs.SetInt(Prefix + "Samples", Batch.Samples);
+            EditorPrefs.SetInt(Prefix + "RoundLimit", Batch.RoundLimit);
         }
     }
 }

@@ -1,0 +1,1573 @@
+fileFormatVersion: 2
+guid: 5e16ab6deb75b634281588aa38e34c44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5133226948957897770
+    second: clima_causticas_0
+  - first:
+      213: 8105613121615688838
+    second: clima_causticas_1
+  - first:
+      213: 5661508188181207808
+    second: clima_causticas_2
+  - first:
+      213: -5171782330930165840
+    second: clima_causticas_3
+  - first:
+      213: -8119365696571106052
+    second: clima_causticas_4
+  - first:
+      213: -2928938637148816587
+    second: clima_causticas_5
+  - first:
+      213: 6055211889195808818
+    second: clima_causticas_6
+  - first:
+      213: -3513222818938124454
+    second: clima_causticas_7
+  - first:
+      213: -6904375029631416417
+    second: clima_causticas_8
+  - first:
+      213: -7198677547839961366
+    second: clima_causticas_9
+  - first:
+      213: -2841333469009574917
+    second: clima_causticas_10
+  - first:
+      213: 65570358171830216
+    second: clima_causticas_11
+  - first:
+      213: 2903701121799303120
+    second: clima_causticas_12
+  - first:
+      213: 5535855944554223127
+    second: clima_causticas_13
+  - first:
+      213: -1684006392857948278
+    second: clima_causticas_14
+  - first:
+      213: -6701346704117868026
+    second: clima_causticas_15
+  - first:
+      213: -8581396993521513618
+    second: clima_causticas_16
+  - first:
+      213: -6696921257440011325
+    second: clima_causticas_17
+  - first:
+      213: 3150216738448898314
+    second: clima_causticas_18
+  - first:
+      213: 8049468094663354709
+    second: clima_causticas_19
+  - first:
+      213: -2890816755342373107
+    second: clima_causticas_20
+  - first:
+      213: -6431380083480774341
+    second: clima_causticas_21
+  - first:
+      213: 5453849238183795310
+    second: clima_causticas_22
+  - first:
+      213: -3594659220578736015
+    second: clima_causticas_23
+  - first:
+      213: 3408538267515264599
+    second: clima_causticas_24
+  - first:
+      213: -7509082917721658579
+    second: clima_causticas_25
+  - first:
+      213: -6915147391515554363
+    second: clima_causticas_26
+  - first:
+      213: -3734839768200771418
+    second: clima_causticas_27
+  - first:
+      213: -3162988214059828843
+    second: clima_causticas_28
+  - first:
+      213: -3567092223535228769
+    second: clima_causticas_29
+  - first:
+      213: 1997116058114554287
+    second: clima_causticas_30
+  - first:
+      213: -408489641275619238
+    second: clima_causticas_31
+  - first:
+      213: -7160143168606595316
+    second: clima_causticas_32
+  - first:
+      213: -8532517531012026162
+    second: clima_causticas_33
+  - first:
+      213: -6419438574109827861
+    second: clima_causticas_34
+  - first:
+      213: 2363743702039437825
+    second: clima_causticas_35
+  - first:
+      213: 2616664934678647136
+    second: clima_causticas_36
+  - first:
+      213: 141187604721983821
+    second: clima_causticas_37
+  - first:
+      213: 5699572027856085695
+    second: clima_causticas_38
+  - first:
+      213: -6566673785471753764
+    second: clima_causticas_39
+  - first:
+      213: 8312348422340878064
+    second: clima_causticas_40
+  - first:
+      213: 847339799260345610
+    second: clima_causticas_41
+  - first:
+      213: -6062445683868328613
+    second: clima_causticas_42
+  - first:
+      213: -1190074406663296920
+    second: clima_causticas_43
+  - first:
+      213: -2423973791869369832
+    second: clima_causticas_44
+  - first:
+      213: -6908447077237085757
+    second: clima_causticas_45
+  - first:
+      213: 3079995702961923129
+    second: clima_causticas_46
+  - first:
+      213: 6955120630142892192
+    second: clima_causticas_47
+  - first:
+      213: -4725816097538772640
+    second: clima_causticas_48
+  - first:
+      213: 8863337721422240163
+    second: clima_causticas_49
+  - first:
+      213: -4135975734980130969
+    second: clima_causticas_50
+  - first:
+      213: 1446721426655620035
+    second: clima_causticas_51
+  - first:
+      213: 4760176279503442513
+    second: clima_causticas_52
+  - first:
+      213: -6813919939721100627
+    second: clima_causticas_53
+  - first:
+      213: 6863638588648032332
+    second: clima_causticas_54
+  - first:
+      213: 7278880853366859540
+    second: clima_causticas_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clima_causticas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2085
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24091c86b2ec3740800000000000000
+      internalID: 5133226948957897770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_1
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 0
+        width: 258
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684f5a0503cec7070800000000000000
+      internalID: 8105613121615688838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_2
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 151
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b918183b7b19e40800000000000000
+      internalID: 5661508188181207808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_3
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 0
+        width: 258
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7044d0f532a38b0800000000000000
+      internalID: -5171782330930165840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_4
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 119
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc136ecae7325f80800000000000000
+      internalID: -8119365696571106052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_5
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 0
+        width: 262
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bf3d3e3d15a57d0800000000000000
+      internalID: -2928938637148816587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_6
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 115
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238fc3f912f680450800000000000000
+      internalID: 6055211889195808818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_7
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 0
+        width: 266
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a578564c5768e3fc0800000000000000
+      internalID: -3513222818938124454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_8
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 0
+        width: 366
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f970eb2dd7bbe20a0800000000000000
+      internalID: -6904375029631416417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_9
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 0
+        width: 362
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae64b6419e8291c90800000000000000
+      internalID: -7198677547839961366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_10
+      rect:
+        serializedVersion: 2
+        x: 3971
+        y: 0
+        width: 366
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf38143934e8198d0800000000000000
+      internalID: -2841333469009574917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_11
+      rect:
+        serializedVersion: 2
+        x: 4283
+        y: 0
+        width: 370
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c780a2b4e3f8e000800000000000000
+      internalID: 65570358171830216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_12
+      rect:
+        serializedVersion: 2
+        x: 4595
+        y: 0
+        width: 282
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df20ca29c40c4820800000000000000
+      internalID: 2903701121799303120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_13
+      rect:
+        serializedVersion: 2
+        x: 4803
+        y: 135
+        width: 82
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71693eeb6af43dc40800000000000000
+      internalID: 5535855944554223127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_14
+      rect:
+        serializedVersion: 2
+        x: 4907
+        y: 0
+        width: 282
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f0732ab1531a8e0800000000000000
+      internalID: -1684006392857948278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_15
+      rect:
+        serializedVersion: 2
+        x: 5123
+        y: 131
+        width: 82
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ad1588da80003a0800000000000000
+      internalID: -6701346704117868026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_16
+      rect:
+        serializedVersion: 2
+        x: 5191
+        y: 0
+        width: 330
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b8b8c86e0c8e880800000000000000
+      internalID: -8581396993521513618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_17
+      rect:
+        serializedVersion: 2
+        x: 5503
+        y: 135
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb96812991cf03a0800000000000000
+      internalID: -6696921257440011325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_18
+      rect:
+        serializedVersion: 2
+        x: 5511
+        y: 0
+        width: 1354
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a097cbcde61d7bb20800000000000000
+      internalID: 3150216738448898314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_19
+      rect:
+        serializedVersion: 2
+        x: 6819
+        y: 115
+        width: 106
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559ef3d859475bf60800000000000000
+      internalID: 8049468094663354709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_20
+      rect:
+        serializedVersion: 2
+        x: 6899
+        y: 0
+        width: 290
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f021b2a71c1e7d0800000000000000
+      internalID: -2890816755342373107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_21
+      rect:
+        serializedVersion: 2
+        x: 7131
+        y: 0
+        width: 378
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b393b9493e52fb6a0800000000000000
+      internalID: -6431380083480774341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_22
+      rect:
+        serializedVersion: 2
+        x: 7435
+        y: 0
+        width: 462
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ada748cf6ffab40800000000000000
+      internalID: 5453849238183795310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_23
+      rect:
+        serializedVersion: 2
+        x: 7843
+        y: 0
+        width: 290
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17862d4fb743d1ec0800000000000000
+      internalID: -3594659220578736015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_24
+      rect:
+        serializedVersion: 2
+        x: 8071
+        y: 0
+        width: 418
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e929ebe7f8d4f20800000000000000
+      internalID: 3408538267515264599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_25
+      rect:
+        serializedVersion: 2
+        x: 8391
+        y: 0
+        width: 382
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b2f340fd06ac790800000000000000
+      internalID: -7509082917721658579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_26
+      rect:
+        serializedVersion: 2
+        x: 8715
+        y: 131
+        width: 158
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd0f3fd5167800a0800000000000000
+      internalID: -6915147391515554363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_27
+      rect:
+        serializedVersion: 2
+        x: 8835
+        y: 0
+        width: 266
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a80463d40f2b2cc0800000000000000
+      internalID: -3734839768200771418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_28
+      rect:
+        serializedVersion: 2
+        x: 9035
+        y: 0
+        width: 378
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59977304afeca14d0800000000000000
+      internalID: -3162988214059828843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_29
+      rect:
+        serializedVersion: 2
+        x: 9355
+        y: 0
+        width: 422
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98df1f95842f7ec0800000000000000
+      internalID: -3567092223535228769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_30
+      rect:
+        serializedVersion: 2
+        x: 9679
+        y: 0
+        width: 370
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa97523497e27bb10800000000000000
+      internalID: 1997116058114554287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_31
+      rect:
+        serializedVersion: 2
+        x: 9999
+        y: 135
+        width: 158
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a580755e5d0c45af0800000000000000
+      internalID: -408489641275619238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_32
+      rect:
+        serializedVersion: 2
+        x: 10107
+        y: 0
+        width: 2886
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07934669bf02ac90800000000000000
+      internalID: -7160143168606595316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_33
+      rect:
+        serializedVersion: 2
+        x: 12971
+        y: 0
+        width: 346
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec03c344388669980800000000000000
+      internalID: -8532517531012026162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_34
+      rect:
+        serializedVersion: 2
+        x: 13283
+        y: 0
+        width: 5158
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec5eb4e0a299e6a0800000000000000
+      internalID: -6419438574109827861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_35
+      rect:
+        serializedVersion: 2
+        x: 18419
+        y: 0
+        width: 781
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102a0249f54bdc020800000000000000
+      internalID: 2363743702039437825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_36
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061ddb7f4e2405420800000000000000
+      internalID: 2616664934678647136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_37
+      rect:
+        serializedVersion: 2
+        x: 2311
+        y: 0
+        width: 98
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d416422e06995f100800000000000000
+      internalID: 141187604721983821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_38
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 127
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb26d1ccf82f81f40800000000000000
+      internalID: 5699572027856085695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_39
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 131
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1261ddbfc7ed4a0800000000000000
+      internalID: -6566673785471753764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_40
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 127
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe18e279d46b5370800000000000000
+      internalID: 8312348422340878064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_41
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 131
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05b6fade0b52cb00800000000000000
+      internalID: 847339799260345610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_42
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 127
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d9dee45cddddba0800000000000000
+      internalID: -6062445683868328613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_43
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 0
+        width: 102
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868ec86e1a10c7fe0800000000000000
+      internalID: -1190074406663296920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_44
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 0
+        width: 102
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81205c6dda05c5ed0800000000000000
+      internalID: -2423973791869369832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_45
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 0
+        width: 106
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9a2bb5cf34020a0800000000000000
+      internalID: -6908447077237085757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_46
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 123
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93466c8f5c75eba20800000000000000
+      internalID: 3079995702961923129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_47
+      rect:
+        serializedVersion: 2
+        x: 5187
+        y: 115
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a878a10d5d858060800000000000000
+      internalID: 6955120630142892192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_48
+      rect:
+        serializedVersion: 2
+        x: 4871
+        y: 0
+        width: 98
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061f0683c478a6eb0800000000000000
+      internalID: -4725816097538772640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_49
+      rect:
+        serializedVersion: 2
+        x: 10071
+        y: 87
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a951b992b6e00b70800000000000000
+      internalID: 8863337721422240163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_50
+      rect:
+        serializedVersion: 2
+        x: 10099
+        y: 91
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767cfdc7bff0a96c0800000000000000
+      internalID: -4135975734980130969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_51
+      rect:
+        serializedVersion: 2
+        x: 6859
+        y: 71
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb21c4f879c31410800000000000000
+      internalID: 1446721426655620035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_52
+      rect:
+        serializedVersion: 2
+        x: 6871
+        y: 63
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1521b001b1b8f0240800000000000000
+      internalID: 4760176279503442513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_53
+      rect:
+        serializedVersion: 2
+        x: 8191
+        y: 0
+        width: 18
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da209f0aae71071a0800000000000000
+      internalID: -6813919939721100627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_54
+      rect:
+        serializedVersion: 2
+        x: 8775
+        y: 0
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4887076eea804f50800000000000000
+      internalID: 6863638588648032332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_causticas_55
+      rect:
+        serializedVersion: 2
+        x: 10055
+        y: 0
+        width: 46
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417e25b2297c30560800000000000000
+      internalID: 7278880853366859540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clima_causticas_0: 5133226948957897770
+      clima_causticas_1: 8105613121615688838
+      clima_causticas_10: -2841333469009574917
+      clima_causticas_11: 65570358171830216
+      clima_causticas_12: 2903701121799303120
+      clima_causticas_13: 5535855944554223127
+      clima_causticas_14: -1684006392857948278
+      clima_causticas_15: -6701346704117868026
+      clima_causticas_16: -8581396993521513618
+      clima_causticas_17: -6696921257440011325
+      clima_causticas_18: 3150216738448898314
+      clima_causticas_19: 8049468094663354709
+      clima_causticas_2: 5661508188181207808
+      clima_causticas_20: -2890816755342373107
+      clima_causticas_21: -6431380083480774341
+      clima_causticas_22: 5453849238183795310
+      clima_causticas_23: -3594659220578736015
+      clima_causticas_24: 3408538267515264599
+      clima_causticas_25: -7509082917721658579
+      clima_causticas_26: -6915147391515554363
+      clima_causticas_27: -3734839768200771418
+      clima_causticas_28: -3162988214059828843
+      clima_causticas_29: -3567092223535228769
+      clima_causticas_3: -5171782330930165840
+      clima_causticas_30: 1997116058114554287
+      clima_causticas_31: -408489641275619238
+      clima_causticas_32: -7160143168606595316
+      clima_causticas_33: -8532517531012026162
+      clima_causticas_34: -6419438574109827861
+      clima_causticas_35: 2363743702039437825
+      clima_causticas_36: 2616664934678647136
+      clima_causticas_37: 141187604721983821
+      clima_causticas_38: 5699572027856085695
+      clima_causticas_39: -6566673785471753764
+      clima_causticas_4: -8119365696571106052
+      clima_causticas_40: 8312348422340878064
+      clima_causticas_41: 847339799260345610
+      clima_causticas_42: -6062445683868328613
+      clima_causticas_43: -1190074406663296920
+      clima_causticas_44: -2423973791869369832
+      clima_causticas_45: -6908447077237085757
+      clima_causticas_46: 3079995702961923129
+      clima_causticas_47: 6955120630142892192
+      clima_causticas_48: -4725816097538772640
+      clima_causticas_49: 8863337721422240163
+      clima_causticas_5: -2928938637148816587
+      clima_causticas_50: -4135975734980130969
+      clima_causticas_51: 1446721426655620035
+      clima_causticas_52: 4760176279503442513
+      clima_causticas_53: -6813919939721100627
+      clima_causticas_54: 6863638588648032332
+      clima_causticas_55: 7278880853366859540
+      clima_causticas_6: 6055211889195808818
+      clima_causticas_7: -3513222818938124454
+      clima_causticas_8: -6904375029631416417
+      clima_causticas_9: -7198677547839961366
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

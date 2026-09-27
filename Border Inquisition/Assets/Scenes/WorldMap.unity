@@ -4534,6 +4534,8 @@ MonoBehaviour:
   _minSize: 1.5
   _zoomStep: 0.12
   _keyboardPanSpeed: 1.5
+  _focusTime: 0.4
+  _focusZoom: 0.55
 --- !u!114 &1503904603
 MonoBehaviour:
   m_ObjectHideFlags: 0

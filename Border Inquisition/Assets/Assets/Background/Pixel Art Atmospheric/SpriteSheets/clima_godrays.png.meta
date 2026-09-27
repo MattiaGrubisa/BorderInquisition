@@ -1,0 +1,4355 @@
+fileFormatVersion: 2
+guid: 04e3f7adcce5bd74cafe07309375dade
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5191064185534588745
+    second: clima_godrays_0
+  - first:
+      213: 7978585599934038242
+    second: clima_godrays_1
+  - first:
+      213: -8834006565467298913
+    second: clima_godrays_2
+  - first:
+      213: -3658482897723314786
+    second: clima_godrays_3
+  - first:
+      213: -5463687485112348658
+    second: clima_godrays_4
+  - first:
+      213: 2044265862517298143
+    second: clima_godrays_5
+  - first:
+      213: 1511081256565735188
+    second: clima_godrays_6
+  - first:
+      213: 8332689860684708568
+    second: clima_godrays_7
+  - first:
+      213: -1966238559287319420
+    second: clima_godrays_8
+  - first:
+      213: 2921840091209520883
+    second: clima_godrays_9
+  - first:
+      213: 2401064404738887056
+    second: clima_godrays_10
+  - first:
+      213: 6131462325988429255
+    second: clima_godrays_11
+  - first:
+      213: 1898389793175377880
+    second: clima_godrays_12
+  - first:
+      213: 4518383127355493394
+    second: clima_godrays_13
+  - first:
+      213: 3055618912834799456
+    second: clima_godrays_14
+  - first:
+      213: 622304034264850029
+    second: clima_godrays_15
+  - first:
+      213: 9056074838042970787
+    second: clima_godrays_16
+  - first:
+      213: 1447829323911178850
+    second: clima_godrays_17
+  - first:
+      213: 928620658471956089
+    second: clima_godrays_18
+  - first:
+      213: -6867897363978956466
+    second: clima_godrays_19
+  - first:
+      213: 7809856085437223686
+    second: clima_godrays_20
+  - first:
+      213: -4574219267171752928
+    second: clima_godrays_21
+  - first:
+      213: 250076823280036625
+    second: clima_godrays_22
+  - first:
+      213: -8293050189913258496
+    second: clima_godrays_23
+  - first:
+      213: 556854724825883867
+    second: clima_godrays_24
+  - first:
+      213: -746115684819962464
+    second: clima_godrays_25
+  - first:
+      213: 1833225694916429554
+    second: clima_godrays_26
+  - first:
+      213: -5210688327934934418
+    second: clima_godrays_27
+  - first:
+      213: -3441440658216603872
+    second: clima_godrays_28
+  - first:
+      213: -8108737833307741523
+    second: clima_godrays_29
+  - first:
+      213: 6274231271967452035
+    second: clima_godrays_30
+  - first:
+      213: -8441582032426520344
+    second: clima_godrays_31
+  - first:
+      213: 8705835842332156697
+    second: clima_godrays_32
+  - first:
+      213: 8583791995481935646
+    second: clima_godrays_33
+  - first:
+      213: -8153873455730058096
+    second: clima_godrays_34
+  - first:
+      213: -5347605740881400189
+    second: clima_godrays_35
+  - first:
+      213: 2416494291599678362
+    second: clima_godrays_36
+  - first:
+      213: 8834112872446268259
+    second: clima_godrays_37
+  - first:
+      213: -4909594402035671074
+    second: clima_godrays_38
+  - first:
+      213: -6036434986679135266
+    second: clima_godrays_39
+  - first:
+      213: 7746415596744012024
+    second: clima_godrays_40
+  - first:
+      213: -1213623051776305819
+    second: clima_godrays_41
+  - first:
+      213: -2724005524156628007
+    second: clima_godrays_42
+  - first:
+      213: -7062368019123438850
+    second: clima_godrays_43
+  - first:
+      213: 426409869939322558
+    second: clima_godrays_44
+  - first:
+      213: -6284043805748275954
+    second: clima_godrays_45
+  - first:
+      213: -8749336614044532803
+    second: clima_godrays_46
+  - first:
+      213: 6208670308609702843
+    second: clima_godrays_47
+  - first:
+      213: -6804339344956908566
+    second: clima_godrays_48
+  - first:
+      213: -4674727180718796874
+    second: clima_godrays_49
+  - first:
+      213: 3323649799221091724
+    second: clima_godrays_50
+  - first:
+      213: -5686531208923048652
+    second: clima_godrays_51
+  - first:
+      213: 8736474493777321981
+    second: clima_godrays_52
+  - first:
+      213: 6012316698899550354
+    second: clima_godrays_53
+  - first:
+      213: -5532448272682135984
+    second: clima_godrays_54
+  - first:
+      213: 7301967190903560111
+    second: clima_godrays_55
+  - first:
+      213: 8757679432179764537
+    second: clima_godrays_56
+  - first:
+      213: -7524976391566283600
+    second: clima_godrays_57
+  - first:
+      213: 8449635884832411234
+    second: clima_godrays_58
+  - first:
+      213: -3629886164493797531
+    second: clima_godrays_59
+  - first:
+      213: 3601198686220927518
+    second: clima_godrays_60
+  - first:
+      213: 711015811577107749
+    second: clima_godrays_61
+  - first:
+      213: 9132855458186105604
+    second: clima_godrays_62
+  - first:
+      213: 5470309144607909737
+    second: clima_godrays_63
+  - first:
+      213: -7819706894772564960
+    second: clima_godrays_64
+  - first:
+      213: -3479931558510799466
+    second: clima_godrays_65
+  - first:
+      213: -6153554815727114275
+    second: clima_godrays_66
+  - first:
+      213: 1830225740415046251
+    second: clima_godrays_67
+  - first:
+      213: 8420283659478274787
+    second: clima_godrays_68
+  - first:
+      213: 3011791852720218000
+    second: clima_godrays_69
+  - first:
+      213: 4589730262756338581
+    second: clima_godrays_70
+  - first:
+      213: -1277566418415103118
+    second: clima_godrays_71
+  - first:
+      213: -8763607818283363057
+    second: clima_godrays_72
+  - first:
+      213: -3489565630177614690
+    second: clima_godrays_73
+  - first:
+      213: -5995162709915128804
+    second: clima_godrays_74
+  - first:
+      213: -5065302831356487630
+    second: clima_godrays_75
+  - first:
+      213: -6214889238146270145
+    second: clima_godrays_76
+  - first:
+      213: 6297829323081777204
+    second: clima_godrays_77
+  - first:
+      213: -3492524135010722434
+    second: clima_godrays_78
+  - first:
+      213: -3421111686899347484
+    second: clima_godrays_79
+  - first:
+      213: -4220012405191677619
+    second: clima_godrays_80
+  - first:
+      213: -4220294649699244247
+    second: clima_godrays_81
+  - first:
+      213: -2772111957655919327
+    second: clima_godrays_82
+  - first:
+      213: 5874360769534556790
+    second: clima_godrays_83
+  - first:
+      213: -5740436815566640629
+    second: clima_godrays_84
+  - first:
+      213: -2116533982666409573
+    second: clima_godrays_85
+  - first:
+      213: 1325423765644787991
+    second: clima_godrays_86
+  - first:
+      213: -5144931425687098419
+    second: clima_godrays_87
+  - first:
+      213: 6858761784726539112
+    second: clima_godrays_88
+  - first:
+      213: 4330583504901298928
+    second: clima_godrays_89
+  - first:
+      213: -1565374685673392186
+    second: clima_godrays_90
+  - first:
+      213: 3453760246777517123
+    second: clima_godrays_91
+  - first:
+      213: -8398032530407694480
+    second: clima_godrays_92
+  - first:
+      213: -5029717173385372342
+    second: clima_godrays_93
+  - first:
+      213: 2654785178540303855
+    second: clima_godrays_94
+  - first:
+      213: -509590737054164810
+    second: clima_godrays_95
+  - first:
+      213: -3221843856780472052
+    second: clima_godrays_96
+  - first:
+      213: 7624798322197477337
+    second: clima_godrays_97
+  - first:
+      213: -4338157828799133200
+    second: clima_godrays_98
+  - first:
+      213: -8616998162004079519
+    second: clima_godrays_99
+  - first:
+      213: 3912324870489325263
+    second: clima_godrays_100
+  - first:
+      213: -5512009959252868010
+    second: clima_godrays_101
+  - first:
+      213: 1360160797399617834
+    second: clima_godrays_102
+  - first:
+      213: -7444411249421991740
+    second: clima_godrays_103
+  - first:
+      213: 5551387093743159610
+    second: clima_godrays_104
+  - first:
+      213: 8892070631635027235
+    second: clima_godrays_105
+  - first:
+      213: -5893961212911052209
+    second: clima_godrays_106
+  - first:
+      213: 4466676555763371891
+    second: clima_godrays_107
+  - first:
+      213: 7158258651739010337
+    second: clima_godrays_108
+  - first:
+      213: -7039990246743730098
+    second: clima_godrays_109
+  - first:
+      213: -7601654928713151932
+    second: clima_godrays_110
+  - first:
+      213: -3132026800028009578
+    second: clima_godrays_111
+  - first:
+      213: 8018018600092777536
+    second: clima_godrays_112
+  - first:
+      213: -3545121309556710354
+    second: clima_godrays_113
+  - first:
+      213: -3503109558375130523
+    second: clima_godrays_114
+  - first:
+      213: 3954025175791923879
+    second: clima_godrays_115
+  - first:
+      213: -7899933550357965652
+    second: clima_godrays_116
+  - first:
+      213: 252863018727997677
+    second: clima_godrays_117
+  - first:
+      213: 7284902960721437110
+    second: clima_godrays_118
+  - first:
+      213: -588685475018855597
+    second: clima_godrays_119
+  - first:
+      213: 8153281072519576927
+    second: clima_godrays_120
+  - first:
+      213: -213372925595363877
+    second: clima_godrays_121
+  - first:
+      213: -1883498695721150107
+    second: clima_godrays_122
+  - first:
+      213: -2603614599114559131
+    second: clima_godrays_123
+  - first:
+      213: 7063909813677413057
+    second: clima_godrays_124
+  - first:
+      213: -4421649991531038687
+    second: clima_godrays_125
+  - first:
+      213: 1895592411050022116
+    second: clima_godrays_126
+  - first:
+      213: -8757516793256773074
+    second: clima_godrays_127
+  - first:
+      213: 5097785108773375532
+    second: clima_godrays_128
+  - first:
+      213: -4208471530697762987
+    second: clima_godrays_129
+  - first:
+      213: 5225726587501839744
+    second: clima_godrays_130
+  - first:
+      213: -2290740610271961306
+    second: clima_godrays_131
+  - first:
+      213: -1469011884989235919
+    second: clima_godrays_132
+  - first:
+      213: -144023350189497103
+    second: clima_godrays_133
+  - first:
+      213: -2448654071191205040
+    second: clima_godrays_134
+  - first:
+      213: 2837666144569346921
+    second: clima_godrays_135
+  - first:
+      213: 6205446966805641442
+    second: clima_godrays_136
+  - first:
+      213: 4974593010642712474
+    second: clima_godrays_137
+  - first:
+      213: 982072250982964949
+    second: clima_godrays_138
+  - first:
+      213: 6309936841287854309
+    second: clima_godrays_139
+  - first:
+      213: 2336735213002736471
+    second: clima_godrays_140
+  - first:
+      213: 3410212454438951891
+    second: clima_godrays_141
+  - first:
+      213: -8327169056168625003
+    second: clima_godrays_142
+  - first:
+      213: 6494879248717435379
+    second: clima_godrays_143
+  - first:
+      213: -7191585513583377547
+    second: clima_godrays_144
+  - first:
+      213: 8526199769683499718
+    second: clima_godrays_145
+  - first:
+      213: -1837498056302419033
+    second: clima_godrays_146
+  - first:
+      213: 1144227105536312125
+    second: clima_godrays_147
+  - first:
+      213: -6502712875994911665
+    second: clima_godrays_148
+  - first:
+      213: -982116634097078180
+    second: clima_godrays_149
+  - first:
+      213: 7700409756949217345
+    second: clima_godrays_150
+  - first:
+      213: -8576492494253637151
+    second: clima_godrays_151
+  - first:
+      213: 5209850519583932721
+    second: clima_godrays_152
+  - first:
+      213: -6044537892844060921
+    second: clima_godrays_153
+  - first:
+      213: -5521877843793308799
+    second: clima_godrays_154
+  - first:
+      213: -392834810626091766
+    second: clima_godrays_155
+  - first:
+      213: -3695454422001404279
+    second: clima_godrays_156
+  - first:
+      213: -2031266554507863165
+    second: clima_godrays_157
+  - first:
+      213: 6363945057510599408
+    second: clima_godrays_158
+  - first:
+      213: 2843690903351074602
+    second: clima_godrays_159
+  - first:
+      213: -2299746090271077557
+    second: clima_godrays_160
+  - first:
+      213: -6886100779429438370
+    second: clima_godrays_161
+  - first:
+      213: -3046383101906467625
+    second: clima_godrays_162
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clima_godrays_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 92
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b855fe60a2a5f7b0800000000000000
+      internalID: -5191064185534588745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 225
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e08d1ea451a9be60800000000000000
+      internalID: 7978585599934038242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 165
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f936ad155dd476580800000000000000
+      internalID: -8834006565467298913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_3
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 226
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d2c5020357a3dc0800000000000000
+      internalID: -3658482897723314786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_4
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 0
+        width: 133
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00912e1e251d24b0800000000000000
+      internalID: -5463687485112348658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_5
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 0
+        width: 164
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd31dc198f0be5c10800000000000000
+      internalID: 2044265862517298143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_6
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 0
+        width: 98
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ff954956078f410800000000000000
+      internalID: 1511081256565735188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_7
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 0
+        width: 228
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da7c91a749a3a370800000000000000
+      internalID: 8332689860684708568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_8
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 0
+        width: 131
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484e00aa27486b4e0800000000000000
+      internalID: -1966238559287319420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 165
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6d90715167c8820800000000000000
+      internalID: 2921840091209520883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_10
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 0
+        width: 97
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dcb4fca5b425120800000000000000
+      internalID: 2401064404738887056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_11
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 0
+        width: 98
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd0b36ef74571550800000000000000
+      internalID: 6131462325988429255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_12
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 0
+        width: 232
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d71273757f685a10800000000000000
+      internalID: 1898389793175377880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_13
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 0
+        width: 133
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c8421d38584be30800000000000000
+      internalID: 4518383127355493394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_14
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 0
+        width: 164
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067cb7c363db76a20800000000000000
+      internalID: 3055618912834799456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_15
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 0
+        width: 91
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e16a8d83ed2a800800000000000000
+      internalID: 622304034264850029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_16
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 0
+        width: 98
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa87e48514adad70800000000000000
+      internalID: 9056074838042970787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_17
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 0
+        width: 255
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26aae136919b71410800000000000000
+      internalID: 1447829323911178850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_18
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 0
+        width: 130
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e6f4f919f13ec00800000000000000
+      internalID: 928620658471956089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_19
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 0
+        width: 164
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4151323cb350b0a0800000000000000
+      internalID: -6867897363978956466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_20
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 0
+        width: 93
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60398673bbe226c60800000000000000
+      internalID: 7809856085437223686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_21
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 0
+        width: 268
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024ea7fcfcb1580c0800000000000000
+      internalID: -4574219267171752928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_22
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 0
+        width: 133
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b2a2abb83787300800000000000000
+      internalID: 250076823280036625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_23
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 0
+        width: 161
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0060cbd6aca29ec80800000000000000
+      internalID: -8293050189913258496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_24
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 0
+        width: 289
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4aeb00c685ab700800000000000000
+      internalID: 556854724825883867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_25
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 0
+        width: 133
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a575fcdcb345a5f0800000000000000
+      internalID: -746115684819962464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_26
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 0
+        width: 163
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6cc928e0de07910800000000000000
+      internalID: 1833225694916429554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_27
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 0
+        width: 308
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e620a2ab29aefa7b0800000000000000
+      internalID: -5210688327934934418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_28
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 0
+        width: 130
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02fa96374fb8d30d0800000000000000
+      internalID: -3441440658216603872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_29
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 0
+        width: 123
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2ebec07e9f77f80800000000000000
+      internalID: -8108737833307741523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_30
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 0
+        width: 158
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b644c791c821750800000000000000
+      internalID: 6274231271967452035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_31
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 0
+        width: 360
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0b5eeedd979da80800000000000000
+      internalID: -8441582032426520344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_32
+      rect:
+        serializedVersion: 2
+        x: 2846
+        y: 0
+        width: 360
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9136217b29751d870800000000000000
+      internalID: 8705835842332156697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_33
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 0
+        width: 367
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fca8c4751cf1770800000000000000
+      internalID: 8583791995481935646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_34
+      rect:
+        serializedVersion: 2
+        x: 3406
+        y: 0
+        width: 124
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c19b70b4f97de80800000000000000
+      internalID: -8153873455730058096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_35
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 0
+        width: 159
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38eace759ec79c5b0800000000000000
+      internalID: -5347605740881400189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_36
+      rect:
+        serializedVersion: 2
+        x: 3539
+        y: 0
+        width: 165
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9bde8c41cc198120800000000000000
+      internalID: 2416494291599678362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_37
+      rect:
+        serializedVersion: 2
+        x: 3590
+        y: 0
+        width: 255
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3639dd33ad2199a70800000000000000
+      internalID: 8834112872446268259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_38
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 0
+        width: 134
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfda6b47ed9ddbb0800000000000000
+      internalID: -4909594402035671074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_39
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 0
+        width: 159
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3104dac564a3ca0800000000000000
+      internalID: -6036434986679135266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_40
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 0
+        width: 98
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0f87661fbc08b60800000000000000
+      internalID: 7746415596744012024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_41
+      rect:
+        serializedVersion: 2
+        x: 3862
+        y: 0
+        width: 119
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565d5a3b348582fe0800000000000000
+      internalID: -1213623051776305819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_42
+      rect:
+        serializedVersion: 2
+        x: 3868
+        y: 0
+        width: 163
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3417e7863623ad0800000000000000
+      internalID: -2724005524156628007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_43
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 0
+        width: 338
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa711364bd6dfd90800000000000000
+      internalID: -7062368019123438850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_44
+      rect:
+        serializedVersion: 2
+        x: 4168
+        y: 0
+        width: 94
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe247a7489eae500800000000000000
+      internalID: 426409869939322558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_45
+      rect:
+        serializedVersion: 2
+        x: 4185
+        y: 0
+        width: 174
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e055165f3779ac8a0800000000000000
+      internalID: -6284043805748275954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_46
+      rect:
+        serializedVersion: 2
+        x: 4285
+        y: 0
+        width: 288
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf7e8b94bc149680800000000000000
+      internalID: -8749336614044532803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_47
+      rect:
+        serializedVersion: 2
+        x: 4509
+        y: 0
+        width: 174
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb323030c0a92650800000000000000
+      internalID: 6208670308609702843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_48
+      rect:
+        serializedVersion: 2
+        x: 4600
+        y: 0
+        width: 285
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb11acaa612291a0800000000000000
+      internalID: -6804339344956908566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_49
+      rect:
+        serializedVersion: 2
+        x: 4834
+        y: 0
+        width: 120
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf846b9568002fb0800000000000000
+      internalID: -4674727180718796874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_50
+      rect:
+        serializedVersion: 2
+        x: 4840
+        y: 0
+        width: 164
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d1f5802e9ff1e20800000000000000
+      internalID: 3323649799221091724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_51
+      rect:
+        serializedVersion: 2
+        x: 4890
+        y: 0
+        width: 118
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43518f77ef16511b0800000000000000
+      internalID: -5686531208923048652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_52
+      rect:
+        serializedVersion: 2
+        x: 4913
+        y: 0
+        width: 285
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff9bd6a3413e3970800000000000000
+      internalID: 8736474493777321981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_53
+      rect:
+        serializedVersion: 2
+        x: 5161
+        y: 0
+        width: 121
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2909e0bde2a007350800000000000000
+      internalID: 6012316698899550354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_54
+      rect:
+        serializedVersion: 2
+        x: 5168
+        y: 0
+        width: 164
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ece80bb9bc833b0800000000000000
+      internalID: -5532448272682135984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_55
+      rect:
+        serializedVersion: 2
+        x: 5228
+        y: 0
+        width: 282
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa71d5ff87cc55560800000000000000
+      internalID: 7301967190903560111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_56
+      rect:
+        serializedVersion: 2
+        x: 5486
+        y: 0
+        width: 117
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93dc1db1b07898970800000000000000
+      internalID: 8757679432179764537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_57
+      rect:
+        serializedVersion: 2
+        x: 5489
+        y: 0
+        width: 164
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcad7547d9e19790800000000000000
+      internalID: -7524976391566283600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_58
+      rect:
+        serializedVersion: 2
+        x: 5539
+        y: 0
+        width: 285
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e44d4b113234570800000000000000
+      internalID: 8449635884832411234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_59
+      rect:
+        serializedVersion: 2
+        x: 5813
+        y: 0
+        width: 121
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567fd3ee3cd00adc0800000000000000
+      internalID: -3629886164493797531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_60
+      rect:
+        serializedVersion: 2
+        x: 5820
+        y: 0
+        width: 322
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e124dc900270af130800000000000000
+      internalID: 3601198686220927518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_61
+      rect:
+        serializedVersion: 2
+        x: 6141
+        y: 0
+        width: 325
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5255dbe0d190ed900800000000000000
+      internalID: 711015811577107749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_62
+      rect:
+        serializedVersion: 2
+        x: 6469
+        y: 0
+        width: 321
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4039b2ab6ab6ebe70800000000000000
+      internalID: 9132855458186105604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_63
+      rect:
+        serializedVersion: 2
+        x: 6797
+        y: 0
+        width: 315
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967ecef1f217aeb40800000000000000
+      internalID: 5470309144607909737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_64
+      rect:
+        serializedVersion: 2
+        x: 7124
+        y: 0
+        width: 117
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c88618202da7390800000000000000
+      internalID: -7819706894772564960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_65
+      rect:
+        serializedVersion: 2
+        x: 7128
+        y: 0
+        width: 304
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695da4c5facc4bfc0800000000000000
+      internalID: -3479931558510799466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_66
+      rect:
+        serializedVersion: 2
+        x: 7449
+        y: 0
+        width: 305
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7e0be7f7e2a9aa0800000000000000
+      internalID: -6153554815727114275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_67
+      rect:
+        serializedVersion: 2
+        x: 7770
+        y: 0
+        width: 120
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62173c2d94466910800000000000000
+      internalID: 1830225740415046251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_68
+      rect:
+        serializedVersion: 2
+        x: 7773
+        y: 0
+        width: 301
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e29a3f206bdad470800000000000000
+      internalID: 8420283659478274787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_69
+      rect:
+        serializedVersion: 2
+        x: 8094
+        y: 0
+        width: 298
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fddce9bb80cc920800000000000000
+      internalID: 3011791852720218000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_70
+      rect:
+        serializedVersion: 2
+        x: 8415
+        y: 0
+        width: 120
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ba3764b5ff1bf30800000000000000
+      internalID: 4589730262756338581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_71
+      rect:
+        serializedVersion: 2
+        x: 8418
+        y: 0
+        width: 292
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273566d7c1c254ee0800000000000000
+      internalID: -1277566418415103118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_72
+      rect:
+        serializedVersion: 2
+        x: 8739
+        y: 0
+        width: 289
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f055260fe19616680800000000000000
+      internalID: -8763607818283363057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_73
+      rect:
+        serializedVersion: 2
+        x: 9064
+        y: 0
+        width: 280
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94e9d04c82929fc0800000000000000
+      internalID: -3489565630177614690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_74
+      rect:
+        serializedVersion: 2
+        x: 9391
+        y: 0
+        width: 272
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c27d07747eccca0800000000000000
+      internalID: -5995162709915128804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_75
+      rect:
+        serializedVersion: 2
+        x: 9716
+        y: 0
+        width: 268
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238573979ed64b9b0800000000000000
+      internalID: -5065302831356487630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_76
+      rect:
+        serializedVersion: 2
+        x: 9919
+        y: 41
+        width: 69
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cb4e17a2740c9a0800000000000000
+      internalID: -6214889238146270145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_77
+      rect:
+        serializedVersion: 2
+        x: 10037
+        y: 0
+        width: 258
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430045ae662666750800000000000000
+      internalID: 6297829323081777204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_78
+      rect:
+        serializedVersion: 2
+        x: 10206
+        y: 0
+        width: 99
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d153badcf088fc0800000000000000
+      internalID: -3492524135010722434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_79
+      rect:
+        serializedVersion: 2
+        x: 10216
+        y: 0
+        width: 99
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef4d6deb05c580d0800000000000000
+      internalID: -3421111686899347484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_80
+      rect:
+        serializedVersion: 2
+        x: 10349
+        y: 0
+        width: 82
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49eec873118f65c0800000000000000
+      internalID: -4220012405191677619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_81
+      rect:
+        serializedVersion: 2
+        x: 10358
+        y: 0
+        width: 268
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927e13d40608e65c0800000000000000
+      internalID: -4220294649699244247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_82
+      rect:
+        serializedVersion: 2
+        x: 10537
+        y: 0
+        width: 99
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1256e4e9cda7789d0800000000000000
+      internalID: -2772111957655919327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_83
+      rect:
+        serializedVersion: 2
+        x: 10559
+        y: 12
+        width: 83
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67af8960ffbe58150800000000000000
+      internalID: 5874360769534556790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_84
+      rect:
+        serializedVersion: 2
+        x: 10661
+        y: 0
+        width: 78
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a6390612fd550b0800000000000000
+      internalID: -5740436815566640629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_85
+      rect:
+        serializedVersion: 2
+        x: 10665
+        y: 0
+        width: 84
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9930208e8f80a2e0800000000000000
+      internalID: -2116533982666409573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_86
+      rect:
+        serializedVersion: 2
+        x: 10675
+        y: 0
+        width: 294
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7114e1874e9d46210800000000000000
+      internalID: 1325423765644787991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_87
+      rect:
+        serializedVersion: 2
+        x: 10973
+        y: 0
+        width: 80
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb2d2a90288998b0800000000000000
+      internalID: -5144931425687098419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_88
+      rect:
+        serializedVersion: 2
+        x: 10979
+        y: 0
+        width: 114
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b46a101873f2f50800000000000000
+      internalID: 6858761784726539112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_89
+      rect:
+        serializedVersion: 2
+        x: 11019
+        y: 0
+        width: 262
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fadec7d0c2591c30800000000000000
+      internalID: 4330583504901298928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_90
+      rect:
+        serializedVersion: 2
+        x: 11192
+        y: 0
+        width: 99
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c77c00640ca64ae0800000000000000
+      internalID: -1565374685673392186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_91
+      rect:
+        serializedVersion: 2
+        x: 11203
+        y: 0
+        width: 94
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3441a8845a83eef20800000000000000
+      internalID: 3453760246777517123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_92
+      rect:
+        serializedVersion: 2
+        x: 11287
+        y: 0
+        width: 77
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fdfd488e1347b80800000000000000
+      internalID: -8398032530407694480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_93
+      rect:
+        serializedVersion: 2
+        x: 11291
+        y: 0
+        width: 113
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ddeaf11ead23ab0800000000000000
+      internalID: -5029717173385372342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_94
+      rect:
+        serializedVersion: 2
+        x: 11331
+        y: 0
+        width: 140
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5edd1ed01b7d420800000000000000
+      internalID: 2654785178540303855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_95
+      rect:
+        serializedVersion: 2
+        x: 11349
+        y: 0
+        width: 266
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b89e01bce19de8f0800000000000000
+      internalID: -509590737054164810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_96
+      rect:
+        serializedVersion: 2
+        x: 11527
+        y: 0
+        width: 98
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0153d21516b943d0800000000000000
+      internalID: -3221843856780472052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_97
+      rect:
+        serializedVersion: 2
+        x: 11598
+        y: 0
+        width: 77
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d733961da9b0d960800000000000000
+      internalID: 7624798322197477337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_98
+      rect:
+        serializedVersion: 2
+        x: 11602
+        y: 0
+        width: 83
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f909d27074cbc3c0800000000000000
+      internalID: -4338157828799133200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_99
+      rect:
+        serializedVersion: 2
+        x: 11612
+        y: 0
+        width: 331
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c8d8393d54a6880800000000000000
+      internalID: -8616998162004079519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_100
+      rect:
+        serializedVersion: 2
+        x: 11855
+        y: 0
+        width: 98
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce3177cdbe5b4630800000000000000
+      internalID: 3912324870489325263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_101
+      rect:
+        serializedVersion: 2
+        x: 11910
+        y: 0
+        width: 76
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654415c55286183b0800000000000000
+      internalID: -5512009959252868010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_102
+      rect:
+        serializedVersion: 2
+        x: 11913
+        y: 0
+        width: 83
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a219a6ee90340e210800000000000000
+      internalID: 1360160797399617834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_103
+      rect:
+        serializedVersion: 2
+        x: 11923
+        y: 0
+        width: 341
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0c74c296320b890800000000000000
+      internalID: -7444411249421991740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_104
+      rect:
+        serializedVersion: 2
+        x: 12176
+        y: 0
+        width: 98
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39cf35362d7a0d40800000000000000
+      internalID: 5551387093743159610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_105
+      rect:
+        serializedVersion: 2
+        x: 12186
+        y: 0
+        width: 97
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3250a44902bf66b70800000000000000
+      internalID: 8892070631635027235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_106
+      rect:
+        serializedVersion: 2
+        x: 12224
+        y: 0
+        width: 83
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a91802181743ea0800000000000000
+      internalID: -5893961212911052209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_107
+      rect:
+        serializedVersion: 2
+        x: 12234
+        y: 0
+        width: 173
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f47d879a2dcfd30800000000000000
+      internalID: 4466676555763371891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_108
+      rect:
+        serializedVersion: 2
+        x: 12285
+        y: 0
+        width: 233
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1253543515e375360800000000000000
+      internalID: 7158258651739010337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_109
+      rect:
+        serializedVersion: 2
+        x: 12422
+        y: 0
+        width: 103
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4810a88b2eec4e90800000000000000
+      internalID: -7039990246743730098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_110
+      rect:
+        serializedVersion: 2
+        x: 12436
+        y: 0
+        width: 159
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a84fc1e1f718690800000000000000
+      internalID: -7601654928713151932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_111
+      rect:
+        serializedVersion: 2
+        x: 12507
+        y: 0
+        width: 98
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bb355383ec884d0800000000000000
+      internalID: -3132026800028009578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_112
+      rect:
+        serializedVersion: 2
+        x: 12517
+        y: 0
+        width: 101
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c310d7f69b54f60800000000000000
+      internalID: 8018018600092777536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_113
+      rect:
+        serializedVersion: 2
+        x: 12545
+        y: 0
+        width: 170
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24643aa3f23dcec0800000000000000
+      internalID: -3545121309556710354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_114
+      rect:
+        serializedVersion: 2
+        x: 12592
+        y: 0
+        width: 264
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a56cbba64726fc0800000000000000
+      internalID: -3503109558375130523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_115
+      rect:
+        serializedVersion: 2
+        x: 12767
+        y: 0
+        width: 199
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a27704b2f48fd630800000000000000
+      internalID: 3954025175791923879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_116
+      rect:
+        serializedVersion: 2
+        x: 12892
+        y: 0
+        width: 295
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca419b5aa4ccd5290800000000000000
+      internalID: -7899933550357965652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_117
+      rect:
+        serializedVersion: 2
+        x: 13098
+        y: 0
+        width: 242
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de08d186399528300800000000000000
+      internalID: 252863018727997677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_118
+      rect:
+        serializedVersion: 2
+        x: 13218
+        y: 0
+        width: 287
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b12efc45ac291560800000000000000
+      internalID: 7284902960721437110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_119
+      rect:
+        serializedVersion: 2
+        x: 13409
+        y: 0
+        width: 312
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ba111fda194d7f0800000000000000
+      internalID: -588685475018855597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_120
+      rect:
+        serializedVersion: 2
+        x: 13599
+        y: 0
+        width: 177
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5df17100f5462170800000000000000
+      internalID: 8153281072519576927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_121
+      rect:
+        serializedVersion: 2
+        x: 13668
+        y: 0
+        width: 184
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5d3356472f90df0800000000000000
+      internalID: -213372925595363877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_122
+      rect:
+        serializedVersion: 2
+        x: 13764
+        y: 0
+        width: 272
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56911aa5ae77cd5e0800000000000000
+      internalID: -1883498695721150107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_123
+      rect:
+        serializedVersion: 2
+        x: 13913
+        y: 0
+        width: 178
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56171cf015a1edbd0800000000000000
+      internalID: -2603614599114559131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_124
+      rect:
+        serializedVersion: 2
+        x: 13989
+        y: 0
+        width: 171
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c253a1ac8c080260800000000000000
+      internalID: 7063909813677413057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_125
+      rect:
+        serializedVersion: 2
+        x: 14074
+        y: 0
+        width: 276
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128fea572c423a2c0800000000000000
+      internalID: -4421649991531038687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_126
+      rect:
+        serializedVersion: 2
+        x: 14228
+        y: 0
+        width: 129
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4109b214f7e4a10800000000000000
+      internalID: 1895592411050022116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_127
+      rect:
+        serializedVersion: 2
+        x: 14243
+        y: 0
+        width: 164
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a796730ec077680800000000000000
+      internalID: -8757516793256773074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_128
+      rect:
+        serializedVersion: 2
+        x: 14316
+        y: 0
+        width: 172
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e86b51c88feb640800000000000000
+      internalID: 5097785108773375532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_129
+      rect:
+        serializedVersion: 2
+        x: 14399
+        y: 0
+        width: 262
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5575a65b0718895c0800000000000000
+      internalID: -4208471530697762987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_130
+      rect:
+        serializedVersion: 2
+        x: 14539
+        y: 0
+        width: 129
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0858c5de4a2858840800000000000000
+      internalID: 5225726587501839744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_131
+      rect:
+        serializedVersion: 2
+        x: 14554
+        y: 0
+        width: 164
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f9d244d87a530e0800000000000000
+      internalID: -2290740610271961306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_132
+      rect:
+        serializedVersion: 2
+        x: 14604
+        y: 0
+        width: 118
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13db36849750d9be0800000000000000
+      internalID: -1469011884989235919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_133
+      rect:
+        serializedVersion: 2
+        x: 14642
+        y: 0
+        width: 333
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4e79ca683500ef0800000000000000
+      internalID: -144023350189497103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_134
+      rect:
+        serializedVersion: 2
+        x: 14853
+        y: 0
+        width: 129
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b85d48812a40ed0800000000000000
+      internalID: -2448654071191205040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_135
+      rect:
+        serializedVersion: 2
+        x: 14868
+        y: 0
+        width: 164
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b453ae25a616720800000000000000
+      internalID: 2837666144569346921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_136
+      rect:
+        serializedVersion: 2
+        x: 14918
+        y: 0
+        width: 123
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8b9f0732d2e1650800000000000000
+      internalID: 6205446966805641442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_137
+      rect:
+        serializedVersion: 2
+        x: 14968
+        y: 0
+        width: 322
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97ff759cfd490540800000000000000
+      internalID: 4974593010642712474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_138
+      rect:
+        serializedVersion: 2
+        x: 15167
+        y: 0
+        width: 136
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de9b9f428501ad00800000000000000
+      internalID: 982072250982964949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_139
+      rect:
+        serializedVersion: 2
+        x: 15189
+        y: 0
+        width: 164
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8ec1c2026619750800000000000000
+      internalID: 6309936841287854309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_140
+      rect:
+        serializedVersion: 2
+        x: 15293
+        y: 0
+        width: 68
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753cc21bb40cd6020800000000000000
+      internalID: 2336735213002736471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_141
+      rect:
+        serializedVersion: 2
+        x: 15299
+        y: 0
+        width: 298
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db5273c822835f20800000000000000
+      internalID: 3410212454438951891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_142
+      rect:
+        serializedVersion: 2
+        x: 15475
+        y: 0
+        width: 132
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cb176dcd3ff6c80800000000000000
+      internalID: -8327169056168625003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_143
+      rect:
+        serializedVersion: 2
+        x: 15485
+        y: 0
+        width: 129
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1dbdee342722a50800000000000000
+      internalID: 6494879248717435379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_144
+      rect:
+        serializedVersion: 2
+        x: 15500
+        y: 0
+        width: 164
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573840bf31b523c90800000000000000
+      internalID: -7191585513583377547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_145
+      rect:
+        serializedVersion: 2
+        x: 15550
+        y: 0
+        width: 118
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca900c4485235670800000000000000
+      internalID: 8526199769683499718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_146
+      rect:
+        serializedVersion: 2
+        x: 15618
+        y: 0
+        width: 357
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3af96d045ef76e0800000000000000
+      internalID: -1837498056302419033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_147
+      rect:
+        serializedVersion: 2
+        x: 15861
+        y: 0
+        width: 120
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d338dd77d7c11ef00800000000000000
+      internalID: 1144227105536312125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_148
+      rect:
+        serializedVersion: 2
+        x: 15941
+        y: 0
+        width: 348
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ce6f59719b1c5a0800000000000000
+      internalID: -6502712875994911665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_149
+      rect:
+        serializedVersion: 2
+        x: 16175
+        y: 0
+        width: 118
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5034a0ff12de52f0800000000000000
+      internalID: -982116634097078180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_150
+      rect:
+        serializedVersion: 2
+        x: 16265
+        y: 0
+        width: 339
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14009eb10e95dda60800000000000000
+      internalID: 7700409756949217345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_151
+      rect:
+        serializedVersion: 2
+        x: 16587
+        y: 0
+        width: 328
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e14535448d2af880800000000000000
+      internalID: -8576492494253637151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_152
+      rect:
+        serializedVersion: 2
+        x: 16801
+        y: 0
+        width: 117
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1314fa0d17b1d4840800000000000000
+      internalID: 5209850519583932721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_153
+      rect:
+        serializedVersion: 2
+        x: 16908
+        y: 0
+        width: 314
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f34a1dfcc7d1ca0800000000000000
+      internalID: -6044537892844060921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_154
+      rect:
+        serializedVersion: 2
+        x: 17108
+        y: 0
+        width: 121
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18399937b595e53b0800000000000000
+      internalID: -5521877843793308799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_155
+      rect:
+        serializedVersion: 2
+        x: 17226
+        y: 0
+        width: 307
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05593132de5c8af0800000000000000
+      internalID: -392834810626091766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_156
+      rect:
+        serializedVersion: 2
+        x: 17419
+        y: 0
+        width: 121
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986b5f458cb17bcc0800000000000000
+      internalID: -3695454422001404279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_157
+      rect:
+        serializedVersion: 2
+        x: 17546
+        y: 0
+        width: 305
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b5d6ea4dd7fc3e0800000000000000
+      internalID: -2031266554507863165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_158
+      rect:
+        serializedVersion: 2
+        x: 17864
+        y: 0
+        width: 301
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0faa50bef46415850800000000000000
+      internalID: 6363945057510599408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_159
+      rect:
+        serializedVersion: 2
+        x: 18182
+        y: 0
+        width: 297
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f10416fc1d67720800000000000000
+      internalID: 2843690903351074602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_160
+      rect:
+        serializedVersion: 2
+        x: 18496
+        y: 0
+        width: 305
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b8ccf8d19a510e0800000000000000
+      internalID: -2299746090271077557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_161
+      rect:
+        serializedVersion: 2
+        x: 18811
+        y: 0
+        width: 314
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c519243d7af60a0800000000000000
+      internalID: -6886100779429438370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_godrays_162
+      rect:
+        serializedVersion: 2
+        x: 19126
+        y: 0
+        width: 74
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4cc1195b219b5d0800000000000000
+      internalID: -3046383101906467625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clima_godrays_0: -5191064185534588745
+      clima_godrays_1: 7978585599934038242
+      clima_godrays_10: 2401064404738887056
+      clima_godrays_100: 3912324870489325263
+      clima_godrays_101: -5512009959252868010
+      clima_godrays_102: 1360160797399617834
+      clima_godrays_103: -7444411249421991740
+      clima_godrays_104: 5551387093743159610
+      clima_godrays_105: 8892070631635027235
+      clima_godrays_106: -5893961212911052209
+      clima_godrays_107: 4466676555763371891
+      clima_godrays_108: 7158258651739010337
+      clima_godrays_109: -7039990246743730098
+      clima_godrays_11: 6131462325988429255
+      clima_godrays_110: -7601654928713151932
+      clima_godrays_111: -3132026800028009578
+      clima_godrays_112: 8018018600092777536
+      clima_godrays_113: -3545121309556710354
+      clima_godrays_114: -3503109558375130523
+      clima_godrays_115: 3954025175791923879
+      clima_godrays_116: -7899933550357965652
+      clima_godrays_117: 252863018727997677
+      clima_godrays_118: 7284902960721437110
+      clima_godrays_119: -588685475018855597
+      clima_godrays_12: 1898389793175377880
+      clima_godrays_120: 8153281072519576927
+      clima_godrays_121: -213372925595363877
+      clima_godrays_122: -1883498695721150107
+      clima_godrays_123: -2603614599114559131
+      clima_godrays_124: 7063909813677413057
+      clima_godrays_125: -4421649991531038687
+      clima_godrays_126: 1895592411050022116
+      clima_godrays_127: -8757516793256773074
+      clima_godrays_128: 5097785108773375532
+      clima_godrays_129: -4208471530697762987
+      clima_godrays_13: 4518383127355493394
+      clima_godrays_130: 5225726587501839744
+      clima_godrays_131: -2290740610271961306
+      clima_godrays_132: -1469011884989235919
+      clima_godrays_133: -144023350189497103
+      clima_godrays_134: -2448654071191205040
+      clima_godrays_135: 2837666144569346921
+      clima_godrays_136: 6205446966805641442
+      clima_godrays_137: 4974593010642712474
+      clima_godrays_138: 982072250982964949
+      clima_godrays_139: 6309936841287854309
+      clima_godrays_14: 3055618912834799456
+      clima_godrays_140: 2336735213002736471
+      clima_godrays_141: 3410212454438951891
+      clima_godrays_142: -8327169056168625003
+      clima_godrays_143: 6494879248717435379
+      clima_godrays_144: -7191585513583377547
+      clima_godrays_145: 8526199769683499718
+      clima_godrays_146: -1837498056302419033
+      clima_godrays_147: 1144227105536312125
+      clima_godrays_148: -6502712875994911665
+      clima_godrays_149: -982116634097078180
+      clima_godrays_15: 622304034264850029
+      clima_godrays_150: 7700409756949217345
+      clima_godrays_151: -8576492494253637151
+      clima_godrays_152: 5209850519583932721
+      clima_godrays_153: -6044537892844060921
+      clima_godrays_154: -5521877843793308799
+      clima_godrays_155: -392834810626091766
+      clima_godrays_156: -3695454422001404279
+      clima_godrays_157: -2031266554507863165
+      clima_godrays_158: 6363945057510599408
+      clima_godrays_159: 2843690903351074602
+      clima_godrays_16: 9056074838042970787
+      clima_godrays_160: -2299746090271077557
+      clima_godrays_161: -6886100779429438370
+      clima_godrays_162: -3046383101906467625
+      clima_godrays_17: 1447829323911178850
+      clima_godrays_18: 928620658471956089
+      clima_godrays_19: -6867897363978956466
+      clima_godrays_2: -8834006565467298913
+      clima_godrays_20: 7809856085437223686
+      clima_godrays_21: -4574219267171752928
+      clima_godrays_22: 250076823280036625
+      clima_godrays_23: -8293050189913258496
+      clima_godrays_24: 556854724825883867
+      clima_godrays_25: -746115684819962464
+      clima_godrays_26: 1833225694916429554
+      clima_godrays_27: -5210688327934934418
+      clima_godrays_28: -3441440658216603872
+      clima_godrays_29: -8108737833307741523
+      clima_godrays_3: -3658482897723314786
+      clima_godrays_30: 6274231271967452035
+      clima_godrays_31: -8441582032426520344
+      clima_godrays_32: 8705835842332156697
+      clima_godrays_33: 8583791995481935646
+      clima_godrays_34: -8153873455730058096
+      clima_godrays_35: -5347605740881400189
+      clima_godrays_36: 2416494291599678362
+      clima_godrays_37: 8834112872446268259
+      clima_godrays_38: -4909594402035671074
+      clima_godrays_39: -6036434986679135266
+      clima_godrays_4: -5463687485112348658
+      clima_godrays_40: 7746415596744012024
+      clima_godrays_41: -1213623051776305819
+      clima_godrays_42: -2724005524156628007
+      clima_godrays_43: -7062368019123438850
+      clima_godrays_44: 426409869939322558
+      clima_godrays_45: -6284043805748275954
+      clima_godrays_46: -8749336614044532803
+      clima_godrays_47: 6208670308609702843
+      clima_godrays_48: -6804339344956908566
+      clima_godrays_49: -4674727180718796874
+      clima_godrays_5: 2044265862517298143
+      clima_godrays_50: 3323649799221091724
+      clima_godrays_51: -5686531208923048652
+      clima_godrays_52: 8736474493777321981
+      clima_godrays_53: 6012316698899550354
+      clima_godrays_54: -5532448272682135984
+      clima_godrays_55: 7301967190903560111
+      clima_godrays_56: 8757679432179764537
+      clima_godrays_57: -7524976391566283600
+      clima_godrays_58: 8449635884832411234
+      clima_godrays_59: -3629886164493797531
+      clima_godrays_6: 1511081256565735188
+      clima_godrays_60: 3601198686220927518
+      clima_godrays_61: 711015811577107749
+      clima_godrays_62: 9132855458186105604
+      clima_godrays_63: 5470309144607909737
+      clima_godrays_64: -7819706894772564960
+      clima_godrays_65: -3479931558510799466
+      clima_godrays_66: -6153554815727114275
+      clima_godrays_67: 1830225740415046251
+      clima_godrays_68: 8420283659478274787
+      clima_godrays_69: 3011791852720218000
+      clima_godrays_7: 8332689860684708568
+      clima_godrays_70: 4589730262756338581
+      clima_godrays_71: -1277566418415103118
+      clima_godrays_72: -8763607818283363057
+      clima_godrays_73: -3489565630177614690
+      clima_godrays_74: -5995162709915128804
+      clima_godrays_75: -5065302831356487630
+      clima_godrays_76: -6214889238146270145
+      clima_godrays_77: 6297829323081777204
+      clima_godrays_78: -3492524135010722434
+      clima_godrays_79: -3421111686899347484
+      clima_godrays_8: -1966238559287319420
+      clima_godrays_80: -4220012405191677619
+      clima_godrays_81: -4220294649699244247
+      clima_godrays_82: -2772111957655919327
+      clima_godrays_83: 5874360769534556790
+      clima_godrays_84: -5740436815566640629
+      clima_godrays_85: -2116533982666409573
+      clima_godrays_86: 1325423765644787991
+      clima_godrays_87: -5144931425687098419
+      clima_godrays_88: 6858761784726539112
+      clima_godrays_89: 4330583504901298928
+      clima_godrays_9: 2921840091209520883
+      clima_godrays_90: -1565374685673392186
+      clima_godrays_91: 3453760246777517123
+      clima_godrays_92: -8398032530407694480
+      clima_godrays_93: -5029717173385372342
+      clima_godrays_94: 2654785178540303855
+      clima_godrays_95: -509590737054164810
+      clima_godrays_96: -3221843856780472052
+      clima_godrays_97: 7624798322197477337
+      clima_godrays_98: -4338157828799133200
+      clima_godrays_99: -8616998162004079519
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

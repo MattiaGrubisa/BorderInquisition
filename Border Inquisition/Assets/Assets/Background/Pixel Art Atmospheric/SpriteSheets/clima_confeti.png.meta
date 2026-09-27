@@ -1,0 +1,4433 @@
+fileFormatVersion: 2
+guid: 7deb2407e377d47499fd1037be022eb3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5209455621849424551
+    second: clima_confeti_0
+  - first:
+      213: -7975238642688433215
+    second: clima_confeti_1
+  - first:
+      213: -1097508268072595555
+    second: clima_confeti_2
+  - first:
+      213: 8933089550966005654
+    second: clima_confeti_3
+  - first:
+      213: -11099029682301018
+    second: clima_confeti_4
+  - first:
+      213: 8878693880796711824
+    second: clima_confeti_5
+  - first:
+      213: 7219480224507388461
+    second: clima_confeti_6
+  - first:
+      213: -7452873980008835611
+    second: clima_confeti_7
+  - first:
+      213: 5555302221906708173
+    second: clima_confeti_8
+  - first:
+      213: -4501629547326870383
+    second: clima_confeti_9
+  - first:
+      213: 8527525952986312183
+    second: clima_confeti_10
+  - first:
+      213: -3493378481003218861
+    second: clima_confeti_11
+  - first:
+      213: 3602845257873132320
+    second: clima_confeti_12
+  - first:
+      213: -907479475264808040
+    second: clima_confeti_13
+  - first:
+      213: 7708513226249127955
+    second: clima_confeti_14
+  - first:
+      213: 461759888199914105
+    second: clima_confeti_15
+  - first:
+      213: -7523418063442592516
+    second: clima_confeti_16
+  - first:
+      213: 3707958276602984172
+    second: clima_confeti_17
+  - first:
+      213: -5899691280548487544
+    second: clima_confeti_18
+  - first:
+      213: 4214023903935465998
+    second: clima_confeti_19
+  - first:
+      213: -5858036095892984609
+    second: clima_confeti_20
+  - first:
+      213: -1078522124812799923
+    second: clima_confeti_21
+  - first:
+      213: -2427851642596523527
+    second: clima_confeti_22
+  - first:
+      213: -1638656839060728132
+    second: clima_confeti_23
+  - first:
+      213: -2050723711624526697
+    second: clima_confeti_24
+  - first:
+      213: 2347321150819994295
+    second: clima_confeti_25
+  - first:
+      213: 5843901489145913688
+    second: clima_confeti_26
+  - first:
+      213: 173241709854182224
+    second: clima_confeti_27
+  - first:
+      213: -2336676882987103047
+    second: clima_confeti_28
+  - first:
+      213: -3256719768402691395
+    second: clima_confeti_29
+  - first:
+      213: 6027953599305814174
+    second: clima_confeti_30
+  - first:
+      213: -793315866635861739
+    second: clima_confeti_31
+  - first:
+      213: -8570681200550718112
+    second: clima_confeti_32
+  - first:
+      213: 7786169087142199696
+    second: clima_confeti_33
+  - first:
+      213: -2818637421653000509
+    second: clima_confeti_34
+  - first:
+      213: -3887228832028892168
+    second: clima_confeti_35
+  - first:
+      213: 7362050284989409772
+    second: clima_confeti_36
+  - first:
+      213: -7203357094806223429
+    second: clima_confeti_37
+  - first:
+      213: -4646116939463472051
+    second: clima_confeti_38
+  - first:
+      213: -6083869746134223802
+    second: clima_confeti_39
+  - first:
+      213: -4329726180480479826
+    second: clima_confeti_40
+  - first:
+      213: -4809710306921023026
+    second: clima_confeti_41
+  - first:
+      213: 6584586864427227177
+    second: clima_confeti_42
+  - first:
+      213: -8687951036623395642
+    second: clima_confeti_43
+  - first:
+      213: 5802702203952681151
+    second: clima_confeti_44
+  - first:
+      213: -7551780065313574242
+    second: clima_confeti_45
+  - first:
+      213: 5943826629520202963
+    second: clima_confeti_46
+  - first:
+      213: 6364854520001509766
+    second: clima_confeti_47
+  - first:
+      213: 8494182739566113740
+    second: clima_confeti_48
+  - first:
+      213: 597683190968077323
+    second: clima_confeti_49
+  - first:
+      213: -2662045094666663443
+    second: clima_confeti_50
+  - first:
+      213: -1535981490520825082
+    second: clima_confeti_51
+  - first:
+      213: -3027729576889470795
+    second: clima_confeti_52
+  - first:
+      213: -9095016658674728375
+    second: clima_confeti_53
+  - first:
+      213: -8881555300276068191
+    second: clima_confeti_54
+  - first:
+      213: 25015858416522944
+    second: clima_confeti_55
+  - first:
+      213: 766160715305348864
+    second: clima_confeti_56
+  - first:
+      213: 562779109160643196
+    second: clima_confeti_57
+  - first:
+      213: -866157486101344584
+    second: clima_confeti_58
+  - first:
+      213: -4302497353050597015
+    second: clima_confeti_59
+  - first:
+      213: 4930451029125925370
+    second: clima_confeti_60
+  - first:
+      213: -8694955483960345760
+    second: clima_confeti_61
+  - first:
+      213: 7260296728714940050
+    second: clima_confeti_62
+  - first:
+      213: 5786778349828531699
+    second: clima_confeti_63
+  - first:
+      213: 2195973919749587593
+    second: clima_confeti_64
+  - first:
+      213: -6303057364148997446
+    second: clima_confeti_65
+  - first:
+      213: -783400263977447576
+    second: clima_confeti_66
+  - first:
+      213: -6745361616069665615
+    second: clima_confeti_67
+  - first:
+      213: -1884123713890872767
+    second: clima_confeti_68
+  - first:
+      213: 9203883233497060043
+    second: clima_confeti_69
+  - first:
+      213: -7427950552787717434
+    second: clima_confeti_70
+  - first:
+      213: -6393308202832636747
+    second: clima_confeti_71
+  - first:
+      213: -5632521796516856876
+    second: clima_confeti_72
+  - first:
+      213: 4668098996612975217
+    second: clima_confeti_73
+  - first:
+      213: -4619658472916837739
+    second: clima_confeti_74
+  - first:
+      213: 428381877551807789
+    second: clima_confeti_75
+  - first:
+      213: -1820246315587311178
+    second: clima_confeti_76
+  - first:
+      213: -101137801561212516
+    second: clima_confeti_77
+  - first:
+      213: 8055940677101775590
+    second: clima_confeti_78
+  - first:
+      213: -542705016299532942
+    second: clima_confeti_79
+  - first:
+      213: 1237463539009334274
+    second: clima_confeti_80
+  - first:
+      213: 3791812378508193225
+    second: clima_confeti_81
+  - first:
+      213: 6000339916204260173
+    second: clima_confeti_82
+  - first:
+      213: -4695796581710549794
+    second: clima_confeti_83
+  - first:
+      213: 5314741446370172178
+    second: clima_confeti_84
+  - first:
+      213: 6457844530375122908
+    second: clima_confeti_85
+  - first:
+      213: -4859263499389695832
+    second: clima_confeti_86
+  - first:
+      213: 5955601752149502855
+    second: clima_confeti_87
+  - first:
+      213: -7950658516684392780
+    second: clima_confeti_88
+  - first:
+      213: -4729676367639138733
+    second: clima_confeti_89
+  - first:
+      213: 7962060005561099843
+    second: clima_confeti_90
+  - first:
+      213: -5317406076445145747
+    second: clima_confeti_91
+  - first:
+      213: 1812133797605022554
+    second: clima_confeti_92
+  - first:
+      213: 7950353562801038977
+    second: clima_confeti_93
+  - first:
+      213: 2999174301295553415
+    second: clima_confeti_94
+  - first:
+      213: 217488503172383820
+    second: clima_confeti_95
+  - first:
+      213: -4795950081704700524
+    second: clima_confeti_96
+  - first:
+      213: -7535983926162540531
+    second: clima_confeti_97
+  - first:
+      213: 3541304234822231606
+    second: clima_confeti_98
+  - first:
+      213: 6718904273179026878
+    second: clima_confeti_99
+  - first:
+      213: 6422773843330132878
+    second: clima_confeti_100
+  - first:
+      213: 2308016700512030391
+    second: clima_confeti_101
+  - first:
+      213: 3715700297780302021
+    second: clima_confeti_102
+  - first:
+      213: -3206154496585054391
+    second: clima_confeti_103
+  - first:
+      213: -4949775046962579627
+    second: clima_confeti_104
+  - first:
+      213: 3035171549948366357
+    second: clima_confeti_105
+  - first:
+      213: -210537946784836737
+    second: clima_confeti_106
+  - first:
+      213: -5117962740568481940
+    second: clima_confeti_107
+  - first:
+      213: -3977929199347458862
+    second: clima_confeti_108
+  - first:
+      213: 4675810629620041784
+    second: clima_confeti_109
+  - first:
+      213: -7900739562805766167
+    second: clima_confeti_110
+  - first:
+      213: -8173318599572811060
+    second: clima_confeti_111
+  - first:
+      213: 4901345401889814541
+    second: clima_confeti_112
+  - first:
+      213: 4638422465487069299
+    second: clima_confeti_113
+  - first:
+      213: -7209694029391077037
+    second: clima_confeti_114
+  - first:
+      213: 362481656263973215
+    second: clima_confeti_115
+  - first:
+      213: -7669230216044736472
+    second: clima_confeti_116
+  - first:
+      213: -2595215124467148190
+    second: clima_confeti_117
+  - first:
+      213: 1591856305189728744
+    second: clima_confeti_118
+  - first:
+      213: -8157781553582723279
+    second: clima_confeti_119
+  - first:
+      213: -6012282278612054433
+    second: clima_confeti_120
+  - first:
+      213: -6837335774079949582
+    second: clima_confeti_121
+  - first:
+      213: -412331218234820215
+    second: clima_confeti_122
+  - first:
+      213: -1074055953069176713
+    second: clima_confeti_123
+  - first:
+      213: 659413167886451930
+    second: clima_confeti_124
+  - first:
+      213: 3225382851886849988
+    second: clima_confeti_125
+  - first:
+      213: 5483935736588445825
+    second: clima_confeti_126
+  - first:
+      213: -7579496140008991765
+    second: clima_confeti_127
+  - first:
+      213: 2948902092399142510
+    second: clima_confeti_128
+  - first:
+      213: -5026019927974841447
+    second: clima_confeti_129
+  - first:
+      213: 5929402464073489498
+    second: clima_confeti_130
+  - first:
+      213: -8908360048845163485
+    second: clima_confeti_131
+  - first:
+      213: -8824634657706558022
+    second: clima_confeti_132
+  - first:
+      213: -84346629746985417
+    second: clima_confeti_133
+  - first:
+      213: -7876587084240612878
+    second: clima_confeti_134
+  - first:
+      213: 2327814818954713582
+    second: clima_confeti_135
+  - first:
+      213: -7229387635941476964
+    second: clima_confeti_136
+  - first:
+      213: -2052521091262497996
+    second: clima_confeti_137
+  - first:
+      213: -373409280568594229
+    second: clima_confeti_138
+  - first:
+      213: -7006188771353995928
+    second: clima_confeti_139
+  - first:
+      213: -7183857542175716980
+    second: clima_confeti_140
+  - first:
+      213: -7111985290770063872
+    second: clima_confeti_141
+  - first:
+      213: 3392155917996424647
+    second: clima_confeti_142
+  - first:
+      213: -2766387093272632679
+    second: clima_confeti_143
+  - first:
+      213: -4496497911482200608
+    second: clima_confeti_144
+  - first:
+      213: -8994589128017434550
+    second: clima_confeti_145
+  - first:
+      213: -4524114620334935348
+    second: clima_confeti_146
+  - first:
+      213: -1811355520455933806
+    second: clima_confeti_147
+  - first:
+      213: 4294992376637889781
+    second: clima_confeti_148
+  - first:
+      213: 3032442411383885770
+    second: clima_confeti_149
+  - first:
+      213: 4515555671702451374
+    second: clima_confeti_150
+  - first:
+      213: 2553034150769905149
+    second: clima_confeti_151
+  - first:
+      213: -5221510695111450097
+    second: clima_confeti_152
+  - first:
+      213: 6368373387033336609
+    second: clima_confeti_153
+  - first:
+      213: -6131032321558075302
+    second: clima_confeti_154
+  - first:
+      213: 5941724203312069428
+    second: clima_confeti_155
+  - first:
+      213: -9144126133518322747
+    second: clima_confeti_156
+  - first:
+      213: 8961059433882299472
+    second: clima_confeti_157
+  - first:
+      213: 9081973235023328541
+    second: clima_confeti_158
+  - first:
+      213: 1200572224719345980
+    second: clima_confeti_159
+  - first:
+      213: -6171252839729028118
+    second: clima_confeti_160
+  - first:
+      213: -225170765836923215
+    second: clima_confeti_161
+  - first:
+      213: 3875238172160894
+    second: clima_confeti_162
+  - first:
+      213: -6717188762813605564
+    second: clima_confeti_163
+  - first:
+      213: -7143898709808939448
+    second: clima_confeti_164
+  - first:
+      213: -2982012734669151613
+    second: clima_confeti_165
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clima_confeti_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 243
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a22f758944bb4840800000000000000
+      internalID: 5209455621849424551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 78
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3669785b2425190800000000000000
+      internalID: -7975238642688433215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 475
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f8a778b0ed4c0f0800000000000000
+      internalID: -1097508268072595555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_3
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 0
+        width: 156
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f1518fd95b8fb70800000000000000
+      internalID: 8933089550966005654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_4
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 0
+        width: 148
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a75f66cd7198dff0800000000000000
+      internalID: -11099029682301018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_5
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 74
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b82521b05773b70800000000000000
+      internalID: 8878693880796711824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_6
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 108
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2268b4830fb03460800000000000000
+      internalID: 7219480224507388461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_7
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 19
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e552d92a92129890800000000000000
+      internalID: -7452873980008835611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_8
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 0
+        width: 109
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc600b400f5681d40800000000000000
+      internalID: 5555302221906708173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_9
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 0
+        width: 230
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ced2107cff681c0800000000000000
+      internalID: -4501629547326870383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_10
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 112
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd6ca86cabd75670800000000000000
+      internalID: 8527525952986312183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_11
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 8
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3583fcdb7c6058fc0800000000000000
+      internalID: -3493378481003218861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_12
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 116
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b8a306ca0eff130800000000000000
+      internalID: 3602845257873132320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_13
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 0
+        width: 285
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b12eba93cf763f0800000000000000
+      internalID: -907479475264808040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_14
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 74
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318caf410f32afa60800000000000000
+      internalID: 7708513226249127955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_15
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 8
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9721eabfb20886600800000000000000
+      internalID: 461759888199914105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_16
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 0
+        width: 114
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc3fbfc123779790800000000000000
+      internalID: -7523418063442592516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_17
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 0
+        width: 265
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6f3ee2860557330800000000000000
+      internalID: 3707958276602984172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_18
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 0
+        width: 262
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e107ac906102ea0800000000000000
+      internalID: -5899691280548487544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_19
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a041de9683b7a30800000000000000
+      internalID: 4214023903935465998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_20
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 6
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdce1ee353314bea0800000000000000
+      internalID: -5858036095892984609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_21
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 0
+        width: 426
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40322c77d15801f0800000000000000
+      internalID: -1078522124812799923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_22
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 0
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f18fab5bc98e4ed0800000000000000
+      internalID: -2427851642596523527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_23
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 5
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6550f69425249e0800000000000000
+      internalID: -1638656839060728132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_24
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 0
+        width: 636
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794462446ad5a83e0800000000000000
+      internalID: -2050723711624526697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_25
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 0
+        width: 296
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba0368662c539020800000000000000
+      internalID: 2347321150819994295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_26
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 0
+        width: 314
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8512bea2175b91150800000000000000
+      internalID: 5843901489145913688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_27
+      rect:
+        serializedVersion: 2
+        x: 4020
+        y: 0
+        width: 314
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05bc320da6a776200800000000000000
+      internalID: 173241709854182224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_28
+      rect:
+        serializedVersion: 2
+        x: 4339
+        y: 0
+        width: 323
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bccfa251c4729fd0800000000000000
+      internalID: -2336676882987103047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_29
+      rect:
+        serializedVersion: 2
+        x: 4599
+        y: 73
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba7d5f10aecdc2d0800000000000000
+      internalID: -3256719768402691395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_30
+      rect:
+        serializedVersion: 2
+        x: 4665
+        y: 0
+        width: 316
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9019217cd797a350800000000000000
+      internalID: 6027953599305814174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_31
+      rect:
+        serializedVersion: 2
+        x: 4982
+        y: 0
+        width: 370
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5110d762c639df4f0800000000000000
+      internalID: -793315866635861739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_32
+      rect:
+        serializedVersion: 2
+        x: 5242
+        y: 54
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0655e068bd2de0980800000000000000
+      internalID: -8570681200550718112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_33
+      rect:
+        serializedVersion: 2
+        x: 5357
+        y: 0
+        width: 493
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0910d3828870e0c60800000000000000
+      internalID: 7786169087142199696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_34
+      rect:
+        serializedVersion: 2
+        x: 5561
+        y: 54
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ceffb3e23032e8d0800000000000000
+      internalID: -2818637421653000509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_35
+      rect:
+        serializedVersion: 2
+        x: 5633
+        y: 22
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3e24209f9cd0ac0800000000000000
+      internalID: -3887228832028892168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_36
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 0
+        width: 108
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce96b577ab14b2660800000000000000
+      internalID: 7362050284989409772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_37
+      rect:
+        serializedVersion: 2
+        x: 5954
+        y: 0
+        width: 216
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb509c523e8880c90800000000000000
+      internalID: -7203357094806223429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_38
+      rect:
+        serializedVersion: 2
+        x: 6177
+        y: 0
+        width: 195
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cca5e724da58fb0800000000000000
+      internalID: -4646116939463472051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_39
+      rect:
+        serializedVersion: 2
+        x: 6273
+        y: 23
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6447ce913b0c19ba0800000000000000
+      internalID: -6083869746134223802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_40
+      rect:
+        serializedVersion: 2
+        x: 6380
+        y: 2
+        width: 112
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead80cd8af8b9e3c0800000000000000
+      internalID: -4329726180480479826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_41
+      rect:
+        serializedVersion: 2
+        x: 6498
+        y: 1
+        width: 194
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9ff6375f9704db0800000000000000
+      internalID: -4809710306921023026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_42
+      rect:
+        serializedVersion: 2
+        x: 6568
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92853e6ddd6216b50800000000000000
+      internalID: 6584586864427227177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_43
+      rect:
+        serializedVersion: 2
+        x: 6700
+        y: 59
+        width: 113
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4631c10923e6780800000000000000
+      internalID: -8687951036623395642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_44
+      rect:
+        serializedVersion: 2
+        x: 6701
+        y: 1
+        width: 56
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0d9f319e6578050800000000000000
+      internalID: 5802702203952681151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_45
+      rect:
+        serializedVersion: 2
+        x: 6768
+        y: 4
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92bb19aa00b23790800000000000000
+      internalID: -7551780065313574242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_46
+      rect:
+        serializedVersion: 2
+        x: 6772
+        y: 101
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc1f0be3d6bc7250800000000000000
+      internalID: 5943826629520202963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_47
+      rect:
+        serializedVersion: 2
+        x: 6819
+        y: 1
+        width: 181
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689bab7a671845850800000000000000
+      internalID: 6364854520001509766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_48
+      rect:
+        serializedVersion: 2
+        x: 6864
+        y: 30
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3b711923661e570800000000000000
+      internalID: 8494182739566113740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_49
+      rect:
+        serializedVersion: 2
+        x: 7009
+        y: 0
+        width: 126
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ccfdd02b56b4800800000000000000
+      internalID: 597683190968077323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_50
+      rect:
+        serializedVersion: 2
+        x: 7083
+        y: 165
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9825c27148e0bd0800000000000000
+      internalID: -2662045094666663443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_51
+      rect:
+        serializedVersion: 2
+        x: 7139
+        y: 0
+        width: 181
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6036eebe8f81faae0800000000000000
+      internalID: -1535981490520825082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_52
+      rect:
+        serializedVersion: 2
+        x: 7330
+        y: 0
+        width: 253
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b03f8dcdf75bf5d0800000000000000
+      internalID: -3027729576889470795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_53
+      rect:
+        serializedVersion: 2
+        x: 7354
+        y: 21
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942ce61598208c180800000000000000
+      internalID: -9095016658674728375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_54
+      rect:
+        serializedVersion: 2
+        x: 7565
+        y: 59
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0ae0ac2806eb480800000000000000
+      internalID: -8881555300276068191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_55
+      rect:
+        serializedVersion: 2
+        x: 7586
+        y: 0
+        width: 177
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c61baa6acfd85000800000000000000
+      internalID: 25015858416522944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_56
+      rect:
+        serializedVersion: 2
+        x: 7772
+        y: 0
+        width: 132
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f62ac7c13f1aa00800000000000000
+      internalID: 766160715305348864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_57
+      rect:
+        serializedVersion: 2
+        x: 7825
+        y: 33
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ae7883e946fc700800000000000000
+      internalID: 562779109160643196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_58
+      rect:
+        serializedVersion: 2
+        x: 7906
+        y: 0
+        width: 212
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be42610b5acaf3f0800000000000000
+      internalID: -866157486101344584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_59
+      rect:
+        serializedVersion: 2
+        x: 7978
+        y: 96
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9695c58f3757a44c0800000000000000
+      internalID: -4302497353050597015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_60
+      rect:
+        serializedVersion: 2
+        x: 7996
+        y: 92
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9828d961b7c6440800000000000000
+      internalID: 4930451029125925370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_61
+      rect:
+        serializedVersion: 2
+        x: 8119
+        y: 0
+        width: 177
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b75b02e00555780800000000000000
+      internalID: -8694955483960345760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_62
+      rect:
+        serializedVersion: 2
+        x: 8297
+        y: 97
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e0cf67861c1c460800000000000000
+      internalID: 7260296728714940050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_63
+      rect:
+        serializedVersion: 2
+        x: 8307
+        y: 0
+        width: 124
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5637fdf34ce4050800000000000000
+      internalID: 5786778349828531699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_64
+      rect:
+        serializedVersion: 2
+        x: 8316
+        y: 143
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98242be25aaa97e10800000000000000
+      internalID: 2195973919749587593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_65
+      rect:
+        serializedVersion: 2
+        x: 8317
+        y: 92
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab23dfae8ba0788a0800000000000000
+      internalID: -6303057364148997446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_66
+      rect:
+        serializedVersion: 2
+        x: 8428
+        y: 0
+        width: 216
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f4dac4c9dc025f0800000000000000
+      internalID: -783400263977447576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_67
+      rect:
+        serializedVersion: 2
+        x: 8637
+        y: 144
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcdc904959a362a0800000000000000
+      internalID: -6745361616069665615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_68
+      rect:
+        serializedVersion: 2
+        x: 8646
+        y: 4
+        width: 110
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14215a8f67f3ad5e0800000000000000
+      internalID: -1884123713890872767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_69
+      rect:
+        serializedVersion: 2
+        x: 8758
+        y: 0
+        width: 287
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc214ce5903cabf70800000000000000
+      internalID: 9203883233497060043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_70
+      rect:
+        serializedVersion: 2
+        x: 9057
+        y: 0
+        width: 435
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2fbe3c35e9ae890800000000000000
+      internalID: -7427950552787717434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_71
+      rect:
+        serializedVersion: 2
+        x: 9389
+        y: 56
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4d19e00186647a0800000000000000
+      internalID: -6393308202832636747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_72
+      rect:
+        serializedVersion: 2
+        x: 9497
+        y: 3
+        width: 139
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbb7f8b44345d1b0800000000000000
+      internalID: -5632521796516856876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_73
+      rect:
+        serializedVersion: 2
+        x: 9643
+        y: 0
+        width: 170
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a49750e4b68c040800000000000000
+      internalID: 4668098996612975217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_74
+      rect:
+        serializedVersion: 2
+        x: 9734
+        y: 14
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a1b2a481da3efb0800000000000000
+      internalID: -4619658472916837739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_75
+      rect:
+        serializedVersion: 2
+        x: 9818
+        y: 0
+        width: 307
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2db0b74c0be1f500800000000000000
+      internalID: 428381877551807789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_76
+      rect:
+        serializedVersion: 2
+        x: 10126
+        y: 0
+        width: 406
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b964bbbe9f2db6e0800000000000000
+      internalID: -1820246315587311178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_77
+      rect:
+        serializedVersion: 2
+        x: 10446
+        y: 44
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99749094bfa89ef0800000000000000
+      internalID: -101137801561212516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_78
+      rect:
+        serializedVersion: 2
+        x: 10491
+        y: 85
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea65461d537ccf60800000000000000
+      internalID: 8055940677101775590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_79
+      rect:
+        serializedVersion: 2
+        x: 10540
+        y: 0
+        width: 226
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dc4adb9ace778f0800000000000000
+      internalID: -542705016299532942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_80
+      rect:
+        serializedVersion: 2
+        x: 10557
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c2629488a5c2110800000000000000
+      internalID: 1237463539009334274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_81
+      rect:
+        serializedVersion: 2
+        x: 10582
+        y: 78
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cde8e3b4493f9430800000000000000
+      internalID: 3791812378508193225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_82
+      rect:
+        serializedVersion: 2
+        x: 10766
+        y: 0
+        width: 326
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bb3f4dc5d754350800000000000000
+      internalID: 6000339916204260173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_83
+      rect:
+        serializedVersion: 2
+        x: 10878
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc26a963ed25deb0800000000000000
+      internalID: -4695796581710549794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_84
+      rect:
+        serializedVersion: 2
+        x: 10904
+        y: 78
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d90ffcf21c1c940800000000000000
+      internalID: 5314741446370172178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_85
+      rect:
+        serializedVersion: 2
+        x: 11094
+        y: 45
+        width: 78
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf55bf926fde9950800000000000000
+      internalID: 6457844530375122908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_86
+      rect:
+        serializedVersion: 2
+        x: 11162
+        y: 0
+        width: 250
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a80bd0c79d609cb0800000000000000
+      internalID: -4859263499389695832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_87
+      rect:
+        serializedVersion: 2
+        x: 11329
+        y: 31
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ba09c4d3c86a250800000000000000
+      internalID: 5955601752149502855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_88
+      rect:
+        serializedVersion: 2
+        x: 11414
+        y: 0
+        width: 307
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6b796143699a190800000000000000
+      internalID: -7950658516684392780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_89
+      rect:
+        serializedVersion: 2
+        x: 11648
+        y: 30
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e2f4c0760dc5eb0800000000000000
+      internalID: -4729676367639138733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_90
+      rect:
+        serializedVersion: 2
+        x: 11724
+        y: 0
+        width: 319
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34660d7e36bee7e60800000000000000
+      internalID: 7962060005561099843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_91
+      rect:
+        serializedVersion: 2
+        x: 11841
+        y: 110
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65cbf6a857c436b0800000000000000
+      internalID: -5317406076445145747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_92
+      rect:
+        serializedVersion: 2
+        x: 12043
+        y: 0
+        width: 230
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b1abb761ef52910800000000000000
+      internalID: 1812133797605022554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_93
+      rect:
+        serializedVersion: 2
+        x: 12116
+        y: 102
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186648d4174555e60800000000000000
+      internalID: 7950353562801038977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_94
+      rect:
+        serializedVersion: 2
+        x: 12264
+        y: 7
+        width: 105
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ba33003253f9920800000000000000
+      internalID: 2999174301295553415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_95
+      rect:
+        serializedVersion: 2
+        x: 12368
+        y: 0
+        width: 211
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44425e24aca40300800000000000000
+      internalID: 217488503172383820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_96
+      rect:
+        serializedVersion: 2
+        x: 12437
+        y: 101
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4955c7b8fcc517db0800000000000000
+      internalID: -4795950081704700524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_97
+      rect:
+        serializedVersion: 2
+        x: 12582
+        y: 0
+        width: 265
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d083708eb8eca6790800000000000000
+      internalID: -7535983926162540531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_98
+      rect:
+        serializedVersion: 2
+        x: 12680
+        y: 54
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6366a2e507d352130800000000000000
+      internalID: 3541304234822231606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_99
+      rect:
+        serializedVersion: 2
+        x: 12857
+        y: 0
+        width: 559
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5a0b296d75e3d50800000000000000
+      internalID: 6718904273179026878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_100
+      rect:
+        serializedVersion: 2
+        x: 13393
+        y: 86
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bec5cf7c6422950800000000000000
+      internalID: 6422773843330132878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_101
+      rect:
+        serializedVersion: 2
+        x: 13409
+        y: 51
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be40b1f5f8b70020800000000000000
+      internalID: 2308016700512030391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_102
+      rect:
+        serializedVersion: 2
+        x: 13448
+        y: 0
+        width: 203
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c01205fbb1d09330800000000000000
+      internalID: 3715700297780302021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_103
+      rect:
+        serializedVersion: 2
+        x: 13656
+        y: 0
+        width: 150
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947c608e8737183d0800000000000000
+      internalID: -3206154496585054391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_104
+      rect:
+        serializedVersion: 2
+        x: 13797
+        y: 123
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557f3bfd1ddde4bb0800000000000000
+      internalID: -4949775046962579627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_105
+      rect:
+        serializedVersion: 2
+        x: 13814
+        y: 0
+        width: 214
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e4b0391781f1a20800000000000000
+      internalID: 3035171549948366357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_106
+      rect:
+        serializedVersion: 2
+        x: 13886
+        y: 44
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7356265ad4041df0800000000000000
+      internalID: -210537946784836737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_107
+      rect:
+        serializedVersion: 2
+        x: 14030
+        y: 0
+        width: 315
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f1bbae00859f8b0800000000000000
+      internalID: -5117962740568481940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_108
+      rect:
+        serializedVersion: 2
+        x: 14349
+        y: 0
+        width: 463
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc9d3b187e8bc8c0800000000000000
+      internalID: -3977929199347458862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_109
+      rect:
+        serializedVersion: 2
+        x: 14504
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8388f7f7ef0d3e040800000000000000
+      internalID: 4675810629620041784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_110
+      rect:
+        serializedVersion: 2
+        x: 14606
+        y: 62
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e756104a3fea5290800000000000000
+      internalID: -7900739562805766167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_111
+      rect:
+        serializedVersion: 2
+        x: 14815
+        y: 0
+        width: 109
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc29e5ca90a829e80800000000000000
+      internalID: -8173318599572811060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_112
+      rect:
+        serializedVersion: 2
+        x: 14927
+        y: 63
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08f221bca3150440800000000000000
+      internalID: 4901345401889814541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_113
+      rect:
+        serializedVersion: 2
+        x: 14933
+        y: 1
+        width: 208
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3706c8d28acfe5040800000000000000
+      internalID: 4638422465487069299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_114
+      rect:
+        serializedVersion: 2
+        x: 15139
+        y: 0
+        width: 171
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351e3e69a7502fb90800000000000000
+      internalID: -7209694029391077037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_115
+      rect:
+        serializedVersion: 2
+        x: 15312
+        y: 0
+        width: 250
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f599537552bc70500800000000000000
+      internalID: 362481656263973215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_116
+      rect:
+        serializedVersion: 2
+        x: 15568
+        y: 2
+        width: 204
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82016f770cb619590800000000000000
+      internalID: -7669230216044736472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_117
+      rect:
+        serializedVersion: 2
+        x: 15770
+        y: 95
+        width: 65
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a1a662891fbfbd0800000000000000
+      internalID: -2595215124467148190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_118
+      rect:
+        serializedVersion: 2
+        x: 15771
+        y: 73
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1bc4420e8671610800000000000000
+      internalID: 1591856305189728744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_119
+      rect:
+        serializedVersion: 2
+        x: 15789
+        y: 0
+        width: 78
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fa77716ecb9ce80800000000000000
+      internalID: -8157781553582723279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_120
+      rect:
+        serializedVersion: 2
+        x: 15838
+        y: 43
+        width: 109
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ec3fd3f15109ca0800000000000000
+      internalID: -6012282278612054433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_121
+      rect:
+        serializedVersion: 2
+        x: 15889
+        y: 67
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4e4e7d657ec11a0800000000000000
+      internalID: -6837335774079949582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_122
+      rect:
+        serializedVersion: 2
+        x: 15935
+        y: 1
+        width: 160
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9893f4f01fa174af0800000000000000
+      internalID: -412331218234820215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_123
+      rect:
+        serializedVersion: 2
+        x: 15970
+        y: 56
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7780b602dcf2811f0800000000000000
+      internalID: -1074055953069176713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_124
+      rect:
+        serializedVersion: 2
+        x: 16007
+        y: 91
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4461058c4b62900800000000000000
+      internalID: 659413167886451930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_125
+      rect:
+        serializedVersion: 2
+        x: 16082
+        y: 49
+        width: 185
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf1a5f6d9cd2cc20800000000000000
+      internalID: 3225382851886849988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_126
+      rect:
+        serializedVersion: 2
+        x: 16110
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188ac6e4f7ada1c40800000000000000
+      internalID: 5483935736588445825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_127
+      rect:
+        serializedVersion: 2
+        x: 16121
+        y: 49
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3d1562b6830d690800000000000000
+      internalID: -7579496140008991765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_128
+      rect:
+        serializedVersion: 2
+        x: 16179
+        y: 41
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e666bde34da9ce820800000000000000
+      internalID: 2948902092399142510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_129
+      rect:
+        serializedVersion: 2
+        x: 16221
+        y: 83
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9937607218dff3ab0800000000000000
+      internalID: -5026019927974841447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_130
+      rect:
+        serializedVersion: 2
+        x: 16253
+        y: 0
+        width: 163
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c1d613028794250800000000000000
+      internalID: 5929402464073489498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_131
+      rect:
+        serializedVersion: 2
+        x: 16346
+        y: 117
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3247d4debb52f5480800000000000000
+      internalID: -8908360048845163485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_132
+      rect:
+        serializedVersion: 2
+        x: 16402
+        y: 50
+        width: 180
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdbcc2a889988580800000000000000
+      internalID: -8824634657706558022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_133
+      rect:
+        serializedVersion: 2
+        x: 16432
+        y: 0
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736fde7ef2754def0800000000000000
+      internalID: -84346629746985417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_134
+      rect:
+        serializedVersion: 2
+        x: 16440
+        y: 49
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1986167cdb0b290800000000000000
+      internalID: -7876587084240612878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_135
+      rect:
+        serializedVersion: 2
+        x: 16497
+        y: 42
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee99faa9e3f0e4020800000000000000
+      internalID: 2327814818954713582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_136
+      rect:
+        serializedVersion: 2
+        x: 16572
+        y: 0
+        width: 165
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c957b108f3e0cab90800000000000000
+      internalID: -7229387635941476964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_137
+      rect:
+        serializedVersion: 2
+        x: 16644
+        y: 92
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b3d4531faf383e0800000000000000
+      internalID: -2052521091262497996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_138
+      rect:
+        serializedVersion: 2
+        x: 16722
+        y: 49
+        width: 181
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0ffdbdc3261daf0800000000000000
+      internalID: -373409280568594229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_139
+      rect:
+        serializedVersion: 2
+        x: 16753
+        y: 0
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8655d1ece6405ce90800000000000000
+      internalID: -7006188771353995928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_140
+      rect:
+        serializedVersion: 2
+        x: 16816
+        y: 42
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c890b9980afcd4c90800000000000000
+      internalID: -7183857542175716980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_141
+      rect:
+        serializedVersion: 2
+        x: 16890
+        y: 0
+        width: 151
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ed8d71f072d4d90800000000000000
+      internalID: -7111985290770063872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_142
+      rect:
+        serializedVersion: 2
+        x: 17043
+        y: 0
+        width: 317
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd7ae2c5db531f20800000000000000
+      internalID: 3392155917996424647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_143
+      rect:
+        serializedVersion: 2
+        x: 17086
+        y: 5
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992624a7891db99d0800000000000000
+      internalID: -2766387093272632679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_144
+      rect:
+        serializedVersion: 2
+        x: 17134
+        y: 42
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed41d419fa3991c0800000000000000
+      internalID: -4496497911482200608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_145
+      rect:
+        serializedVersion: 2
+        x: 17362
+        y: 0
+        width: 183
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a482eebe7dccc2380800000000000000
+      internalID: -8994589128017434550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_146
+      rect:
+        serializedVersion: 2
+        x: 17453
+        y: 41
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2f8cbf8bd1731c0800000000000000
+      internalID: -4524114620334935348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_147
+      rect:
+        serializedVersion: 2
+        x: 17550
+        y: 0
+        width: 128
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290084940c5ccd6e0800000000000000
+      internalID: -1811355520455933806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_148
+      rect:
+        serializedVersion: 2
+        x: 17596
+        y: 80
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc138a8fc0ea9b30800000000000000
+      internalID: 4294992376637889781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_149
+      rect:
+        serializedVersion: 2
+        x: 17683
+        y: 0
+        width: 233
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf8d5c7e46651a20800000000000000
+      internalID: 3032442411383885770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_150
+      rect:
+        serializedVersion: 2
+        x: 17771
+        y: 41
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4335f75f97aae30800000000000000
+      internalID: 4515555671702451374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_151
+      rect:
+        serializedVersion: 2
+        x: 17916
+        y: 79
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdc41898033e6320800000000000000
+      internalID: 2553034150769905149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_152
+      rect:
+        serializedVersion: 2
+        x: 17923
+        y: 0
+        width: 62
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02aaf200b77987b0800000000000000
+      internalID: -5221510695111450097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_153
+      rect:
+        serializedVersion: 2
+        x: 17990
+        y: 0
+        width: 274
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b5c2bbad1016850800000000000000
+      internalID: 6368373387033336609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_154
+      rect:
+        serializedVersion: 2
+        x: 18090
+        y: 40
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58a71f46923aeaa0800000000000000
+      internalID: -6131032321558075302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_155
+      rect:
+        serializedVersion: 2
+        x: 18237
+        y: 77
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bb1cbaeae357250800000000000000
+      internalID: 5941724203312069428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_156
+      rect:
+        serializedVersion: 2
+        x: 18246
+        y: 76
+        width: 60
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3364eaab9891180800000000000000
+      internalID: -9144126133518322747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_157
+      rect:
+        serializedVersion: 2
+        x: 18274
+        y: 0
+        width: 360
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ca7bfc3141c5c70800000000000000
+      internalID: 8961059433882299472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_158
+      rect:
+        serializedVersion: 2
+        x: 18338
+        y: 78
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15bb25f986a90e70800000000000000
+      internalID: 9081973235023328541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_159
+      rect:
+        serializedVersion: 2
+        x: 18408
+        y: 39
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39d895d31a49a010800000000000000
+      internalID: 1200572224719345980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_160
+      rect:
+        serializedVersion: 2
+        x: 18558
+        y: 76
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3a4dc2d3e4b5aa0800000000000000
+      internalID: -6171252839729028118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_161
+      rect:
+        serializedVersion: 2
+        x: 18641
+        y: 0
+        width: 165
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1becc78a16800ecf0800000000000000
+      internalID: -225170765836923215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_162
+      rect:
+        serializedVersion: 2
+        x: 18727
+        y: 40
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73fba23284cd0000800000000000000
+      internalID: 3875238172160894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_163
+      rect:
+        serializedVersion: 2
+        x: 18819
+        y: 4
+        width: 133
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449df3fc860c7c2a0800000000000000
+      internalID: -6717188762813605564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_164
+      rect:
+        serializedVersion: 2
+        x: 18960
+        y: 0
+        width: 239
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e777239f5cbdc90800000000000000
+      internalID: -7143898709808939448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_confeti_165
+      rect:
+        serializedVersion: 2
+        x: 19001
+        y: 0
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382aa5a9733cd96d0800000000000000
+      internalID: -2982012734669151613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clima_confeti_0: 5209455621849424551
+      clima_confeti_1: -7975238642688433215
+      clima_confeti_10: 8527525952986312183
+      clima_confeti_100: 6422773843330132878
+      clima_confeti_101: 2308016700512030391
+      clima_confeti_102: 3715700297780302021
+      clima_confeti_103: -3206154496585054391
+      clima_confeti_104: -4949775046962579627
+      clima_confeti_105: 3035171549948366357
+      clima_confeti_106: -210537946784836737
+      clima_confeti_107: -5117962740568481940
+      clima_confeti_108: -3977929199347458862
+      clima_confeti_109: 4675810629620041784
+      clima_confeti_11: -3493378481003218861
+      clima_confeti_110: -7900739562805766167
+      clima_confeti_111: -8173318599572811060
+      clima_confeti_112: 4901345401889814541
+      clima_confeti_113: 4638422465487069299
+      clima_confeti_114: -7209694029391077037
+      clima_confeti_115: 362481656263973215
+      clima_confeti_116: -7669230216044736472
+      clima_confeti_117: -2595215124467148190
+      clima_confeti_118: 1591856305189728744
+      clima_confeti_119: -8157781553582723279
+      clima_confeti_12: 3602845257873132320
+      clima_confeti_120: -6012282278612054433
+      clima_confeti_121: -6837335774079949582
+      clima_confeti_122: -412331218234820215
+      clima_confeti_123: -1074055953069176713
+      clima_confeti_124: 659413167886451930
+      clima_confeti_125: 3225382851886849988
+      clima_confeti_126: 5483935736588445825
+      clima_confeti_127: -7579496140008991765
+      clima_confeti_128: 2948902092399142510
+      clima_confeti_129: -5026019927974841447
+      clima_confeti_13: -907479475264808040
+      clima_confeti_130: 5929402464073489498
+      clima_confeti_131: -8908360048845163485
+      clima_confeti_132: -8824634657706558022
+      clima_confeti_133: -84346629746985417
+      clima_confeti_134: -7876587084240612878
+      clima_confeti_135: 2327814818954713582
+      clima_confeti_136: -7229387635941476964
+      clima_confeti_137: -2052521091262497996
+      clima_confeti_138: -373409280568594229
+      clima_confeti_139: -7006188771353995928
+      clima_confeti_14: 7708513226249127955
+      clima_confeti_140: -7183857542175716980
+      clima_confeti_141: -7111985290770063872
+      clima_confeti_142: 3392155917996424647
+      clima_confeti_143: -2766387093272632679
+      clima_confeti_144: -4496497911482200608
+      clima_confeti_145: -8994589128017434550
+      clima_confeti_146: -4524114620334935348
+      clima_confeti_147: -1811355520455933806
+      clima_confeti_148: 4294992376637889781
+      clima_confeti_149: 3032442411383885770
+      clima_confeti_15: 461759888199914105
+      clima_confeti_150: 4515555671702451374
+      clima_confeti_151: 2553034150769905149
+      clima_confeti_152: -5221510695111450097
+      clima_confeti_153: 6368373387033336609
+      clima_confeti_154: -6131032321558075302
+      clima_confeti_155: 5941724203312069428
+      clima_confeti_156: -9144126133518322747
+      clima_confeti_157: 8961059433882299472
+      clima_confeti_158: 9081973235023328541
+      clima_confeti_159: 1200572224719345980
+      clima_confeti_16: -7523418063442592516
+      clima_confeti_160: -6171252839729028118
+      clima_confeti_161: -225170765836923215
+      clima_confeti_162: 3875238172160894
+      clima_confeti_163: -6717188762813605564
+      clima_confeti_164: -7143898709808939448
+      clima_confeti_165: -2982012734669151613
+      clima_confeti_17: 3707958276602984172
+      clima_confeti_18: -5899691280548487544
+      clima_confeti_19: 4214023903935465998
+      clima_confeti_2: -1097508268072595555
+      clima_confeti_20: -5858036095892984609
+      clima_confeti_21: -1078522124812799923
+      clima_confeti_22: -2427851642596523527
+      clima_confeti_23: -1638656839060728132
+      clima_confeti_24: -2050723711624526697
+      clima_confeti_25: 2347321150819994295
+      clima_confeti_26: 5843901489145913688
+      clima_confeti_27: 173241709854182224
+      clima_confeti_28: -2336676882987103047
+      clima_confeti_29: -3256719768402691395
+      clima_confeti_3: 8933089550966005654
+      clima_confeti_30: 6027953599305814174
+      clima_confeti_31: -793315866635861739
+      clima_confeti_32: -8570681200550718112
+      clima_confeti_33: 7786169087142199696
+      clima_confeti_34: -2818637421653000509
+      clima_confeti_35: -3887228832028892168
+      clima_confeti_36: 7362050284989409772
+      clima_confeti_37: -7203357094806223429
+      clima_confeti_38: -4646116939463472051
+      clima_confeti_39: -6083869746134223802
+      clima_confeti_4: -11099029682301018
+      clima_confeti_40: -4329726180480479826
+      clima_confeti_41: -4809710306921023026
+      clima_confeti_42: 6584586864427227177
+      clima_confeti_43: -8687951036623395642
+      clima_confeti_44: 5802702203952681151
+      clima_confeti_45: -7551780065313574242
+      clima_confeti_46: 5943826629520202963
+      clima_confeti_47: 6364854520001509766
+      clima_confeti_48: 8494182739566113740
+      clima_confeti_49: 597683190968077323
+      clima_confeti_5: 8878693880796711824
+      clima_confeti_50: -2662045094666663443
+      clima_confeti_51: -1535981490520825082
+      clima_confeti_52: -3027729576889470795
+      clima_confeti_53: -9095016658674728375
+      clima_confeti_54: -8881555300276068191
+      clima_confeti_55: 25015858416522944
+      clima_confeti_56: 766160715305348864
+      clima_confeti_57: 562779109160643196
+      clima_confeti_58: -866157486101344584
+      clima_confeti_59: -4302497353050597015
+      clima_confeti_6: 7219480224507388461
+      clima_confeti_60: 4930451029125925370
+      clima_confeti_61: -8694955483960345760
+      clima_confeti_62: 7260296728714940050
+      clima_confeti_63: 5786778349828531699
+      clima_confeti_64: 2195973919749587593
+      clima_confeti_65: -6303057364148997446
+      clima_confeti_66: -783400263977447576
+      clima_confeti_67: -6745361616069665615
+      clima_confeti_68: -1884123713890872767
+      clima_confeti_69: 9203883233497060043
+      clima_confeti_7: -7452873980008835611
+      clima_confeti_70: -7427950552787717434
+      clima_confeti_71: -6393308202832636747
+      clima_confeti_72: -5632521796516856876
+      clima_confeti_73: 4668098996612975217
+      clima_confeti_74: -4619658472916837739
+      clima_confeti_75: 428381877551807789
+      clima_confeti_76: -1820246315587311178
+      clima_confeti_77: -101137801561212516
+      clima_confeti_78: 8055940677101775590
+      clima_confeti_79: -542705016299532942
+      clima_confeti_8: 5555302221906708173
+      clima_confeti_80: 1237463539009334274
+      clima_confeti_81: 3791812378508193225
+      clima_confeti_82: 6000339916204260173
+      clima_confeti_83: -4695796581710549794
+      clima_confeti_84: 5314741446370172178
+      clima_confeti_85: 6457844530375122908
+      clima_confeti_86: -4859263499389695832
+      clima_confeti_87: 5955601752149502855
+      clima_confeti_88: -7950658516684392780
+      clima_confeti_89: -4729676367639138733
+      clima_confeti_9: -4501629547326870383
+      clima_confeti_90: 7962060005561099843
+      clima_confeti_91: -5317406076445145747
+      clima_confeti_92: 1812133797605022554
+      clima_confeti_93: 7950353562801038977
+      clima_confeti_94: 2999174301295553415
+      clima_confeti_95: 217488503172383820
+      clima_confeti_96: -4795950081704700524
+      clima_confeti_97: -7535983926162540531
+      clima_confeti_98: 3541304234822231606
+      clima_confeti_99: 6718904273179026878
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

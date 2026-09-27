@@ -23,11 +23,11 @@ namespace Gameplay
         public Difficulty Difficulty { get; }
     }
 
-    // What the lobby hands to a new match: 4-6 seats, at least one of them human (a match with no
+    // What the lobby hands to a new match: 2-6 seats, at least one of them human (a match with no
     // human in it ends at once). Players are named by seat for now.
     public class MatchSettings
     {
-        public const int MinPlayers = 4;
+        public const int MinPlayers = 2;
         public const int MaxPlayers = 6;
 
         public IReadOnlyList<Seat> Seats { get; }

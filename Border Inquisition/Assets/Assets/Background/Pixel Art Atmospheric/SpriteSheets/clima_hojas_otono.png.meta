@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 267edf4b17660b24e8feecd054fa7848
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1819099801327122850
+    second: clima_hojas_otono_0
+  - first:
+      213: 4978192166519973184
+    second: clima_hojas_otono_1
+  - first:
+      213: -2543138081167059484
+    second: clima_hojas_otono_2
+  - first:
+      213: -8524929120514178458
+    second: clima_hojas_otono_3
+  - first:
+      213: 8754207914657353249
+    second: clima_hojas_otono_4
+  - first:
+      213: -9158131201295067929
+    second: clima_hojas_otono_5
+  - first:
+      213: -6448951038705845615
+    second: clima_hojas_otono_6
+  - first:
+      213: -8069947874887038280
+    second: clima_hojas_otono_7
+  - first:
+      213: -7000210252326531138
+    second: clima_hojas_otono_8
+  - first:
+      213: -6982255092469002082
+    second: clima_hojas_otono_9
+  - first:
+      213: 8219013924510243162
+    second: clima_hojas_otono_10
+  - first:
+      213: 6075214800579467017
+    second: clima_hojas_otono_11
+  - first:
+      213: 3461803830700139011
+    second: clima_hojas_otono_12
+  - first:
+      213: 323812785213894965
+    second: clima_hojas_otono_13
+  - first:
+      213: -7149743573066854445
+    second: clima_hojas_otono_14
+  - first:
+      213: -786621872894109178
+    second: clima_hojas_otono_15
+  - first:
+      213: -2836233346549764473
+    second: clima_hojas_otono_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clima_hojas_otono_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 207
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9361d91adbe3910800000000000000
+      internalID: 1819099801327122850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 654
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0452e0d5667161540800000000000000
+      internalID: 4978192166519973184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_2
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 0
+        width: 1436
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5d449a365f4bcd0800000000000000
+      internalID: -2543138081167059484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_3
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 0
+        width: 2582
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6628e54c12e51b980800000000000000
+      internalID: -8524929120514178458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_4
+      rect:
+        serializedVersion: 2
+        x: 4952
+        y: 0
+        width: 974
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e801377b13d7970800000000000000
+      internalID: 8754207914657353249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_5
+      rect:
+        serializedVersion: 2
+        x: 5955
+        y: 0
+        width: 1261
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4d26cb138c7e080800000000000000
+      internalID: -9158131201295067929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_6
+      rect:
+        serializedVersion: 2
+        x: 7245
+        y: 1
+        width: 294
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a3d04c239b086a0800000000000000
+      internalID: -6448951038705845615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_7
+      rect:
+        serializedVersion: 2
+        x: 7566
+        y: 0
+        width: 982
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba80790a29c10090800000000000000
+      internalID: -8069947874887038280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_8
+      rect:
+        serializedVersion: 2
+        x: 8316
+        y: 30
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf870d3dd14ade90800000000000000
+      internalID: -7000210252326531138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_9
+      rect:
+        serializedVersion: 2
+        x: 8558
+        y: 5
+        width: 297
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90193aacfb0a1f90800000000000000
+      internalID: -6982255092469002082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_10
+      rect:
+        serializedVersion: 2
+        x: 8868
+        y: 0
+        width: 2314
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a591c6e3e9dcf0270800000000000000
+      internalID: 8219013924510243162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_11
+      rect:
+        serializedVersion: 2
+        x: 11221
+        y: 0
+        width: 427
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9071cba5caf7f4450800000000000000
+      internalID: 6075214800579467017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_12
+      rect:
+        serializedVersion: 2
+        x: 11658
+        y: 0
+        width: 1451
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302e7fa1e3cca0030800000000000000
+      internalID: 3461803830700139011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_13
+      rect:
+        serializedVersion: 2
+        x: 13120
+        y: 0
+        width: 2547
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5317764330a6e7400800000000000000
+      internalID: 323812785213894965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_14
+      rect:
+        serializedVersion: 2
+        x: 15699
+        y: 0
+        width: 2456
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfc73ce91207cc90800000000000000
+      internalID: -7149743573066854445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_15
+      rect:
+        serializedVersion: 2
+        x: 18173
+        y: 0
+        width: 441
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a1895039b5515f0800000000000000
+      internalID: -786621872894109178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_hojas_otono_16
+      rect:
+        serializedVersion: 2
+        x: 18632
+        y: 0
+        width: 568
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ea8ce5ccca3a8d0800000000000000
+      internalID: -2836233346549764473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clima_hojas_otono_0: 1819099801327122850
+      clima_hojas_otono_1: 4978192166519973184
+      clima_hojas_otono_10: 8219013924510243162
+      clima_hojas_otono_11: 6075214800579467017
+      clima_hojas_otono_12: 3461803830700139011
+      clima_hojas_otono_13: 323812785213894965
+      clima_hojas_otono_14: -7149743573066854445
+      clima_hojas_otono_15: -786621872894109178
+      clima_hojas_otono_16: -2836233346549764473
+      clima_hojas_otono_2: -2543138081167059484
+      clima_hojas_otono_3: -8524929120514178458
+      clima_hojas_otono_4: 8754207914657353249
+      clima_hojas_otono_5: -9158131201295067929
+      clima_hojas_otono_6: -6448951038705845615
+      clima_hojas_otono_7: -8069947874887038280
+      clima_hojas_otono_8: -7000210252326531138
+      clima_hojas_otono_9: -6982255092469002082
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

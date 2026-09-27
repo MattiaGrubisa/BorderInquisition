@@ -21,14 +21,15 @@ Status: code compiles (checked with Unity's bundled csc), **not yet tested in Un
   - **Play Out Match** — finishes the running match, humans played as Normal AIs; the end goes
     through `MatchWon`/`MatchLost` as usual, so `GameOver` follows. Hitting the round limit logs a
     warning and returns to the main menu.
-  - **AI Simulation** foldout — matches, players (4–6), difficulty or mixed (seats cycle
+  - **AI Simulation** foldout — matches, players (2–6), difficulty or mixed (seats cycle
     Easy/Normal/Hard), battle samples (Monte-Carlo samples per attack option — fewer than the
     profile's makes batches faster, via `AiProfile.WithSimulations`), round limit. Runs all-AI
     matches (`MatchSettings.AllAI`) with `GameController.Simulating` set, cancellable from a progress
     bar, logs statistics to the console, then returns to the main menu. Statistics: won/stuck, rounds
     to a win, wins by turn order and by difficulty, dice rounds/conquests/razes per match, income per
     player turn per resource, buildings built and soldiers trained per match, region bonuses paid per
-    match. Meant for balancing the numbers.
+    match. Meant for balancing the numbers. The batch settings and the foldout are kept in
+    EditorPrefs (`BorderInquisition.Simulation.*`, per machine), so they survive an editor restart.
   - The old random-march play-out (`GameController.PlayOutMatch`, `TryBestAttack`,
     `AdvanceIdleArmies`, `NextStepTowardsEnemy`) is gone.
 
@@ -130,3 +131,40 @@ Status: code compiles (checked with Unity's bundled csc), **not yet tested in Un
 
 - Replace the **Play Out Match** bullet: it now plays every seat with an `AiBrain` (see Editor tools);
   it still ignores phases and the view-side turn rules the brain does not keep itself.
+
+## Lobby — replace the Players / lobby description
+
+- **2–6 players** (`MatchSettings.MinPlayers` is now 2, user's decision; was 4).
+- `LobbyView` remembers the seats (human/AI, difficulty) in PlayerPrefs key `LastLobby`, one JSON
+  value (`JsonUtility`, nested `SavedLobby`/`SavedSeat`), written in `OnDestroy` — so whenever the
+  lobby is left, by Start or Back alike (user's decision) — and saved to disk at once. Missing,
+  broken or too-short JSON → the default seats (seat 1 human, three AIs); more than 6 are cut;
+  an unknown difficulty becomes Normal. The stored seats come back exactly, even all-AI (Start then
+  waits for a human, as always).
+
+## Save system — being designed with the user, step by step (nothing built yet)
+
+Decided so far (2026-09-27):
+- **No save button** (outdated). Autosave after every player choice, and when an AI player finishes
+  its turn; the exact trigger is still to be refined (full snapshots every turn must not cause FPS
+  drops — snapshot on the main thread, JSON + disk write in the background, debounced).
+- **Match state moves out of MonoBehaviours** (user's decision). The user first suggested
+  ScriptableObjects; Claude proposed plain C# data instead (SO assets keep play-mode changes in the
+  editor and are not saved in builds), with definitions staying in ScriptableObjects / the scene and
+  a runtime-only SO to inspect the state. **Not yet confirmed by the user.** The same data will serve
+  online play.
+- The gameplay random number state is to be saved, and "generated" flags added (setup steps done,
+  this turn's income already rolled) so a load never re-rolls anything. Whether the game gets its own
+  RNG (so saved state stays meaningful — `UnityEngine.Random` is shared with visuals, audio and AI)
+  is still open.
+- **Save header:** format version (decides whether a save can be read), game version
+  (`Application.version`, informative), save time (UTC, shown local).
+- **PlayerPrefs = the person's settings on this machine:** `AiPace`, `VolumeMaster/Music/Effects`,
+  `LastLobby` (done — see Lobby below). Nothing else for now: no display, camera,
+  UI-behaviour, language, key-binding or tutorial settings (none exist; the user does not want them
+  yet). The player's name comes only with online play.
+- Statistics are for the user (developer) only — nothing for players to keep.
+- Editor-only settings go to EditorPrefs (done for the simulation).
+- **Reminder for Claude:** remind the user about the **Continue** button in the main menu — shown only
+  when an unfinished match save exists. Bring it up when the save system gets built.
+- Next step in the design: the match state itself (what, how, why), one group at a time.

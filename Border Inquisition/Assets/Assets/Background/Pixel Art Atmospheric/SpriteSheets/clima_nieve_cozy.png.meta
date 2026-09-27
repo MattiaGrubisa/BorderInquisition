@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 75c6c99fcb7269146848ee3a53097276
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6326460106288593526
+    second: clima_nieve_cozy_0
+  - first:
+      213: -5300245418497127900
+    second: clima_nieve_cozy_1
+  - first:
+      213: 760010147289726354
+    second: clima_nieve_cozy_2
+  - first:
+      213: 2169409555867074818
+    second: clima_nieve_cozy_3
+  - first:
+      213: -6284027939398457640
+    second: clima_nieve_cozy_4
+  - first:
+      213: -5085196530194330294
+    second: clima_nieve_cozy_5
+  - first:
+      213: -874218470217109345
+    second: clima_nieve_cozy_6
+  - first:
+      213: 5485049012614971149
+    second: clima_nieve_cozy_7
+  - first:
+      213: 4402053910944896214
+    second: clima_nieve_cozy_8
+  - first:
+      213: 4132260290432326838
+    second: clima_nieve_cozy_9
+  - first:
+      213: -6989588783687919743
+    second: clima_nieve_cozy_10
+  - first:
+      213: -2687000040956507224
+    second: clima_nieve_cozy_11
+  - first:
+      213: 6693242932917095468
+    second: clima_nieve_cozy_12
+  - first:
+      213: 7060276669274872933
+    second: clima_nieve_cozy_13
+  - first:
+      213: -520283899153302230
+    second: clima_nieve_cozy_14
+  - first:
+      213: -913547639255958218
+    second: clima_nieve_cozy_15
+  - first:
+      213: 7172449187556764057
+    second: clima_nieve_cozy_16
+  - first:
+      213: -2003690940026373935
+    second: clima_nieve_cozy_17
+  - first:
+      213: 5626529784674041049
+    second: clima_nieve_cozy_18
+  - first:
+      213: -5042290602649644429
+    second: clima_nieve_cozy_19
+  - first:
+      213: -3279011330148186884
+    second: clima_nieve_cozy_20
+  - first:
+      213: -956136482795502197
+    second: clima_nieve_cozy_21
+  - first:
+      213: 4603982939596810683
+    second: clima_nieve_cozy_22
+  - first:
+      213: -1016647575907283460
+    second: clima_nieve_cozy_23
+  - first:
+      213: -776515892493852266
+    second: clima_nieve_cozy_24
+  - first:
+      213: 8619211539257084398
+    second: clima_nieve_cozy_25
+  - first:
+      213: -3438071042974621210
+    second: clima_nieve_cozy_26
+  - first:
+      213: 7770378906176211302
+    second: clima_nieve_cozy_27
+  - first:
+      213: -5335748330526399297
+    second: clima_nieve_cozy_28
+  - first:
+      213: -6260879717159255556
+    second: clima_nieve_cozy_29
+  - first:
+      213: -3231809384315057588
+    second: clima_nieve_cozy_30
+  - first:
+      213: -1883638967275449898
+    second: clima_nieve_cozy_31
+  - first:
+      213: -3242756668254002022
+    second: clima_nieve_cozy_32
+  - first:
+      213: 8687186633014714774
+    second: clima_nieve_cozy_33
+  - first:
+      213: 3930260338453271450
+    second: clima_nieve_cozy_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clima_nieve_cozy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 239
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a850df66d06e338a0800000000000000
+      internalID: -6326460106288593526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 0
+        width: 705
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a4610bfdeb176b0800000000000000
+      internalID: -5300245418497127900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_2
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 0
+        width: 639
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d75e6c3391c8a00800000000000000
+      internalID: 760010147289726354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_3
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 0
+        width: 964
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2018bcd3f7a4b1e10800000000000000
+      internalID: 2169409555867074818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_4
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 0
+        width: 314
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6668122e5aac8a0800000000000000
+      internalID: -6284027939398457640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_5
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 0
+        width: 639
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dc7b4c2b0cd69b0800000000000000
+      internalID: -5085196530194330294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_6
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 0
+        width: 314
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90bf92eee62ed3f0800000000000000
+      internalID: -874218470217109345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_7
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 0
+        width: 602
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fb584140fce1c40800000000000000
+      internalID: 5485049012614971149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_8
+      rect:
+        serializedVersion: 2
+        x: 4489
+        y: 0
+        width: 441
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d45dfb75bc371d30800000000000000
+      internalID: 4402053910944896214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_9
+      rect:
+        serializedVersion: 2
+        x: 4932
+        y: 0
+        width: 798
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcdbaa27dcb85930800000000000000
+      internalID: 4132260290432326838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_10
+      rect:
+        serializedVersion: 2
+        x: 5729
+        y: 0
+        width: 482
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1871a3e980efffe90800000000000000
+      internalID: -6989588783687919743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_11
+      rect:
+        serializedVersion: 2
+        x: 6212
+        y: 0
+        width: 317
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abc357f2bbd5bad0800000000000000
+      internalID: -2687000040956507224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_12
+      rect:
+        serializedVersion: 2
+        x: 6529
+        y: 0
+        width: 517
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ccae33cfc23ec50800000000000000
+      internalID: 6693242932917095468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_13
+      rect:
+        serializedVersion: 2
+        x: 7046
+        y: 0
+        width: 405
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c5b1849342bf160800000000000000
+      internalID: 7060276669274872933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_14
+      rect:
+        serializedVersion: 2
+        x: 7462
+        y: 0
+        width: 640
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dbc90ec8497c8f0800000000000000
+      internalID: -520283899153302230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_15
+      rect:
+        serializedVersion: 2
+        x: 8113
+        y: 0
+        width: 639
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d70c4234d6253f0800000000000000
+      internalID: -913547639255958218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_16
+      rect:
+        serializedVersion: 2
+        x: 8764
+        y: 0
+        width: 639
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9992cd9e888a98360800000000000000
+      internalID: 7172449187556764057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_17
+      rect:
+        serializedVersion: 2
+        x: 9415
+        y: 0
+        width: 487
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d83f00c4b57134e0800000000000000
+      internalID: -2003690940026373935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_18
+      rect:
+        serializedVersion: 2
+        x: 9903
+        y: 0
+        width: 650
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcb6ad4703751e40800000000000000
+      internalID: 5626529784674041049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_19
+      rect:
+        serializedVersion: 2
+        x: 10553
+        y: 0
+        width: 325
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37217ce796f260ab0800000000000000
+      internalID: -5042290602649644429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_20
+      rect:
+        serializedVersion: 2
+        x: 10878
+        y: 0
+        width: 1113
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf44904719c9e72d0800000000000000
+      internalID: -3279011330148186884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_21
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 0
+        width: 316
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85ce2a4fee1bb2f0800000000000000
+      internalID: -956136482795502197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_22
+      rect:
+        serializedVersion: 2
+        x: 12325
+        y: 0
+        width: 719
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb960a23712a4ef30800000000000000
+      internalID: 4603982939596810683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_23
+      rect:
+        serializedVersion: 2
+        x: 13045
+        y: 0
+        width: 324
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdc8488a6424e1f0800000000000000
+      internalID: -1016647575907283460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_24
+      rect:
+        serializedVersion: 2
+        x: 13370
+        y: 0
+        width: 588
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6916571f8e24935f0800000000000000
+      internalID: -776515892493852266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_25
+      rect:
+        serializedVersion: 2
+        x: 13970
+        y: 0
+        width: 313
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9cd597a379d9770800000000000000
+      internalID: 8619211539257084398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_26
+      rect:
+        serializedVersion: 2
+        x: 14295
+        y: 0
+        width: 780
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1e0f22a948940d0800000000000000
+      internalID: -3438071042974621210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_27
+      rect:
+        serializedVersion: 2
+        x: 15081
+        y: 0
+        width: 489
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66942d8227ee5db60800000000000000
+      internalID: 7770378906176211302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_28
+      rect:
+        serializedVersion: 2
+        x: 15579
+        y: 0
+        width: 657
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb42714d92d93f5b0800000000000000
+      internalID: -5335748330526399297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_29
+      rect:
+        serializedVersion: 2
+        x: 16247
+        y: 0
+        width: 314
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1464d9113ec19a0800000000000000
+      internalID: -6260879717159255556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_30
+      rect:
+        serializedVersion: 2
+        x: 16573
+        y: 0
+        width: 543
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a8022ec7e4623d0800000000000000
+      internalID: -3231809384315057588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_31
+      rect:
+        serializedVersion: 2
+        x: 17116
+        y: 0
+        width: 607
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d19676d658fbd5e0800000000000000
+      internalID: -1883638967275449898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_32
+      rect:
+        serializedVersion: 2
+        x: 17725
+        y: 0
+        width: 323
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94e0b7bdf96ff2d0800000000000000
+      internalID: -3242756668254002022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_33
+      rect:
+        serializedVersion: 2
+        x: 18051
+        y: 0
+        width: 520
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6912d5e47361f8870800000000000000
+      internalID: 8687186633014714774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_nieve_cozy_34
+      rect:
+        serializedVersion: 2
+        x: 18571
+        y: 0
+        width: 629
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93505454f61b8630800000000000000
+      internalID: 3930260338453271450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clima_nieve_cozy_0: -6326460106288593526
+      clima_nieve_cozy_1: -5300245418497127900
+      clima_nieve_cozy_10: -6989588783687919743
+      clima_nieve_cozy_11: -2687000040956507224
+      clima_nieve_cozy_12: 6693242932917095468
+      clima_nieve_cozy_13: 7060276669274872933
+      clima_nieve_cozy_14: -520283899153302230
+      clima_nieve_cozy_15: -913547639255958218
+      clima_nieve_cozy_16: 7172449187556764057
+      clima_nieve_cozy_17: -2003690940026373935
+      clima_nieve_cozy_18: 5626529784674041049
+      clima_nieve_cozy_19: -5042290602649644429
+      clima_nieve_cozy_2: 760010147289726354
+      clima_nieve_cozy_20: -3279011330148186884
+      clima_nieve_cozy_21: -956136482795502197
+      clima_nieve_cozy_22: 4603982939596810683
+      clima_nieve_cozy_23: -1016647575907283460
+      clima_nieve_cozy_24: -776515892493852266
+      clima_nieve_cozy_25: 8619211539257084398
+      clima_nieve_cozy_26: -3438071042974621210
+      clima_nieve_cozy_27: 7770378906176211302
+      clima_nieve_cozy_28: -5335748330526399297
+      clima_nieve_cozy_29: -6260879717159255556
+      clima_nieve_cozy_3: 2169409555867074818
+      clima_nieve_cozy_30: -3231809384315057588
+      clima_nieve_cozy_31: -1883638967275449898
+      clima_nieve_cozy_32: -3242756668254002022
+      clima_nieve_cozy_33: 8687186633014714774
+      clima_nieve_cozy_34: 3930260338453271450
+      clima_nieve_cozy_4: -6284027939398457640
+      clima_nieve_cozy_5: -5085196530194330294
+      clima_nieve_cozy_6: -874218470217109345
+      clima_nieve_cozy_7: 5485049012614971149
+      clima_nieve_cozy_8: 4402053910944896214
+      clima_nieve_cozy_9: 4132260290432326838
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

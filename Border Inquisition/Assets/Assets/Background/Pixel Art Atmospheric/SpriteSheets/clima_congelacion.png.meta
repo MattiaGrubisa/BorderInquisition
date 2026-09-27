@@ -1,0 +1,5733 @@
+fileFormatVersion: 2
+guid: d20f17454e66c054c9868e0ed89fb847
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2076128946164388996
+    second: clima_congelacion_0
+  - first:
+      213: 1109797776828508247
+    second: clima_congelacion_1
+  - first:
+      213: 1503659429940974913
+    second: clima_congelacion_2
+  - first:
+      213: -2271099886755721844
+    second: clima_congelacion_3
+  - first:
+      213: 7305817141441526487
+    second: clima_congelacion_4
+  - first:
+      213: -3198980866600940815
+    second: clima_congelacion_5
+  - first:
+      213: 4058743429188798786
+    second: clima_congelacion_6
+  - first:
+      213: -513244077277426070
+    second: clima_congelacion_7
+  - first:
+      213: 8883225700056366526
+    second: clima_congelacion_8
+  - first:
+      213: 1204305913140107548
+    second: clima_congelacion_9
+  - first:
+      213: 1723947224575942155
+    second: clima_congelacion_10
+  - first:
+      213: -7270987304440429086
+    second: clima_congelacion_11
+  - first:
+      213: -5855788038213545225
+    second: clima_congelacion_12
+  - first:
+      213: 7787023206218753159
+    second: clima_congelacion_13
+  - first:
+      213: 5963797735756520839
+    second: clima_congelacion_14
+  - first:
+      213: -4302414728547342973
+    second: clima_congelacion_15
+  - first:
+      213: -3325972542487822498
+    second: clima_congelacion_16
+  - first:
+      213: 7181776700926378669
+    second: clima_congelacion_17
+  - first:
+      213: 5534403210051916038
+    second: clima_congelacion_18
+  - first:
+      213: -4872942293499130531
+    second: clima_congelacion_19
+  - first:
+      213: -6577106382586048467
+    second: clima_congelacion_20
+  - first:
+      213: -8790443410318011174
+    second: clima_congelacion_21
+  - first:
+      213: 4689105037800194194
+    second: clima_congelacion_22
+  - first:
+      213: 3890776851878795719
+    second: clima_congelacion_23
+  - first:
+      213: -6828833385615959866
+    second: clima_congelacion_24
+  - first:
+      213: 1539812541883164160
+    second: clima_congelacion_25
+  - first:
+      213: 1330481412977002211
+    second: clima_congelacion_26
+  - first:
+      213: -7408821519197843160
+    second: clima_congelacion_27
+  - first:
+      213: 6329702417599459639
+    second: clima_congelacion_28
+  - first:
+      213: 2503334709632964147
+    second: clima_congelacion_29
+  - first:
+      213: 1057736996930900703
+    second: clima_congelacion_30
+  - first:
+      213: 1330202701910895159
+    second: clima_congelacion_31
+  - first:
+      213: -5290911361274433902
+    second: clima_congelacion_32
+  - first:
+      213: 7875261299159920515
+    second: clima_congelacion_33
+  - first:
+      213: 5698072215184783938
+    second: clima_congelacion_34
+  - first:
+      213: 7568569355266772703
+    second: clima_congelacion_35
+  - first:
+      213: 5607035352610086374
+    second: clima_congelacion_36
+  - first:
+      213: -79942207534623969
+    second: clima_congelacion_37
+  - first:
+      213: -197546988002583153
+    second: clima_congelacion_38
+  - first:
+      213: 2764214991502987924
+    second: clima_congelacion_39
+  - first:
+      213: 697688620160649191
+    second: clima_congelacion_40
+  - first:
+      213: -6762000486299797365
+    second: clima_congelacion_41
+  - first:
+      213: 1369636799877482251
+    second: clima_congelacion_42
+  - first:
+      213: -2457697808774767756
+    second: clima_congelacion_43
+  - first:
+      213: -3689336772727787529
+    second: clima_congelacion_44
+  - first:
+      213: -8850153613542320596
+    second: clima_congelacion_45
+  - first:
+      213: -2536216664372042489
+    second: clima_congelacion_46
+  - first:
+      213: -7025250893510998366
+    second: clima_congelacion_47
+  - first:
+      213: -9072003717596475253
+    second: clima_congelacion_48
+  - first:
+      213: 8050738603189982401
+    second: clima_congelacion_49
+  - first:
+      213: -2072610209261530797
+    second: clima_congelacion_50
+  - first:
+      213: -597407554018431848
+    second: clima_congelacion_51
+  - first:
+      213: -4617452552710734723
+    second: clima_congelacion_52
+  - first:
+      213: 1556945371143113884
+    second: clima_congelacion_53
+  - first:
+      213: -6029633262165684455
+    second: clima_congelacion_54
+  - first:
+      213: -6995671755052445969
+    second: clima_congelacion_55
+  - first:
+      213: -1642999691422558050
+    second: clima_congelacion_56
+  - first:
+      213: 4407320724933832582
+    second: clima_congelacion_57
+  - first:
+      213: 5792323148962748150
+    second: clima_congelacion_58
+  - first:
+      213: -1473555323401198286
+    second: clima_congelacion_59
+  - first:
+      213: 2638548540715202622
+    second: clima_congelacion_60
+  - first:
+      213: 5520628845121487217
+    second: clima_congelacion_61
+  - first:
+      213: 3278817163886610556
+    second: clima_congelacion_62
+  - first:
+      213: 9210687067681428471
+    second: clima_congelacion_63
+  - first:
+      213: -6889470042641135870
+    second: clima_congelacion_64
+  - first:
+      213: 4617933939413041282
+    second: clima_congelacion_65
+  - first:
+      213: 6804600354470692240
+    second: clima_congelacion_66
+  - first:
+      213: -9207952186447236519
+    second: clima_congelacion_67
+  - first:
+      213: -8262564695081341793
+    second: clima_congelacion_68
+  - first:
+      213: -7072324765325085948
+    second: clima_congelacion_69
+  - first:
+      213: 4289761553192078428
+    second: clima_congelacion_70
+  - first:
+      213: -3921407931927641042
+    second: clima_congelacion_71
+  - first:
+      213: -8055853388820044686
+    second: clima_congelacion_72
+  - first:
+      213: -5976969082584720942
+    second: clima_congelacion_73
+  - first:
+      213: 2600935708191124688
+    second: clima_congelacion_74
+  - first:
+      213: 4620295406262061678
+    second: clima_congelacion_75
+  - first:
+      213: 1266252249508248376
+    second: clima_congelacion_76
+  - first:
+      213: -793033604683625066
+    second: clima_congelacion_77
+  - first:
+      213: -4286166176268665503
+    second: clima_congelacion_78
+  - first:
+      213: -6152578678218609466
+    second: clima_congelacion_79
+  - first:
+      213: 1077328263682170940
+    second: clima_congelacion_80
+  - first:
+      213: 8882857056612323533
+    second: clima_congelacion_81
+  - first:
+      213: 2614182941812938813
+    second: clima_congelacion_82
+  - first:
+      213: -3830938041390275379
+    second: clima_congelacion_83
+  - first:
+      213: -4086179193146301464
+    second: clima_congelacion_84
+  - first:
+      213: 736174844753427565
+    second: clima_congelacion_85
+  - first:
+      213: -1056323736283537879
+    second: clima_congelacion_86
+  - first:
+      213: 4592251418066657839
+    second: clima_congelacion_87
+  - first:
+      213: 8989068553038653014
+    second: clima_congelacion_88
+  - first:
+      213: 478088753327948375
+    second: clima_congelacion_89
+  - first:
+      213: 5674701418942213794
+    second: clima_congelacion_90
+  - first:
+      213: 2749219106227487587
+    second: clima_congelacion_91
+  - first:
+      213: -8793919797737553196
+    second: clima_congelacion_92
+  - first:
+      213: -912570312919054653
+    second: clima_congelacion_93
+  - first:
+      213: 8634003004241459060
+    second: clima_congelacion_94
+  - first:
+      213: 3871306510534026804
+    second: clima_congelacion_95
+  - first:
+      213: 5195264058135243315
+    second: clima_congelacion_96
+  - first:
+      213: 8086520430564534573
+    second: clima_congelacion_97
+  - first:
+      213: 1806088800808534094
+    second: clima_congelacion_98
+  - first:
+      213: -7084396861290078974
+    second: clima_congelacion_99
+  - first:
+      213: 6228273131390538405
+    second: clima_congelacion_100
+  - first:
+      213: 1665540254466980839
+    second: clima_congelacion_101
+  - first:
+      213: 1044042148664250706
+    second: clima_congelacion_102
+  - first:
+      213: 5603337749434016200
+    second: clima_congelacion_103
+  - first:
+      213: -1304356612241536573
+    second: clima_congelacion_104
+  - first:
+      213: 7017140756374119860
+    second: clima_congelacion_105
+  - first:
+      213: -765378773877513681
+    second: clima_congelacion_106
+  - first:
+      213: -1160377545927596737
+    second: clima_congelacion_107
+  - first:
+      213: -4292923633013147800
+    second: clima_congelacion_108
+  - first:
+      213: -6591232585716788421
+    second: clima_congelacion_109
+  - first:
+      213: 8741494993783296236
+    second: clima_congelacion_110
+  - first:
+      213: -8188891814047759753
+    second: clima_congelacion_111
+  - first:
+      213: 802484499541595032
+    second: clima_congelacion_112
+  - first:
+      213: -1637147438851750262
+    second: clima_congelacion_113
+  - first:
+      213: 4757826527847227632
+    second: clima_congelacion_114
+  - first:
+      213: -3090944331220289207
+    second: clima_congelacion_115
+  - first:
+      213: -2569140436336703427
+    second: clima_congelacion_116
+  - first:
+      213: 4241952951144212538
+    second: clima_congelacion_117
+  - first:
+      213: -6802840111062782387
+    second: clima_congelacion_118
+  - first:
+      213: 4321155148738974800
+    second: clima_congelacion_119
+  - first:
+      213: 375940563222608376
+    second: clima_congelacion_120
+  - first:
+      213: -3892544350247875557
+    second: clima_congelacion_121
+  - first:
+      213: -8348027883959256517
+    second: clima_congelacion_122
+  - first:
+      213: -3911038203640563696
+    second: clima_congelacion_123
+  - first:
+      213: 3784100032519540850
+    second: clima_congelacion_124
+  - first:
+      213: -2541788583211168446
+    second: clima_congelacion_125
+  - first:
+      213: -2825093612097391105
+    second: clima_congelacion_126
+  - first:
+      213: 6605452226778516284
+    second: clima_congelacion_127
+  - first:
+      213: -4818250011514035905
+    second: clima_congelacion_128
+  - first:
+      213: 2360591924774762824
+    second: clima_congelacion_129
+  - first:
+      213: -7618578932415294401
+    second: clima_congelacion_130
+  - first:
+      213: 3150028450217916252
+    second: clima_congelacion_131
+  - first:
+      213: -256901079287861988
+    second: clima_congelacion_132
+  - first:
+      213: 4793092019747705188
+    second: clima_congelacion_133
+  - first:
+      213: -9053751484232486041
+    second: clima_congelacion_134
+  - first:
+      213: -430496791129931248
+    second: clima_congelacion_135
+  - first:
+      213: 9031581414032691947
+    second: clima_congelacion_136
+  - first:
+      213: 4009621481209639915
+    second: clima_congelacion_137
+  - first:
+      213: -344846796830037483
+    second: clima_congelacion_138
+  - first:
+      213: -6410568519582290258
+    second: clima_congelacion_139
+  - first:
+      213: 1598166119322110664
+    second: clima_congelacion_140
+  - first:
+      213: -7178060191598208620
+    second: clima_congelacion_141
+  - first:
+      213: -4366797482455365594
+    second: clima_congelacion_142
+  - first:
+      213: -5744352704848316221
+    second: clima_congelacion_143
+  - first:
+      213: -2786720050509137551
+    second: clima_congelacion_144
+  - first:
+      213: 9124535216769259983
+    second: clima_congelacion_145
+  - first:
+      213: 5698794882752427507
+    second: clima_congelacion_146
+  - first:
+      213: -712819881202734903
+    second: clima_congelacion_147
+  - first:
+      213: 8628203039501660002
+    second: clima_congelacion_148
+  - first:
+      213: 3824032072786630952
+    second: clima_congelacion_149
+  - first:
+      213: 55661026259334601
+    second: clima_congelacion_150
+  - first:
+      213: 5583687969012045752
+    second: clima_congelacion_151
+  - first:
+      213: -8846963879734542662
+    second: clima_congelacion_152
+  - first:
+      213: 6730017201895433707
+    second: clima_congelacion_153
+  - first:
+      213: 3999135654303967724
+    second: clima_congelacion_154
+  - first:
+      213: 6705278620767184195
+    second: clima_congelacion_155
+  - first:
+      213: -5623775939338547656
+    second: clima_congelacion_156
+  - first:
+      213: -3522040579802178169
+    second: clima_congelacion_157
+  - first:
+      213: -5676214095068911509
+    second: clima_congelacion_158
+  - first:
+      213: -2306422821933690204
+    second: clima_congelacion_159
+  - first:
+      213: -3689401268469967943
+    second: clima_congelacion_160
+  - first:
+      213: 5779432939867700277
+    second: clima_congelacion_161
+  - first:
+      213: 38732010804852681
+    second: clima_congelacion_162
+  - first:
+      213: 4984101111151837217
+    second: clima_congelacion_163
+  - first:
+      213: 1323941589488853522
+    second: clima_congelacion_164
+  - first:
+      213: -8808816544767535434
+    second: clima_congelacion_165
+  - first:
+      213: 657740089786264687
+    second: clima_congelacion_166
+  - first:
+      213: -1570715388955545303
+    second: clima_congelacion_167
+  - first:
+      213: 5159370515699318458
+    second: clima_congelacion_168
+  - first:
+      213: 7603433935163736531
+    second: clima_congelacion_169
+  - first:
+      213: -7532506705009157245
+    second: clima_congelacion_170
+  - first:
+      213: 8520192482647941987
+    second: clima_congelacion_171
+  - first:
+      213: 7047331533858371016
+    second: clima_congelacion_172
+  - first:
+      213: -4805387953704634267
+    second: clima_congelacion_173
+  - first:
+      213: 4587654293419847870
+    second: clima_congelacion_174
+  - first:
+      213: 7605782615765664104
+    second: clima_congelacion_175
+  - first:
+      213: 7648310476172379216
+    second: clima_congelacion_176
+  - first:
+      213: 5317235218330380560
+    second: clima_congelacion_177
+  - first:
+      213: 1976269636387056074
+    second: clima_congelacion_178
+  - first:
+      213: -8864564387821003991
+    second: clima_congelacion_179
+  - first:
+      213: 3661926536991280309
+    second: clima_congelacion_180
+  - first:
+      213: 8770429932505269278
+    second: clima_congelacion_181
+  - first:
+      213: 1742047540342759409
+    second: clima_congelacion_182
+  - first:
+      213: 457663099126127115
+    second: clima_congelacion_183
+  - first:
+      213: -6998821546425556859
+    second: clima_congelacion_184
+  - first:
+      213: 6104240992920769089
+    second: clima_congelacion_185
+  - first:
+      213: 5495640591759843779
+    second: clima_congelacion_186
+  - first:
+      213: 8294320857597569973
+    second: clima_congelacion_187
+  - first:
+      213: 7447746852199564102
+    second: clima_congelacion_188
+  - first:
+      213: 6058549488343944006
+    second: clima_congelacion_189
+  - first:
+      213: -7242537818656662877
+    second: clima_congelacion_190
+  - first:
+      213: 3445805498140303922
+    second: clima_congelacion_191
+  - first:
+      213: -1526899508716518547
+    second: clima_congelacion_192
+  - first:
+      213: -5575041773014767268
+    second: clima_congelacion_193
+  - first:
+      213: 1418988848373440841
+    second: clima_congelacion_194
+  - first:
+      213: -5915969295757939672
+    second: clima_congelacion_195
+  - first:
+      213: -5986101618404031645
+    second: clima_congelacion_196
+  - first:
+      213: 3005629570188256260
+    second: clima_congelacion_197
+  - first:
+      213: 4091917523624091867
+    second: clima_congelacion_198
+  - first:
+      213: 6693053198753482734
+    second: clima_congelacion_199
+  - first:
+      213: -4395267549233208035
+    second: clima_congelacion_200
+  - first:
+      213: 6922579390160394346
+    second: clima_congelacion_201
+  - first:
+      213: 534982140051862232
+    second: clima_congelacion_202
+  - first:
+      213: -7568911141594552809
+    second: clima_congelacion_203
+  - first:
+      213: -2088603889782876484
+    second: clima_congelacion_204
+  - first:
+      213: -7994241882648549890
+    second: clima_congelacion_205
+  - first:
+      213: 4988004221496343583
+    second: clima_congelacion_206
+  - first:
+      213: -7752981116666723981
+    second: clima_congelacion_207
+  - first:
+      213: 5667459893012453210
+    second: clima_congelacion_208
+  - first:
+      213: 4178295425355618169
+    second: clima_congelacion_209
+  - first:
+      213: 7343640440720365929
+    second: clima_congelacion_210
+  - first:
+      213: -5853884435785240807
+    second: clima_congelacion_211
+  - first:
+      213: -9173265680973925048
+    second: clima_congelacion_212
+  - first:
+      213: -586874286937416597
+    second: clima_congelacion_213
+  - first:
+      213: -1769737164156975539
+    second: clima_congelacion_214
+  - first:
+      213: 5567076606426006820
+    second: clima_congelacion_215
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clima_congelacion_0
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 145
+        width: 176
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484d808d644efcc10800000000000000
+      internalID: 2076128946164388996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_1
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 167
+        width: 46
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758a164b23bc66f00800000000000000
+      internalID: 1109797776828508247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_2
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 171
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1455cc8e8421ed410800000000000000
+      internalID: 1503659429940974913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_3
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 165
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8dce709fae6b70e0800000000000000
+      internalID: -2271099886755721844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_4
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 165
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7daf4957bf9736560800000000000000
+      internalID: 7305817141441526487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_5
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 167
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1facafac9dfea93d0800000000000000
+      internalID: -3198980866600940815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_6
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 167
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249cf3b05ad835830800000000000000
+      internalID: 4058743429188798786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_7
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 171
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e4ec22b3790e8f0800000000000000
+      internalID: -513244077277426070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_8
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 171
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdfa7775be874b70800000000000000
+      internalID: 8883225700056366526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_9
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 163
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c195e99e8dd86b010800000000000000
+      internalID: 1204305913140107548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_10
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 165
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e9e5cedd0bce710800000000000000
+      internalID: 1723947224575942155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_11
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 167
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e50478e193481b90800000000000000
+      internalID: -7270987304440429086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_12
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 169
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2dc46fdcf0cbea0800000000000000
+      internalID: -5855788038213545225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_13
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 163
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78464604950111c60800000000000000
+      internalID: 7787023206218753159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_14
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 161
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ddb00717aa3c250800000000000000
+      internalID: 5963797735756520839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_15
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 161
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385e68c7990ca44c0800000000000000
+      internalID: -4302414728547342973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_16
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 163
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f7f482895c7d1d0800000000000000
+      internalID: -3325972542487822498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_17
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 167
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2c4eadbdbcaa360800000000000000
+      internalID: 7181776700926378669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_18
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 155
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6011de2a5662ecc40800000000000000
+      internalID: 5534403210051916038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_19
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 167
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5dc1015dc4df5cb0800000000000000
+      internalID: -4872942293499130531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_20
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 159
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d201100979c69b4a0800000000000000
+      internalID: -6577106382586048467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_21
+      rect:
+        serializedVersion: 2
+        x: 2545
+        y: 137
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad452d5ca42120680800000000000000
+      internalID: -8790443410318011174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_22
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 161
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290439c103c031140800000000000000
+      internalID: 4689105037800194194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_23
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 157
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c95c8cbee0def530800000000000000
+      internalID: 3890776851878795719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_24
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 155
+        width: 84
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8580c673c1b31a0800000000000000
+      internalID: -6828833385615959866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_25
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 163
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00623ab39538e5510800000000000000
+      internalID: 1539812541883164160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_26
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 159
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e601c0cbc1d67210800000000000000
+      internalID: 1330481412977002211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_27
+      rect:
+        serializedVersion: 2
+        x: 2807
+        y: 155
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82151f7f4149e2990800000000000000
+      internalID: -7408821519197843160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_28
+      rect:
+        serializedVersion: 2
+        x: 2861
+        y: 67
+        width: 48
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73172f600de97d750800000000000000
+      internalID: 6329702417599459639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_29
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 159
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3361499b7a1adb220800000000000000
+      internalID: 2503334709632964147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_30
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 155
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2dadfc136ddae00800000000000000
+      internalID: 1057736996930900703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_31
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 159
+        width: 84
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ae9a64f44d57210800000000000000
+      internalID: 1330202701910895159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_32
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 155
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ea82d3628e296b0800000000000000
+      internalID: -5290911361274433902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_33
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 157
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38feec93d6c8a4d60800000000000000
+      internalID: 7875261299159920515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_34
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 157
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24abc927d7e931f40800000000000000
+      internalID: 5698072215184783938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_35
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 39
+        width: 60
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde45968ab5f80960800000000000000
+      internalID: 7568569355266772703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_36
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 159
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed916322f030dd40800000000000000
+      internalID: 5607035352610086374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_37
+      rect:
+        serializedVersion: 2
+        x: 3259
+        y: 149
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13965d5cfcf3eef0800000000000000
+      internalID: -79942207534623969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_38
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 159
+        width: 86
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d58a1af0c224df0800000000000000
+      internalID: -197546988002583153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_39
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 153
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492585ba3e67c5620800000000000000
+      internalID: 2764214991502987924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_40
+      rect:
+        serializedVersion: 2
+        x: 3395
+        y: 153
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e702808a10bea900800000000000000
+      internalID: 697688620160649191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_41
+      rect:
+        serializedVersion: 2
+        x: 3425
+        y: 151
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88f413626c8822a0800000000000000
+      internalID: -6762000486299797365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_42
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 147
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b070000b96de10310800000000000000
+      internalID: 1369636799877482251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_43
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 37
+        width: 64
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b59b64dd084edd0800000000000000
+      internalID: -2457697808774767756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_44
+      rect:
+        serializedVersion: 2
+        x: 3543
+        y: 149
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff26cc80c7dcccc0800000000000000
+      internalID: -3689336772727787529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_45
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 149
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c269b29bd20fd2580800000000000000
+      internalID: -8850153613542320596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_46
+      rect:
+        serializedVersion: 2
+        x: 3617
+        y: 153
+        width: 98
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705ada6916c8dccd0800000000000000
+      internalID: -2536216664372042489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_47
+      rect:
+        serializedVersion: 2
+        x: 3711
+        y: 153
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a60842a88b418e90800000000000000
+      internalID: -7025250893510998366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_48
+      rect:
+        serializedVersion: 2
+        x: 3745
+        y: 145
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8093a33fa4c91280800000000000000
+      internalID: -9072003717596475253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_49
+      rect:
+        serializedVersion: 2
+        x: 3805
+        y: 0
+        width: 220
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4d9aeda18f9bf60800000000000000
+      internalID: 8050738603189982401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_50
+      rect:
+        serializedVersion: 2
+        x: 3937
+        y: 149
+        width: 100
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3515e1feefb9c33e0800000000000000
+      internalID: -2072610209261530797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_51
+      rect:
+        serializedVersion: 2
+        x: 4031
+        y: 145
+        width: 94
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ca89caef495b7f0800000000000000
+      internalID: -597407554018431848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_52
+      rect:
+        serializedVersion: 2
+        x: 4127
+        y: 0
+        width: 222
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cb47c1e538befb0800000000000000
+      internalID: -4617452552710734723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_53
+      rect:
+        serializedVersion: 2
+        x: 4215
+        y: 139
+        width: 232
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c8ca5e0916b9510800000000000000
+      internalID: 1556945371143113884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_54
+      rect:
+        serializedVersion: 2
+        x: 4439
+        y: 0
+        width: 228
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f0cb29e70725ca0800000000000000
+      internalID: -6029633262165684455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_55
+      rect:
+        serializedVersion: 2
+        x: 4497
+        y: 135
+        width: 270
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee8dda7a916aee90800000000000000
+      internalID: -6995671755052445969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_56
+      rect:
+        serializedVersion: 2
+        x: 4757
+        y: 0
+        width: 13028
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e989ea25c74e239e0800000000000000
+      internalID: -1642999691422558050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_57
+      rect:
+        serializedVersion: 2
+        x: 17695
+        y: 143
+        width: 190
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fe5ec29d2f92d30800000000000000
+      internalID: 4407320724933832582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_58
+      rect:
+        serializedVersion: 2
+        x: 17885
+        y: 0
+        width: 96
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f652360737726050800000000000000
+      internalID: 5792323148962748150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_59
+      rect:
+        serializedVersion: 2
+        x: 17979
+        y: 149
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23529c79d31ec8be0800000000000000
+      internalID: -1473555323401198286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_60
+      rect:
+        serializedVersion: 2
+        x: 18021
+        y: 159
+        width: 86
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3874fb0be10e9420800000000000000
+      internalID: 2638548540715202622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_61
+      rect:
+        serializedVersion: 2
+        x: 18097
+        y: 153
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171cd326fa63d9c40800000000000000
+      internalID: 5520628845121487217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_62
+      rect:
+        serializedVersion: 2
+        x: 18115
+        y: 153
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c784ae0b6d2b08d20800000000000000
+      internalID: 3278817163886610556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_63
+      rect:
+        serializedVersion: 2
+        x: 18145
+        y: 151
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f39f66761fe2df70800000000000000
+      internalID: 9210687067681428471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_64
+      rect:
+        serializedVersion: 2
+        x: 18185
+        y: 147
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2070ea98f7fa360a0800000000000000
+      internalID: -6889470042641135870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_65
+      rect:
+        serializedVersion: 2
+        x: 18211
+        y: 41
+        width: 52
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2804fe67372361040800000000000000
+      internalID: 4617933939413041282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_66
+      rect:
+        serializedVersion: 2
+        x: 18271
+        y: 161
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09509b658fbce6e50800000000000000
+      internalID: 6804600354470692240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_67
+      rect:
+        serializedVersion: 2
+        x: 18301
+        y: 159
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952f702b548c63080800000000000000
+      internalID: -9207952186447236519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_68
+      rect:
+        serializedVersion: 2
+        x: 18345
+        y: 155
+        width: 82
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c2effcf29755d80800000000000000
+      internalID: -8262564695081341793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_69
+      rect:
+        serializedVersion: 2
+        x: 18439
+        y: 163
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403b992c81e0add90800000000000000
+      internalID: -7072324765325085948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_70
+      rect:
+        serializedVersion: 2
+        x: 18471
+        y: 159
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c442d876b488b30800000000000000
+      internalID: 4289761553192078428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_71
+      rect:
+        serializedVersion: 2
+        x: 18491
+        y: 165
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24cd0e234c5499c0800000000000000
+      internalID: -3921407931927641042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_72
+      rect:
+        serializedVersion: 2
+        x: 18537
+        y: 81
+        width: 62
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27421cc460cd33090800000000000000
+      internalID: -8055853388820044686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_73
+      rect:
+        serializedVersion: 2
+        x: 18629
+        y: 167
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d99b07694a8d0da0800000000000000
+      internalID: -5976969082584720942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_74
+      rect:
+        serializedVersion: 2
+        x: 18671
+        y: 165
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc6c5a0f31681420800000000000000
+      internalID: 2600935708191124688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_75
+      rect:
+        serializedVersion: 2
+        x: 18689
+        y: 167
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a8e9f41369e1040800000000000000
+      internalID: 4620295406262061678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_76
+      rect:
+        serializedVersion: 2
+        x: 18701
+        y: 167
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b7af746b1a29110800000000000000
+      internalID: 1266252249508248376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_77
+      rect:
+        serializedVersion: 2
+        x: 18721
+        y: 171
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d82e163249ef4f0800000000000000
+      internalID: -793033604683625066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_78
+      rect:
+        serializedVersion: 2
+        x: 18765
+        y: 171
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d363f529a7484c0800000000000000
+      internalID: -4286166176268665503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_79
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 143
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc23283a46ad9aa0800000000000000
+      internalID: -6152578678218609466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_80
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 141
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30a34f095073fe00800000000000000
+      internalID: 1077328263682170940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_81
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 163
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc013f9fd6f364b70800000000000000
+      internalID: 8882857056612323533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_82
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 141
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3855a8f881774420800000000000000
+      internalID: 2614182941812938813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_83
+      rect:
+        serializedVersion: 2
+        x: 2491
+        y: 159
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4e6660626c5dac0800000000000000
+      internalID: -3830938041390275379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_84
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 157
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e32cef5ca9fa47c0800000000000000
+      internalID: -4086179193146301464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_85
+      rect:
+        serializedVersion: 2
+        x: 3061
+        y: 155
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c3b12fe1b673a00800000000000000
+      internalID: 736174844753427565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_86
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 163
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e9103982f2751f0800000000000000
+      internalID: -1056323736283537879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_87
+      rect:
+        serializedVersion: 2
+        x: 3609
+        y: 145
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22a52d7554fabf30800000000000000
+      internalID: 4592251418066657839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_88
+      rect:
+        serializedVersion: 2
+        x: 18491
+        y: 157
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656e08d09369fbc70800000000000000
+      internalID: 8989068553038653014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_89
+      rect:
+        serializedVersion: 2
+        x: 18869
+        y: 0
+        width: 331
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752c839203382a600800000000000000
+      internalID: 478088753327948375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_90
+      rect:
+        serializedVersion: 2
+        x: 2829
+        y: 155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aea47aefd690ce40800000000000000
+      internalID: 5674701418942213794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_91
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363086c0630372620800000000000000
+      internalID: 2749219106227487587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_92
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 153
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d204904988b5f580800000000000000
+      internalID: -8793919797737553196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_93
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 155
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c684e9a226e553f0800000000000000
+      internalID: -912570312919054653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_94
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 151
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477b779ccf322d770800000000000000
+      internalID: 8634003004241459060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_95
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 75
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436a901a2c4a9b530800000000000000
+      internalID: 3871306510534026804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_96
+      rect:
+        serializedVersion: 2
+        x: 3653
+        y: 145
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a618b9229491840800000000000000
+      internalID: 5195264058135243315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_97
+      rect:
+        serializedVersion: 2
+        x: 3809
+        y: 139
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29ecb4cc77193070800000000000000
+      internalID: 8086520430564534573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_98
+      rect:
+        serializedVersion: 2
+        x: 17777
+        y: 141
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40010df134801910800000000000000
+      internalID: 1806088800808534094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_99
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 113
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d99e2e69a2fad90800000000000000
+      internalID: -7084396861290078974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_100
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 133
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a294a80a654f6650800000000000000
+      internalID: 6228273131390538405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_101
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 113
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb3e9a79003d1710800000000000000
+      internalID: 1665540254466980839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_102
+      rect:
+        serializedVersion: 2
+        x: 4695
+        y: 135
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2511ba97dce2d7e00800000000000000
+      internalID: 1044042148664250706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_103
+      rect:
+        serializedVersion: 2
+        x: 18871
+        y: 119
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c12d8fcefd03cd40800000000000000
+      internalID: 5603337749434016200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_104
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 0
+        width: 328
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c949ea629ef5ede0800000000000000
+      internalID: -1304356612241536573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_105
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 121
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5689ae654e16160800000000000000
+      internalID: 7017140756374119860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_106
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 119
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2228607f04d065f0800000000000000
+      internalID: -765378773877513681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_107
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 81
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3565a915c285efe0800000000000000
+      internalID: -1160377545927596737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_108
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 89
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8673f5e53b87c64c0800000000000000
+      internalID: -4292923633013147800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_109
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 85
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b331f5892ec3784a0800000000000000
+      internalID: -6591232585716788421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_110
+      rect:
+        serializedVersion: 2
+        x: 4125
+        y: 107
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce01f46e167005970800000000000000
+      internalID: 8741494993783296236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_111
+      rect:
+        serializedVersion: 2
+        x: 17883
+        y: 107
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772449f18463b5e80800000000000000
+      internalID: -8188891814047759753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_112
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 95
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8931fec866ff22b00800000000000000
+      internalID: 802484499541595032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_113
+      rect:
+        serializedVersion: 2
+        x: 18873
+        y: 89
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a860d4e041fa749e0800000000000000
+      internalID: -1637147438851750262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_114
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 79
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0a34fd402370240800000000000000
+      internalID: 4757826527847227632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_115
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9497b1dd182ca15d0800000000000000
+      internalID: -3090944331220289207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_116
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 77
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d380f029264985cd0800000000000000
+      internalID: -2569140436336703427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_117
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 45
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38eed6fbb17eda30800000000000000
+      internalID: 4241952951144212538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_118
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 77
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ee25446f47791a0800000000000000
+      internalID: -6802840111062782387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_119
+      rect:
+        serializedVersion: 2
+        x: 18545
+        y: 47
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054dfeb96b3d7fb30800000000000000
+      internalID: 4321155148738974800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_120
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 55
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f93b8f43fb973500800000000000000
+      internalID: 375940563222608376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_121
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 51
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c850b7987eaf9c0800000000000000
+      internalID: -3892544350247875557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_122
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 67
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a7d898ed8d52c80800000000000000
+      internalID: -8348027883959256517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_123
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 49
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018b501b97339b9c0800000000000000
+      internalID: -3911038203640563696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_124
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 49
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2701fd83ee2d38430800000000000000
+      internalID: 3784100032519540850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_125
+      rect:
+        serializedVersion: 2
+        x: 18869
+        y: 51
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d0e8320c0c9bcd0800000000000000
+      internalID: -2541788583211168446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_126
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 55
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5b5b9e3504bc8d0800000000000000
+      internalID: -2825093612097391105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_127
+      rect:
+        serializedVersion: 2
+        x: 4441
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b42f59dc74bab50800000000000000
+      internalID: 6605452226778516284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_128
+      rect:
+        serializedVersion: 2
+        x: 18539
+        y: 53
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f312fa88423222db0800000000000000
+      internalID: -4818250011514035905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_129
+      rect:
+        serializedVersion: 2
+        x: 18561
+        y: 57
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849fadf39d182c020800000000000000
+      internalID: 2360591924774762824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_130
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 43
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f349c1073de554690800000000000000
+      internalID: -7618578932415294401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_131
+      rect:
+        serializedVersion: 2
+        x: 2891
+        y: 41
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57fc979f2627bb20800000000000000
+      internalID: 3150028450217916252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_132
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 0
+        width: 182
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1de1aa54dd4f6cf0800000000000000
+      internalID: -256901079287861988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_133
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 13
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46152dc0ccb748240800000000000000
+      internalID: 4793092019747705188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_134
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 11
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76338a17efc9a5280800000000000000
+      internalID: -9053751484232486041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_135
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 0
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01241c70371960af0800000000000000
+      internalID: -430496791129931248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_136
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 0
+        width: 58
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be25077d17f965d70800000000000000
+      internalID: 9031581414032691947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_137
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 0
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3b6474e7905a730800000000000000
+      internalID: 4009621481209639915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_138
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 0
+        width: 62
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51aa3055aabd63bf0800000000000000
+      internalID: -344846796830037483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_139
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 0
+        width: 74
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaeeef565e51907a0800000000000000
+      internalID: -6410568519582290258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_140
+      rect:
+        serializedVersion: 2
+        x: 3711
+        y: 21
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca424a3e93dd2610800000000000000
+      internalID: 1598166119322110664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_141
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 9
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4999a676948626c90800000000000000
+      internalID: -7178060191598208620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_142
+      rect:
+        serializedVersion: 2
+        x: 4031
+        y: 17
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6288d2473d40663c0800000000000000
+      internalID: -4366797482455365594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_143
+      rect:
+        serializedVersion: 2
+        x: 4039
+        y: 0
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c836fa56a5f740b0800000000000000
+      internalID: -5744352704848316221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_144
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 7
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179b1f4f0e49359d0800000000000000
+      internalID: -2786720050509137551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_145
+      rect:
+        serializedVersion: 2
+        x: 4349
+        y: 15
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9d2109f6cd0ae70800000000000000
+      internalID: 9124535216769259983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_146
+      rect:
+        serializedVersion: 2
+        x: 4353
+        y: 0
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5b54a90cf261f40800000000000000
+      internalID: 5698794882752427507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_147
+      rect:
+        serializedVersion: 2
+        x: 4439
+        y: 3
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c82310481e8b16f0800000000000000
+      internalID: -712819881202734903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_148
+      rect:
+        serializedVersion: 2
+        x: 4667
+        y: 5
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f217343f88db770800000000000000
+      internalID: 8628203039501660002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_149
+      rect:
+        serializedVersion: 2
+        x: 4671
+        y: 0
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829d52cd8e0b11530800000000000000
+      internalID: 3824032072786630952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_150
+      rect:
+        serializedVersion: 2
+        x: 17789
+        y: 11
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c57502986fb5c000800000000000000
+      internalID: 55661026259334601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_151
+      rect:
+        serializedVersion: 2
+        x: 17799
+        y: 0
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7d599cf9e3d7d40800000000000000
+      internalID: 5583687969012045752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_152
+      rect:
+        serializedVersion: 2
+        x: 17803
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abef5bf7935493580800000000000000
+      internalID: -8846963879734542662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_153
+      rect:
+        serializedVersion: 2
+        x: 17881
+        y: 3
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5ee3becf2d56d50800000000000000
+      internalID: 6730017201895433707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_154
+      rect:
+        serializedVersion: 2
+        x: 18043
+        y: 0
+        width: 74
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9236370b8cf7730800000000000000
+      internalID: 3999135654303967724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_155
+      rect:
+        serializedVersion: 2
+        x: 18239
+        y: 0
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34569d6216fed0d50800000000000000
+      internalID: 6705278620767184195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_156
+      rect:
+        serializedVersion: 2
+        x: 18559
+        y: 13
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e4657449554f1b0800000000000000
+      internalID: -5623775939338547656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_157
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 21
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d5164d0c23f1fc0800000000000000
+      internalID: -3522040579802178169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_158
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 0
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b682a5aba590a31b0800000000000000
+      internalID: -5676214095068911509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_159
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 0
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2d9c4d9a0fdffd0800000000000000
+      internalID: -2306422821933690204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_160
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 19
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3d8f6f71d9cccc0800000000000000
+      internalID: -3689401268469967943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_161
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 0
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c710853aba43050800000000000000
+      internalID: 5779432939867700277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_162
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 17
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7b5710f8a998000800000000000000
+      internalID: 38732010804852681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_163
+      rect:
+        serializedVersion: 2
+        x: 3261
+        y: 0
+        width: 66
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120c5debd851b2540800000000000000
+      internalID: 4984101111151837217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_164
+      rect:
+        serializedVersion: 2
+        x: 3425
+        y: 9
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21269d07cd59f5210800000000000000
+      internalID: 1323941589488853522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_165
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 11
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b61c8d060cc0c580800000000000000
+      internalID: -8808816544767535434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_166
+      rect:
+        serializedVersion: 2
+        x: 3803
+        y: 11
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c6e367023c02900800000000000000
+      internalID: 657740089786264687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_167
+      rect:
+        serializedVersion: 2
+        x: 17981
+        y: 0
+        width: 66
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921b01efca2b33ae0800000000000000
+      internalID: -1570715388955545303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_168
+      rect:
+        serializedVersion: 2
+        x: 18145
+        y: 9
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abeb1e40624c99740800000000000000
+      internalID: 5159370515699318458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_169
+      rect:
+        serializedVersion: 2
+        x: 18205
+        y: 11
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1c59a11e2d48960800000000000000
+      internalID: 7603433935163736531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_170
+      rect:
+        serializedVersion: 2
+        x: 18379
+        y: 0
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b5eab8f09277790800000000000000
+      internalID: -7532506705009157245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_171
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3632f2acbedcd3670800000000000000
+      internalID: 8520192482647941987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_172
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 0
+        width: 146
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5790211b62dc160800000000000000
+      internalID: 7047331533858371016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_173
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 0
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5687e7bbd15df4db0800000000000000
+      internalID: -4805387953704634267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_174
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 5
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0f59ff54f9aaf30800000000000000
+      internalID: 4587654293419847870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_175
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 0
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861cd8bedfa2d8960800000000000000
+      internalID: 7605782615765664104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_176
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 0
+        width: 78
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05447280bd1442a60800000000000000
+      internalID: 7648310476172379216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_177
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 0
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01967c7524d9ac940800000000000000
+      internalID: 5317235218330380560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_178
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 0
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9ad3973ce1d6b10800000000000000
+      internalID: 1976269636387056074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_179
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bd95fd7adbaf480800000000000000
+      internalID: -8864564387821003991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_180
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 0
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc01fe98c6c1d230800000000000000
+      internalID: 3661926536991280309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_181
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 0
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e140e6e4e83d6b970800000000000000
+      internalID: 8770429932505269278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_182
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 0
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff19f7120ffc2810800000000000000
+      internalID: 1742047540342759409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_183
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 0
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a9732f922f95600800000000000000
+      internalID: 457663099126127115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_184
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 0
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58064f682e03fde90800000000000000
+      internalID: -6998821546425556859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_185
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 0
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1429b6667de96b450800000000000000
+      internalID: 6104240992920769089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_186
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 0
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c120154000744c40800000000000000
+      internalID: 5495640591759843779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_187
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 9
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb6732ffd85b1370800000000000000
+      internalID: 8294320857597569973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_188
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 0
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643836e5d46bb5760800000000000000
+      internalID: 7447746852199564102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_189
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 0
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b8ddaf8aa441450800000000000000
+      internalID: 6058549488343944006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_190
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 0
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa13aef9365d7b90800000000000000
+      internalID: -7242537818656662877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_191
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 0
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232adb908d5f1df20800000000000000
+      internalID: 3445805498140303922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_192
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 0
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63cb379cfc5fcae0800000000000000
+      internalID: -1526899508716518547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_193
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 0
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59ad779b0971a2b0800000000000000
+      internalID: -5575041773014767268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_194
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 7
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9412a87e6d241b310800000000000000
+      internalID: 1418988848373440841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_195
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 0
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cea38054146eda0800000000000000
+      internalID: -5915969295757939672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_196
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 0
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36303a53b481deca0800000000000000
+      internalID: -5986101618404031645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_197
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 0
+        width: 56
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4042b796b2426b920800000000000000
+      internalID: 3005629570188256260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_198
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 0
+        width: 64
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd06fcdce4969c830800000000000000
+      internalID: 4091917523624091867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_199
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 0
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee74e764c6082ec50800000000000000
+      internalID: 6693053198753482734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_200
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 0
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15272b737fd003c0800000000000000
+      internalID: -4395267549233208035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_201
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 0
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6853f72741f11060800000000000000
+      internalID: 6922579390160394346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_202
+      rect:
+        serializedVersion: 2
+        x: 18119
+        y: 0
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d238f20c63ac6700800000000000000
+      internalID: 534982140051862232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_203
+      rect:
+        serializedVersion: 2
+        x: 18303
+        y: 0
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716a2c42b63d5f690800000000000000
+      internalID: -7568911141594552809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_204
+      rect:
+        serializedVersion: 2
+        x: 18333
+        y: 0
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb61ef004d9c303e0800000000000000
+      internalID: -2088603889782876484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_205
+      rect:
+        serializedVersion: 2
+        x: 18369
+        y: 0
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5ee20fc5fbe0190800000000000000
+      internalID: -7994241882648549890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_206
+      rect:
+        serializedVersion: 2
+        x: 18445
+        y: 0
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c30707963f83540800000000000000
+      internalID: 4988004221496343583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_207
+      rect:
+        serializedVersion: 2
+        x: 18559
+        y: 0
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371c4ce50c0e76490800000000000000
+      internalID: -7752981116666723981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_208
+      rect:
+        serializedVersion: 2
+        x: 18583
+        y: 0
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57d7c5cebcd6ae40800000000000000
+      internalID: 5667459893012453210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_209
+      rect:
+        serializedVersion: 2
+        x: 18601
+        y: 1
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97716f24d894cf930800000000000000
+      internalID: 4178295425355618169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_210
+      rect:
+        serializedVersion: 2
+        x: 18629
+        y: 0
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9699453921ad9e560800000000000000
+      internalID: 7343640440720365929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_211
+      rect:
+        serializedVersion: 2
+        x: 18661
+        y: 0
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f25d0fe13d2cea0800000000000000
+      internalID: -5853884435785240807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_212
+      rect:
+        serializedVersion: 2
+        x: 18705
+        y: 0
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8457447177302b080800000000000000
+      internalID: -9173265680973925048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_213
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 0
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cd84702f00bd7f0800000000000000
+      internalID: -586874286937416597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_214
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 0
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46cd98fc61a077e0800000000000000
+      internalID: -1769737164156975539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clima_congelacion_215
+      rect:
+        serializedVersion: 2
+        x: 18775
+        y: 0
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425c86b8daa324d40800000000000000
+      internalID: 5567076606426006820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clima_congelacion_0: 2076128946164388996
+      clima_congelacion_1: 1109797776828508247
+      clima_congelacion_10: 1723947224575942155
+      clima_congelacion_100: 6228273131390538405
+      clima_congelacion_101: 1665540254466980839
+      clima_congelacion_102: 1044042148664250706
+      clima_congelacion_103: 5603337749434016200
+      clima_congelacion_104: -1304356612241536573
+      clima_congelacion_105: 7017140756374119860
+      clima_congelacion_106: -765378773877513681
+      clima_congelacion_107: -1160377545927596737
+      clima_congelacion_108: -4292923633013147800
+      clima_congelacion_109: -6591232585716788421
+      clima_congelacion_11: -7270987304440429086
+      clima_congelacion_110: 8741494993783296236
+      clima_congelacion_111: -8188891814047759753
+      clima_congelacion_112: 802484499541595032
+      clima_congelacion_113: -1637147438851750262
+      clima_congelacion_114: 4757826527847227632
+      clima_congelacion_115: -3090944331220289207
+      clima_congelacion_116: -2569140436336703427
+      clima_congelacion_117: 4241952951144212538
+      clima_congelacion_118: -6802840111062782387
+      clima_congelacion_119: 4321155148738974800
+      clima_congelacion_12: -5855788038213545225
+      clima_congelacion_120: 375940563222608376
+      clima_congelacion_121: -3892544350247875557
+      clima_congelacion_122: -8348027883959256517
+      clima_congelacion_123: -3911038203640563696
+      clima_congelacion_124: 3784100032519540850
+      clima_congelacion_125: -2541788583211168446
+      clima_congelacion_126: -2825093612097391105
+      clima_congelacion_127: 6605452226778516284
+      clima_congelacion_128: -4818250011514035905
+      clima_congelacion_129: 2360591924774762824
+      clima_congelacion_13: 7787023206218753159
+      clima_congelacion_130: -7618578932415294401
+      clima_congelacion_131: 3150028450217916252
+      clima_congelacion_132: -256901079287861988
+      clima_congelacion_133: 4793092019747705188
+      clima_congelacion_134: -9053751484232486041
+      clima_congelacion_135: -430496791129931248
+      clima_congelacion_136: 9031581414032691947
+      clima_congelacion_137: 4009621481209639915
+      clima_congelacion_138: -344846796830037483
+      clima_congelacion_139: -6410568519582290258
+      clima_congelacion_14: 5963797735756520839
+      clima_congelacion_140: 1598166119322110664
+      clima_congelacion_141: -7178060191598208620
+      clima_congelacion_142: -4366797482455365594
+      clima_congelacion_143: -5744352704848316221
+      clima_congelacion_144: -2786720050509137551
+      clima_congelacion_145: 9124535216769259983
+      clima_congelacion_146: 5698794882752427507
+      clima_congelacion_147: -712819881202734903
+      clima_congelacion_148: 8628203039501660002
+      clima_congelacion_149: 3824032072786630952
+      clima_congelacion_15: -4302414728547342973
+      clima_congelacion_150: 55661026259334601
+      clima_congelacion_151: 5583687969012045752
+      clima_congelacion_152: -8846963879734542662
+      clima_congelacion_153: 6730017201895433707
+      clima_congelacion_154: 3999135654303967724
+      clima_congelacion_155: 6705278620767184195
+      clima_congelacion_156: -5623775939338547656
+      clima_congelacion_157: -3522040579802178169
+      clima_congelacion_158: -5676214095068911509
+      clima_congelacion_159: -2306422821933690204
+      clima_congelacion_16: -3325972542487822498
+      clima_congelacion_160: -3689401268469967943
+      clima_congelacion_161: 5779432939867700277
+      clima_congelacion_162: 38732010804852681
+      clima_congelacion_163: 4984101111151837217
+      clima_congelacion_164: 1323941589488853522
+      clima_congelacion_165: -8808816544767535434
+      clima_congelacion_166: 657740089786264687
+      clima_congelacion_167: -1570715388955545303
+      clima_congelacion_168: 5159370515699318458
+      clima_congelacion_169: 7603433935163736531
+      clima_congelacion_17: 7181776700926378669
+      clima_congelacion_170: -7532506705009157245
+      clima_congelacion_171: 8520192482647941987
+      clima_congelacion_172: 7047331533858371016
+      clima_congelacion_173: -4805387953704634267
+      clima_congelacion_174: 4587654293419847870
+      clima_congelacion_175: 7605782615765664104
+      clima_congelacion_176: 7648310476172379216
+      clima_congelacion_177: 5317235218330380560
+      clima_congelacion_178: 1976269636387056074
+      clima_congelacion_179: -8864564387821003991
+      clima_congelacion_18: 5534403210051916038
+      clima_congelacion_180: 3661926536991280309
+      clima_congelacion_181: 8770429932505269278
+      clima_congelacion_182: 1742047540342759409
+      clima_congelacion_183: 457663099126127115
+      clima_congelacion_184: -6998821546425556859
+      clima_congelacion_185: 6104240992920769089
+      clima_congelacion_186: 5495640591759843779
+      clima_congelacion_187: 8294320857597569973
+      clima_congelacion_188: 7447746852199564102
+      clima_congelacion_189: 6058549488343944006
+      clima_congelacion_19: -4872942293499130531
+      clima_congelacion_190: -7242537818656662877
+      clima_congelacion_191: 3445805498140303922
+      clima_congelacion_192: -1526899508716518547
+      clima_congelacion_193: -5575041773014767268
+      clima_congelacion_194: 1418988848373440841
+      clima_congelacion_195: -5915969295757939672
+      clima_congelacion_196: -5986101618404031645
+      clima_congelacion_197: 3005629570188256260
+      clima_congelacion_198: 4091917523624091867
+      clima_congelacion_199: 6693053198753482734
+      clima_congelacion_2: 1503659429940974913
+      clima_congelacion_20: -6577106382586048467
+      clima_congelacion_200: -4395267549233208035
+      clima_congelacion_201: 6922579390160394346
+      clima_congelacion_202: 534982140051862232
+      clima_congelacion_203: -7568911141594552809
+      clima_congelacion_204: -2088603889782876484
+      clima_congelacion_205: -7994241882648549890
+      clima_congelacion_206: 4988004221496343583
+      clima_congelacion_207: -7752981116666723981
+      clima_congelacion_208: 5667459893012453210
+      clima_congelacion_209: 4178295425355618169
+      clima_congelacion_21: -8790443410318011174
+      clima_congelacion_210: 7343640440720365929
+      clima_congelacion_211: -5853884435785240807
+      clima_congelacion_212: -9173265680973925048
+      clima_congelacion_213: -586874286937416597
+      clima_congelacion_214: -1769737164156975539
+      clima_congelacion_215: 5567076606426006820
+      clima_congelacion_22: 4689105037800194194
+      clima_congelacion_23: 3890776851878795719
+      clima_congelacion_24: -6828833385615959866
+      clima_congelacion_25: 1539812541883164160
+      clima_congelacion_26: 1330481412977002211
+      clima_congelacion_27: -7408821519197843160
+      clima_congelacion_28: 6329702417599459639
+      clima_congelacion_29: 2503334709632964147
+      clima_congelacion_3: -2271099886755721844
+      clima_congelacion_30: 1057736996930900703
+      clima_congelacion_31: 1330202701910895159
+      clima_congelacion_32: -5290911361274433902
+      clima_congelacion_33: 7875261299159920515
+      clima_congelacion_34: 5698072215184783938
+      clima_congelacion_35: 7568569355266772703
+      clima_congelacion_36: 5607035352610086374
+      clima_congelacion_37: -79942207534623969
+      clima_congelacion_38: -197546988002583153
+      clima_congelacion_39: 2764214991502987924
+      clima_congelacion_4: 7305817141441526487
+      clima_congelacion_40: 697688620160649191
+      clima_congelacion_41: -6762000486299797365
+      clima_congelacion_42: 1369636799877482251
+      clima_congelacion_43: -2457697808774767756
+      clima_congelacion_44: -3689336772727787529
+      clima_congelacion_45: -8850153613542320596
+      clima_congelacion_46: -2536216664372042489
+      clima_congelacion_47: -7025250893510998366
+      clima_congelacion_48: -9072003717596475253
+      clima_congelacion_49: 8050738603189982401
+      clima_congelacion_5: -3198980866600940815
+      clima_congelacion_50: -2072610209261530797
+      clima_congelacion_51: -597407554018431848
+      clima_congelacion_52: -4617452552710734723
+      clima_congelacion_53: 1556945371143113884
+      clima_congelacion_54: -6029633262165684455
+      clima_congelacion_55: -6995671755052445969
+      clima_congelacion_56: -1642999691422558050
+      clima_congelacion_57: 4407320724933832582
+      clima_congelacion_58: 5792323148962748150
+      clima_congelacion_59: -1473555323401198286
+      clima_congelacion_6: 4058743429188798786
+      clima_congelacion_60: 2638548540715202622
+      clima_congelacion_61: 5520628845121487217
+      clima_congelacion_62: 3278817163886610556
+      clima_congelacion_63: 9210687067681428471
+      clima_congelacion_64: -6889470042641135870
+      clima_congelacion_65: 4617933939413041282
+      clima_congelacion_66: 6804600354470692240
+      clima_congelacion_67: -9207952186447236519
+      clima_congelacion_68: -8262564695081341793
+      clima_congelacion_69: -7072324765325085948
+      clima_congelacion_7: -513244077277426070
+      clima_congelacion_70: 4289761553192078428
+      clima_congelacion_71: -3921407931927641042
+      clima_congelacion_72: -8055853388820044686
+      clima_congelacion_73: -5976969082584720942
+      clima_congelacion_74: 2600935708191124688
+      clima_congelacion_75: 4620295406262061678
+      clima_congelacion_76: 1266252249508248376
+      clima_congelacion_77: -793033604683625066
+      clima_congelacion_78: -4286166176268665503
+      clima_congelacion_79: -6152578678218609466
+      clima_congelacion_8: 8883225700056366526
+      clima_congelacion_80: 1077328263682170940
+      clima_congelacion_81: 8882857056612323533
+      clima_congelacion_82: 2614182941812938813
+      clima_congelacion_83: -3830938041390275379
+      clima_congelacion_84: -4086179193146301464
+      clima_congelacion_85: 736174844753427565
+      clima_congelacion_86: -1056323736283537879
+      clima_congelacion_87: 4592251418066657839
+      clima_congelacion_88: 8989068553038653014
+      clima_congelacion_89: 478088753327948375
+      clima_congelacion_9: 1204305913140107548
+      clima_congelacion_90: 5674701418942213794
+      clima_congelacion_91: 2749219106227487587
+      clima_congelacion_92: -8793919797737553196
+      clima_congelacion_93: -912570312919054653
+      clima_congelacion_94: 8634003004241459060
+      clima_congelacion_95: 3871306510534026804
+      clima_congelacion_96: 5195264058135243315
+      clima_congelacion_97: 8086520430564534573
+      clima_congelacion_98: 1806088800808534094
+      clima_congelacion_99: -7084396861290078974
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

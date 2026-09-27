@@ -6,6 +6,7 @@ namespace Gameplay
     public class Building : ScriptableObject
     {
         [SerializeField] private string _name;
+        [SerializeField] private Sprite _sprite;
         // The base price; the country's region raises or lowers it (Region.Price).
         [SerializeField] private GameResources _buildingCost;
         [SerializeField] private GameResources _productionBoost;
@@ -17,6 +18,7 @@ namespace Gameplay
         [SerializeField, Range(0, 100)] private int _buildingDiscount;
 
         public string DisplayName => string.IsNullOrEmpty(_name) ? name : _name;
+        public Sprite Sprite => _sprite;
         public  GameResources BuildingCost => _buildingCost;
         public  GameResources ProductionBoost => _productionBoost;
         public int SoldierDiscount => _soldierDiscount;
