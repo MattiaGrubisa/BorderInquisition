@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Gameplay;
@@ -59,6 +60,10 @@ namespace Diplomacy
         private readonly GameRules _rules;
         private readonly List<Treaty> _treaties = new List<Treaty>();
         private readonly List<Offer> _offers = new List<Offer>();
+
+        // For presentation (sounds) and later statistics: a treaty accepted, a treaty broken.
+        public event Action<Treaty> TreatySigned;
+        public event Action<Treaty> TreatyBroken;
 
         public DiplomacySystem(GameRules rules) => _rules = rules;
 
@@ -131,7 +136,9 @@ namespace Diplomacy
                 _treaties.Remove(existing);
             }
 
-            _treaties.Add(new Treaty(offer.Kind, offer.From, offer.To, PactTurns));
+            var treaty = new Treaty(offer.Kind, offer.From, offer.To, PactTurns);
+            _treaties.Add(treaty);
+            TreatySigned?.Invoke(treaty);
             return true;
         }
 
@@ -145,6 +152,7 @@ namespace Diplomacy
 
             treaty.BrokenBy = breaker;
             _offers.RemoveAll(o => o.From == other && o.To == breaker || o.From == breaker && o.To == other);
+            TreatyBroken?.Invoke(treaty);
             return true;
         }
 

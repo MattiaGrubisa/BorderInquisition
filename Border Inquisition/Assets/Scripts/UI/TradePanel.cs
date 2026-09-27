@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using Audio;
 using Gameplay;
 using Gameplay.Managers;
 using TMPro;
@@ -73,13 +74,18 @@ namespace UI
 
         public void Open()
         {
+            UiFactory.PanelOpened(IsOpen);
             _count = 1;
             gameObject.SetActive(true);
             transform.SetAsLastSibling();
             Refresh();
         }
 
-        public void Close() => gameObject.SetActive(false);
+        public void Close()
+        {
+            UiFactory.PanelClosed(IsOpen);
+            gameObject.SetActive(false);
+        }
 
         private void ChangeCount(int delta)
         {
@@ -90,7 +96,12 @@ namespace UI
         private void Trade()
         {
             if (Game.Market.TryTrade(Game.CurrentPlayer, _give, _get, _count))
+            {
+                AudioManager.PlayUi(Sound.Trade);
                 _onTraded?.Invoke();
+            }
+            else
+                AudioManager.PlayUi(Sound.Error);
             Refresh();
         }
 

@@ -1,3 +1,4 @@
+using Audio;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -6,7 +7,8 @@ using UnityEngine.UI;
 namespace UI
 {
     // Runtime counterpart of the editor scene factory: in-game panels are built in code from layout
-    // groups, so the scene needs no wiring and rows can be rebuilt when their content changes.
+    // groups, so the scene needs no wiring and rows can be rebuilt when their content changes. Every
+    // button clicks audibly, and panels play their open/close sounds through PanelOpened/PanelClosed.
     public static class UiFactory
     {
         public static readonly Color PanelColor = new Color(0.08f, 0.08f, 0.1f, 0.92f);
@@ -112,6 +114,7 @@ namespace UI
 
             var button = rect.gameObject.AddComponent<Button>();
             button.targetGraphic = image;
+            ClickSound(button);
             button.onClick.AddListener(onClick);
 
             var text = Label(rect, label, 24f, width, height, TextAlignmentOptions.Center);
@@ -121,6 +124,62 @@ namespace UI
             textRect.anchorMax = Vector2.one;
             textRect.offsetMin = textRect.offsetMax = Vector2.zero;
             return button;
+        }
+
+        // Buttons placed in a scene get their click sound through this.
+        public static void ClickSound(Button button) =>
+            button.onClick.AddListener(() => AudioManager.PlayUi(Sound.UiClick));
+
+        // Called from a panel's Open and Close with whether it was open, so re-opening an open panel or
+        // closing a closed one (every panel closes on phase change) stays silent.
+        public static void PanelOpened(bool wasOpen)
+        {
+            if (!wasOpen)
+                AudioManager.PlayUi(Sound.PanelOpen);
+        }
+
+        public static void PanelClosed(bool wasOpen)
+        {
+            if (wasOpen)
+                AudioManager.PlayUi(Sound.PanelClose);
+        }
+
+        // A 0-1 slider with its label on the left, in a row of the given width.
+        public static Slider Slider(Transform parent, string label, float width, float value, UnityAction<float> onChanged)
+        {
+            const float height = 44f;
+            const float barHeight = 20f;
+            const float handleWidth = 24f;
+
+            var row = Row(parent, label);
+            Label(row, label, 24f, width * 0.4f, height);
+
+            var rect = Create(row, "Slider");
+            Size(rect, width * 0.6f - 8f, barHeight);
+            rect.gameObject.AddComponent<Image>().color = new Color(0.25f, 0.25f, 0.28f);
+
+            var fillArea = Stretch(Create(rect, "Fill Area"));
+            var fill = Stretch(Create(fillArea, "Fill"));
+            fill.gameObject.AddComponent<Image>().color = ButtonColor;
+
+            var handleArea = Stretch(Create(rect, "Handle Area"));
+            handleArea.offsetMin = new Vector2(handleWidth / 2f, 0f);
+            handleArea.offsetMax = new Vector2(-handleWidth / 2f, 0f);
+            var handle = Create(handleArea, "Handle");
+            handle.sizeDelta = new Vector2(handleWidth, height - barHeight);
+            var handleImage = handle.gameObject.AddComponent<Image>();
+            handleImage.color = TextColor;
+
+            var slider = rect.gameObject.AddComponent<Slider>();
+            slider.fillRect = fill;
+            slider.handleRect = handle;
+            slider.targetGraphic = handleImage;
+            slider.direction = UnityEngine.UI.Slider.Direction.LeftToRight;
+            slider.minValue = 0f;
+            slider.maxValue = 1f;
+            slider.SetValueWithoutNotify(value);
+            slider.onValueChanged.AddListener(onChanged);
+            return slider;
         }
 
         public static Image Icon(Transform parent, Sprite sprite, float width, float height)
@@ -158,6 +217,14 @@ namespace UI
             var go = new GameObject(name, typeof(RectTransform));
             var rect = (RectTransform)go.transform;
             rect.SetParent(parent, false);
+            return rect;
+        }
+
+        private static RectTransform Stretch(RectTransform rect)
+        {
+            rect.anchorMin = Vector2.zero;
+            rect.anchorMax = Vector2.one;
+            rect.offsetMin = rect.offsetMax = Vector2.zero;
             return rect;
         }
 

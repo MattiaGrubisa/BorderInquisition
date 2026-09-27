@@ -38,6 +38,7 @@ namespace UI
 
         public void Open(Player player)
         {
+            UiFactory.PanelOpened(IsOpen);
             _title.text = $"{Format.Name(player)} - since your last turn";
             UiFactory.Clear(_body);
 
@@ -53,7 +54,11 @@ namespace UI
             transform.SetAsLastSibling();
         }
 
-        public void Close() => gameObject.SetActive(false);
+        public void Close()
+        {
+            UiFactory.PanelClosed(IsOpen);
+            gameObject.SetActive(false);
+        }
 
         // One line per roll, oldest first; the last one is this turn's.
         private void Income(TurnReport report)

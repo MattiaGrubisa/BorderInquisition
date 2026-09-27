@@ -42,6 +42,7 @@ namespace UI
 
         private void Awake()
         {
+            UiFactory.ClickSound(_endPhaseButton);
             _endPhaseButton.onClick.AddListener(() => GameStateMachine.Instance.EndPhase());
             if (!_diceFaces.IsComplete)
                 Debug.LogWarning("InGameHud is missing dice faces - assign all nine, 1 to 9 in order.", this);

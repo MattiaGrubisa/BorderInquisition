@@ -34,6 +34,10 @@ namespace UI
             panel.anchoredPosition = new Vector2(-60f, 0f);
             _seatRows = UiFactory.Column(panel, "SeatRows");
 
+            UiFactory.ClickSound(_removePlayerButton);
+            UiFactory.ClickSound(_addPlayerButton);
+            UiFactory.ClickSound(_startButton);
+            UiFactory.ClickSound(_backButton);
             _removePlayerButton.onClick.AddListener(() => ChangePlayerCount(-1));
             _addPlayerButton.onClick.AddListener(() => ChangePlayerCount(1));
             _startButton.onClick.AddListener(() => GameStateMachine.Instance.StartMatch(new MatchSettings(_seats)));

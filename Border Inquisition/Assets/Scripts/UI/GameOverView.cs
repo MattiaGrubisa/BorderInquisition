@@ -13,6 +13,8 @@ namespace UI
 
         private void Awake()
         {
+            UiFactory.ClickSound(_rematchButton);
+            UiFactory.ClickSound(_mainMenuButton);
             _rematchButton.onClick.AddListener(() => GameStateMachine.Instance.Rematch());
             _mainMenuButton.onClick.AddListener(() => GameStateMachine.Instance.ReturnToMainMenu());
 

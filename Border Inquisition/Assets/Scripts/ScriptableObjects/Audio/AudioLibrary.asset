@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6106ccd8faa28cb4e97630ce2b52695f, type: 3}
+  m_Name: AudioLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::Audio.AudioLibrary
+  _sounds:
+  - _sound: 0
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 1
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 2
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 3
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 4
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 5
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 6
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 7
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 8
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 9
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 10
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 11
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 12
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 13
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 14
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 15
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 16
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 17
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  - _sound: 18
+    _clips: []
+    _volume: 1
+    _pitchVariance: 0.05
+    _cooldown: 0.05
+  _music:
+  - _music: 0
+    _clip: {fileID: 0}
+    _volume: 1
+    _loop: 1
+  - _music: 1
+    _clip: {fileID: 0}
+    _volume: 1
+    _loop: 1
+  - _music: 2
+    _clip: {fileID: 0}
+    _volume: 1
+    _loop: 1
+  - _music: 3
+    _clip: {fileID: 0}
+    _volume: 1
+    _loop: 1
+  - _music: 4
+    _clip: {fileID: 0}
+    _volume: 1
+    _loop: 1

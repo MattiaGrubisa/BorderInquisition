@@ -1,4 +1,5 @@
 using AI;
+using Audio;
 using GameStates;
 using TMPro;
 using UnityEngine;
@@ -6,8 +7,9 @@ using UnityEngine.UI;
 
 namespace UI
 {
-    // Esc or the Menu button: resume, set how fast AI turns play (AiSettings, kept between sessions), or
-    // abandon the match for the main menu (asked twice - nothing of the match is kept). It dims and blocks the whole screen, above every panel; the game itself
+    // Esc or the Menu button: resume, set how fast AI turns play (AiSettings) and the volumes
+    // (SoundSettings, written to disk on close) - both kept between sessions - or abandon the match
+    // for the main menu (asked twice - nothing of the match is kept). It dims and blocks the whole screen, above every panel; the game itself
     // has nothing running on a clock, so nothing needs stopping.
     public class PauseMenu : MonoBehaviour
     {
@@ -43,6 +45,9 @@ namespace UI
                 AiSettings.NextPace();
                 UiFactory.SetLabel(_paceButton, PaceLabel);
             });
+            UiFactory.Slider(panel, "Master", Width, SoundSettings.Master, value => SoundSettings.Master = value);
+            UiFactory.Slider(panel, "Music", Width, SoundSettings.Music, value => SoundSettings.Music = value);
+            UiFactory.Slider(panel, "Effects", Width, SoundSettings.Effects, value => SoundSettings.Effects = value);
             _leaveButton = UiFactory.Button(panel, "Leave match", Width, 56f, Leave);
         }
 
@@ -58,13 +63,19 @@ namespace UI
 
         public void Open()
         {
+            UiFactory.PanelOpened(IsOpen);
             _confirmingLeave = false;
             UiFactory.SetLabel(_leaveButton, "Leave match");
             gameObject.SetActive(true);
             UiFactory.Raise(_root, SortingOrder);
         }
 
-        public void Close() => gameObject.SetActive(false);
+        public void Close()
+        {
+            UiFactory.PanelClosed(IsOpen);
+            SoundSettings.Save();
+            gameObject.SetActive(false);
+        }
 
         private void Leave()
         {

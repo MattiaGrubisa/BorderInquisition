@@ -73,10 +73,37 @@ Status: code compiles (checked with Unity's bundled csc), **not yet tested in Un
   `GameController`.
 - `UI.Format.Effects(building)` — "income Food 1, trade 3:1, soldiers -20%" for panels.
 
+## Architecture — add an Audio section
+
+- **Audio** (`Assets/Scripts/Audio`, namespace `Audio`): `AudioManager` (Singleton) sits next to
+  `GameStateMachine` in Bootstrap — put there by **Border Inquisition > Set Up Audio**
+  (`Editor/AudioSetup`), which also makes `Assets/Audio/AudioLibrary.asset` if none exists. Music
+  follows `GameStateMachine.StageChanged` (new `FlowStage` enum: MainMenu/Lobby/InGame/GameOver;
+  GameOver plays Victory when a human won, Defeat otherwise) and crossfades over two sources;
+  effects round-robin over 6 voices, UI sounds have their own source. `AudioManager.Play(Sound)` /
+  `PlayUi(Sound)` are static and do nothing without a manager.
+- `AudioLibrary` (ScriptableObject): one slot per `Sound` and `Music` enum value, filled
+  automatically (`FillSlots` on Reset/OnValidate/setup); per sound several clips (random pick),
+  volume, pitch variance, cooldown (many requests at once, e.g. six dice, play once). An empty slot is
+  silent. No AudioMixer yet.
+- `SoundSettings`: Master/Music/Effects 0–1 in PlayerPrefs, sliders in the pause menu
+  (`UiFactory.Slider`), written to disk when the pause menu closes.
+- **Gameplay code never calls audio.** `View/SoundCues` (added by `MapView`) turns match events into
+  sounds from `Viewer`'s side and through the fog: visible battles (after the dice land: Conquest, or
+  BattleWon/BattleLost when the viewer's side fought), visible moves and razes, treaties involving
+  the viewer, every betrayal, and at turn start TurnStart (human turns), Income, Built/Trained and
+  Offer. Muted while `Simulating`. The UI plays its own: every `UiFactory.Button` and scene button
+  (`UiFactory.ClickSound`) clicks, panels call `UiFactory.PanelOpened/PanelClosed` in Open/Close,
+  `DieRoll` plays DiceRoll/DiceLand, the trade panel Trade/Error.
+- New events for presentation and future statistics — they fire in simulations too, scene listeners
+  ignore them while `Simulating`: `GameController.CountryConquered(country, newOwner, oldOwner)`,
+  `BuildingRazed(country, building)`, `ArmyMoved(from, to, units)`;
+  `DiplomacySystem.TreatySigned(treaty)`, `TreatyBroken(treaty)`.
+
 ## Handoff — user's decisions this session (2026-09-27)
 
 - UI polish: **postponed** — the user is adding more assets first.
-- Audio manager: **postponed** — the user will start it soon.
+- Audio manager: done as a system with empty slots (see Audio); the user adds the clips.
 - Hotseat without a handover screen: stays (confirmed again).
 - Country shapes: done (already in the desktop CLAUDE.md).
 - Starting armies/incomes, raze loot percent and the rest of the balancing: the user will come back

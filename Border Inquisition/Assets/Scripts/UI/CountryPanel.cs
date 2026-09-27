@@ -51,6 +51,7 @@ namespace UI
 
         public void Open(Country country)
         {
+            UiFactory.PanelOpened(IsOpen);
             _country = country;
             gameObject.SetActive(true);
             transform.SetAsLastSibling();
@@ -59,6 +60,7 @@ namespace UI
 
         public void Close()
         {
+            UiFactory.PanelClosed(IsOpen);
             _country = null;
             gameObject.SetActive(false);
         }

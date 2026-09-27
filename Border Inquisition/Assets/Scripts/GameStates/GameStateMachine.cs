@@ -5,6 +5,15 @@ using UnityEngine;
 
 namespace GameStates
 {
+    // The outer screens, for whoever follows the flow without knowing the state classes (music).
+    public enum FlowStage
+    {
+        MainMenu,
+        Lobby,
+        InGame,
+        GameOver
+    }
+
     // Lives in the persistent Bootstrap scene; every other scene is loaded additively by a state.
     public class GameStateMachine : Singleton<GameStateMachine>
     {
@@ -24,6 +33,7 @@ namespace GameStates
             _gameOverState = new GameOverState();
 
             _gameStateMachine.Completed += OnStateCompleted;
+            _gameStateMachine.StateChanged += OnStateChanged;
             _gameStateMachine.ChangeState(_mainMenuState);
         }
 
@@ -65,6 +75,18 @@ namespace GameStates
             }
         }
 
+        private void OnStateChanged(IState state)
+        {
+            Stage = state switch
+            {
+                LobbyState => FlowStage.Lobby,
+                InGameState => FlowStage.InGame,
+                GameOverState => FlowStage.GameOver,
+                _ => FlowStage.MainMenu
+            };
+            StageChanged?.Invoke(Stage);
+        }
+
         private static void QuitApplication()
         {
 #if UNITY_EDITOR
@@ -97,6 +119,10 @@ namespace GameStates
         }
 
         public TurnPhase CurrentPhase => _inGameState.CurrentPhase;
+
+        // Fires after the new screen's state has entered (its scene may still be loading).
+        public event Action<FlowStage> StageChanged;
+        public FlowStage Stage { get; private set; }
         public Player Winner => _gameOverState.Winner;
 
         #endregion

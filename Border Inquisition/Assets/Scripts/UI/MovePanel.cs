@@ -58,6 +58,7 @@ namespace UI
         // mustStay units of any type are held back from the choice.
         public void Open(string title, Army source, int mustStay, Action<Army> onConfirm, Action onCancel)
         {
+            UiFactory.PanelOpened(IsOpen);
             _title.text = title;
             _available[0] = source.Knights;
             _available[1] = source.Horsemen;
@@ -75,6 +76,7 @@ namespace UI
 
         public void Close()
         {
+            UiFactory.PanelClosed(IsOpen);
             _onConfirm = null;
             _onCancel = null;
             gameObject.SetActive(false);

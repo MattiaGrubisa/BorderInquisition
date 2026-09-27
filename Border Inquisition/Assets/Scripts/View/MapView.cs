@@ -8,7 +8,7 @@ using UnityEngine;
 namespace View
 {
     // Puts a marker over every country once WorldMap is up; the markers keep themselves current. The
-    // picker is added here too, so the scene needs nothing but this component. When the HUD reveals a
+    // picker and the sound cues are added here too, so the scene needs nothing but this component. When the HUD reveals a
     // turn, the income this turn's roll paid the viewer rises from each paying country.
     public class MapView : MonoBehaviour
     {
@@ -23,6 +23,8 @@ namespace View
 
             if (!TryGetComponent<CountryPicker>(out _))
                 gameObject.AddComponent<CountryPicker>();
+            if (!TryGetComponent<SoundCues>(out _))
+                gameObject.AddComponent<SoundCues>();
 
             _hud = FindFirstObjectByType<InGameHud>();
             if (_hud != null)

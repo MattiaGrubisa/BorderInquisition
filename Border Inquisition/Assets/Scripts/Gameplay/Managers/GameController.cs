@@ -33,6 +33,13 @@ namespace Gameplay.Managers
         // Any attack, human or AI, once its outcome is applied: from, to, attacker, defender, dice.
         public event Action<Country, Country, Player, Player, Combat.CombatResult> AttackResolved;
 
+        // What happens on the map, for presentation (sounds) and later statistics. Unlike the three
+        // above they also fire in simulations; listeners in the scene ignore them while Simulating.
+        // The conquered country, its new owner, its former one; after AttackResolved.
+        public event Action<Country, Player, Player> CountryConquered;
+        public event Action<Country, Building> BuildingRazed;
+        public event Action<Country, Country, Army> ArmyMoved;
+
         public IReadOnlyList<Country> Countries => _countries;
         public GameRules Rules => _rules;
         public IReadOnlyList<Building> Buildings => _rules.Buildings;
@@ -135,7 +142,10 @@ namespace Gameplay.Managers
             if (!Simulating)
                 AttackResolved?.Invoke(from, to, attacker, defender, result);
             if (conquered)
+            {
+                CountryConquered?.Invoke(to, attacker, defender);
                 AfterConquest(attacker, defender);
+            }
             return true;
         }
 
@@ -183,6 +193,7 @@ namespace Gameplay.Managers
 
             CurrentPlayer.Receive(RazeLoot(building));
             _conqueredThisTurn[country]?.Report.AddRazed(CurrentPlayer, country, building);
+            BuildingRazed?.Invoke(country, building);
             return true;
         }
 
@@ -202,10 +213,16 @@ namespace Gameplay.Managers
 
         // A move always leaves at least GameRules.MinimumGarrison units behind, so moving never opens a
         // country up.
-        public bool TryMoveArmy(Country from, Country to, int knights, int horsemen, int archers) =>
-            CanMoveArmy(from, to)
-            && from.Army.Count - (knights + horsemen + archers) >= _rules.MinimumGarrison
-            && from.SendUnits(to, knights, horsemen, archers);
+        public bool TryMoveArmy(Country from, Country to, int knights, int horsemen, int archers)
+        {
+            if (!CanMoveArmy(from, to)
+                || from.Army.Count - (knights + horsemen + archers) < _rules.MinimumGarrison
+                || !from.SendUnits(to, knights, horsemen, archers))
+                return false;
+
+            ArmyMoved?.Invoke(from, to, new Army(knights, horsemen, archers));
+            return true;
+        }
 
         public void StartNewMatch(MatchSettings settings)
         {

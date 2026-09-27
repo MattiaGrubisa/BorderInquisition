@@ -51,13 +51,18 @@ namespace UI
 
         public void Open()
         {
+            UiFactory.PanelOpened(IsOpen);
             _confirmingBreak = null;
             gameObject.SetActive(true);
             transform.SetAsLastSibling();
             Refresh();
         }
 
-        public void Close() => gameObject.SetActive(false);
+        public void Close()
+        {
+            UiFactory.PanelClosed(IsOpen);
+            gameObject.SetActive(false);
+        }
 
         private void Refresh()
         {

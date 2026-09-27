@@ -1,10 +1,12 @@
+using Audio;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace UI
 {
-    // Tumbles a die image through random faces, then settles on the rolled one with a small pop.
-    // Presentation only: the roll has already been applied, and nothing waits for this to finish.
+    // Tumbles a die image through random faces, then settles on the rolled one with a small pop, with
+    // the dice sounds (several dice at once are heard once, by the sounds' cooldown). Presentation
+    // only: the roll has already been applied, and nothing waits for this to finish.
     public class DieRoll : MonoBehaviour
     {
         public const float Duration = 0.6f;
@@ -37,6 +39,7 @@ namespace UI
 
             // Tumbles at full strength; a dimmed settled colour only shows once the result is in.
             image.enabled = true;
+            AudioManager.Play(Sound.DiceRoll);
             image.color = new Color(settledColor.r, settledColor.g, settledColor.b, 1f);
         }
 
@@ -57,6 +60,7 @@ namespace UI
             if (!_settled)
             {
                 _settled = true;
+                AudioManager.Play(Sound.DiceLand);
                 _image.sprite = _faces.Face(_value);
                 _image.color = _settledColor;
             }

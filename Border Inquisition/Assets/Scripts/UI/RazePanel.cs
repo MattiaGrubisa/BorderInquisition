@@ -53,6 +53,7 @@ namespace UI
         public void Open(Country country, IEnumerable<Building> buildings, Func<Building, GameResources> loot,
             Action<IReadOnlyList<Building>> onConfirm)
         {
+            UiFactory.PanelOpened(IsOpen);
             _title.text = $"{country.name} taken - its buildings";
             _buildings.Clear();
             _buildings.AddRange(buildings);
@@ -67,6 +68,7 @@ namespace UI
 
         public void Close()
         {
+            UiFactory.PanelClosed(IsOpen);
             _onConfirm = null;
             gameObject.SetActive(false);
         }
