@@ -56,6 +56,7 @@ namespace UI
 
         private void Awake()
         {
+            ThemedText.ThemeAll(transform);
             if (!LoadSeats())
             {
                 _seats.Add(new Seat(false));

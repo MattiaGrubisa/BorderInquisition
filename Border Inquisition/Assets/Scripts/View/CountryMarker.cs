@@ -117,7 +117,7 @@ namespace View
 
             var label = go.AddComponent<TextMeshPro>();
             UI.UiFactory.ApplyFont(label);
-            label.fontSize = UI.UiFactory.FontSize(fontSize);
+            UI.ThemedText.Set(label, fontSize);
             label.color = colour;
             label.alignment = TextAlignmentOptions.Center;
             label.textWrappingMode = TextWrappingModes.NoWrap;

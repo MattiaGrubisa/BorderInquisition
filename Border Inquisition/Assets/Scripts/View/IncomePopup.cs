@@ -32,7 +32,7 @@ namespace View
             var label = go.AddComponent<TextMeshPro>();
             UI.UiFactory.ApplyFont(label);
             label.text = text;
-            label.fontSize = UI.UiFactory.FontSize(1.5f);
+            UI.ThemedText.Set(label, 1.5f);
             label.color = Colour;
             label.alignment = TextAlignmentOptions.Center;
             label.textWrappingMode = TextWrappingModes.NoWrap;

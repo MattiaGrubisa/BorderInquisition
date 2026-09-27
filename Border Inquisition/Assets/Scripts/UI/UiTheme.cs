@@ -55,6 +55,9 @@ namespace UI
         public float LabelPadding => _labelPadding;
         public float SlicedPixelScale => _slicedPixelScale;
 
+        // A change in the inspector reaches every open text at once, in Play mode too.
+        private void OnValidate() => ThemedText.ApplyAll();
+
         public Sprite ButtonSprite(float height) => height >= _largeButtonMinHeight ? _largeButton : _smallButton;
 
 #if UNITY_EDITOR

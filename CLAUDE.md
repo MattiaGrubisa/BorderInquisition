@@ -136,8 +136,9 @@ old plain look): the font and the button ribbons. `UiFactory.Label` and the worl
 (`CountryMarker`, `IncomePopup`) call `UiFactory.ApplyFont`; `UiFactory.Button` picks the large
 sprite for buttons at least `_largeButtonMinHeight` (50) tall — panel actions, action bar — and the
 small one for row buttons and +/-, 9-sliced when the sprite has borders (scaled by
-`_slicedPixelScale`), label auto-sized 10-24 with side padding. `_fontScale` (0.3-2) multiplies every text size written in code (`UiFactory.FontSize`, markers and popups included); scene texts keep their own. Scene-placed buttons keep whatever
-was set on them by hand.
+`_slicedPixelScale`), label auto-sized 10-24 with side padding. `_fontScale` (0.3-2) multiplies every text size through `ThemedText` (a component per text holding its base size; `UiFactory.Label`/`Button`, markers and popups call `ThemedText.Set`, and each view's `Awake` calls `ThemedText.ThemeAll` for the scene's own texts, font included). Changing the scale in the inspector re-applies it to every open text (`UiTheme.OnValidate`), in Play mode too; label rows grow with a scale above 1 and never shrink. Scene-placed buttons keep whatever
+was set on them by hand. Panels have no background since 2026-09-27 (`UiFactory.PanelColor` is clear;
+the image stays so clicks on a panel never reach the map); the pause menu keeps its dimmed overlay.
 `CombatPanel` shows a battle only when `Fog.SeesBattle` holds for the viewer (`OnAttackResolved`).
 The HUD also creates `RazePanel` (see Gameplay rules > Buildings on conquest) and has
 `RefreshStatus()` for changes it does not hear of (loot). `UI.Format.Effects(building)` gives

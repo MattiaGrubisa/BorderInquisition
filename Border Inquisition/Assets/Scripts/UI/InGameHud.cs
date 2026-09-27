@@ -42,6 +42,7 @@ namespace UI
 
         private void Awake()
         {
+            ThemedText.ThemeAll(transform);
             UiFactory.ClickSound(_endPhaseButton);
             _endPhaseButton.onClick.AddListener(() => GameStateMachine.Instance.EndPhase());
             if (!_diceFaces.IsComplete)

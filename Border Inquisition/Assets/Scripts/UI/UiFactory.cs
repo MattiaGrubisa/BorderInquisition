@@ -11,11 +11,12 @@ namespace UI
     // button clicks audibly, and panels play their open/close sounds through PanelOpened/PanelClosed.
     public static class UiFactory
     {
-        public static readonly Color PanelColor = new Color(0.08f, 0.08f, 0.1f, 0.92f);
+        public static readonly Color PanelColor = Color.clear;
         public static readonly Color ButtonColor = new Color(0.88f, 0.88f, 0.9f);
         public static readonly Color TextColor = new Color(0.95f, 0.95f, 0.95f);
         public static readonly Color ButtonTextColor = new Color(0.12f, 0.12f, 0.14f);
 
+        // No background: the image is transparent but stays, so a click on a panel never reaches the map.
         public static RectTransform Panel(Transform parent, string name, Vector2 anchor)
         {
             var rect = Column(parent, name, 10f);
@@ -60,11 +61,11 @@ namespace UI
             var text = rect.gameObject.AddComponent<TextMeshProUGUI>();
             ApplyFont(text);
             text.text = content;
-            text.fontSize = FontSize(fontSize);
             text.color = TextColor;
             text.alignment = alignment;
             text.textWrappingMode = TextWrappingModes.NoWrap;
             text.raycastTarget = false;
+            ThemedText.Set(text, fontSize, height: height);
             return text;
         }
 
@@ -132,8 +133,7 @@ namespace UI
             var text = Label(rect, label, 24f, width, height, TextAlignmentOptions.Center);
             text.color = sprite != null ? theme.ButtonTextColor : ButtonTextColor;
             text.enableAutoSizing = true;
-            text.fontSizeMin = FontSize(10f);
-            text.fontSizeMax = FontSize(24f);
+            ThemedText.Set(text, 24f, 10f, 24f);
             var textRect = text.rectTransform;
             textRect.anchorMin = Vector2.zero;
             textRect.anchorMax = Vector2.one;
@@ -144,13 +144,6 @@ namespace UI
 
         // The theme's font, for texts built in code (UI and the world-space markers alike); without a
         // theme the TMP default stays.
-        // A size as written in code, times the theme's font scale.
-        public static float FontSize(float size)
-        {
-            var theme = UiTheme.Current;
-            return theme != null ? size * theme.FontScale : size;
-        }
-
         public static void ApplyFont(TMP_Text text)
         {
             var theme = UiTheme.Current;

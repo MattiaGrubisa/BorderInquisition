@@ -16,6 +16,7 @@ namespace UI
         {
             if (_continueButton == null)
                 _continueButton = CreateContinueButton();
+            ThemedText.ThemeAll(transform);
 
             UiFactory.ClickSound(_playButton);
             UiFactory.ClickSound(_continueButton);
