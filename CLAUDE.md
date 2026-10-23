@@ -105,3 +105,28 @@ armies, a later rethink of the save (open notes in `Docs/Architecture.md` > Save
 
 **Working mode:** fast. Build agreed features whole, type-check, list the changed files and give a
 commit message. When the user says so, slow down: explain as you go and ask them questions.
+
+## In-game developer console
+
+### Purpose
+A debug/testing console for forcing game states quickly (spawning units, setting resources, skipping turns, etc.). It is a development tool, not a gameplay feature.
+
+### Architecture rules
+- The console is a thin channel, not a system that knows about the game. It has exactly three responsibilities: capture input, parse it into a command name plus arguments, and look the name up in a registry and call the handler.
+- The console must NOT reference gameplay systems (PlayerManager, UnitSpawner, Inventory, etc.). No switch statement over command names. Adding a command must never require editing the console itself.
+- Dependency direction: gameplay systems depend on the console's small registration interface, never the other way round. Each system registers its own commands at startup.
+- Registration should be near-free for the developer. Preferred approach: a custom attribute on a method (e.g. `[ConsoleCommand("spawn")]`) discovered by reflection at startup. Fallback: an explicit `Register(name, handler)` call.
+- Output is a separate log sink. The logger is independent of the console, and the console UI only subscribes to it for display. Systems write to the logger, not to the console.
+
+### Parsing
+- Commands are `name arg1 arg2 ...`. Support quoted strings with spaces, typed argument conversion (int, float, bool, string, enums), and clear error messages for wrong arity or type.
+- Autocomplete and `help` should be generated from the registry, not maintained by hand.
+
+### Multiplayer
+- The game is server-authoritative. Console commands that change game state are requests to the server, which validates them. They never mutate state directly on the client.
+- Console commands are disabled in release builds or locked behind a debug flag. Cheat commands must not be reachable by players.
+
+### What not to do
+- Do not create a manager class that holds references to every system.
+- Do not put game logic inside command handlers. A handler should only call the existing public API of the owning system.
+- Do not add new commands by editing the console or parser code.
