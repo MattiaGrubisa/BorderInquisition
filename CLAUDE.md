@@ -13,6 +13,7 @@ All must be in Build Profiles with `Bootstrap` first.
 - `Docs/Architecture.md`: how each system is built (flow, UI, AI, audio, save, map, editor tools,
   scene setup, `CountryPicker`, open threads). Read the section a task touches before changing it.
 - `Docs/Rules.md`: the gameplay rules as implemented, and what is the user's to decide.
+- `Docs/Walkthrough.md`: the current code walkthrough: plan, progress, and findings to discuss.
 - `GDD.md` and `Architecture.svg` (repo root, the svg labelled in Croatian): the user's private
   overview. Out of git (`.git/info/exclude`) and **never changed unless the user asks** (user's
   decision, 2026-09-27). If something there looks outdated, mention it at most.
@@ -82,29 +83,26 @@ with `-target:library -define:UNITY_EDITOR`, every `Assets/Scripts/**/*.cs`, and
 - Starting armies (Risk-style placement turn): the user is still thinking it over; do not start it.
 - Hotseat has no handover screen between turns, by decision.
 
-## Handoff (as of 2026-09-29)
+## Handoff (as of 2026-10-29)
 
-**Built, committed, not yet tested in Unity by the user** (up to commit `8a880b7`): raze on
-conquest, regional trade ratio, AI simulation / Play Out Match, AI pace, 2–6 players, lobby memory,
-audio system (empty slots, the user adds clips), the simple save + Continue, `UiTheme` with
-`ThemedText` font scale.
+**Current phase: code walkthrough.** The earlier work was rushed for a deadline. The user wants to
+go through all the code first (how, why, what to change), then discuss, then polish; assets come
+last. Plan, progress and findings live in `Docs/Walkthrough.md`: continue from the first unchecked
+block there. Nothing has been walked through yet; start with block 1 (Foundations).
 
-**Uncommitted, the user's to decide:** Unity emptied `preloadedAssets` in `ProjectSettings.asset`
-(it listed `InputSystem_Actions`). `Scripts/ScriptableObjects/UiTheme.asset` is an unused duplicate
-of `Resources/UiTheme.asset` and can be deleted.
+**State of the code:** everything up to `8a880b7` is committed (raze on conquest, regional trade
+ratio, AI simulation / Play Out Match, AI pace, 2–6 players, lobby memory, audio system with empty
+slots, simple save + Continue, `UiTheme` with `ThemedText`). The user has tested some of it;
+testing is hard because much polish is missing. Bugs found go into the walkthrough's fixes list.
 
-**Next, unless the user says otherwise:**
-1. Ask whether the untested work above was tried in Unity, and fix what comes up.
-2. Test the save: Continue after leaving mid-match, after quitting Play mode, on a human and an AI
-   turn.
-3. UI polish: ask how the theme looks and what comes next (panels, frames, scene buttons, marker
-   icons). The user is adding assets first.
+**After the walkthrough (agreed):** the developer console (rules below) is one of the polish items.
 
-**Waiting on the user:** audio clips, UI assets, balancing (with the AI simulation), starting
-armies, a later rethink of the save (open notes in `Docs/Architecture.md` > Save).
+**Waiting on the user:** audio clips, UI assets (after the walkthrough and polish), balancing (with
+the AI simulation), starting armies, a later rethink of the save (notes in `Docs/Architecture.md` >
+Save).
 
-**Working mode:** fast. Build agreed features whole, type-check, list the changed files and give a
-commit message. When the user says so, slow down: explain as you go and ask them questions.
+**Working mode:** slow. Explain as you go and ask the user questions; do not change code during the
+walkthrough unless asked. Changes are made as needed, by opinion or necessity, after discussion.
 
 ## In-game developer console
 
