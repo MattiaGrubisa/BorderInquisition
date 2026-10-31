@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Gameplay;
+using SObjects;
 using View;
 
 namespace UI

@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
+using Gameplay;
 
-namespace Gameplay
+namespace SO
 {
     // The rules of the game that do not change from match to match, kept out of the scene so they
     // survive a component reset and a future server can load them without WorldMap. GameController

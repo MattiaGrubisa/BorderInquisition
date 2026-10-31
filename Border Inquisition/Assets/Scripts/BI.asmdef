@@ -1,0 +1,23 @@
+{
+    "name": "BI",
+    "rootNamespace": "",
+    "references": [
+        "GUID:fa2b1a9c9c74d0e41874703adb063cb6",
+        "GUID:a2c0aeda8575e5b4fa590fae46df90c6",
+        "GUID:e4e0bb8acb87eb041927afaf358c68fe",
+        "GUID:4848d78530ea8e64f90636a0cdca0719",
+        "GUID:451beceb41572494796993c1ce7465c1",
+        "GUID:f6fd0ffe01c8ddb41b9d5118a84b869a",
+        "GUID:265e74a9cec69cd4f904391dc5561256",
+        "GUID:bca8e40d34a933c4db051e44e87e0c7d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

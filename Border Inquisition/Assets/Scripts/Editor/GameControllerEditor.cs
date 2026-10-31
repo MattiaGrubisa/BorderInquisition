@@ -1,6 +1,6 @@
 #if UNITY_EDITOR
+using Core;
 using Gameplay;
-using Gameplay.Managers;
 using UnityEditor;
 using UnityEngine;
 

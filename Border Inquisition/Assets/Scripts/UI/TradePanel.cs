@@ -1,8 +1,8 @@
 using System;
 using System.Linq;
 using Audio;
+using Core;
 using Gameplay;
-using Gameplay.Managers;
 using TMPro;
 using UnityEngine;
 

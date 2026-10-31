@@ -1,6 +1,6 @@
 using System;
 
-namespace Gameplay.Helpers
+namespace Core
 {
     public class StateMachine
     {

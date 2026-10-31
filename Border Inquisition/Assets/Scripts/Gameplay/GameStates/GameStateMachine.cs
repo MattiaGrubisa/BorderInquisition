@@ -1,9 +1,7 @@
 using System;
 using Gameplay;
-using Gameplay.Helpers;
-using UnityEngine;
 
-namespace GameStates
+namespace Gameplay.Gamestates
 {
     // The outer screens, for whoever follows the flow without knowing the state classes (music).
     public enum FlowStage

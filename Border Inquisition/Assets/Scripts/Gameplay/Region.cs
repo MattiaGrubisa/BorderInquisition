@@ -1,3 +1,4 @@
+using SObjects;
 using UnityEngine;
 
 namespace Gameplay

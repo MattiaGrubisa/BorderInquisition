@@ -1,8 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
-using Gameplay.Managers;
 using UnityEngine;
-using Random = UnityEngine.Random;
+using SObjects;
 
 namespace Gameplay
 {

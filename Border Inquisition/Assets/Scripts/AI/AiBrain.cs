@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Diplomacy;
+using Core;
 using Gameplay;
-using Gameplay.Managers;
+using SObjects;
 using Random = UnityEngine.Random;
 
 namespace AI

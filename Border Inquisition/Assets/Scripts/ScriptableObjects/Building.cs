@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using Gameplay;
+using UnityEngine;
 
-namespace Gameplay
+namespace SO
 {
     [CreateAssetMenu(menuName = "Create Building", fileName = "Building", order = 0)]
     public class Building : ScriptableObject

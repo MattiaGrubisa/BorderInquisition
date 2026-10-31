@@ -1,5 +1,6 @@
+using Core;
 using Gameplay;
-using Gameplay.Managers;
+using SObjects;
 using TMPro;
 using UnityEngine;
 

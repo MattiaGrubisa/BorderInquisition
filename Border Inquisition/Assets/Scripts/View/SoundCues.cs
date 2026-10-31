@@ -2,9 +2,9 @@ using System;
 using System.Collections;
 using System.Linq;
 using Audio;
-using Diplomacy;
+using Core;
 using Gameplay;
-using Gameplay.Managers;
+using SObjects;
 using UI;
 using UnityEngine;
 

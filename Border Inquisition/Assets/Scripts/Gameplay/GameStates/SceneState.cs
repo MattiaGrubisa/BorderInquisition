@@ -1,8 +1,7 @@
-using Gameplay.Helpers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace GameStates
+namespace Gameplay.Gamestates
 {
     // An outer game state that owns one additively loaded scene for as long as it is active.
     // Subclasses hook into the scene's lifetime instead of the raw IState callbacks.

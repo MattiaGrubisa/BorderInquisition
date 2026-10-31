@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Gameplay;
+using SObjects;
 using TMPro;
 using UnityEngine;
 

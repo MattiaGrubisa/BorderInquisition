@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using Core;
 using Gameplay;
-using Gameplay.Managers;
 using GameStates;
 using UI;
 using UnityEngine;

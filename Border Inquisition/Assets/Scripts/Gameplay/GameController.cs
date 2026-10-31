@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Diplomacy;
-using Gameplay.Helpers;
+using SObjects;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using Gameplay;
 
-namespace Gameplay.Managers
+namespace Gameplay
 {
     public class GameController : Singleton<GameController>
     {

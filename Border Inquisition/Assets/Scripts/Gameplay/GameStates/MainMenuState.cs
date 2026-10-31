@@ -1,6 +1,6 @@
 using Save;
 
-namespace GameStates
+namespace Gameplay.Gamestates
 {
     public enum MainMenuResult
     {

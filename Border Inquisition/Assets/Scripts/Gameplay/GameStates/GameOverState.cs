@@ -1,6 +1,6 @@
 using Gameplay;
 
-namespace GameStates
+namespace Gameplay.Gamestates
 {
     public enum GameOverResult
     {

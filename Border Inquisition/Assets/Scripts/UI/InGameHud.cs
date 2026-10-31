@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
+using Core;
 using Gameplay;
-using Gameplay.Managers;
 using GameStates;
 using TMPro;
 using UnityEngine;

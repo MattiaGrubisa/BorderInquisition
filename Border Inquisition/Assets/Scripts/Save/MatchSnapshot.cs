@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using Diplomacy;
-using Gameplay;
-using Gameplay.Managers;
 using UnityEngine;
+using Core;
+using Gameplay;
+using SObjects;
 
 namespace Save
 {

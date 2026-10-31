@@ -2,7 +2,6 @@ using System;
 using Gameplay;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace UI
 {

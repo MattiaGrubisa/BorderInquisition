@@ -1,4 +1,4 @@
-﻿namespace Gameplay.Helpers
+﻿namespace Core
 {
     public interface IState
     {

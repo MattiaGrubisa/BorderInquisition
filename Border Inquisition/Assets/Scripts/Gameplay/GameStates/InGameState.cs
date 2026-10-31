@@ -1,11 +1,8 @@
 using System;
 using Gameplay;
-using Gameplay.Managers;
 using Save;
-using IState = Gameplay.Helpers.IState;
-using StateMachine = Gameplay.Helpers.StateMachine;
 
-namespace GameStates
+namespace Gameplay.Gamestates
 {
     public enum TurnPhase
     {

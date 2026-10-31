@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Gameplay.Managers;
+using SObjects;
 
 namespace Gameplay
 {

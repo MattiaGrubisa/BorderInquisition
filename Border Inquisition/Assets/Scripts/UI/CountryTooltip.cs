@@ -1,8 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
-using Diplomacy;
+using Core;
 using Gameplay;
-using Gameplay.Managers;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
