@@ -1,8 +1,9 @@
 using System;
+using Core;
 using Gameplay;
 using Save;
 
-namespace Gameplay.Gamestates
+namespace GameStates
 {
     public enum TurnPhase
     {
@@ -61,7 +62,7 @@ namespace Gameplay.Gamestates
                 Resume = null;
                 SaveSystem.Delete();
                 Result = InGameResult.Left;
-                StateMachine.OnCompleted(this);
+                Complete();
             }
         }
 
@@ -89,10 +90,10 @@ namespace Gameplay.Gamestates
                 return;
 
             Result = InGameResult.Left;
-            StateMachine.OnCompleted(this);
+            Complete();
         }
 
-        private void NextPhase(IState phase)
+        private void NextPhase(State phase)
         {
             switch (phase)
             {
@@ -111,7 +112,7 @@ namespace Gameplay.Gamestates
             }
         }
 
-        private void OnPhaseChanged(IState phase)
+        private void OnPhaseChanged(State phase)
         {
             CurrentPhase = ((Phase)phase).Kind;
             PhaseChanged?.Invoke(CurrentPhase);
@@ -122,7 +123,7 @@ namespace Gameplay.Gamestates
             SaveSystem.Delete();
             Winner = winner;
             Result = InGameResult.GameOver;
-            StateMachine.OnCompleted(this);
+            Complete();
         }
 
         // No human is left; GameOver shows it without a winner.
@@ -131,20 +132,15 @@ namespace Gameplay.Gamestates
             SaveSystem.Delete();
             Winner = null;
             Result = InGameResult.GameOver;
-            StateMachine.OnCompleted(this);
+            Complete();
         }
 
         // A phase waits for End Phase unless it ends itself; the phase only runs its own logic.
-        private abstract class Phase : IState
+        private abstract class Phase : State
         {
-            public StateMachine StateMachine { get; set; }
             public abstract TurnPhase Kind { get; }
 
-            public virtual void OnEnter() { }
-            public virtual void OnExit() { }
-            public virtual void OnUpdate() { }
-
-            public void End() => StateMachine.OnCompleted(this);
+            public void End() => Complete();
         }
 
         // Income is not a phase the player waits in: the queues are processed, the die is rolled and

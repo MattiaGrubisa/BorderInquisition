@@ -1,15 +1,14 @@
+using Core;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Gameplay.Gamestates
+namespace GameStates
 {
     // An outer game state that owns one additively loaded scene for as long as it is active.
-    // Subclasses hook into the scene's lifetime instead of the raw IState callbacks.
-    public abstract class SceneState : IState
+    // Subclasses hook into the scene's lifetime instead of the raw State callbacks.
+    public abstract class SceneState : State
     {
         private AsyncOperation _loading;
-
-        public StateMachine StateMachine { get; set; }
 
         protected abstract string SceneName { get; }
 
@@ -17,13 +16,13 @@ namespace Gameplay.Gamestates
         // a click reaching an inactive state is ignored.
         protected bool IsSceneLoaded { get; private set; }
 
-        public void OnEnter()
+        public sealed override void OnEnter()
         {
             IsSceneLoaded = false;
             _loading = SceneManager.LoadSceneAsync(SceneName, LoadSceneMode.Additive);
         }
 
-        public void OnUpdate()
+        public sealed override void OnUpdate()
         {
             if (IsSceneLoaded)
             {
@@ -38,7 +37,7 @@ namespace Gameplay.Gamestates
             OnSceneLoaded();
         }
 
-        public void OnExit()
+        public sealed override void OnExit()
         {
             if (IsSceneLoaded)
             {

@@ -3047,6 +3047,7 @@ GameObject:
   - component: {fileID: 1174911667}
   - component: {fileID: 1174911666}
   - component: {fileID: 1174911665}
+  - component: {fileID: 1174911669}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -3146,6 +3147,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1174911669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174911664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b566c1d7d0a7ad44085179318ad2e991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BI.UI::View.AiDriver
+  _easy: {fileID: 11400000, guid: 31369021d68d27843acf830cb6b32087, type: 2}
+  _normal: {fileID: 11400000, guid: 1cec8dd72d430e34ea807f0c2ac0c78f, type: 2}
+  _hard: {fileID: 11400000, guid: 9b36269f87756a143b8ea87d92f8c48f, type: 2}
 --- !u!1 &1213562969
 GameObject:
   m_ObjectHideFlags: 0

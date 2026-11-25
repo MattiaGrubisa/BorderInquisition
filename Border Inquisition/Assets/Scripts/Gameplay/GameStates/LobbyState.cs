@@ -1,6 +1,6 @@
 using Gameplay;
 
-namespace Gameplay.Gamestates
+namespace GameStates
 {
     public enum LobbyResult
     {
@@ -21,7 +21,7 @@ namespace Gameplay.Gamestates
 
             Settings = settings;
             Result = LobbyResult.StartMatch;
-            StateMachine.OnCompleted(this);
+            Complete();
         }
 
         public void Back()
@@ -29,7 +29,7 @@ namespace Gameplay.Gamestates
             if (!IsSceneLoaded) return;
 
             Result = LobbyResult.Back;
-            StateMachine.OnCompleted(this);
+            Complete();
         }
     }
 }

@@ -14,6 +14,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.InputSystem.UI;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
+using View;
 using Object = UnityEngine.Object;
 
 namespace Editor
@@ -158,7 +159,7 @@ namespace Editor
         private static void CreateGameController()
         {
             var go = ObjectFactory.CreateGameObject("GameController",
-                typeof(Dice), typeof(Combat), typeof(GameController));
+                typeof(Dice), typeof(Combat), typeof(GameController), typeof(AiDriver));
 
             var dice = go.GetComponent<Dice>();
             var combat = go.GetComponent<Combat>();

@@ -1,3 +1,16 @@
 {
-	"name": "BI.Gameplay"
+    "name": "BI.Gameplay",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e4e0bb8acb87eb041927afaf358c68fe"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

@@ -1,3 +1,17 @@
 {
-	"name": "BI.Save"
+    "name": "BI.Save",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e4e0bb8acb87eb041927afaf358c68fe",
+        "GUID:4848d78530ea8e64f90636a0cdca0719"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

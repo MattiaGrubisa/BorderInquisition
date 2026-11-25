@@ -4,7 +4,7 @@ using System.Linq;
 using Audio;
 using Core;
 using Gameplay;
-using SObjects;
+using SO;
 using UI;
 using UnityEngine;
 

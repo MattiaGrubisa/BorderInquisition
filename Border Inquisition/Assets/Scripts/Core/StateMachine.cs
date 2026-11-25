@@ -4,14 +4,14 @@ namespace Core
 {
     public class StateMachine
     {
-        private IState _currentState;
-        private IState _pendingState;
+        private State _currentState;
+        private State _pendingState;
         private bool _isBusy;
 
-        public event Action<IState> Completed;
-        public event Action<IState> StateChanged;
+        public event Action<State> Completed;
+        public event Action<State> StateChanged;
 
-        public IState CurrentState => _currentState;
+        public State CurrentState => _currentState;
 
         public void Update()
         {
@@ -23,7 +23,7 @@ namespace Core
 
         // Requested while a state is entering or updating, the change is deferred until that call
         // returns, so states may complete from OnEnter/OnUpdate without re-entering ChangeState.
-        public void ChangeState(IState state)
+        public void ChangeState(State state)
         {
             _pendingState = state;
             if (!_isBusy)
@@ -40,7 +40,7 @@ namespace Core
             _currentState = null;
         }
 
-        public void OnCompleted(IState state) => Completed?.Invoke(state);
+        public void OnCompleted(State state) => Completed?.Invoke(state);
 
         private void ApplyPendingState()
         {
@@ -54,7 +54,7 @@ namespace Core
                 {
                     _currentState?.OnExit();
                     _currentState = next;
-                    _currentState.StateMachine = this;
+                    _currentState.Machine = this;
                     _currentState.OnEnter();
                     StateChanged?.Invoke(_currentState);
                 });

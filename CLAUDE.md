@@ -30,21 +30,28 @@ No CLI build. Open `Border Inquisition/` in Unity 6000.3.18f1 and press Play fro
 Bootstrap`). There are no tests and no test framework.
 
 Type-check without Unity (compile errors only, nothing about scenes). No .NET SDK is installed, so
-drive Unity's bundled compiler:
-`<unity>/Editor/Data/NetCoreRuntime/dotnet.exe <unity>/Editor/Data/DotNetSdkRoslyn/csc.dll @build.rsp`
-with `-target:library -define:UNITY_EDITOR`, every `Assets/Scripts/**/*.cs`, and `-r:` for
-`<unity>/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll`,
-`<unity>/Editor/Data/Managed/UnityEngine/*.dll`, and from `Library/ScriptAssemblies`:
-`UnityEngine.UI`, `Unity.TextMeshPro`, `Unity.InputSystem`, `Unity.RenderPipelines.Universal.Runtime`,
-`Unity.RenderPipelines.Core.Runtime`. Use Windows paths (`C:/...`) for `-out:`.
+drive Unity's bundled compiler (`<unity>` is the `Editor` folder of the install; on the desktop
+`D:/Unity/Editor/6000.3.18f1/Editor`):
+`<unity>/Data/NetCoreRuntime/dotnet.exe <unity>/Data/DotNetSdkRoslyn/csc.dll @<assembly>.rsp`.
+Build **one dll per assembly, in layer order** (see Conventions), each with `-target:library
+-define:UNITY_EDITOR`, the `.cs` files its asmdef/asmref folders own (Gameplay excludes
+`Gameplay/GameStates`), `-r:` for `<unity>/Data/NetStandard/ref/2.1.0/netstandard.dll`,
+`<unity>/Data/Managed/UnityEngine/*.dll`, the dlls already built for the assemblies it references,
+and the packages it references from `Library/ScriptAssemblies` (`UnityEngine.UI`,
+`Unity.TextMeshPro`, `Unity.InputSystem`; Editor also `Unity.RenderPipelines.Universal.Runtime`,
+`Unity.RenderPipelines.Core.Runtime`). One flat build hides layering errors. For a player check,
+build the runtime assemblies again without `UNITY_EDITOR` and without the `UnityEditor*` dlls.
+Use Windows paths (`C:/...`) for `-out:`.
 
 ## Architecture in brief (details in `Docs/Architecture.md`)
 
-- **State machines drive the flow.** `Gameplay.Helpers.StateMachine` holds one `IState`; a state
-  signals it is done with `StateMachine.OnCompleted(this)` and the **parent** picks the next state
-  (transitions never live in the state). States with several exits expose a `Result` enum.
+- **State machines drive the flow.** `Core.StateMachine` holds one `Core.State` (abstract class,
+  virtual `OnEnter`/`OnUpdate`/`OnExit`); a state signals it is done with `Complete()` and the
+  **parent** picks the next state (transitions never live in the state). `State.Machine` is set
+  only by `StateMachine` (`internal set`). States with several exits expose a `Result` enum.
 - Outer flow in `GameStateMachine` (Singleton, Bootstrap): MainMenu → Lobby → InGame → GameOver.
-  Outer states derive from `SceneState` and own their scene (additive load on enter, unload on exit).
+  Outer states derive from `SceneState` and own their scene (additive load on enter, unload on exit;
+  its `OnEnter`/`OnUpdate`/`OnExit` are `sealed`, subclasses hook in through `OnSceneLoaded` etc.).
 - A turn is three phases inside `InGameState`: Income (ends itself), Attack, Build & Move.
 - **UI talks to the flow only through `GameStateMachine`** command forwarders and events; views
   never touch state classes. In-game panels are built in code (`UiFactory`), not wired in scenes.
@@ -55,21 +62,30 @@ with `-target:library -define:UNITY_EDITOR`, every `Assets/Scripts/**/*.cs`, and
 - **Structure is separate from presentation.** No rendering decisions in `Gameplay`; `View` holds
   non-UI presentation, `UI` the panels. Gameplay code never calls audio (`View/SoundCues` does).
 - `Country.Owner` is the source of truth for ownership; change it with `Country.SetOwner`.
-- AI (`AI/`): `AiDriver` plays AI seats through the same `GameStateMachine.EndPhase` as the button;
-  `AiBrain` decides. `GameController.Simulating` silences presentation during editor simulations.
+- AI: `AI/` (`AiBrain`, `AiProfile`, settings) only decides. `View/AiDriver` plays AI seats through
+  the same `GameStateMachine.EndPhase` as the button; it is a component on the `GameController`
+  object in WorldMap (the scene owns it; `GameController` no longer adds it).
+  `GameController.Simulating` silences presentation during editor simulations.
 
 ## Conventions
 
 - Private fields `_camelCase`, serialized with `[SerializeField]` rather than public fields.
 - Expression-bodied members for one-line accessors and forwarders; `#region` blocks to group
   Buildings/Units/Queries inside a large class.
-- Singletons derive from `Gameplay.Helpers.Singleton<T>`, override `protected virtual void Awake()`
-  and call `base.Awake()` first. Scene-enforced, no `DontDestroyOnLoad`.
-- Namespaces mirror folders: `Gameplay`, `Gameplay.Managers`, `Gameplay.Helpers`, `GameStates`,
-  `UI`, `View`, `Diplomacy`, `AI`, `Audio`, `Save`, `Editor`. One exception: `Assets/Scripts/Helpers`
-  (StateMachine, IState, Singleton) is in namespace `Gameplay.Helpers`. No assembly definitions for
-  game code (only the Better Hierarchy plugin has one).
-- `Assets/Scripts/Editor` is editor-only by folder name and by `#if UNITY_EDITOR`; editor-only
+- Singletons derive from `Core.Singleton<T>` and override `OnAwake()` / `OnSingletonDestroy()`.
+  `Awake`/`OnDestroy` belong to the base (non-virtual); declaring `Awake` in a subclass hides it
+  (warning CS0108) and breaks the singleton. Scene-enforced, no `DontDestroyOnLoad`.
+- Namespaces mirror folders: `Core`, `Gameplay`, `SO` (`ScriptableObjects/`), `GameStates`
+  (`Gameplay/GameStates/`), `Save`, `AI`, `Audio`, `UI`, `View`, `Editor`.
+- **Assembly definitions enforce the layering** (each may reference only what is below it; Unity
+  refuses cycles). Bottom to top: `BI.CORE` (`Core/`, references nothing) → `BI.Gameplay`
+  (`Gameplay/`, plus `ScriptableObjects/` via `BI.SO.asmref`) → `BI.Save` → `BI.Flow`
+  (`Gameplay/GameStates/`, own asmdef inside the Gameplay folder) and `BI.AI` (Gameplay only) →
+  `BI.Audio` (Gameplay + Flow, temporary until the audio rework) → `BI.UI` (`UI/`, plus `View/` via
+  `BI.View.asmref`; references everything below plus TMP, UGUI, Input System) → `BI.Editor`
+  (editor-only, references everything). A new reference that points upwards is a design problem,
+  not a missing asmdef entry: move the code or invert the dependency with an event.
+- `Assets/Scripts/Editor` is editor-only (`BI.Editor` has `includePlatforms: Editor`); editor-only
   helpers elsewhere go behind `#if UNITY_EDITOR`.
 - Code and comments in English; discussion with the user may be in Croatian.
 - Do not edit `.meta` files or anything under `Library/`, `Temp/`, `obj/`, or `Assets/Plugins/`.
@@ -83,23 +99,42 @@ with `-target:library -define:UNITY_EDITOR`, every `Assets/Scripts/**/*.cs`, and
 - Starting armies (Risk-style placement turn): the user is still thinking it over; do not start it.
 - Hotseat has no handover screen between turns, by decision.
 
-## Handoff (as of 2026-10-29)
+## Handoff (as of 2026-11-25)
 
 **Current phase: code walkthrough.** The earlier work was rushed for a deadline. The user wants to
 go through all the code first (how, why, what to change), then discuss, then polish; assets come
 last. Plan, progress and findings live in `Docs/Walkthrough.md`: continue from the first unchecked
-block there. Nothing has been walked through yet; start with block 1 (Foundations).
+block there. Nothing has been walked through yet; start with block 1 (Foundations, now `Core/`).
 
-**State of the code:** everything up to `8a880b7` is committed (raze on conquest, regional trade
+**Just done (uncommitted until the user commits):** the user's asmdef split (`3f587e3`) did not
+build; it now does, with the layering in Conventions. Along the way: `IState` became the abstract
+class `State`; `Singleton` uses `OnAwake`/`OnSingletonDestroy` and `Destroy`; GameStates got its
+own `BI.Flow`; `AiDriver` moved from `AI/` to `View/`; UI and View are one assembly; namespace
+`SObjects` became `SO`; `GameStateMachine.QuitApplication` uses `UnityEngine.Application.Quit()`
+(it would have broken a player build). Unity has reimported. `Docs/Architecture.md` and
+`Docs/Walkthrough.md` still describe the old layout and need the same update.
+
+**Open from that work:**
+- `WorldMap`'s `GameController` object has no `AiDriver` component yet (checked 2026-11-25); until
+  the user adds it, AI seats never play. `SceneSetup` adds it for newly built scenes.
+- Couplings left for the walkthrough (block 5): `CountryPicker` drives HUD panels, `MapView`
+  listens to `InGameHud.TurnBegan`, markers use `UiFactory.ApplyFont`/`ThemedText`, Audio depends
+  on Flow for music by stage.
+- Suggested, not applied: `StateMachine.OnCompleted` ignoring a state that is no longer current;
+  `Assets/csc.rsp` with `-warnaserror+:CS0108` so a subclass `Awake` fails the build; renaming
+  `BI.CORE` to `BI.Core` (safe, references use GUIDs).
+
+**State of the code:** everything up to `bde9e13` is committed (raze on conquest, regional trade
 ratio, AI simulation / Play Out Match, AI pace, 2–6 players, lobby memory, audio system with empty
-slots, simple save + Continue, `UiTheme` with `ThemedText`). The user has tested some of it;
-testing is hard because much polish is missing. Bugs found go into the walkthrough's fixes list.
+slots, simple save + Continue, `UiTheme` with `ThemedText`, then the broken asmdef split). The user
+has tested some of it; testing is hard because much polish is missing. Bugs found go into the
+walkthrough's fixes list.
 
 **After the walkthrough (agreed):** the developer console (rules below) is one of the polish items.
 
-**Waiting on the user:** audio clips, UI assets (after the walkthrough and polish), balancing (with
-the AI simulation), starting armies, a later rethink of the save (notes in `Docs/Architecture.md` >
-Save).
+**Waiting on the user:** audio clips and the audio rework, UI assets (after the walkthrough and
+polish), balancing (with the AI simulation), starting armies, a later rethink of the save (notes in
+`Docs/Architecture.md` > Save).
 
 **Working mode:** slow. Explain as you go and ask the user questions; do not change code during the
 walkthrough unless asked. Changes are made as needed, by opinion or necessity, after discussion.

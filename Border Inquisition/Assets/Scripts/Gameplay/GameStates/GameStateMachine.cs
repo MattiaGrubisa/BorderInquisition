@@ -1,7 +1,8 @@
 using System;
+using Core;
 using Gameplay;
 
-namespace Gameplay.Gamestates
+namespace GameStates
 {
     // The outer screens, for whoever follows the flow without knowing the state classes (music).
     public enum FlowStage
@@ -21,9 +22,8 @@ namespace Gameplay.Gamestates
         private InGameState _inGameState;
         private GameOverState _gameOverState;
 
-        protected override void Awake()
+        protected override void OnAwake()
         {
-            base.Awake();
             _gameStateMachine = new StateMachine();
             _mainMenuState = new MainMenuState();
             _lobbyState = new LobbyState();
@@ -40,7 +40,7 @@ namespace Gameplay.Gamestates
             _gameStateMachine.Update();
         }
 
-        private void OnStateCompleted(IState state)
+        private void OnStateCompleted(State state)
         {
             switch (state)
             {
@@ -78,7 +78,7 @@ namespace Gameplay.Gamestates
             }
         }
 
-        private void OnStateChanged(IState state)
+        private void OnStateChanged(State state)
         {
             Stage = state switch
             {
@@ -95,7 +95,7 @@ namespace Gameplay.Gamestates
 #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
 #else
-            Application.Quit();
+            UnityEngine.Application.Quit();
 #endif
         }
 

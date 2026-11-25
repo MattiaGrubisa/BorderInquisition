@@ -1,6 +1,6 @@
 using Gameplay;
 
-namespace Gameplay.Gamestates
+namespace GameStates
 {
     public enum GameOverResult
     {
@@ -20,7 +20,7 @@ namespace Gameplay.Gamestates
             if (!IsSceneLoaded) return;
 
             Result = result;
-            StateMachine.OnCompleted(this);
+            Complete();
         }
     }
 }

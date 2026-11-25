@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using SObjects;
+using SO;
 
 namespace Gameplay
 {
@@ -20,7 +20,7 @@ namespace Gameplay
 
         public string Name { get; }
 
-        // An AI seat is played by AI.AiDriver; Difficulty means nothing for a human.
+        // An AI seat is played by View.AiDriver; Difficulty means nothing for a human.
         public bool IsAI { get; }
         public Difficulty Difficulty { get; }
         public GameResources Resources => _playerResources;

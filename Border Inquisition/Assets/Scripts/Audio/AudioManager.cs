@@ -40,12 +40,8 @@ namespace Audio
                 Instance.PlayOn(Instance._ui, sound);
         }
 
-        protected override void Awake()
+        protected override void OnAwake()
         {
-            base.Awake();
-            if (Instance != this)
-                return;
-
             if (_library == null)
                 Debug.LogWarning("AudioManager has no AudioLibrary - the game stays silent. " +
                                  "Run Border Inquisition > Set Up Audio.", this);

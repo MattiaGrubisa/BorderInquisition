@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Core;
 using Gameplay;
-using SObjects;
+using SO;
 using Random = UnityEngine.Random;
 
 namespace AI

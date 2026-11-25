@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine;
 using Core;
 using Gameplay;
-using SObjects;
+using SO;
 
 namespace Save
 {

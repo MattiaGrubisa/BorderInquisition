@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using AI;
 using Core;
 using Gameplay;
 using GameStates;
 using UI;
 using UnityEngine;
-using View;
 
-namespace AI
+namespace View
 {
     // Plays the turns of the AI seats. On each phase of an AI turn it lets an AiBrain decide and
     // performs the steps one at a time, pausing between them so the attacks and dice can be followed;
@@ -15,7 +15,7 @@ namespace AI
     // the turn's move that the viewer can see, both sides light up and the camera glides to it; the rest
     // happens without a pause. AiSettings.Pace scales every pause, and Instant skips the camera too.
     // A phase ends through GameStateMachine.EndPhase, like the button.
-    // GameController adds it when WorldMap has none; profiles left empty fall back to AiProfile.Preset.
+    // Sits on the GameController object in WorldMap; profiles left empty fall back to AiProfile.Preset.
     public class AiDriver : MonoBehaviour
     {
         [SerializeField] private AiProfile _easy;

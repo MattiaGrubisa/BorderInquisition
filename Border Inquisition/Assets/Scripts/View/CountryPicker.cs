@@ -19,7 +19,7 @@ namespace View
     // - Build & Move: click your country to open its build/train panel; while the turn's one move is
     //   unused, its own neighbours light up green and a click on one opens the move panel.
     // Left click only; right and middle drag stay with MapCamera. During an AI turn clicks are ignored
-    // (AI.AiDriver highlights its own battles).
+    // (AiDriver highlights its own battles).
     [RequireComponent(typeof(MapView))]
     public class CountryPicker : MonoBehaviour
     {

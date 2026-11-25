@@ -1,6 +1,6 @@
 using Save;
 
-namespace Gameplay.Gamestates
+namespace GameStates
 {
     public enum MainMenuResult
     {
@@ -23,7 +23,7 @@ namespace Gameplay.Gamestates
             if (!IsSceneLoaded) return;
 
             Result = result;
-            StateMachine.OnCompleted(this);
+            Complete();
         }
 
         // Nothing happens when there is no save or it cannot be read.

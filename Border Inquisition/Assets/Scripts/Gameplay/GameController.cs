@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using SObjects;
+using Core;
+using SO;
 using UnityEngine;
 using Random = UnityEngine.Random;
 using Gameplay;
@@ -63,10 +64,8 @@ namespace Gameplay
         public Market Market => _market;
         public Combat Combat => _combat;
 
-        protected override void Awake()
+        protected override void OnAwake()
         {
-            base.Awake();
-
             // Without an asset the game still runs on the default rules, with no buildings.
             if (_rules == null)
             {
@@ -78,9 +77,6 @@ namespace Gameplay
             _diplomacy = new DiplomacySystem(_rules);
             _market = new Market(_rules, _countries);
             _fog = new FogOfWar(_map, _diplomacy);
-
-            if (!TryGetComponent<AI.AiDriver>(out _))
-                gameObject.AddComponent<AI.AiDriver>();
         }
 
         #region Attack legality
